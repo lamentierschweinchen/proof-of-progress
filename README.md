@@ -1,6 +1,6 @@
 # MultiversX Proof of Progress
 
-Daily digest of substantive engineering progress across the MultiversX ecosystem. A scheduled remote Claude Code agent runs every morning at 06:30 Europe/Bucharest, researches GitHub activity across the org plus a watchlist of core engineers, synthesizes the result, and commits a fresh markdown file to `digests/`.
+Daily digest of substantive engineering progress across the MultiversX ecosystem. A GitHub Actions workflow runs every morning at 04:30 UTC (06:30 CEST / 05:30 CET), researches GitHub activity across the org plus a watchlist of core engineers, synthesizes the result, and commits a fresh markdown file to `digests/`. The job runs on GitHub-hosted infra, so the laptop being off doesn't matter.
 
 ## How to read it
 
@@ -10,8 +10,8 @@ Daily digest of substantive engineering progress across the MultiversX ecosystem
 
 ## Live monitoring
 
-- Local mirror at `~/Documents/MultiversX/projects/proof-of-progress` is pulled every 15 min by a launchd agent (`scripts/launchd/com.lukasc.mx-proof-of-progress.plist`). When a new digest lands, a macOS notification fires with the TL;DR.
-- The remote scheduled job (managed via `/schedule`) runs on its own infra, so the laptop being asleep at 06:30 doesn't matter — the digest is committed regardless. The local mirror catches up whenever the laptop wakes.
+- Local mirror at `~/proof-of-progress` (symlinked from `~/Documents/MultiversX/projects/proof-of-progress`) is pulled every 15 min by a launchd agent (`scripts/launchd/com.lukasc.mx-proof-of-progress.plist`). When a new digest lands, a macOS notification fires with the TL;DR and the file opens.
+- The cron job is `.github/workflows/daily-digest.yml` and runs on GitHub Actions. Requires one repo secret: `ANTHROPIC_API_KEY`. Trigger manually from the **Actions** tab → **daily-digest** → **Run workflow** for ad-hoc runs.
 
 ## Watchlist
 
@@ -23,6 +23,6 @@ Daily digest of substantive engineering progress across the MultiversX ecosystem
 
 ```bash
 # Re-run today's digest by hand (local Claude Code)
-cd ~/Documents/MultiversX/projects/proof-of-progress
+cd ~/proof-of-progress
 claude -p "$(cat scripts/research-brief.md)"
 ```
