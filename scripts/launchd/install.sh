@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-REPO_DIR="/Users/ls/Documents/MultiversX/projects/proof-of-progress"
+REPO_DIR="/Users/ls/proof-of-progress"
 PLIST_NAME="com.lukasc.mx-proof-of-progress.plist"
 SRC="$REPO_DIR/scripts/launchd/$PLIST_NAME"
 DEST="$HOME/Library/LaunchAgents/$PLIST_NAME"

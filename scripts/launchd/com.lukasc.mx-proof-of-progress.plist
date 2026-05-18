@@ -8,7 +8,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/ls/Documents/MultiversX/projects/proof-of-progress/scripts/pull-and-notify.sh</string>
+        <string>/Users/ls/proof-of-progress/scripts/pull-and-notify.sh</string>
     </array>
 
     <!-- Run every 15 minutes when the laptop is awake -->
@@ -20,9 +20,9 @@
     <true/>
 
     <key>StandardOutPath</key>
-    <string>/Users/ls/Documents/MultiversX/projects/proof-of-progress/.launchd.stdout.log</string>
+    <string>/Users/ls/proof-of-progress/.launchd.stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ls/Documents/MultiversX/projects/proof-of-progress/.launchd.stderr.log</string>
+    <string>/Users/ls/proof-of-progress/.launchd.stderr.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>

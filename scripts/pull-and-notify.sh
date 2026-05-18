@@ -7,7 +7,7 @@
 
 set -euo pipefail
 
-REPO_DIR="/Users/ls/Documents/MultiversX/projects/proof-of-progress"
+REPO_DIR="/Users/ls/proof-of-progress"
 STATE_FILE="$REPO_DIR/.last-seen-digest"
 LOG_FILE="$REPO_DIR/.pull.log"
 
