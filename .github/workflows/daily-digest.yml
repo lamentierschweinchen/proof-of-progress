@@ -1,0 +1,87 @@
+name: daily-digest
+
+# Runs the MultiversX Proof of Progress agent every morning.
+# 04:30 UTC = 06:30 Europe/Berlin in summer (CEST), 05:30 in winter (CET).
+# The job runs on GitHub-hosted infrastructure, so the laptop being off
+# doesn't matter — same property as the (now-disabled) Claude Code routine.
+
+on:
+  schedule:
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+    # Manual trigger from the Actions tab. Use this to smoke-test.
+
+permissions:
+  contents: write   # required to commit + push the digest back
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so `git log` works inside the agent
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run digest agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # gh CLI uses this automatically
+        run: |
+          set -euo pipefail
+
+          # Compose the run prompt. The brief lives in the repo; we wrap it
+          # with the run-context the brief expects.
+          PROMPT=$(cat <<EOF
+          You are the scheduled-runs agent for MultiversX Proof of Progress, running inside GitHub Actions.
+
+          You are already inside the repo's working tree. Do NOT clone or pull — the checkout step did that.
+
+          Read \`scripts/research-brief.md\` and follow it exactly: scan the watchlisted MultiversX repos and contributors (sasurobert) for activity since the most recent file in \`digests/\`, write today's digest to \`digests/\$(date +%Y-%m-%d).md\`, prepend a row to \`INDEX.md\`, then STOP. Do NOT commit or push — a later step in this workflow handles that. Just write the files.
+
+          Use \`gh\` for GitHub queries — it is authenticated via GH_TOKEN.
+
+          Be ruthless about substance: skip bot PRs, dependabot, typo PRs, repo housekeeping. The digest must be skimmable in 90 seconds. The two most important sections are TL;DR and "Since the last digest."
+
+          If you cannot complete the digest for any reason, write a stub digest at \`digests/\$(date +%Y-%m-%d).md\` that explains the failure clearly in the TL;DR. Never leave the workflow with no output.
+          EOF
+          )
+
+          claude --print "$PROMPT" \
+            --permission-mode bypassPermissions \
+            --allowed-tools "Bash Read Write Edit Glob Grep WebFetch WebSearch"
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git add digests/ INDEX.md
+          if git diff --staged --quiet; then
+            echo "::warning::No changes staged — the agent did not produce a digest."
+            exit 1
+          fi
+          git commit -m "digest: $(date +%Y-%m-%d)"
+          git push origin main
+
+      - name: Surface workflow URL
+        if: always()
+        run: |
+          echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
