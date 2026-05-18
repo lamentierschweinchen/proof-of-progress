@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.lukasc.mx-proof-of-progress</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/ls/Documents/MultiversX/projects/proof-of-progress/scripts/pull-and-notify.sh</string>
+    </array>
+
+    <!-- Run every 15 minutes when the laptop is awake -->
+    <key>StartInterval</key>
+    <integer>900</integer>
+
+    <!-- Also run once when the launchd job is loaded (e.g. after wake / login) -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/ls/Documents/MultiversX/projects/proof-of-progress/.launchd.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/ls/Documents/MultiversX/projects/proof-of-progress/.launchd.stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>
