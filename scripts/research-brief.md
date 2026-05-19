@@ -87,7 +87,7 @@ Tight bullet list of what's actually new vs the previous digest. Cross-reference
 ## Commit and push
 
 ```bash
-git add digests/$(date +%Y-%m-%d).md INDEX.md
+git add digests/$(date +%Y-%m-%d).md INDEX.md data/stats.json
 git commit -m "digest: $(date +%Y-%m-%d)"
 git push origin main
 ```

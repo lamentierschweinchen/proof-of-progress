@@ -1,15 +1,18 @@
 name: daily-digest
 
-# Runs the MultiversX Proof of Progress agent every morning.
-# 04:30 UTC = 06:30 Europe/Berlin in summer (CEST), 05:30 in winter (CET).
-# The job runs on GitHub-hosted infrastructure, so the laptop being off
-# doesn't matter — same property as the (now-disabled) Claude Code routine.
+# Fallback path. The primary digest pipeline is a scheduled Claude Code on
+# the web session driven by scripts/research-brief.md. This workflow stays
+# around as a manual rebuild button (Actions tab → Run workflow) for days
+# the scheduled session misfires.
+#
+# The schedule trigger is intentionally disabled so the two pipelines don't
+# race to commit the same digest. Re-enable the cron line below only if the
+# CCR routine is unavailable for an extended stretch.
 
 on:
-  schedule:
-    - cron: '30 4 * * *'
+  # schedule:
+  #   - cron: '30 4 * * *'
   workflow_dispatch:
-    # Manual trigger from the Actions tab. Use this to smoke-test.
 
 permissions:
   contents: write   # required to commit + push the digest back
