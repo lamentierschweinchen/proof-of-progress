@@ -13,7 +13,8 @@ Clone (or pull) `git@github.com:lamentierschweinchen/proof-of-progress.git`. If 
 3. **Research.** Use the GitHub CLI (`gh`). Targets and queries below.
 4. **Write `digests/$(date +%Y-%m-%d).md`** in the format spec below.
 5. **Update `INDEX.md`** — prepend a new row with date, TL;DR, and link.
-6. **Commit and push.** Commit message: `digest: YYYY-MM-DD`. Push to `main`.
+6. **Refresh stats.** Run `python3 scripts/compute-stats.py` to regenerate `data/stats.json` (powers the dashboard). The script reads via GraphQL across all branches, so it sees `rc/*` work too. Takes ~30–60s.
+7. **Commit and push.** Stage `digests/$(date +%Y-%m-%d).md`, `INDEX.md`, and `data/stats.json`. Commit message: `digest: YYYY-MM-DD`. Push to `main`.
 
 ## Research targets
 
