@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-19T07:20:12Z",
+  "generated_at": "2026-05-20T12:11:58Z",
   "window": {
-    "start": "2026-04-21",
-    "end": "2026-05-19",
+    "start": "2026-04-22",
+    "end": "2026-05-20",
     "days": 28
   },
   "totals": {
     "commits": 188,
-    "prs_merged": 18,
-    "prs_opened": 92,
-    "contributors": 9,
+    "prs_merged": 27,
+    "prs_opened": 99,
+    "contributors": 10,
     "releases": 15,
-    "repos_active": 6
+    "repos_active": 7
   },
   "repos": [
     {
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 194,
       "open_issues": 8,
-      "open_prs": 39,
+      "open_prs": 38,
       "default_branch": "master",
-      "commits_28d": 126,
-      "commits_7d": 41,
-      "prs_merged_28d": 8,
+      "commits_28d": 118,
+      "commits_7d": 47,
+      "prs_merged_28d": 10,
       "contributors_28d": 1,
-      "last_commit_at": "2026-05-18T07:06:08Z",
-      "last_commit_message": "wallet bugfix",
+      "last_commit_at": "2026-05-20T11:18:35Z",
+      "last_commit_message": "Merge pull request #2367 from multiversx/wallet-new-fix",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        24,
-        24,
-        37,
-        41
+        13,
+        20,
+        38,
+        47
       ]
     },
     {
@@ -51,11 +51,11 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 956,
       "open_issues": 5,
-      "open_prs": 110,
+      "open_prs": 107,
       "default_branch": "master",
-      "commits_28d": 34,
-      "commits_7d": 6,
-      "prs_merged_28d": 6,
+      "commits_28d": 29,
+      "commits_7d": 0,
+      "prs_merged_28d": 11,
       "contributors_28d": 5,
       "last_commit_at": "2026-05-12T11:13:45Z",
       "last_commit_message": "updated time cache creation for requested items",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        15,
+        14,
         5,
-        8,
-        6
+        10,
+        0
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 14,
       "default_branch": "main",
-      "commits_28d": 19,
-      "commits_7d": 6,
-      "prs_merged_28d": 2,
+      "commits_28d": 26,
+      "commits_7d": 13,
+      "prs_merged_28d": 3,
       "contributors_28d": 1,
-      "last_commit_at": "2026-05-19T06:50:01Z",
-      "last_commit_message": "add logs",
+      "last_commit_at": "2026-05-20T12:11:05Z",
+      "last_commit_message": "Merge pull request #1602 from multiversx/fix-metrics",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        8,
+        4,
         3,
-        2,
-        6
+        6,
+        13
       ]
     },
     {
@@ -113,12 +113,42 @@
       "open_issues": 0,
       "open_prs": 9,
       "default_branch": "main",
-      "commits_28d": 3,
+      "commits_28d": 5,
       "commits_7d": 3,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
-      "last_commit_at": "2026-05-13T13:19:16Z",
-      "last_commit_message": "update test file",
+      "last_commit_at": "2026-05-20T11:21:38Z",
+      "last_commit_message": "latest go.mod",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "mx-sdk-js-core",
+      "full_name": "multiversx/mx-sdk-js-core",
+      "url": "https://github.com/multiversx/mx-sdk-js-core",
+      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
+      "stars": 72,
+      "open_issues": 6,
+      "open_prs": 4,
+      "default_branch": "main",
+      "commits_28d": 4,
+      "commits_7d": 4,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-05-20T07:17:49Z",
+      "last_commit_message": "Merge pull request #680 from multiversx/update-deps-19-05",
       "weekly_commits": [
         0,
         0,
@@ -131,7 +161,7 @@
         0,
         0,
         0,
-        3
+        4
       ]
     },
     {
@@ -144,7 +174,7 @@
       "open_prs": 6,
       "default_branch": "master",
       "commits_28d": 3,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 2,
       "last_commit_at": "2026-05-12T08:38:49Z",
@@ -160,8 +190,8 @@
         0,
         2,
         0,
-        0,
-        1
+        1,
+        0
       ]
     },
     {
@@ -203,36 +233,6 @@
       "open_issues": 8,
       "open_prs": 22,
       "default_branch": "master",
-      "commits_28d": 0,
-      "commits_7d": 0,
-      "prs_merged_28d": 0,
-      "contributors_28d": 0,
-      "last_commit_at": null,
-      "last_commit_message": null,
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "mx-sdk-js-core",
-      "full_name": "multiversx/mx-sdk-js-core",
-      "url": "https://github.com/multiversx/mx-sdk-js-core",
-      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
-      "stars": 72,
-      "open_issues": 6,
-      "open_prs": 4,
-      "default_branch": "main",
       "commits_28d": 0,
       "commits_7d": 0,
       "prs_merged_28d": 0,
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?u=2a9a350cbeb900c94713f6e6afda4ab6b7a93106&v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 126,
-      "prs_merged_28d": 8,
+      "commits_28d": 118,
+      "prs_merged_28d": 10,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,8 +449,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 19,
-      "prs_merged_28d": 2,
+      "commits_28d": 26,
+      "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?u=e475fba1bec3e85fd2454c717b2f99a64540896f&v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 17,
+      "commits_28d": 16,
       "prs_merged_28d": 6,
       "repos_touched": 3,
       "highlighted": false
@@ -473,13 +473,22 @@
       "highlighted": false
     },
     {
-      "login": "sasurobert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/713090?u=c520c73ad8ab6fa971fee85b2541cdd61992c7d4&v=4",
-      "html_url": "https://github.com/sasurobert",
+      "login": "axenteoctavian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?u=20ac1f0088fad86808e70251076c34e18ca1f110&v=4",
+      "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 5,
-      "prs_merged_28d": 0,
+      "prs_merged_28d": 1,
       "repos_touched": 1,
-      "highlighted": true
+      "highlighted": false
+    },
+    {
+      "login": "popenta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73281061?u=edfcd369b28a7eea358de100efa08e0e993c1cfa&v=4",
+      "html_url": "https://github.com/popenta",
+      "commits_28d": 4,
+      "prs_merged_28d": 1,
+      "repos_touched": 1,
+      "highlighted": false
     },
     {
       "login": "ssd04",
@@ -491,20 +500,11 @@
       "highlighted": false
     },
     {
-      "login": "axenteoctavian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?u=20ac1f0088fad86808e70251076c34e18ca1f110&v=4",
-      "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 3,
-      "prs_merged_28d": 0,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?u=f5624f841f13b673b0e91896350cb9f4808e22c3&v=4",
       "html_url": "https://github.com/AdoAdoAdo",
       "commits_28d": 2,
-      "prs_merged_28d": 1,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -513,12 +513,29 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?u=8db960002506be080bb564902a05ea29ddf97bee&v=4",
       "html_url": "https://github.com/miiu96",
       "commits_28d": 1,
-      "prs_merged_28d": 0,
+      "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
+    },
+    {
+      "login": "sasurobert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/713090?u=c520c73ad8ab6fa971fee85b2541cdd61992c7d4&v=4",
+      "html_url": "https://github.com/sasurobert",
+      "commits_28d": 1,
+      "prs_merged_28d": 0,
+      "repos_touched": 1,
+      "highlighted": true
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-sdk-js-core",
+      "tag": "v15.4.1",
+      "name": "v15.4.1",
+      "published_at": "2026-05-20T07:42:12Z",
+      "url": "https://github.com/multiversx/mx-sdk-js-core/releases/tag/v15.4.1",
+      "is_prerelease": false
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v1.11.5.0",
@@ -630,26 +647,17 @@
       "published_at": "2026-03-25T07:43:56Z",
       "url": "https://github.com/multiversx/mx-sdk-rs/releases/tag/v0.65.1",
       "is_prerelease": false
-    },
-    {
-      "repo": "mx-chain-mainnet-config",
-      "tag": "v2.0.2.1-bon",
-      "name": "v2.0.2.1-bon",
-      "published_at": "2026-03-24T08:57:07Z",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.0.2.1-bon",
-      "is_prerelease": true
     }
   ],
   "daily_commits": [
-    10,
-    10,
-    15,
-    4,
-    0,
     0,
     12,
+    2,
+    0,
+    0,
     12,
     6,
+    4,
     8,
     0,
     0,
@@ -663,11 +671,12 @@
     10,
     6,
     17,
-    21,
+    23,
     13,
     2,
     0,
     2,
-    1
+    1,
+    17
   ]
 }
