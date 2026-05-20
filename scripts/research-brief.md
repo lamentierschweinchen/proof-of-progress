@@ -10,11 +10,11 @@ Clone (or pull) `git@github.com:lamentierschweinchen/proof-of-progress.git`. If 
 
 1. **Pull the repo.** `cd proof-of-progress && git pull --rebase`.
 2. **Read the last digest.** `ls -t digests/*.md | head -1` — read the most recent file. The new digest's "Since the last digest" section is relative to *that* file's timestamp, not a fixed 24h window. If the last digest was 3 days ago (weekend, holiday), cover the full gap.
-3. **Research.** Use the GitHub CLI (`gh`). Targets and queries below.
-4. **Write `digests/$(date +%Y-%m-%d).md`** in the format spec below.
-5. **Update `INDEX.md`** — prepend a new row with date, TL;DR, and link.
-6. **Refresh stats.** Run `python3 scripts/compute-stats.py` to regenerate `data/stats.json` (powers the dashboard). The script reads via GraphQL across all branches, so it sees `rc/*` work too. Takes ~30–60s.
-7. **Commit and push.** Stage `digests/$(date +%Y-%m-%d).md`, `INDEX.md`, and `data/stats.json`. Commit message: `digest: YYYY-MM-DD`. Push to `main`.
+3. **Refresh stats FIRST — this step is hard-blocking.** Run `python3 scripts/compute-stats.py` to regenerate `data/stats.json` (powers the dashboard). The script reads via GraphQL across all branches, so it sees `rc/*` work too. Takes ~30–60s. **If the script exits non-zero, abort this run — do NOT proceed to research, write a digest, or commit. Print the script's stderr and stop.** Doing this step first has three benefits: (a) the digest can quote today's numbers in the TL;DR ("188 commits across the watchlist this window"), which sharpens the prose; (b) a failed stats run signals upstream API trouble — abort early rather than commit a half-broken state; (c) partial runs still produce updated stats, so the dashboard stays current even if the LLM bails on the digest write.
+4. **Research.** Use the GitHub CLI (`gh`). Targets and queries below.
+5. **Write `digests/$(date +%Y-%m-%d).md`** in the format spec below. Where it sharpens the narrative, quote concrete numbers from `data/stats.json` (commits, PRs merged, top contributors) — these are now fresh.
+6. **Update `INDEX.md`** — prepend a new row with date, TL;DR, and link.
+7. **Commit and push.** Stage `digests/$(date +%Y-%m-%d).md`, `INDEX.md`, and `data/stats.json` *together* — they're a single atomic update. Commit message: `digest: YYYY-MM-DD`. Push to `main` (or to the configured output branch — the routine's git config decides; do not try to override).
 
 ## Research targets
 
@@ -87,9 +87,19 @@ Tight bullet list of what's actually new vs the previous digest. Cross-reference
 ## Commit and push
 
 ```bash
+# All three files together — they represent one atomic update.
+# stats.json may or may not have changed (no commits this window = no diff),
+# but staging it is cheap and keeps the diff history consistent.
 git add digests/$(date +%Y-%m-%d).md INDEX.md data/stats.json
 git commit -m "digest: $(date +%Y-%m-%d)"
 git push origin main
 ```
 
 If push fails (auth, network), retry once with `gh auth refresh` then report the failure in the run log — the local launchd job will retry the pull regardless.
+
+## Failure modes — what NOT to do
+
+- **Do not commit a digest without refreshing stats.** Step 3 is hard-blocking; the digest and stats must always move together.
+- **Do not skip step 3 because "the stats look fine from yesterday."** The 28-day window slides; yesterday's window is wrong by one day.
+- **Do not invent numbers in the digest.** If you quote a count ("188 commits"), it must match what `compute-stats.py` just wrote.
+- **Do not pad the "Since the last digest" section.** If the window is genuinely quiet (weekend, holiday), say so in three sentences and stop — a padded digest is worse than a short honest one.
