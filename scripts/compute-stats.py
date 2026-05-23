@@ -263,6 +263,13 @@ def main():
         else:
             log(f'    → SKIPPED')
 
+    if not repos_data and WATCHLIST:
+        log('')
+        log('ERROR: all repos skipped — GitHub auth unavailable.')
+        log('Set GH_TOKEN or run `gh auth login`, then retry.')
+        log('Aborting without overwriting stats.json.')
+        sys.exit(1)
+
     # ----- Top contributors (across all repos, deduped by oid) -----
     contributor_commits = defaultdict(int)
     contributor_repos = defaultdict(set)
