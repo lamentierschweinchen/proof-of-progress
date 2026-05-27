@@ -9,20 +9,33 @@ fi
 # Install gh CLI if not already present
 if ! command -v gh &>/dev/null; then
   echo "[session-start] Installing gh CLI..."
-  # Update only the official Ubuntu repos; ignore PPA failures (-o Acquire::AllowInsecureRepositories=true
-  # is not needed — we just suppress non-fatal PPA 403s via || true)
   apt-get update -qq -o Dir::Etc::sourcelist=/etc/apt/sources.list \
     -o Dir::Etc::sourcelistd=/dev/null 2>/dev/null || true
   apt-get install -y -qq gh 2>/dev/null
   echo "[session-start] gh $(gh --version | head -1) installed."
 fi
 
-# Authenticate gh using GITHUB_TOKEN if provided
-if [ -n "${GITHUB_TOKEN:-}" ]; then
-  echo "[session-start] Authenticating gh with GITHUB_TOKEN..."
+# Authenticate gh CLI.
+# GH_TOKEN is read natively by gh and is the preferred variable.
+# GITHUB_TOKEN is supported as a fallback (Actions convention).
+if [ -n "${GH_TOKEN:-}" ]; then
+  echo "[session-start] GH_TOKEN set — gh will use it natively."
+  # Persist into the session env file so child processes (e.g. compute-stats.py)
+  # inherit it even if they don't share this shell's environment.
+  if [ -n "${CLAUDE_ENV_FILE:-}" ]; then
+    echo "export GH_TOKEN=${GH_TOKEN}" >> "$CLAUDE_ENV_FILE"
+  fi
+  echo "[session-start] gh auth: $(gh auth status 2>&1 | head -1)"
+elif [ -n "${GITHUB_TOKEN:-}" ]; then
+  echo "[session-start] GITHUB_TOKEN set — logging in to gh."
   echo "$GITHUB_TOKEN" | gh auth login --with-token
-  echo "[session-start] gh auth: $(gh auth status 2>&1 | head -2)"
+  if [ -n "${CLAUDE_ENV_FILE:-}" ]; then
+    echo "export GH_TOKEN=${GITHUB_TOKEN}" >> "$CLAUDE_ENV_FILE"
+  fi
+  echo "[session-start] gh auth: $(gh auth status 2>&1 | head -1)"
 else
-  echo "[session-start] WARNING: GITHUB_TOKEN not set — compute-stats.py will fail." >&2
-  echo "[session-start] Set it at: https://claude.ai/settings (Environment variables)" >&2
+  echo "[session-start] WARNING: neither GH_TOKEN nor GITHUB_TOKEN is set." >&2
+  echo "[session-start] → compute-stats.py will fail until a token is configured." >&2
+  echo "[session-start] → Add GH_TOKEN to this environment's variables at:" >&2
+  echo "[session-start]   https://code.claude.com (Environment → Variables)" >&2
 fi
