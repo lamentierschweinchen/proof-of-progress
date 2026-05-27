@@ -92,7 +92,7 @@ Tight bullet list of what's actually new vs the previous digest. Cross-reference
 # but staging it is cheap and keeps the diff history consistent.
 git add digests/$(date +%Y-%m-%d).md INDEX.md data/stats.json
 git commit -m "digest: $(date +%Y-%m-%d)"
-git push origin main
+git push origin HEAD:main
 ```
 
 If push fails (auth, network), retry once with `gh auth refresh` then report the failure in the run log — the local launchd job will retry the pull regardless.
