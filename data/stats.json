@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-26T07:12:34Z",
+  "generated_at": "2026-05-27T04:07:12Z",
   "window": {
-    "start": "2026-04-28",
-    "end": "2026-05-26",
+    "start": "2026-04-29",
+    "end": "2026-05-27",
     "days": 28
   },
   "totals": {
-    "commits": 215,
+    "commits": 218,
     "prs_merged": 33,
-    "prs_opened": 104,
+    "prs_opened": 109,
     "contributors": 9,
     "releases": 15,
     "repos_active": 6
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 194,
       "open_issues": 7,
-      "open_prs": 34,
+      "open_prs": 35,
       "default_branch": "master",
-      "commits_28d": 157,
+      "commits_28d": 162,
       "commits_7d": 81,
-      "prs_merged_28d": 20,
+      "prs_merged_28d": 21,
       "contributors_28d": 2,
-      "last_commit_at": "2026-05-25T14:29:39Z",
-      "last_commit_message": "Merge pull request #2377 from multiversx/bech32-refactor",
+      "last_commit_at": "2026-05-26T17:45:20Z",
+      "last_commit_message": "fix after merge",
       "weekly_commits": [
         0,
         0,
@@ -39,7 +39,7 @@
         0,
         0,
         9,
-        28,
+        33,
         39,
         81
       ]
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 15,
       "default_branch": "main",
-      "commits_28d": 27,
-      "commits_7d": 16,
-      "prs_merged_28d": 3,
+      "commits_28d": 28,
+      "commits_7d": 11,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-05-25T13:26:23Z",
-      "last_commit_message": "white space",
+      "last_commit_at": "2026-05-26T16:04:33Z",
+      "last_commit_message": "package-lock",
       "weekly_commits": [
         0,
         0,
@@ -69,9 +69,9 @@
         0,
         0,
         3,
-        2,
         6,
-        16
+        8,
+        11
       ]
     },
     {
@@ -81,9 +81,9 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 956,
       "open_issues": 5,
-      "open_prs": 107,
+      "open_prs": 108,
       "default_branch": "master",
-      "commits_28d": 19,
+      "commits_28d": 16,
       "commits_7d": 0,
       "prs_merged_28d": 8,
       "contributors_28d": 3,
@@ -98,9 +98,9 @@
         0,
         0,
         0,
-        5,
-        8,
-        6,
+        4,
+        12,
+        0,
         0
       ]
     },
@@ -114,7 +114,7 @@
       "open_prs": 8,
       "default_branch": "main",
       "commits_28d": 7,
-      "commits_7d": 4,
+      "commits_7d": 3,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-05-21T12:49:50Z",
@@ -130,8 +130,8 @@
         0,
         0,
         0,
-        3,
-        4
+        4,
+        3
       ]
     },
     {
@@ -144,7 +144,7 @@
       "open_prs": 4,
       "default_branch": "main",
       "commits_28d": 4,
-      "commits_7d": 4,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-05-20T07:17:49Z",
@@ -160,8 +160,8 @@
         0,
         0,
         0,
-        0,
-        4
+        3,
+        1
       ]
     },
     {
@@ -189,8 +189,8 @@
         0,
         0,
         0,
-        0,
         1,
+        0,
         0
       ]
     },
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?u=2a9a350cbeb900c94713f6e6afda4ab6b7a93106&v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 156,
-      "prs_merged_28d": 20,
+      "commits_28d": 161,
+      "prs_merged_28d": 21,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,8 +449,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 27,
-      "prs_merged_28d": 3,
+      "commits_28d": 28,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -473,20 +473,20 @@
       "highlighted": false
     },
     {
-      "login": "sstanculeanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?u=e475fba1bec3e85fd2454c717b2f99a64540896f&v=4",
-      "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 5,
-      "prs_merged_28d": 2,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "popenta",
       "avatar_url": "https://avatars.githubusercontent.com/u/73281061?u=edfcd369b28a7eea358de100efa08e0e993c1cfa&v=4",
       "html_url": "https://github.com/popenta",
       "commits_28d": 4,
       "prs_merged_28d": 1,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "sstanculeanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?u=e475fba1bec3e85fd2454c717b2f99a64540896f&v=4",
+      "html_url": "https://github.com/sstanculeanu",
+      "commits_28d": 2,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -642,7 +642,6 @@
   ],
   "daily_commits": [
     4,
-    4,
     6,
     0,
     0,
@@ -668,6 +667,7 @@
     6,
     0,
     4,
-    10
+    10,
+    7
   ]
 }
