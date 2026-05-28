@@ -39,3 +39,8 @@ else
   echo "[session-start] → Add GH_TOKEN to this environment's variables at:" >&2
   echo "[session-start]   https://code.claude.com (Environment → Variables)" >&2
 fi
+
+# Configure git identity so web-session commits are attributed to the repo owner.
+git config --global user.name "Lukas"
+git config --global user.email "64620972+lamentierschweinchen@users.noreply.github.com"
+echo "[session-start] git identity: Lukas <64620972+lamentierschweinchen@users.noreply.github.com>"
