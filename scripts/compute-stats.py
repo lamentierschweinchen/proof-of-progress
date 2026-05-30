@@ -2,10 +2,15 @@
 """
 Compute proof-of-progress activity stats and write data/stats.json.
 
-Uses GraphQL via the gh CLI to fetch commits across ALL branches (not just
-default) — important for MultiversX repos where active work lives on rc/*
-and feat/* branches (e.g. mx-sdk-rs's rc/v0.66 sees 80+ commits while
-master is dormant).
+Uses a hybrid approach:
+  - GraphQL for repo metadata (stars, issues, PRs, default branch).
+  - GraphQL with cursor pagination for branch list (handles repos with 700+ branches).
+  - REST with --paginate for commit history per active branch (handles branches
+    with 200+ commits in the window).
+
+This fixes two silent truncation bugs in the original single-query approach:
+  - refs(first: 100) missed branches beyond the first 100 (mx-chain-go has 699).
+  - history(first: 100) dropped older commits on active branches (rc/v0.67 has 200+).
 
 Usage:
     python3 scripts/compute-stats.py [output_path]
@@ -17,7 +22,6 @@ import subprocess
 import json
 import sys
 import os
-import time
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
@@ -95,33 +99,33 @@ def gh_graphql(query, variables):
         return None
 
 
-# -- GraphQL ----------------------------------------------------------------
+# -- GraphQL queries ---------------------------------------------------------
 
-REPO_QUERY = """
-query($owner: String!, $name: String!, $since: GitTimestamp!) {
+# Repo metadata only — called once per repo.
+REPO_META_QUERY = """
+query($owner: String!, $name: String!) {
   repository(owner: $owner, name: $name) {
     stargazerCount
     description
     defaultBranchRef { name }
     issues(states: OPEN) { totalCount }
     pullRequests(states: OPEN) { totalCount }
-    refs(first: 100, refPrefix: "refs/heads/") {
+  }
+}
+"""
+
+# One page of branch names + HEAD committed date.
+# $after is omitted on the first call (GraphQL treats missing nullable var as null).
+REFS_PAGE_QUERY = """
+query($owner: String!, $name: String!, $after: String) {
+  repository(owner: $owner, name: $name) {
+    refs(first: 100, refPrefix: "refs/heads/", after: $after) {
+      pageInfo { hasNextPage endCursor }
       nodes {
         name
         target {
           ... on Commit {
             committedDate
-            history(since: $since, first: 100) {
-              nodes {
-                oid
-                committedDate
-                messageHeadline
-                author {
-                  name
-                  user { login avatarUrl }
-                }
-              }
-            }
           }
         }
       }
@@ -133,33 +137,115 @@ query($owner: String!, $name: String!, $since: GitTimestamp!) {
 
 # -- Per-repo processing ----------------------------------------------------
 
+def fetch_active_branches(repo, since_iso):
+    """
+    Return list of branch names whose HEAD committed date is within the window.
+    Paginates through all branches so repos with 700+ branches are fully covered.
+    """
+    active = []
+    cursor = None
+    page = 0
+    while True:
+        page += 1
+        variables = {'owner': ORG, 'name': repo}
+        if cursor:
+            variables['after'] = cursor
+        data = gh_graphql(REFS_PAGE_QUERY, variables)
+        if data is None:
+            break
+        refs = data.get('refs') or {}
+        for node in refs.get('nodes', []):
+            committed = (node.get('target') or {}).get('committedDate', '')
+            if committed >= since_iso:
+                active.append(node['name'])
+        page_info = refs.get('pageInfo') or {}
+        if not page_info.get('hasNextPage'):
+            break
+        cursor = page_info.get('endCursor')
+        if not cursor:
+            break
+    return active
+
+
+def fetch_branch_commits(repo, branch, since_iso):
+    """
+    Fetch all commits on `branch` since `since_iso` via paginated REST.
+    Returns a list of raw REST commit objects.
+    """
+    full = f'{ORG}/{repo}'
+    # URL-encode the branch name in case it contains slashes
+    from urllib.parse import quote
+    encoded = quote(branch, safe='')
+    path = f'/repos/{full}/commits?sha={encoded}&since={since_iso}&per_page=100'
+    return gh_api_paginate(path)
+
+
+def rest_commit_to_common(c):
+    """Normalise a REST commit object to the fields we use downstream."""
+    commit_data = c.get('commit') or {}
+    author_date = (commit_data.get('author') or {}).get('date', '')
+    committer_date = (commit_data.get('committer') or {}).get('date', '')
+    # Use committer date (matches `since=` filter semantics); fall back to author date.
+    committed_date = committer_date or author_date
+    headline = (commit_data.get('message') or '').split('\n')[0][:80]
+    gh_author = c.get('author') or {}
+    return {
+        'oid': c.get('sha', ''),
+        'committedDate': committed_date,
+        'messageHeadline': headline,
+        'login': gh_author.get('login'),
+        'avatarUrl': gh_author.get('avatar_url'),
+    }
+
+
 def fetch_repo(repo, since_dt, seven_days_ago_dt):
     """Fetch + process one repo. Returns the structured dict or None."""
     since_iso = since_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
     seven_iso = seven_days_ago_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
+    full = f'{ORG}/{repo}'
 
-    # ---- GraphQL: repo meta + all-branches commit history ----
-    data = gh_graphql(REPO_QUERY, {
-        'owner': ORG,
-        'name': repo,
-        'since': since_iso,
-    })
-    if data is None:
+    # ---- Step 1: repo metadata (single GraphQL call) ----
+    meta = gh_graphql(REPO_META_QUERY, {'owner': ORG, 'name': repo})
+    if meta is None:
         return None
 
-    # Dedupe commits across branches by oid
+    # ---- Step 2: collect all active branches (paginated GraphQL) ----
+    active_branches = fetch_active_branches(repo, since_iso)
+    if not active_branches:
+        # Repo has no branch activity in the window — return a stub.
+        return {
+            'name': repo,
+            'full_name': full,
+            'url': f'https://github.com/{full}',
+            'description': meta.get('description') or '',
+            'stars': meta.get('stargazerCount', 0),
+            'open_issues': (meta.get('issues') or {}).get('totalCount', 0),
+            'open_prs': (meta.get('pullRequests') or {}).get('totalCount', 0),
+            'default_branch': (meta.get('defaultBranchRef') or {}).get('name', 'main'),
+            'commits_28d': 0,
+            'commits_7d': 0,
+            'prs_merged_28d': 0,
+            'contributors_28d': 0,
+            'last_commit_at': None,
+            'last_commit_message': None,
+            'weekly_commits': [0] * 12,
+            '_all_commits': [],
+            '_merged_prs_raw': [],
+            '_releases_raw': gh_api_rest(f'/repos/{full}/releases?per_page=5') or [],
+        }
+
+    # ---- Step 3: fetch commits for each active branch (paginated REST) ----
     seen_oids = set()
     all_commits = []
-    for ref in (data.get('refs') or {}).get('nodes', []):
-        target = ref.get('target')
-        if not target or 'history' not in target:
-            continue
-        for c in (target.get('history') or {}).get('nodes', []):
-            oid = c.get('oid')
+    for branch in active_branches:
+        raw = fetch_branch_commits(repo, branch, since_iso)
+        for c in raw:
+            normalized = rest_commit_to_common(c)
+            oid = normalized['oid']
             if not oid or oid in seen_oids:
                 continue
             seen_oids.add(oid)
-            all_commits.append(c)
+            all_commits.append(normalized)
 
     # Sort newest-first
     all_commits.sort(key=lambda c: c.get('committedDate') or '', reverse=True)
@@ -170,16 +256,13 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
         if (c.get('committedDate') or '') >= seven_iso
     )
 
-    contributors = set()
-    for c in all_commits:
-        user = (c.get('author') or {}).get('user') or {}
-        login = user.get('login')
-        if login:
-            contributors.add(login)
+    contributors = {
+        c['login'] for c in all_commits if c.get('login')
+    }
 
     last_commit_at = all_commits[0].get('committedDate') if all_commits else None
     last_commit_msg = (
-        (all_commits[0].get('messageHeadline') or '')[:80]
+        all_commits[0].get('messageHeadline', '')[:80]
         if all_commits else None
     )
 
@@ -199,10 +282,7 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
             weekly_buckets[11 - weeks_ago] += 1
     weekly_commits = weekly_buckets
 
-    # ---- REST: PRs and releases (GraphQL would work too, but REST is cleaner here) ----
-    full = f'{ORG}/{repo}'
-
-    # Merged PRs in window
+    # ---- REST: PRs and releases ----
     merged_prs_result = subprocess.run([
         'gh', 'pr', 'list', '--repo', full, '--state', 'merged',
         '--search', f'merged:>={since_iso[:10]}',
@@ -219,11 +299,11 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
         'name': repo,
         'full_name': full,
         'url': f'https://github.com/{full}',
-        'description': data.get('description') or '',
-        'stars': data.get('stargazerCount', 0),
-        'open_issues': (data.get('issues') or {}).get('totalCount', 0),
-        'open_prs': (data.get('pullRequests') or {}).get('totalCount', 0),
-        'default_branch': (data.get('defaultBranchRef') or {}).get('name', 'main'),
+        'description': meta.get('description') or '',
+        'stars': meta.get('stargazerCount', 0),
+        'open_issues': (meta.get('issues') or {}).get('totalCount', 0),
+        'open_prs': (meta.get('pullRequests') or {}).get('totalCount', 0),
+        'default_branch': (meta.get('defaultBranchRef') or {}).get('name', 'main'),
         'commits_28d': commits_28d,
         'commits_7d': commits_7d,
         'prs_merged_28d': len(merged_prs),
@@ -250,7 +330,7 @@ def main():
 
     log(f'Window: {window_start.strftime("%Y-%m-%d")} → '
         f'{window_end.strftime("%Y-%m-%d")} ({WINDOW_DAYS}d)')
-    log(f'Fetching {len(WATCHLIST)} repos via GraphQL (all branches)...')
+    log(f'Fetching {len(WATCHLIST)} repos via GraphQL + REST (all branches, paginated)...')
 
     repos_data = []
     for repo in WATCHLIST:
@@ -278,14 +358,13 @@ def main():
 
     for r in repos_data:
         for c in r['_all_commits']:
-            user = (c.get('author') or {}).get('user') or {}
-            login = user.get('login')
+            login = c.get('login')
             if not login:
                 continue
             contributor_commits[login] += 1
             contributor_repos[login].add(r['full_name'])
-            if user.get('avatarUrl'):
-                contributor_avatars[login] = user['avatarUrl']
+            if c.get('avatarUrl'):
+                contributor_avatars[login] = c['avatarUrl']
         for pr in r['_merged_prs_raw']:
             pra = pr.get('author')
             if pra and pra.get('login'):
