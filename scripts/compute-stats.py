@@ -137,16 +137,15 @@ query($owner: String!, $name: String!, $after: String) {
 
 # -- Per-repo processing ----------------------------------------------------
 
-def fetch_active_branches(repo, since_iso):
+def fetch_active_branches(repo, since_iso, until_iso=None):
     """
-    Return list of branch names whose HEAD committed date is within the window.
+    Return list of branch names whose HEAD committed date falls within the window.
     Paginates through all branches so repos with 700+ branches are fully covered.
+    until_iso: if set, exclude branches whose HEAD is entirely after the window end.
     """
     active = []
     cursor = None
-    page = 0
     while True:
-        page += 1
         variables = {'owner': ORG, 'name': repo}
         if cursor:
             variables['after'] = cursor
@@ -156,6 +155,9 @@ def fetch_active_branches(repo, since_iso):
         refs = data.get('refs') or {}
         for node in refs.get('nodes', []):
             committed = (node.get('target') or {}).get('committedDate', '')
+            # Include branches whose HEAD is after window start.
+            # Don't filter by until_iso here: a branch created after until_iso
+            # can still have commits within the window (the REST until= handles it).
             if committed >= since_iso:
                 active.append(node['name'])
         page_info = refs.get('pageInfo') or {}
@@ -167,16 +169,17 @@ def fetch_active_branches(repo, since_iso):
     return active
 
 
-def fetch_branch_commits(repo, branch, since_iso):
+def fetch_branch_commits(repo, branch, since_iso, until_iso=None):
     """
-    Fetch all commits on `branch` since `since_iso` via paginated REST.
+    Fetch all commits on `branch` in [since_iso, until_iso] via paginated REST.
     Returns a list of raw REST commit objects.
     """
-    full = f'{ORG}/{repo}'
-    # URL-encode the branch name in case it contains slashes
     from urllib.parse import quote
+    full = f'{ORG}/{repo}'
     encoded = quote(branch, safe='')
     path = f'/repos/{full}/commits?sha={encoded}&since={since_iso}&per_page=100'
+    if until_iso:
+        path += f'&until={until_iso}'
     return gh_api_paginate(path)
 
 
@@ -198,10 +201,13 @@ def rest_commit_to_common(c):
     }
 
 
-def fetch_repo(repo, since_dt, seven_days_ago_dt):
-    """Fetch + process one repo. Returns the structured dict or None."""
+def fetch_repo(repo, since_dt, seven_days_ago_dt, until_dt=None):
+    """Fetch + process one repo. Returns the structured dict or None.
+    until_dt: if set, caps the commit window (used for historical re-runs).
+    """
     since_iso = since_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
     seven_iso = seven_days_ago_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
+    until_iso = until_dt.strftime('%Y-%m-%dT%H:%M:%SZ') if until_dt else None
     full = f'{ORG}/{repo}'
 
     # ---- Step 1: repo metadata (single GraphQL call) ----
@@ -210,7 +216,7 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
         return None
 
     # ---- Step 2: collect all active branches (paginated GraphQL) ----
-    active_branches = fetch_active_branches(repo, since_iso)
+    active_branches = fetch_active_branches(repo, since_iso, until_iso)
     if not active_branches:
         # Repo has no branch activity in the window — return a stub.
         return {
@@ -238,7 +244,7 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
     seen_oids = set()
     all_commits = []
     for branch in active_branches:
-        raw = fetch_branch_commits(repo, branch, since_iso)
+        raw = fetch_branch_commits(repo, branch, since_iso, until_iso)
         for c in raw:
             normalized = rest_commit_to_common(c)
             oid = normalized['oid']
@@ -283,9 +289,13 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
     weekly_commits = weekly_buckets
 
     # ---- REST: PRs and releases ----
+    if until_iso:
+        pr_date_filter = f'merged:{since_iso[:10]}..{until_iso[:10]}'
+    else:
+        pr_date_filter = f'merged:>={since_iso[:10]}'
     merged_prs_result = subprocess.run([
         'gh', 'pr', 'list', '--repo', full, '--state', 'merged',
-        '--search', f'merged:>={since_iso[:10]}',
+        '--search', pr_date_filter,
         '--json', 'number,author,mergedAt', '--limit', '200',
     ], capture_output=True, text=True)
     try:
@@ -321,12 +331,29 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt):
 # -- Main aggregation --------------------------------------------------------
 
 def main():
-    output_path = sys.argv[1] if len(sys.argv) > 1 else 'data/stats.json'
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('output_path', nargs='?', default='data/stats.json')
+    parser.add_argument(
+        '--date', metavar='YYYY-MM-DD',
+        help='Treat this date as "today" (end of window). Used for historical re-runs.',
+    )
+    args = parser.parse_args()
+    output_path = args.output_path
 
-    now = datetime.now(timezone.utc)
-    window_end = now
+    if args.date:
+        # Historical re-run: window ends at 23:59:59 on the given date.
+        window_end = datetime.strptime(args.date, '%Y-%m-%d').replace(
+            hour=23, minute=59, second=59, tzinfo=timezone.utc
+        )
+        now = window_end
+    else:
+        now = datetime.now(timezone.utc)
+        window_end = now
+
     window_start = window_end - timedelta(days=WINDOW_DAYS)
     seven_days_ago = window_end - timedelta(days=7)
+    until_dt = window_end if args.date else None
 
     log(f'Window: {window_start.strftime("%Y-%m-%d")} → '
         f'{window_end.strftime("%Y-%m-%d")} ({WINDOW_DAYS}d)')
@@ -335,7 +362,7 @@ def main():
     repos_data = []
     for repo in WATCHLIST:
         log(f'  {repo}...')
-        data = fetch_repo(repo, window_start, seven_days_ago)
+        data = fetch_repo(repo, window_start, seven_days_ago, until_dt)
         if data:
             log(f'    → {data["commits_28d"]} commits across branches, '
                 f'{data["prs_merged_28d"]} PRs merged')
