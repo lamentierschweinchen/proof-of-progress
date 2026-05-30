@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-05-30 | Quiet Friday: single watchlist merge is mx-api-service NestJS v10→v11 + sdk-core v15 upgrade; two new mx-chain-go PRs feed the `start-in-epoch-reload-interceptors` and `feat/testnet-fixes` clusters; CVE-2025-64170 day 10 still unmerged; rc/v0.67 holding for 4 pending PRs. | [digest](digests/2026-05-30.md) |
 | 2026-05-29 | rc/v0.67 cryptographic rewrite completes: ed25519-dalek (#2382) and WalletSignature type (#2383) both merged in one day; Rust 1.96 wasm build breakage caught same-evening (#2386 → master); bootstrap interceptor reload cluster forming in mx-chain-go; CVE-2025-64170 day 9. | [digest](digests/2026-05-29.md) |
 | 2026-05-28 | mx-chain-go v1.11.6 ships (mandatory mainnet upgrade) breaking the 7-day stall; ed25519-dalek replaces custom signing in rc/v0.67 alongside CVE-2025-64170 (day 8); mx-bls-rs v0.2.1 fixes Windows BLS build; Supernova blocker cluster enters week 3 unresolved. | [digest](digests/2026-05-28.md) |
 | 2026-05-27 | Quiet 1-day window: one merge (mx-sdk-rs wallet convert integration tests); mx-chain-go now 7 days without a merge — Supernova blocker cluster grows with #7857; CVE-2025-64170 enters week 2 unpatched; v0.67 RC building toward tag. | [digest](digests/2026-05-27.md) |

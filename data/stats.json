@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-29T04:07:57Z",
+  "generated_at": "2026-05-30T04:07:26Z",
   "window": {
-    "start": "2026-05-01",
-    "end": "2026-05-29",
+    "start": "2026-05-02",
+    "end": "2026-05-30",
     "days": 28
   },
   "totals": {
-    "commits": 271,
-    "prs_merged": 39,
-    "prs_opened": 123,
+    "commits": 285,
+    "prs_merged": 40,
+    "prs_opened": 128,
     "contributors": 9,
     "releases": 15,
     "repos_active": 7
@@ -23,12 +23,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 197,
-      "commits_7d": 64,
+      "commits_28d": 198,
+      "commits_7d": 62,
       "prs_merged_28d": 23,
       "contributors_28d": 2,
-      "last_commit_at": "2026-05-28T23:39:29Z",
-      "last_commit_message": "wasm build fix for rust 1.96 + CI update",
+      "last_commit_at": "2026-05-29T06:24:14Z",
+      "last_commit_message": "CI - adjust rust versions",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        12,
-        52,
-        69,
-        64
+        17,
+        47,
+        72,
+        62
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 14,
       "default_branch": "main",
-      "commits_28d": 45,
-      "commits_7d": 23,
-      "prs_merged_28d": 3,
+      "commits_28d": 58,
+      "commits_7d": 33,
+      "prs_merged_28d": 4,
       "contributors_28d": 1,
-      "last_commit_at": "2026-05-28T15:15:06Z",
-      "last_commit_message": "use native fetch in accounts cs tests",
+      "last_commit_at": "2026-05-29T14:44:02Z",
+      "last_commit_message": "refactor modules",
       "weekly_commits": [
         0,
         0,
@@ -70,8 +70,8 @@
         0,
         3,
         7,
-        12,
-        23
+        15,
+        33
       ]
     },
     {
@@ -81,7 +81,7 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 956,
       "open_issues": 5,
-      "open_prs": 111,
+      "open_prs": 113,
       "default_branch": "master",
       "commits_28d": 14,
       "commits_7d": 0,
@@ -189,8 +189,8 @@
         0,
         0,
         0,
-        0,
         1,
+        0,
         2
       ]
     },
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?u=2a9a350cbeb900c94713f6e6afda4ab6b7a93106&v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 196,
+      "commits_28d": 197,
       "prs_merged_28d": 23,
       "repos_touched": 1,
       "highlighted": false
@@ -449,8 +449,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 45,
-      "prs_merged_28d": 3,
+      "commits_28d": 58,
+      "prs_merged_28d": 4,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -643,7 +643,6 @@
   "daily_commits": [
     0,
     0,
-    0,
     3,
     3,
     5,
@@ -668,6 +667,7 @@
     10,
     7,
     40,
-    22
+    22,
+    14
   ]
 }
