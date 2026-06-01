@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-01 | mx-sdk-rs pivots to v0.66.1 patch release: 3 Sunday-evening merges (Rust 1.96 wasm fix, timestamp ManagedVecItem, sc-meta toolchain fix) trigger #2389 release PR; CVE-2025-64170 now day 12 and expected in v0.66.1 rather than v0.67; mx-chain-go master silent 3+ days, Supernova cluster of 10 PRs unchanged; 523 commits / 43 PRs merged in 28d. | [digest](digests/2026-06-01.md) |
 | 2026-05-31 | Quiet Sunday: zero merges, zero new PRs, zero releases across all watchlist repos; CVE-2025-64170 day 11 unmerged; rc/v0.67 4-PR gate and mx-chain-go Supernova blocker cluster unchanged; 28-day window holds at 515 commits, 40 PRs merged. | [digest](digests/2026-05-31.md) |
 | 2026-05-30 | Quiet Friday: single watchlist merge is mx-api-service NestJS v10→v11 + sdk-core v15 upgrade; two new mx-chain-go PRs feed the `start-in-epoch-reload-interceptors` and `feat/testnet-fixes` clusters; CVE-2025-64170 day 10 still unmerged; rc/v0.67 holding for 4 pending PRs. | [digest](digests/2026-05-30.md) |
 | 2026-05-29 | rc/v0.67 cryptographic rewrite completes: ed25519-dalek (#2382) and WalletSignature type (#2383) both merged in one day; Rust 1.96 wasm build breakage caught same-evening (#2386 → master); bootstrap interceptor reload cluster forming in mx-chain-go; CVE-2025-64170 day 9. | [digest](digests/2026-05-29.md) |
