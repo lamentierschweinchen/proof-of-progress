@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-01T04:06:59Z",
+  "generated_at": "2026-06-02T04:07:29Z",
   "window": {
-    "start": "2026-05-04",
-    "end": "2026-06-01",
+    "start": "2026-05-05",
+    "end": "2026-06-02",
     "days": 28
   },
   "totals": {
-    "commits": 523,
-    "prs_merged": 43,
-    "prs_opened": 134,
+    "commits": 517,
+    "prs_merged": 44,
+    "prs_opened": 135,
     "contributors": 12,
     "releases": 15,
     "repos_active": 9
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 37,
+      "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 223,
-      "commits_7d": 66,
-      "prs_merged_28d": 26,
+      "commits_28d": 225,
+      "commits_7d": 65,
+      "prs_merged_28d": 28,
       "contributors_28d": 2,
-      "last_commit_at": "2026-05-31T21:36:33Z",
-      "last_commit_message": "sc 0.66.1",
+      "last_commit_at": "2026-06-01T17:07:59Z",
+      "last_commit_message": "Merge branch 'rc/v0.67' into wallet-crypto-reorg",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        39,
-        44,
-        74,
-        66
+        37,
+        43,
+        80,
+        65
       ]
     },
     {
@@ -53,8 +53,8 @@
       "open_issues": 5,
       "open_prs": 113,
       "default_branch": "master",
-      "commits_28d": 219,
-      "commits_7d": 41,
+      "commits_28d": 214,
+      "commits_7d": 38,
       "prs_merged_28d": 10,
       "contributors_28d": 8,
       "last_commit_at": "2026-05-29T12:39:19Z",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        46,
-        69,
-        63,
-        41
+        47,
+        72,
+        57,
+        38
       ]
     },
     {
@@ -83,9 +83,9 @@
       "open_issues": 7,
       "open_prs": 14,
       "default_branch": "main",
-      "commits_28d": 58,
-      "commits_7d": 33,
-      "prs_merged_28d": 4,
+      "commits_28d": 55,
+      "commits_7d": 31,
+      "prs_merged_28d": 3,
       "contributors_28d": 1,
       "last_commit_at": "2026-05-29T14:44:02Z",
       "last_commit_message": "refactor modules",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        3,
-        7,
-        15,
-        33
+        2,
+        5,
+        17,
+        31
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 222,
-      "prs_merged_28d": 26,
+      "commits_28d": 224,
+      "prs_merged_28d": 28,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,7 +449,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 64,
+      "commits_28d": 63,
       "prs_merged_28d": 3,
       "repos_touched": 2,
       "highlighted": false
@@ -458,8 +458,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 58,
-      "prs_merged_28d": 4,
+      "commits_28d": 55,
+      "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -476,7 +476,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 48,
+      "commits_28d": 45,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 8,
+      "commits_28d": 7,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -528,6 +528,14 @@
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-sdk-rs",
+      "tag": "v0.66.1",
+      "name": "sc 0.66.1",
+      "published_at": "2026-06-01T15:14:40Z",
+      "url": "https://github.com/multiversx/mx-sdk-rs/releases/tag/v0.66.1",
+      "is_prerelease": false
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v1.11.6.0",
@@ -639,18 +647,9 @@
       "published_at": "2026-04-02T15:37:28Z",
       "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.0.0",
       "is_prerelease": true
-    },
-    {
-      "repo": "mx-chain-mainnet-config",
-      "tag": "v1.11.2.0",
-      "name": "v1.11.2.0",
-      "published_at": "2026-04-01T20:59:54Z",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v1.11.2.0",
-      "is_prerelease": false
     }
   ],
   "daily_commits": [
-    12,
     24,
     20,
     20,
@@ -670,13 +669,14 @@
     19,
     11,
     0,
-    4,
+    3,
     13,
     12,
     62,
     28,
     19,
     0,
-    8
+    8,
+    7
   ]
 }
