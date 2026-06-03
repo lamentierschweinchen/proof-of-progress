@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-03 | Both v0.67 blockers (#2385, #2384) merged in one afternoon — rc/v0.67 (#2378) now unblocked; mx-chain-go master ends 4-day silence (#7865 merged, two new @ssd04 execution-context PRs opened); CVE-2025-64170 crosses day 14; 517 commits / 51 PRs merged in 28d. | [digest](digests/2026-06-03.md) |
 | 2026-06-02 | v0.66.1 shipped (Jun 1) but CVE-2025-64170 rpassword bump excluded — now day 13 unmerged; rc/v0.67 rebased onto fresh master 31 minutes after patch release; mx-chain-go master silent 4 days, 10-PR Supernova cluster frozen; @sasurobert public events empty for 33 days; 517 commits / 44 PRs merged in 28d. | [digest](digests/2026-06-02.md) |
 | 2026-06-01 | mx-sdk-rs pivots to v0.66.1 patch release: 3 Sunday-evening merges (Rust 1.96 wasm fix, timestamp ManagedVecItem, sc-meta toolchain fix) trigger #2389 release PR; CVE-2025-64170 now day 12 and expected in v0.66.1 rather than v0.67; mx-chain-go master silent 3+ days, Supernova cluster of 10 PRs unchanged; 523 commits / 43 PRs merged in 28d. | [digest](digests/2026-06-01.md) |
 | 2026-05-31 | Quiet Sunday: zero merges, zero new PRs, zero releases across all watchlist repos; CVE-2025-64170 day 11 unmerged; rc/v0.67 4-PR gate and mx-chain-go Supernova blocker cluster unchanged; 28-day window holds at 515 commits, 40 PRs merged. | [digest](digests/2026-05-31.md) |
