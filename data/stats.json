@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-03T04:07:01Z",
+  "generated_at": "2026-06-04T04:07:02Z",
   "window": {
-    "start": "2026-05-06",
-    "end": "2026-06-03",
+    "start": "2026-05-07",
+    "end": "2026-06-04",
     "days": 28
   },
   "totals": {
-    "commits": 517,
-    "prs_merged": 51,
-    "prs_opened": 133,
+    "commits": 506,
+    "prs_merged": 54,
+    "prs_opened": 135,
     "contributors": 12,
     "releases": 15,
     "repos_active": 9
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 35,
+      "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 235,
-      "commits_7d": 77,
+      "commits_28d": 234,
+      "commits_7d": 49,
       "prs_merged_28d": 33,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-03T02:07:42Z",
-      "last_commit_message": "interactor builder - generate blocks",
+      "last_commit_at": "2026-06-03T14:04:08Z",
+      "last_commit_message": "BoxedBytes from_concat empty result fix",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        35,
-        43,
-        80,
-        77
+        57,
+        72,
+        56,
+        49
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 956,
       "open_issues": 5,
-      "open_prs": 114,
+      "open_prs": 113,
       "default_branch": "master",
-      "commits_28d": 206,
-      "commits_7d": 38,
+      "commits_28d": 190,
+      "commits_7d": 18,
       "prs_merged_28d": 11,
       "contributors_28d": 8,
-      "last_commit_at": "2026-06-02T14:13:15Z",
-      "last_commit_message": "fix tests",
+      "last_commit_at": "2026-06-03T07:23:46Z",
+      "last_commit_message": "Merge branch 'feat/testnet-fixes' into whitelist-mbs-from-execution-results-meta",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        55,
-        76,
-        37,
-        38
+        48,
+        83,
+        41,
+        18
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 56,
-      "commits_7d": 31,
-      "prs_merged_28d": 4,
+      "commits_28d": 62,
+      "commits_7d": 28,
+      "prs_merged_28d": 7,
       "contributors_28d": 1,
-      "last_commit_at": "2026-06-02T10:40:26Z",
-      "last_commit_message": "Merge pull request #1605 from multiversx/hotfix/schedule-module-public-app",
+      "last_commit_at": "2026-06-03T12:10:02Z",
+      "last_commit_message": "Merge pull request #1607 from multiversx/development",
       "weekly_commits": [
         0,
         0,
@@ -99,9 +99,9 @@
         0,
         0,
         6,
-        8,
-        11,
-        31
+        13,
+        15,
+        28
       ]
     },
     {
@@ -128,9 +128,9 @@
         0,
         0,
         0,
-        0,
-        4,
         3,
+        2,
+        2,
         0
       ]
     },
@@ -159,8 +159,8 @@
         0,
         0,
         0,
-        3,
-        1,
+        4,
+        0,
         0
       ]
     },
@@ -204,7 +204,7 @@
       "open_prs": 10,
       "default_branch": "master",
       "commits_28d": 3,
-      "commits_7d": 2,
+      "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-05-27T15:04:44Z",
@@ -220,8 +220,8 @@
         0,
         0,
         1,
-        0,
-        2
+        2,
+        0
       ]
     },
     {
@@ -440,8 +440,17 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 234,
+      "commits_28d": 233,
       "prs_merged_28d": 33,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 62,
+      "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,26 +458,17 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 60,
-      "prs_merged_28d": 4,
+      "commits_28d": 48,
+      "prs_merged_28d": 3,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 56,
-      "prs_merged_28d": 4,
-      "repos_touched": 1,
       "highlighted": false
     },
     {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 46,
-      "prs_merged_28d": 3,
+      "commits_28d": 47,
+      "prs_merged_28d": 4,
       "repos_touched": 4,
       "highlighted": false
     },
@@ -476,7 +476,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 42,
+      "commits_28d": 39,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -503,7 +503,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 16,
+      "commits_28d": 14,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     20,
-    20,
     9,
     1,
     10,
@@ -677,6 +676,7 @@
     0,
     8,
     7,
-    21
+    21,
+    12
   ]
 }
