@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-04T04:07:02Z",
+  "generated_at": "2026-06-05T04:07:23Z",
   "window": {
-    "start": "2026-05-07",
-    "end": "2026-06-04",
+    "start": "2026-05-08",
+    "end": "2026-06-05",
     "days": 28
   },
   "totals": {
-    "commits": 506,
-    "prs_merged": 54,
-    "prs_opened": 135,
+    "commits": 504,
+    "prs_merged": 56,
+    "prs_opened": 131,
     "contributors": 12,
     "releases": 15,
-    "repos_active": 9
+    "repos_active": 7
   },
   "repos": [
     {
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 36,
+      "open_prs": 35,
       "default_branch": "master",
-      "commits_28d": 234,
-      "commits_7d": 49,
-      "prs_merged_28d": 33,
+      "commits_28d": 236,
+      "commits_7d": 46,
+      "prs_merged_28d": 34,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-03T14:04:08Z",
-      "last_commit_message": "BoxedBytes from_concat empty result fix",
+      "last_commit_at": "2026-06-04T17:36:08Z",
+      "last_commit_message": "interactor cleanup - tiny",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        57,
-        72,
-        56,
-        49
+        58,
+        69,
+        63,
+        46
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 956,
       "open_issues": 5,
-      "open_prs": 113,
+      "open_prs": 114,
       "default_branch": "master",
-      "commits_28d": 190,
-      "commits_7d": 18,
-      "prs_merged_28d": 11,
+      "commits_28d": 191,
+      "commits_7d": 19,
+      "prs_merged_28d": 12,
       "contributors_28d": 8,
-      "last_commit_at": "2026-06-03T07:23:46Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into whitelist-mbs-from-execution-results-meta",
+      "last_commit_at": "2026-06-04T10:26:37Z",
+      "last_commit_message": "small fixes",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        48,
-        83,
+        56,
+        75,
         41,
-        18
+        19
       ]
     },
     {
@@ -84,7 +84,7 @@
       "open_prs": 13,
       "default_branch": "main",
       "commits_28d": 62,
-      "commits_7d": 28,
+      "commits_7d": 20,
       "prs_merged_28d": 7,
       "contributors_28d": 1,
       "last_commit_at": "2026-06-03T12:10:02Z",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        6,
-        13,
-        15,
-        28
+        7,
+        12,
+        23,
+        20
       ]
     },
     {
@@ -129,8 +129,8 @@
         0,
         0,
         3,
-        2,
-        2,
+        4,
+        0,
         0
       ]
     },
@@ -160,36 +160,6 @@
         0,
         0,
         4,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "mx-chain-es-indexer-go",
-      "full_name": "multiversx/mx-chain-es-indexer-go",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
-      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
-      "stars": 12,
-      "open_issues": 1,
-      "open_prs": 6,
-      "default_branch": "master",
-      "commits_28d": 3,
-      "commits_7d": 0,
-      "prs_merged_28d": 0,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-05-12T08:38:49Z",
-      "last_commit_message": "fix go version and linter",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
         0,
         0
       ]
@@ -225,20 +195,20 @@
       ]
     },
     {
-      "name": "mx-chain-proxy-go",
-      "full_name": "multiversx/mx-chain-proxy-go",
-      "url": "https://github.com/multiversx/mx-chain-proxy-go",
-      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
-      "stars": 58,
-      "open_issues": 2,
-      "open_prs": 7,
+      "name": "mx-chain-es-indexer-go",
+      "full_name": "multiversx/mx-chain-es-indexer-go",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
+      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
+      "stars": 12,
+      "open_issues": 1,
+      "open_prs": 6,
       "default_branch": "master",
-      "commits_28d": 2,
+      "commits_28d": 1,
       "commits_7d": 0,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
-      "last_commit_at": "2026-05-07T13:03:32Z",
-      "last_commit_message": "update",
+      "last_commit_at": "2026-05-12T08:38:49Z",
+      "last_commit_message": "fix go version and linter",
       "weekly_commits": [
         0,
         0,
@@ -248,7 +218,7 @@
         0,
         0,
         0,
-        2,
+        1,
         0,
         0,
         0
@@ -263,12 +233,12 @@
       "open_issues": 8,
       "open_prs": 22,
       "default_branch": "master",
-      "commits_28d": 1,
+      "commits_28d": 0,
       "commits_7d": 0,
       "prs_merged_28d": 0,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-05-07T14:00:22Z",
-      "last_commit_message": "update go version and actions",
+      "contributors_28d": 0,
+      "last_commit_at": null,
+      "last_commit_message": null,
       "weekly_commits": [
         0,
         0,
@@ -278,7 +248,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0,
         0
@@ -323,6 +293,36 @@
       "open_issues": 5,
       "open_prs": 1,
       "default_branch": "main",
+      "commits_28d": 0,
+      "commits_7d": 0,
+      "prs_merged_28d": 0,
+      "contributors_28d": 0,
+      "last_commit_at": null,
+      "last_commit_message": null,
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mx-chain-proxy-go",
+      "full_name": "multiversx/mx-chain-proxy-go",
+      "url": "https://github.com/multiversx/mx-chain-proxy-go",
+      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
+      "stars": 58,
+      "open_issues": 2,
+      "open_prs": 7,
+      "default_branch": "master",
       "commits_28d": 0,
       "commits_7d": 0,
       "prs_merged_28d": 0,
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 233,
-      "prs_merged_28d": 33,
+      "commits_28d": 235,
+      "prs_merged_28d": 34,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -459,7 +459,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
       "commits_28d": 48,
-      "prs_merged_28d": 3,
+      "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -467,16 +467,16 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 47,
+      "commits_28d": 43,
       "prs_merged_28d": 4,
-      "repos_touched": 4,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 39,
+      "commits_28d": 40,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -503,7 +503,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 14,
+      "commits_28d": 13,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -528,6 +528,14 @@
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-api-service",
+      "tag": "v1.20.0",
+      "name": "Release v1.20.0",
+      "published_at": "2026-06-04T09:01:05Z",
+      "url": "https://github.com/multiversx/mx-api-service/releases/tag/v1.20.0",
+      "is_prerelease": false
+    },
     {
       "repo": "mx-sdk-rs",
       "tag": "v0.66.1",
@@ -639,18 +647,9 @@
       "published_at": "2026-04-02T16:22:25Z",
       "url": "https://github.com/multiversx/mx-chain-es-indexer-go/releases/tag/v1.10.1",
       "is_prerelease": true
-    },
-    {
-      "repo": "mx-chain-go",
-      "tag": "v2.0.0",
-      "name": "v2.0.0",
-      "published_at": "2026-04-02T15:37:28Z",
-      "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.0.0",
-      "is_prerelease": true
     }
   ],
   "daily_commits": [
-    20,
     9,
     1,
     10,
@@ -677,6 +676,7 @@
     8,
     7,
     21,
-    12
+    13,
+    17
   ]
 }
