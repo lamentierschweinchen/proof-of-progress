@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-07T04:05:09Z",
+  "generated_at": "2026-06-08T04:05:38Z",
   "window": {
-    "start": "2026-05-10",
-    "end": "2026-06-07",
+    "start": "2026-05-11",
+    "end": "2026-06-08",
     "days": 28
   },
   "totals": {
-    "commits": 507,
+    "commits": 499,
     "prs_merged": 58,
-    "prs_opened": 137,
+    "prs_opened": 138,
     "contributors": 12,
     "releases": 15,
     "repos_active": 7
@@ -23,8 +23,8 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 238,
-      "commits_7d": 55,
+      "commits_28d": 230,
+      "commits_7d": 47,
       "prs_merged_28d": 36,
       "contributors_28d": 2,
       "last_commit_at": "2026-06-05T15:35:23Z",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        50,
-        74,
-        59,
-        55
+        44,
+        73,
+        66,
+        47
       ]
     },
     {
@@ -259,7 +259,7 @@
       "full_name": "multiversx/mx-sdk-dapp",
       "url": "https://github.com/multiversx/mx-sdk-dapp",
       "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 81,
+      "stars": 82,
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 237,
+      "commits_28d": 229,
       "prs_merged_28d": 36,
       "repos_touched": 1,
       "highlighted": false
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    8,
     10,
     32,
     34,
@@ -677,6 +676,7 @@
     13,
     17,
     15,
+    0,
     0
   ]
 }

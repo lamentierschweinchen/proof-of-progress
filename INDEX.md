@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-08 | Quiet early-Monday (04:00 UTC pre-open): zero merges, zero releases; v0.67 tag slip day 6; CVE-2025-64170 day 19; @sasurobert day 39+ absent; 499 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-08.md) |
 | 2026-06-07 | Quiet Sunday: zero merges, zero new PRs, zero releases; v0.67 tag slip day 5+; CVE-2025-64170 day 18; @sasurobert day 38+ absent; 507 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-07.md) |
 | 2026-06-06 | mx-sdk-rs CodeMetadata GUARDED flag (#2397) and ESDT token-ID validation (#2398) merged; v0.67 tag slip day 4+ as post-gate scope widens; mx-chain-go Supernova cluster hits 11 open PRs (#7870); CVE-2025-64170 day 17; 510 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-06.md) |
 | 2026-06-05 | mx-api-service v1.20.0 released (143-day gap, 23 PRs, Supernova execution-results integration); mx-sdk-rs UB fix #2395 + Bech32 serde fix #2396 both merged — v0.67 near; DeFi SDKs (dapp-liquidity v2.3.0, dapp-swap v4.2.1) ship same day; CVE-2025-64170 day 16; 504 commits / 56 PRs merged in 28d. | [digest](digests/2026-06-05.md) |
