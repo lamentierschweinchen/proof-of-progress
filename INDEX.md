@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-09 | @sasurobert pivot revealed: 40-day absence was AI agent work (mx-agent-orchestrator, x402); Supernova RC integration wave (indexer #381 merged, 3 new chain-go PRs); v0.67 day 7 slip; CVE-2025-64170 day 20; 512 commits / 59 PRs merged in 28d. | [digest](digests/2026-06-09.md) |
 | 2026-06-08 | Quiet early-Monday (04:00 UTC pre-open): zero merges, zero releases; v0.67 tag slip day 6; CVE-2025-64170 day 19; @sasurobert day 39+ absent; 499 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-08.md) |
 | 2026-06-07 | Quiet Sunday: zero merges, zero new PRs, zero releases; v0.67 tag slip day 5+; CVE-2025-64170 day 18; @sasurobert day 38+ absent; 507 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-07.md) |
 | 2026-06-06 | mx-sdk-rs CodeMetadata GUARDED flag (#2397) and ESDT token-ID validation (#2398) merged; v0.67 tag slip day 4+ as post-gate scope widens; mx-chain-go Supernova cluster hits 11 open PRs (#7870); CVE-2025-64170 day 17; 510 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-06.md) |
