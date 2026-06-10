@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-09T04:05:34Z",
+  "generated_at": "2026-06-10T04:05:23Z",
   "window": {
-    "start": "2026-05-12",
-    "end": "2026-06-09",
+    "start": "2026-05-13",
+    "end": "2026-06-10",
     "days": 28
   },
   "totals": {
-    "commits": 512,
+    "commits": 491,
     "prs_merged": 59,
-    "prs_opened": 142,
-    "contributors": 12,
+    "prs_opened": 146,
+    "contributors": 11,
     "releases": 15,
     "repos_active": 7
   },
@@ -23,8 +23,8 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 228,
-      "commits_7d": 40,
+      "commits_28d": 222,
+      "commits_7d": 22,
       "prs_merged_28d": 36,
       "contributors_28d": 2,
       "last_commit_at": "2026-06-05T15:35:23Z",
@@ -40,8 +40,8 @@
         0,
         43,
         80,
-        65,
-        40
+        77,
+        22
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 956,
       "open_issues": 5,
-      "open_prs": 118,
+      "open_prs": 120,
       "default_branch": "master",
-      "commits_28d": 205,
-      "commits_7d": 38,
+      "commits_28d": 194,
+      "commits_7d": 43,
       "prs_merged_28d": 12,
-      "contributors_28d": 8,
-      "last_commit_at": "2026-06-08T14:19:23Z",
-      "last_commit_message": "fix test",
+      "contributors_28d": 7,
+      "last_commit_at": "2026-06-09T14:14:23Z",
+      "last_commit_message": "fix after review",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        72,
-        57,
+        76,
+        37,
         38,
-        38
+        43
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 60,
+      "commits_28d": 57,
       "commits_7d": 7,
       "prs_merged_28d": 7,
       "contributors_28d": 1,
-      "last_commit_at": "2026-06-03T12:10:02Z",
-      "last_commit_message": "Merge pull request #1607 from multiversx/development",
+      "last_commit_at": "2026-06-09T09:09:55Z",
+      "last_commit_message": "Merge remote-tracking branch 'origin/development' into search-after-support",
       "weekly_commits": [
         0,
         0,
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        5,
-        17,
+        8,
+        11,
         31,
         7
       ]
@@ -128,40 +128,10 @@
         0,
         0,
         0,
-        3,
         4,
+        3,
         0,
         0
-      ]
-    },
-    {
-      "name": "mx-chain-es-indexer-go",
-      "full_name": "multiversx/mx-chain-es-indexer-go",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
-      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
-      "stars": 12,
-      "open_issues": 1,
-      "open_prs": 6,
-      "default_branch": "master",
-      "commits_28d": 5,
-      "commits_7d": 4,
-      "prs_merged_28d": 1,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-06-08T11:38:18Z",
-      "last_commit_message": "Merge pull request #381 from multiversx/merge-master-rc-supernova",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        4
       ]
     },
     {
@@ -188,10 +158,40 @@
         0,
         0,
         0,
-        0,
-        4,
+        3,
+        1,
         0,
         0
+      ]
+    },
+    {
+      "name": "mx-chain-es-indexer-go",
+      "full_name": "multiversx/mx-chain-es-indexer-go",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
+      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
+      "stars": 12,
+      "open_issues": 1,
+      "open_prs": 6,
+      "default_branch": "master",
+      "commits_28d": 4,
+      "commits_7d": 4,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-06-08T11:38:18Z",
+      "last_commit_message": "Merge pull request #381 from multiversx/merge-master-rc-supernova",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 227,
+      "commits_28d": 221,
       "prs_merged_28d": 36,
       "repos_touched": 1,
       "highlighted": false
@@ -449,35 +449,17 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 60,
+      "commits_28d": 57,
       "prs_merged_28d": 7,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "miiu96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
-      "html_url": "https://github.com/miiu96",
-      "commits_28d": 45,
-      "prs_merged_28d": 4,
-      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 43,
+      "commits_28d": 46,
       "prs_merged_28d": 3,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "sstanculeanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
-      "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 42,
-      "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -485,9 +467,27 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 41,
+      "commits_28d": 42,
       "prs_merged_28d": 0,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "miiu96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
+      "html_url": "https://github.com/miiu96",
+      "commits_28d": 41,
+      "prs_merged_28d": 4,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "sstanculeanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
+      "html_url": "https://github.com/sstanculeanu",
+      "commits_28d": 39,
+      "prs_merged_28d": 4,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
@@ -503,7 +503,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 19,
+      "commits_28d": 12,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 9,
+      "commits_28d": 8,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    32,
     34,
     27,
     20,
@@ -677,6 +676,7 @@
     20,
     0,
     0,
-    18
+    18,
+    11
   ]
 }
