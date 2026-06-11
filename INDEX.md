@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-11 | mx-chain-go v1.11.7 pre-release dropped (Jun 10, interceptor bootstrap fixes); mainnet-config #269 opened same day — validator upgrade imminent; new #7877 shard proposal validation PR; 470 commits / 61 PRs merged in 28d; v0.67 day 9 slip; CVE-2025-64170 day 22. | [digest](digests/2026-06-11.md) |
 | 2026-06-10 | Quiet Wednesday: no merges, no releases; 5 Supernova testnet PRs in 48h (signer + interceptor edge cases); 28-day window slides to 491 commits / 59 PRs merged; v0.67 day 8 slip; CVE-2025-64170 day 21; mx-chain-vm-go hits 28 days of zero activity. | [digest](digests/2026-06-10.md) |
 | 2026-06-09 | @sasurobert pivot revealed: 40-day absence was AI agent work (mx-agent-orchestrator, x402); Supernova RC integration wave (indexer #381 merged, 3 new chain-go PRs); v0.67 day 7 slip; CVE-2025-64170 day 20; 512 commits / 59 PRs merged in 28d. | [digest](digests/2026-06-09.md) |
 | 2026-06-08 | Quiet early-Monday (04:00 UTC pre-open): zero merges, zero releases; v0.67 tag slip day 6; CVE-2025-64170 day 19; @sasurobert day 39+ absent; 499 commits / 58 PRs merged in 28d. | [digest](digests/2026-06-08.md) |
