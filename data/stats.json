@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-12T04:05:47Z",
+  "generated_at": "2026-06-13T04:05:12Z",
   "window": {
-    "start": "2026-05-15",
-    "end": "2026-06-12",
+    "start": "2026-05-16",
+    "end": "2026-06-13",
     "days": 28
   },
   "totals": {
-    "commits": 453,
-    "prs_merged": 63,
-    "prs_opened": 148,
+    "commits": 437,
+    "prs_merged": 62,
+    "prs_opened": 146,
     "contributors": 11,
     "releases": 15,
     "repos_active": 7
@@ -24,8 +24,8 @@
       "open_prs": 36,
       "default_branch": "master",
       "commits_28d": 188,
-      "commits_7d": 10,
-      "prs_merged_28d": 35,
+      "commits_7d": 0,
+      "prs_merged_28d": 34,
       "contributors_28d": 2,
       "last_commit_at": "2026-06-05T15:35:23Z",
       "last_commit_message": "EsdtLocalRole flag fix, docs, tests",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        69,
-        63,
-        46,
-        10
+        72,
+        61,
+        55,
+        0
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 6,
       "open_prs": 118,
       "default_branch": "master",
-      "commits_28d": 186,
-      "commits_7d": 51,
+      "commits_28d": 171,
+      "commits_7d": 43,
       "prs_merged_28d": 16,
       "contributors_28d": 7,
-      "last_commit_at": "2026-06-11T13:41:18Z",
-      "last_commit_message": "Merge pull request #7879 from multiversx/merge-rc-testnet-fixes",
+      "last_commit_at": "2026-06-12T12:12:15Z",
+      "last_commit_message": "Merge branch 'feat/testnet-fixes' into consensus-time-changes",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        75,
+        63,
         41,
-        19,
-        51
+        24,
+        43
       ]
     },
     {
@@ -98,9 +98,9 @@
         0,
         0,
         0,
-        12,
-        23,
-        20,
+        15,
+        33,
+        7,
         5
       ]
     },
@@ -132,36 +132,6 @@
         0,
         0,
         6
-      ]
-    },
-    {
-      "name": "mx-chain-mainnet-config",
-      "full_name": "multiversx/mx-chain-mainnet-config",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
-      "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 25,
-      "open_issues": 1,
-      "open_prs": 10,
-      "default_branch": "master",
-      "commits_28d": 5,
-      "commits_7d": 2,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-06-11T06:44:25Z",
-      "last_commit_message": "Merge pull request #269 from multiversx/release-v1.11.7.0",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        2,
-        0,
-        2
       ]
     },
     {
@@ -222,6 +192,36 @@
         0,
         0,
         0
+      ]
+    },
+    {
+      "name": "mx-chain-mainnet-config",
+      "full_name": "multiversx/mx-chain-mainnet-config",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
+      "description": "MultiversX blockchain node's mainnet configuration repository",
+      "stars": 25,
+      "open_issues": 1,
+      "open_prs": 10,
+      "default_branch": "master",
+      "commits_28d": 4,
+      "commits_7d": 2,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-06-11T06:44:25Z",
+      "last_commit_message": "Merge pull request #269 from multiversx/release-v1.11.7.0",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
       ]
     },
     {
@@ -441,7 +441,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
       "commits_28d": 187,
-      "prs_merged_28d": 35,
+      "prs_merged_28d": 34,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 55,
+      "commits_28d": 54,
       "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
@@ -473,20 +473,20 @@
       "highlighted": false
     },
     {
-      "login": "miiu96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
-      "html_url": "https://github.com/miiu96",
-      "commits_28d": 39,
-      "prs_merged_28d": 4,
+      "login": "sstanculeanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
+      "html_url": "https://github.com/sstanculeanu",
+      "commits_28d": 33,
+      "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
     },
     {
-      "login": "sstanculeanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
-      "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 36,
-      "prs_merged_28d": 5,
+      "login": "miiu96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
+      "html_url": "https://github.com/miiu96",
+      "commits_28d": 27,
+      "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    18,
     0,
     2,
     10,
@@ -677,6 +676,7 @@
     18,
     11,
     17,
-    8
+    8,
+    2
   ]
 }
