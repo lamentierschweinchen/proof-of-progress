@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-14 | Quiet Sunday: zero merges, zero releases, zero pushes across all watchlist repos since June 12; 437 commits / 62 PRs merged in 28d unchanged; Supernova cluster frozen at 8 open PRs; mx-sdk-rs day 12 silence; CVE-2025-64170 day 25. | [digest](digests/2026-06-14.md) |
 | 2026-06-13 | devnet-config D1.11.7.0 closes v1.11.7 network-wide rollout (mainnet→devnet 26h); no watchlist PRs merged; Supernova cluster frozen at 8 open PRs; mx-sdk-rs day 11 silence; CVE-2025-64170 day 24; 437 commits / 62 PRs merged in 28d. | [digest](digests/2026-06-13.md) |
 | 2026-06-12 | mainnet-config #269 merged (v1.11.7 deploy complete); Supernova RC synced via #7874; observing-squad upgraded; mx-sdk-rs v0.67 day 10 silence; CVE-2025-64170 day 23; 453 commits / 63 PRs merged in 28d. | [digest](digests/2026-06-12.md) |
 | 2026-06-11 | mx-chain-go v1.11.7 pre-release dropped (Jun 10, interceptor bootstrap fixes); mainnet-config #269 opened same day — validator upgrade imminent; new #7877 shard proposal validation PR; 470 commits / 61 PRs merged in 28d; v0.67 day 9 slip; CVE-2025-64170 day 22. | [digest](digests/2026-06-11.md) |
