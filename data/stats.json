@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-14T04:05:18Z",
+  "generated_at": "2026-06-15T04:06:16Z",
   "window": {
-    "start": "2026-05-17",
-    "end": "2026-06-14",
+    "start": "2026-05-18",
+    "end": "2026-06-15",
     "days": 28
   },
   "totals": {
     "commits": 437,
     "prs_merged": 62,
-    "prs_opened": 146,
+    "prs_opened": 142,
     "contributors": 11,
     "releases": 15,
     "repos_active": 7
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 194,
       "open_issues": 7,
-      "open_prs": 36,
+      "open_prs": 35,
       "default_branch": "master",
       "commits_28d": 188,
-      "commits_7d": 0,
+      "commits_7d": 2,
       "prs_merged_28d": 34,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-05T15:35:23Z",
-      "last_commit_message": "EsdtLocalRole flag fix, docs, tests",
+      "last_commit_at": "2026-06-14T20:49:44Z",
+      "last_commit_message": "Merge pull request #2399 from multiversx/esdt-role-fix",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        74,
-        59,
-        55,
-        0
+        73,
+        66,
+        47,
+        2
       ]
     },
     {
@@ -49,7 +49,7 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 955,
+      "stars": 954,
       "open_issues": 6,
       "open_prs": 118,
       "default_branch": "master",
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    2,
     10,
     42,
     74,
@@ -677,6 +676,7 @@
     17,
     8,
     2,
-    0
+    0,
+    2
   ]
 }
