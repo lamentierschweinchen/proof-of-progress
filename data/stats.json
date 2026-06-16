@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-15T04:06:16Z",
+  "generated_at": "2026-06-16T04:05:47Z",
   "window": {
-    "start": "2026-05-18",
-    "end": "2026-06-15",
+    "start": "2026-05-19",
+    "end": "2026-06-16",
     "days": 28
   },
   "totals": {
     "commits": 437,
-    "prs_merged": 62,
-    "prs_opened": 142,
+    "prs_merged": 63,
+    "prs_opened": 141,
     "contributors": 11,
     "releases": 15,
     "repos_active": 7
@@ -23,12 +23,12 @@
       "open_issues": 7,
       "open_prs": 35,
       "default_branch": "master",
-      "commits_28d": 188,
-      "commits_7d": 2,
-      "prs_merged_28d": 34,
+      "commits_28d": 191,
+      "commits_7d": 6,
+      "prs_merged_28d": 36,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-14T20:49:44Z",
-      "last_commit_message": "Merge pull request #2399 from multiversx/esdt-role-fix",
+      "last_commit_at": "2026-06-15T21:51:49Z",
+      "last_commit_message": "Merge pull request #2401 from multiversx/abi-merge",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        73,
-        66,
-        47,
-        2
+        80,
+        65,
+        40,
+        6
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 954,
       "open_issues": 6,
-      "open_prs": 118,
+      "open_prs": 119,
       "default_branch": "master",
-      "commits_28d": 171,
-      "commits_7d": 43,
-      "prs_merged_28d": 16,
+      "commits_28d": 168,
+      "commits_7d": 35,
+      "prs_merged_28d": 15,
       "contributors_28d": 7,
-      "last_commit_at": "2026-06-12T12:12:15Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into consensus-time-changes",
+      "last_commit_at": "2026-06-15T15:08:52Z",
+      "last_commit_message": "Merge branch 'optimistic-sig-share-creation' into managed-sigs-context",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        63,
-        41,
-        24,
-        43
+        57,
+        38,
+        38,
+        35
       ]
     },
     {
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        15,
-        33,
+        17,
+        31,
         7,
         5
       ]
@@ -114,7 +114,7 @@
       "open_prs": 6,
       "default_branch": "master",
       "commits_28d": 6,
-      "commits_7d": 6,
+      "commits_7d": 2,
       "prs_merged_28d": 1,
       "contributors_28d": 2,
       "last_commit_at": "2026-06-11T11:58:56Z",
@@ -130,8 +130,8 @@
         0,
         0,
         0,
-        0,
-        6
+        4,
+        2
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 187,
-      "prs_merged_28d": 34,
+      "commits_28d": 190,
+      "prs_merged_28d": 36,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 54,
+      "commits_28d": 52,
       "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 41,
+      "commits_28d": 39,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -477,7 +477,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
       "commits_28d": 33,
-      "prs_merged_28d": 5,
+      "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -485,7 +485,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 27,
+      "commits_28d": 28,
       "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    10,
     42,
     74,
     19,
@@ -677,6 +676,7 @@
     8,
     2,
     0,
-    2
+    2,
+    10
   ]
 }
