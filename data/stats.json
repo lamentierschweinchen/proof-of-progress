@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-16T04:05:47Z",
+  "generated_at": "2026-06-17T04:05:40Z",
   "window": {
-    "start": "2026-05-19",
-    "end": "2026-06-16",
+    "start": "2026-05-20",
+    "end": "2026-06-17",
     "days": 28
   },
   "totals": {
-    "commits": 437,
-    "prs_merged": 63,
-    "prs_opened": 141,
+    "commits": 418,
+    "prs_merged": 61,
+    "prs_opened": 135,
     "contributors": 11,
     "releases": 15,
     "repos_active": 7
@@ -23,9 +23,9 @@
       "open_issues": 7,
       "open_prs": 35,
       "default_branch": "master",
-      "commits_28d": 191,
+      "commits_28d": 185,
       "commits_7d": 6,
-      "prs_merged_28d": 36,
+      "prs_merged_28d": 35,
       "contributors_28d": 2,
       "last_commit_at": "2026-06-15T21:51:49Z",
       "last_commit_message": "Merge pull request #2401 from multiversx/abi-merge",
@@ -39,8 +39,8 @@
         0,
         0,
         80,
-        65,
-        40,
+        77,
+        22,
         6
       ]
     },
@@ -51,14 +51,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 954,
       "open_issues": 6,
-      "open_prs": 119,
+      "open_prs": 118,
       "default_branch": "master",
-      "commits_28d": 168,
-      "commits_7d": 35,
-      "prs_merged_28d": 15,
+      "commits_28d": 163,
+      "commits_7d": 45,
+      "prs_merged_28d": 13,
       "contributors_28d": 7,
-      "last_commit_at": "2026-06-15T15:08:52Z",
-      "last_commit_message": "Merge branch 'optimistic-sig-share-creation' into managed-sigs-context",
+      "last_commit_at": "2026-06-16T15:12:59Z",
+      "last_commit_message": "fixes after review",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        57,
+        37,
         38,
-        38,
-        35
+        43,
+        45
       ]
     },
     {
@@ -83,8 +83,8 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 60,
-      "commits_7d": 5,
+      "commits_28d": 53,
+      "commits_7d": 4,
       "prs_merged_28d": 7,
       "contributors_28d": 1,
       "last_commit_at": "2026-06-10T11:38:27Z",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        17,
+        11,
         31,
         7,
-        5
+        4
       ]
     },
     {
@@ -135,6 +135,66 @@
       ]
     },
     {
+      "name": "mx-chain-simulator-go",
+      "full_name": "multiversx/mx-chain-simulator-go",
+      "url": "https://github.com/multiversx/mx-chain-simulator-go",
+      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
+      "stars": 10,
+      "open_issues": 0,
+      "open_prs": 8,
+      "default_branch": "main",
+      "commits_28d": 5,
+      "commits_7d": 2,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-06-16T07:23:51Z",
+      "last_commit_message": "Merge pull request #220 from multiversx/update-go-mod-16-iun",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "mx-chain-mainnet-config",
+      "full_name": "multiversx/mx-chain-mainnet-config",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
+      "description": "MultiversX blockchain node's mainnet configuration repository",
+      "stars": 25,
+      "open_issues": 1,
+      "open_prs": 10,
+      "default_branch": "master",
+      "commits_28d": 5,
+      "commits_7d": 3,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-06-16T11:28:10Z",
+      "last_commit_message": "Merge branch 'master' of https://github.com/multiversx/mx-chain-mainnet-config i",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3
+      ]
+    },
+    {
       "name": "mx-sdk-js-core",
       "full_name": "multiversx/mx-sdk-js-core",
       "url": "https://github.com/multiversx/mx-sdk-js-core",
@@ -143,7 +203,7 @@
       "open_issues": 6,
       "open_prs": 4,
       "default_branch": "main",
-      "commits_28d": 4,
+      "commits_28d": 1,
       "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
@@ -158,70 +218,10 @@
         0,
         0,
         0,
-        4,
+        1,
         0,
         0,
         0
-      ]
-    },
-    {
-      "name": "mx-chain-simulator-go",
-      "full_name": "multiversx/mx-chain-simulator-go",
-      "url": "https://github.com/multiversx/mx-chain-simulator-go",
-      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
-      "stars": 10,
-      "open_issues": 0,
-      "open_prs": 8,
-      "default_branch": "main",
-      "commits_28d": 4,
-      "commits_7d": 0,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-05-21T12:49:50Z",
-      "last_commit_message": "Merge pull request #219 from multiversx/new-go-mod-13-mai",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "mx-chain-mainnet-config",
-      "full_name": "multiversx/mx-chain-mainnet-config",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
-      "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 25,
-      "open_issues": 1,
-      "open_prs": 10,
-      "default_branch": "master",
-      "commits_28d": 4,
-      "commits_7d": 2,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-06-11T06:44:25Z",
-      "last_commit_message": "Merge pull request #269 from multiversx/release-v1.11.7.0",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        0,
-        2
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 190,
-      "prs_merged_28d": 36,
+      "commits_28d": 184,
+      "prs_merged_28d": 35,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,7 +449,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 60,
+      "commits_28d": 53,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -458,8 +458,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 52,
-      "prs_merged_28d": 7,
+      "commits_28d": 46,
+      "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -467,8 +467,8 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 39,
-      "prs_merged_28d": 0,
+      "commits_28d": 45,
+      "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -476,7 +476,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 33,
+      "commits_28d": 37,
       "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
@@ -485,43 +485,43 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 28,
-      "prs_merged_28d": 4,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "axenteoctavian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
-      "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 13,
-      "prs_merged_28d": 3,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
-      "commits_28d": 9,
+      "commits_28d": 20,
       "prs_merged_28d": 1,
-      "repos_touched": 1,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 8,
-      "prs_merged_28d": 0,
+      "commits_28d": 12,
+      "prs_merged_28d": 1,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "raduchis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
+      "html_url": "https://github.com/raduchis",
+      "commits_28d": 10,
+      "prs_merged_28d": 1,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "axenteoctavian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
+      "html_url": "https://github.com/axenteoctavian",
+      "commits_28d": 9,
+      "prs_merged_28d": 4,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "popenta",
       "avatar_url": "https://avatars.githubusercontent.com/u/73281061?v=4",
       "html_url": "https://github.com/popenta",
-      "commits_28d": 4,
+      "commits_28d": 1,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    42,
     74,
     19,
     11,
@@ -677,6 +676,7 @@
     2,
     0,
     2,
-    10
+    11,
+    22
   ]
 }

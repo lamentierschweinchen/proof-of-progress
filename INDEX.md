@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-17 | mx-chain-mainnet-config v2.0.0.0 PR #259 silently refreshed (Jan 8 open, Jun 16 updated) — Supernova mainnet config staging signal; 2 Supernova PRs merged + #7881 epoch subrounds opened; mx-exchange-sc v3.5.0-rc4 ships; CVE-2025-64170 day 28 cold; 418 commits / 61 PRs in 28d. | [digest](digests/2026-06-17.md) |
 | 2026-06-16 | RC-to-ABI-crate sync (#2401) signals ABI crate ships with v0.67 (not after); codec cleanup #2400 also merged; 437 commits / 63 PRs merged in 28d; Supernova branch integration happening off-PR; CVE-2025-64170 day 27. | [digest](digests/2026-06-16.md) |
 | 2026-06-15 | v0.67 RC revived: EsdtLocalRole flag fix (#2399) merged into rc/v0.67 after 13-day silence; one PR merged in 24h; 437 commits / 62 PRs merged in 28d unchanged; Supernova cluster enters week 3 frozen; CVE-2025-64170 day 26. | [digest](digests/2026-06-15.md) |
 | 2026-06-14 | Quiet Sunday: zero merges, zero releases, zero pushes across all watchlist repos since June 12; 437 commits / 62 PRs merged in 28d unchanged; Supernova cluster frozen at 8 open PRs; mx-sdk-rs day 12 silence; CVE-2025-64170 day 25. | [digest](digests/2026-06-14.md) |
