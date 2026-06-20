@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-20 | 2 Supernova proposal-validation PRs merge in 40 min (#7882, #7877); 2 new PRs open same afternoon (#7885 active epoch-start retry, #7886 prefer proofs); 9-repo dependency cascade signals locked-state resync; "barnard" codename surfaces in legacy VM branches; mx-chain-go 7d velocity hits 106 (new window high); 427 commits / 58 PRs in 28d. | [digest](digests/2026-06-20.md) |
 | 2026-06-19 | mx-sdk-rs v0.66.2 released (stable patch, DebugApi fix) while v0.67 RC waits; 3 mx-chain-go execution-context PRs merged in a coordinated ssd04 burst + companion chain-core-go drop; 7-day velocity hits 89 commits (window high); ffmpeg 8.0 NFT thumbnail fix in mx-api-service; 409 commits / 57 PRs in 28d. | [digest](digests/2026-06-19.md) |
 | 2026-06-18 | "Disable outgoing txs supernova transition" (#7873) + "Update base timestamp" (#7842) merge — Supernova activation plumbing nearly complete; mx-chain-go weekly commits hit 58 (window high); #7882/#7883 block-proposal hardening opens same day; mx-sdk-rs v0.67 late-patch (#2402); 374 commits / 52 PRs in 28d. | [digest](digests/2026-06-18.md) |
 | 2026-06-17 | mx-chain-mainnet-config v2.0.0.0 PR #259 silently refreshed (Jan 8 open, Jun 16 updated) — Supernova mainnet config staging signal; 2 Supernova PRs merged + #7881 epoch subrounds opened; mx-exchange-sc v3.5.0-rc4 ships; CVE-2025-64170 day 28 cold; 418 commits / 61 PRs in 28d. | [digest](digests/2026-06-17.md) |

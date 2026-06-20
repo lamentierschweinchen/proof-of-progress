@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-19T04:04:30Z",
+  "generated_at": "2026-06-20T04:05:04Z",
   "window": {
-    "start": "2026-05-22",
-    "end": "2026-06-19",
+    "start": "2026-05-23",
+    "end": "2026-06-20",
     "days": 28
   },
   "totals": {
-    "commits": 409,
-    "prs_merged": 57,
-    "prs_opened": 135,
+    "commits": 427,
+    "prs_merged": 58,
+    "prs_opened": 137,
     "contributors": 11,
     "releases": 15,
-    "repos_active": 6
+    "repos_active": 7
   },
   "repos": [
     {
@@ -23,12 +23,12 @@
       "open_issues": 6,
       "open_prs": 103,
       "default_branch": "master",
-      "commits_28d": 199,
-      "commits_7d": 89,
-      "prs_merged_28d": 19,
+      "commits_28d": 214,
+      "commits_7d": 106,
+      "prs_merged_28d": 21,
       "contributors_28d": 6,
-      "last_commit_at": "2026-06-18T15:34:56Z",
-      "last_commit_message": "TODO check for overflow?",
+      "last_commit_at": "2026-06-19T14:33:57Z",
+      "last_commit_message": "Merge branch 'feat/testnet-fixes' into subrounds-timing-by-epoch",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        40,
-        19,
-        51,
-        89
+        41,
+        24,
+        43,
+        106
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 195,
       "open_issues": 7,
-      "open_prs": 35,
+      "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 135,
-      "commits_7d": 17,
-      "prs_merged_28d": 27,
+      "commits_28d": 134,
+      "commits_7d": 19,
+      "prs_merged_28d": 26,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-18T12:32:04Z",
-      "last_commit_message": "Bump the cargo group across 1 directory with 1 update",
+      "last_commit_at": "2026-06-19T20:20:52Z",
+      "last_commit_message": "github actions v7.0.0",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        63,
-        45,
-        10,
-        17
+        61,
+        54,
+        0,
+        19
       ]
     },
     {
@@ -84,11 +84,11 @@
       "open_prs": 13,
       "default_branch": "main",
       "commits_28d": 57,
-      "commits_7d": 9,
+      "commits_7d": 12,
       "prs_merged_28d": 7,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-18T11:31:26Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/development' into search-after-support",
+      "last_commit_at": "2026-06-19T09:01:44Z",
+      "last_commit_message": "add round filter and query pagination unit tests",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        23,
-        20,
+        33,
+        7,
         5,
-        9
+        12
       ]
     },
     {
@@ -113,12 +113,12 @@
       "open_issues": 1,
       "open_prs": 7,
       "default_branch": "master",
-      "commits_28d": 11,
-      "commits_7d": 5,
+      "commits_28d": 13,
+      "commits_7d": 7,
       "prs_merged_28d": 1,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-18T11:19:37Z",
-      "last_commit_message": "fix typo",
+      "last_commit_at": "2026-06-19T08:27:56Z",
+      "last_commit_message": "updates",
       "weekly_commits": [
         0,
         0,
@@ -131,7 +131,7 @@
         0,
         0,
         6,
-        5
+        7
       ]
     },
     {
@@ -173,12 +173,12 @@
       "open_issues": 0,
       "open_prs": 8,
       "default_branch": "main",
-      "commits_28d": 2,
-      "commits_7d": 2,
+      "commits_28d": 3,
+      "commits_7d": 3,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
-      "last_commit_at": "2026-06-16T07:23:51Z",
-      "last_commit_message": "Merge pull request #220 from multiversx/update-go-mod-16-iun",
+      "last_commit_at": "2026-06-19T06:44:54Z",
+      "last_commit_message": "feat/testnet-fixes",
       "weekly_commits": [
         0,
         0,
@@ -191,7 +191,7 @@
         0,
         0,
         0,
-        2
+        3
       ]
     },
     {
@@ -203,12 +203,12 @@
       "open_issues": 8,
       "open_prs": 22,
       "default_branch": "master",
-      "commits_28d": 0,
-      "commits_7d": 0,
+      "commits_28d": 1,
+      "commits_7d": 1,
       "prs_merged_28d": 0,
-      "contributors_28d": 0,
-      "last_commit_at": null,
-      "last_commit_message": null,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-06-19T08:34:50Z",
+      "last_commit_message": "updates",
       "weekly_commits": [
         0,
         0,
@@ -221,7 +221,7 @@
         0,
         0,
         0,
-        0
+        1
       ]
     },
     {
@@ -259,7 +259,7 @@
       "full_name": "multiversx/mx-sdk-dapp",
       "url": "https://github.com/multiversx/mx-sdk-dapp",
       "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 83,
+      "stars": 84,
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 134,
-      "prs_merged_28d": 27,
+      "commits_28d": 133,
+      "prs_merged_28d": 26,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -467,17 +467,8 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 46,
+      "commits_28d": 50,
       "prs_merged_28d": 4,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "AdoAdoAdo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
-      "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 43,
-      "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -485,8 +476,17 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 36,
-      "prs_merged_28d": 2,
+      "commits_28d": 47,
+      "prs_merged_28d": 4,
+      "repos_touched": 3,
+      "highlighted": false
+    },
+    {
+      "login": "AdoAdoAdo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
+      "html_url": "https://github.com/AdoAdoAdo",
+      "commits_28d": 46,
+      "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -512,7 +512,7 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 2,
+      "commits_28d": 3,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    10,
     0,
     3,
     13,
@@ -677,6 +676,7 @@
     11,
     22,
     35,
-    51
+    51,
+    28
   ]
 }
