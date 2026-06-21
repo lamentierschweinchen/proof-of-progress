@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-20T04:05:04Z",
+  "generated_at": "2026-06-21T04:04:26Z",
   "window": {
-    "start": "2026-05-23",
-    "end": "2026-06-20",
+    "start": "2026-05-24",
+    "end": "2026-06-21",
     "days": 28
   },
   "totals": {
-    "commits": 427,
+    "commits": 429,
     "prs_merged": 58,
     "prs_opened": 137,
     "contributors": 11,
@@ -53,7 +53,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 134,
+      "commits_28d": 132,
       "commits_7d": 19,
       "prs_merged_28d": 26,
       "contributors_28d": 2,
@@ -68,7 +68,7 @@
         0,
         0,
         0,
-        61,
+        59,
         54,
         0,
         19
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 57,
-      "commits_7d": 12,
+      "commits_28d": 61,
+      "commits_7d": 16,
       "prs_merged_28d": 7,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-19T09:01:44Z",
-      "last_commit_message": "add round filter and query pagination unit tests",
+      "last_commit_at": "2026-06-20T13:30:32Z",
+      "last_commit_message": "revert log editing",
       "weekly_commits": [
         0,
         0,
@@ -101,7 +101,7 @@
         33,
         7,
         5,
-        12
+        16
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 133,
+      "commits_28d": 131,
       "prs_merged_28d": 26,
       "repos_touched": 1,
       "highlighted": false
@@ -458,7 +458,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 55,
+      "commits_28d": 59,
       "prs_merged_28d": 6,
       "repos_touched": 1,
       "highlighted": false
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    3,
+    1,
     13,
     12,
     62,
@@ -677,6 +676,7 @@
     22,
     35,
     51,
-    28
+    28,
+    4
   ]
 }
