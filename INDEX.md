@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-06-22 | Quiet Monday: no merges, no releases; 28d window slides to 428 commits / 57 PRs; mx-chain-go 10-PR queue untouched; mx-sdk-rs #2404 "Docker and actions" surfaces (CI/container prep for v0.67); CVE-2025-64170 day 33; mainnet-config #259 day 6 stalled; sasurobert day 19 silence. | [digest](digests/2026-06-22.md) |
 | 2026-06-21 | Quiet Sunday: no merges, no releases; mx-api-service `log-blocks-elastic-response` branch opened by stefangutica (no PR yet); 10 mx-chain-go PRs still queued; CVE-2025-64170 day 32; mainnet-config PR #259 day 5 stalled; 429 commits / 58 PRs in 28d. | [digest](digests/2026-06-21.md) |
 | 2026-06-20 | 2 Supernova proposal-validation PRs merge in 40 min (#7882, #7877); 2 new PRs open same afternoon (#7885 active epoch-start retry, #7886 prefer proofs); 9-repo dependency cascade signals locked-state resync; "barnard" codename surfaces in legacy VM branches; mx-chain-go 7d velocity hits 106 (new window high); 427 commits / 58 PRs in 28d. | [digest](digests/2026-06-20.md) |
 | 2026-06-19 | mx-sdk-rs v0.66.2 released (stable patch, DebugApi fix) while v0.67 RC waits; 3 mx-chain-go execution-context PRs merged in a coordinated ssd04 burst + companion chain-core-go drop; 7-day velocity hits 89 commits (window high); ffmpeg 8.0 NFT thumbnail fix in mx-api-service; 409 commits / 57 PRs in 28d. | [digest](digests/2026-06-19.md) |

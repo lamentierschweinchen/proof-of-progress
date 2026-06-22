@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-21T04:04:26Z",
+  "generated_at": "2026-06-22T04:04:48Z",
   "window": {
-    "start": "2026-05-24",
-    "end": "2026-06-21",
+    "start": "2026-05-25",
+    "end": "2026-06-22",
     "days": 28
   },
   "totals": {
-    "commits": 429,
-    "prs_merged": 58,
-    "prs_opened": 137,
+    "commits": 428,
+    "prs_merged": 57,
+    "prs_opened": 136,
     "contributors": 11,
     "releases": 15,
     "repos_active": 7
@@ -53,9 +53,9 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 132,
-      "commits_7d": 19,
-      "prs_merged_28d": 26,
+      "commits_28d": 131,
+      "commits_7d": 17,
+      "prs_merged_28d": 25,
       "contributors_28d": 2,
       "last_commit_at": "2026-06-19T20:20:52Z",
       "last_commit_message": "github actions v7.0.0",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        59,
-        54,
-        0,
-        19
+        66,
+        46,
+        2,
+        17
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 131,
-      "prs_merged_28d": 26,
+      "commits_28d": 130,
+      "prs_merged_28d": 25,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    1,
     13,
     12,
     62,
@@ -677,6 +676,7 @@
     35,
     51,
     28,
-    4
+    4,
+    0
   ]
 }
