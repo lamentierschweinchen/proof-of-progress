@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-22T04:04:48Z",
+  "generated_at": "2026-06-23T04:04:25Z",
   "window": {
-    "start": "2026-05-25",
-    "end": "2026-06-22",
+    "start": "2026-05-26",
+    "end": "2026-06-23",
     "days": 28
   },
   "totals": {
-    "commits": 428,
-    "prs_merged": 57,
-    "prs_opened": 136,
+    "commits": 432,
+    "prs_merged": 60,
+    "prs_opened": 129,
     "contributors": 11,
     "releases": 15,
     "repos_active": 7
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 955,
       "open_issues": 6,
-      "open_prs": 103,
+      "open_prs": 100,
       "default_branch": "master",
-      "commits_28d": 214,
-      "commits_7d": 106,
-      "prs_merged_28d": 21,
+      "commits_28d": 221,
+      "commits_7d": 109,
+      "prs_merged_28d": 24,
       "contributors_28d": 6,
-      "last_commit_at": "2026-06-19T14:33:57Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into subrounds-timing-by-epoch",
+      "last_commit_at": "2026-06-22T13:14:34Z",
+      "last_commit_message": "fix linter",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        41,
-        24,
-        43,
-        106
+        38,
+        38,
+        36,
+        109
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 131,
+      "commits_28d": 128,
       "commits_7d": 17,
-      "prs_merged_28d": 25,
+      "prs_merged_28d": 24,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-19T20:20:52Z",
-      "last_commit_message": "github actions v7.0.0",
+      "last_commit_at": "2026-06-23T01:30:53Z",
+      "last_commit_message": "interactor base field refactor",
       "weekly_commits": [
         0,
         0,
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        66,
-        46,
-        2,
+        64,
+        40,
+        7,
         17
       ]
     },
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 61,
+      "commits_28d": 59,
       "commits_7d": 16,
       "prs_merged_28d": 7,
       "contributors_28d": 2,
@@ -98,7 +98,7 @@
         0,
         0,
         0,
-        33,
+        31,
         7,
         5,
         16
@@ -129,9 +129,39 @@
         0,
         0,
         0,
-        0,
-        6,
+        4,
+        2,
         7
+      ]
+    },
+    {
+      "name": "mx-chain-simulator-go",
+      "full_name": "multiversx/mx-chain-simulator-go",
+      "url": "https://github.com/multiversx/mx-chain-simulator-go",
+      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
+      "stars": 11,
+      "open_issues": 0,
+      "open_prs": 8,
+      "default_branch": "main",
+      "commits_28d": 5,
+      "commits_7d": 5,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-06-22T07:16:47Z",
+      "last_commit_message": "Merge pull request #221 from multiversx/update-go-mod-22-iun",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
       ]
     },
     {
@@ -162,36 +192,6 @@
         0,
         2,
         1
-      ]
-    },
-    {
-      "name": "mx-chain-simulator-go",
-      "full_name": "multiversx/mx-chain-simulator-go",
-      "url": "https://github.com/multiversx/mx-chain-simulator-go",
-      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
-      "stars": 11,
-      "open_issues": 0,
-      "open_prs": 8,
-      "default_branch": "main",
-      "commits_28d": 3,
-      "commits_7d": 3,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-06-19T06:44:54Z",
-      "last_commit_message": "feat/testnet-fixes",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 130,
-      "prs_merged_28d": 25,
+      "commits_28d": 127,
+      "prs_merged_28d": 24,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 59,
+      "commits_28d": 57,
       "prs_merged_28d": 6,
       "repos_touched": 1,
       "highlighted": false
@@ -467,18 +467,9 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 50,
+      "commits_28d": 57,
       "prs_merged_28d": 4,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "miiu96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
-      "html_url": "https://github.com/miiu96",
-      "commits_28d": 47,
-      "prs_merged_28d": 4,
-      "repos_touched": 3,
       "highlighted": false
     },
     {
@@ -486,15 +477,24 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
       "commits_28d": 46,
-      "prs_merged_28d": 6,
+      "prs_merged_28d": 7,
       "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "miiu96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
+      "html_url": "https://github.com/miiu96",
+      "commits_28d": 46,
+      "prs_merged_28d": 5,
+      "repos_touched": 3,
       "highlighted": false
     },
     {
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 18,
+      "commits_28d": 19,
       "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
@@ -504,7 +504,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
       "commits_28d": 10,
-      "prs_merged_28d": 1,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -512,8 +512,8 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 3,
-      "prs_merged_28d": 1,
+      "commits_28d": 5,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    13,
     12,
     62,
     28,
@@ -671,12 +670,13 @@
     2,
     0,
     2,
-    11,
+    12,
     22,
     35,
     51,
     28,
     4,
-    0
+    0,
+    13
   ]
 }
