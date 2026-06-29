@@ -99,6 +99,51 @@ def gh_graphql(query, variables):
         return None
 
 
+# -- REST fallback helpers (used when GraphQL proxy is unavailable) -----------
+
+def fetch_repo_meta_rest(repo):
+    """REST-only repo metadata, shaped to match REPO_META_QUERY output."""
+    full = f'{ORG}/{repo}'
+    rm = gh_api_rest(f'/repos/{full}')
+    if rm is None:
+        return None
+    # REST open_issues_count combines issues + open PRs; split via search API.
+    pr_data = gh_api_rest(f'/search/issues?q=repo:{full}+is:pr+is:open&per_page=1')
+    open_prs = (pr_data or {}).get('total_count', 0) if isinstance(pr_data, dict) else 0
+    open_issues_combined = rm.get('open_issues_count', 0)
+    return {
+        'stargazerCount': rm.get('stargazers_count', 0),
+        'description': rm.get('description') or '',
+        'defaultBranchRef': {'name': rm.get('default_branch', 'main')},
+        'issues': {'totalCount': max(0, open_issues_combined - open_prs)},
+        'pullRequests': {'totalCount': open_prs},
+    }
+
+
+def fetch_active_branches_rest(repo, since_iso):
+    """REST-only branch discovery via the repository activity API.
+
+    Uses GET /repos/{full}/activity?activity_type=push which returns push events
+    across all branches without requiring per-branch date checks.  Falls back to
+    the repo's default branch if the activity API returns nothing.
+    """
+    full = f'{ORG}/{repo}'
+    acts = gh_api_paginate(f'/repos/{full}/activity?activity_type=push&per_page=100')
+    active = set()
+    for act in acts:
+        ts = act.get('timestamp', '')
+        if ts < since_iso:
+            continue
+        ref = act.get('ref', '')
+        if ref.startswith('refs/heads/'):
+            active.add(ref[len('refs/heads/'):])
+    if active:
+        return sorted(active)
+    # Ultimate fallback: just the default branch.
+    rm = gh_api_rest(f'/repos/{full}')
+    return [(rm or {}).get('default_branch', 'main')]
+
+
 # -- GraphQL queries ---------------------------------------------------------
 
 # Repo metadata only — called once per repo.
@@ -141,10 +186,12 @@ def fetch_active_branches(repo, since_iso, until_iso=None):
     """
     Return list of branch names whose HEAD committed date falls within the window.
     Paginates through all branches so repos with 700+ branches are fully covered.
+    Falls back to the REST activity API when GraphQL is unavailable.
     until_iso: if set, exclude branches whose HEAD is entirely after the window end.
     """
     active = []
     cursor = None
+    graphql_available = False
     while True:
         variables = {'owner': ORG, 'name': repo}
         if cursor:
@@ -152,6 +199,7 @@ def fetch_active_branches(repo, since_iso, until_iso=None):
         data = gh_graphql(REFS_PAGE_QUERY, variables)
         if data is None:
             break
+        graphql_available = True
         refs = data.get('refs') or {}
         for node in refs.get('nodes', []):
             committed = (node.get('target') or {}).get('committedDate', '')
@@ -166,6 +214,11 @@ def fetch_active_branches(repo, since_iso, until_iso=None):
         cursor = page_info.get('endCursor')
         if not cursor:
             break
+
+    if not graphql_available:
+        log(f'    GraphQL unavailable — using REST activity API for branch discovery')
+        return fetch_active_branches_rest(repo, since_iso)
+
     return active
 
 
@@ -210,10 +263,13 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt, until_dt=None):
     until_iso = until_dt.strftime('%Y-%m-%dT%H:%M:%SZ') if until_dt else None
     full = f'{ORG}/{repo}'
 
-    # ---- Step 1: repo metadata (single GraphQL call) ----
+    # ---- Step 1: repo metadata (GraphQL with REST fallback) ----
     meta = gh_graphql(REPO_META_QUERY, {'owner': ORG, 'name': repo})
     if meta is None:
-        return None
+        log(f'    GraphQL unavailable — using REST metadata fallback')
+        meta = fetch_repo_meta_rest(repo)
+        if meta is None:
+            return None
 
     # ---- Step 2: collect all active branches (paginated GraphQL) ----
     active_branches = fetch_active_branches(repo, since_iso, until_iso)
@@ -289,19 +345,28 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt, until_dt=None):
     weekly_commits = weekly_buckets
 
     # ---- REST: PRs and releases ----
+    # gh pr list uses GraphQL; use the REST search API instead.
     if until_iso:
         pr_date_filter = f'merged:{since_iso[:10]}..{until_iso[:10]}'
     else:
         pr_date_filter = f'merged:>={since_iso[:10]}'
-    merged_prs_result = subprocess.run([
-        'gh', 'pr', 'list', '--repo', full, '--state', 'merged',
-        '--search', pr_date_filter,
-        '--json', 'number,author,mergedAt', '--limit', '200',
-    ], capture_output=True, text=True)
-    try:
-        merged_prs = json.loads(merged_prs_result.stdout) if merged_prs_result.returncode == 0 else []
-    except json.JSONDecodeError:
+    search_resp = gh_api_rest(
+        f'/search/issues?q=repo:{full}+is:pr+is:merged+{pr_date_filter}&per_page=100&sort=updated'
+    )
+    if isinstance(search_resp, dict) and 'items' in search_resp:
+        merged_prs = [
+            {
+                'number': item.get('number'),
+                'mergedAt': (item.get('pull_request') or {}).get('merged_at', ''),
+                'author': {'login': (item.get('user') or {}).get('login')},
+            }
+            for item in search_resp.get('items', [])
+        ]
+        # Use total_count for accuracy (covers > 100 PRs per repo if ever needed).
+        prs_merged_count = search_resp.get('total_count', len(merged_prs))
+    else:
         merged_prs = []
+        prs_merged_count = 0
 
     releases = gh_api_rest(f'/repos/{full}/releases?per_page=5') or []
 
@@ -316,7 +381,7 @@ def fetch_repo(repo, since_dt, seven_days_ago_dt, until_dt=None):
         'default_branch': (meta.get('defaultBranchRef') or {}).get('name', 'main'),
         'commits_28d': commits_28d,
         'commits_7d': commits_7d,
-        'prs_merged_28d': len(merged_prs),
+        'prs_merged_28d': prs_merged_count,
         'contributors_28d': len(contributors),
         'last_commit_at': last_commit_at,
         'last_commit_message': last_commit_msg,
