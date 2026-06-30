@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-29T08:53:47Z",
+  "generated_at": "2026-06-30T04:04:48Z",
   "window": {
-    "start": "2026-06-01",
-    "end": "2026-06-29",
+    "start": "2026-06-02",
+    "end": "2026-06-30",
     "days": 28
   },
   "totals": {
-    "commits": 391,
-    "prs_merged": 62,
-    "prs_opened": 107,
+    "commits": 401,
+    "prs_merged": 61,
+    "prs_opened": 103,
     "contributors": 10,
     "releases": 15,
     "repos_active": 6
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 955,
       "open_issues": 6,
-      "open_prs": 96,
+      "open_prs": 92,
       "default_branch": "master",
-      "commits_28d": 233,
-      "commits_7d": 50,
-      "prs_merged_28d": 31,
+      "commits_28d": 245,
+      "commits_7d": 52,
+      "prs_merged_28d": 32,
       "contributors_28d": 7,
-      "last_commit_at": "2026-06-29T08:46:36Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into subrounds-timing-by-epoch",
+      "last_commit_at": "2026-06-29T15:34:05Z",
+      "last_commit_message": "fix tests after merge",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        29,
-        43,
+        40,
+        42,
         111,
-        50
+        52
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 113,
+      "commits_28d": 111,
       "commits_7d": 52,
-      "prs_merged_28d": 21,
+      "prs_merged_28d": 19,
       "contributors_28d": 1,
-      "last_commit_at": "2026-06-28T17:38:13Z",
-      "last_commit_message": "Merge pull request #2394 from multiversx/interactor-config",
+      "last_commit_at": "2026-06-29T22:51:22Z",
+      "last_commit_message": "cs-test-runner fix",
       "weekly_commits": [
         0,
         0,
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        46,
-        2,
-        13,
+        40,
+        5,
+        14,
         52
       ]
     },
@@ -128,8 +128,8 @@
         0,
         0,
         0,
-        3,
-        3,
+        4,
+        2,
         7,
         0
       ]
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 113,
-      "prs_merged_28d": 21,
+      "commits_28d": 111,
+      "prs_merged_28d": 19,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,7 +449,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 63,
+      "commits_28d": 70,
       "prs_merged_28d": 8,
       "repos_touched": 2,
       "highlighted": false
@@ -503,8 +503,8 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 9,
-      "prs_merged_28d": 1,
+      "commits_28d": 14,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    6,
     21,
     14,
     17,
@@ -677,6 +676,7 @@
     12,
     14,
     13,
-    5
+    7,
+    22
   ]
 }
