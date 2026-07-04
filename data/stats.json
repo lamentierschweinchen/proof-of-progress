@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-03T12:06:17Z",
+  "generated_at": "2026-07-04T15:48:21Z",
   "window": {
-    "start": "2026-06-05",
-    "end": "2026-07-03",
+    "start": "2026-06-06",
+    "end": "2026-07-04",
     "days": 28
   },
   "totals": {
-    "commits": 431,
-    "prs_merged": 58,
-    "prs_opened": 114,
+    "commits": 437,
+    "prs_merged": 59,
+    "prs_opened": 113,
     "contributors": 13,
     "releases": 15,
     "repos_active": 9
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 955,
       "open_issues": 6,
-      "open_prs": 93,
+      "open_prs": 95,
       "default_branch": "master",
-      "commits_28d": 266,
-      "commits_7d": 65,
-      "prs_merged_28d": 34,
+      "commits_28d": 275,
+      "commits_7d": 75,
+      "prs_merged_28d": 36,
       "contributors_28d": 7,
-      "last_commit_at": "2026-07-03T10:23:42Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into cross-shard-execution-analysis",
+      "last_commit_at": "2026-07-03T14:56:22Z",
+      "last_commit_message": "Merge branch 'feat/testnet-fixes' into fix-recover-on-sync-error",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        51,
-        108,
+        46,
+        112,
         42,
-        65
+        75
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 195,
       "open_issues": 7,
-      "open_prs": 36,
+      "open_prs": 35,
       "default_branch": "master",
-      "commits_28d": 87,
-      "commits_7d": 29,
-      "prs_merged_28d": 14,
+      "commits_28d": 84,
+      "commits_7d": 17,
+      "prs_merged_28d": 13,
       "contributors_28d": 2,
-      "last_commit_at": "2026-06-30T15:20:14Z",
-      "last_commit_message": "QueueMapper leak test, VM account access refactor",
+      "last_commit_at": "2026-07-04T00:18:30Z",
+      "last_commit_message": "Merge pull request #2411 from multiversx/queue-mapper-test",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        4,
-        18,
-        36,
-        29
+        0,
+        20,
+        47,
+        17
       ]
     },
     {
@@ -99,8 +99,8 @@
         0,
         0,
         5,
-        12,
-        6,
+        16,
+        2,
         11
       ]
     },
@@ -174,7 +174,7 @@
       "open_prs": 1,
       "default_branch": "main",
       "commits_28d": 10,
-      "commits_7d": 10,
+      "commits_7d": 6,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-07-02T15:11:16Z",
@@ -190,8 +190,8 @@
         0,
         0,
         0,
-        0,
-        10
+        4,
+        6
       ]
     },
     {
@@ -437,28 +437,28 @@
   ],
   "top_contributors": [
     {
-      "login": "andrei-marinica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
-      "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 86,
-      "prs_merged_28d": 14,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 83,
-      "prs_merged_28d": 8,
+      "commits_28d": 94,
+      "prs_merged_28d": 10,
       "repos_touched": 3,
+      "highlighted": false
+    },
+    {
+      "login": "andrei-marinica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
+      "html_url": "https://github.com/andrei-marinica",
+      "commits_28d": 83,
+      "prs_merged_28d": 13,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 65,
+      "commits_28d": 66,
       "prs_merged_28d": 12,
       "repos_touched": 1,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 57,
+      "commits_28d": 59,
       "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
@@ -476,7 +476,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 46,
+      "commits_28d": 44,
       "prs_merged_28d": 4,
       "repos_touched": 3,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 12,
+      "commits_28d": 9,
       "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
@@ -659,7 +659,6 @@
     }
   ],
   "daily_commits": [
-    10,
     0,
     0,
     18,
@@ -686,6 +685,7 @@
     22,
     18,
     8,
-    29
+    30,
+    33
   ]
 }
