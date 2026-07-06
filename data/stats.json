@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-04T15:48:21Z",
+  "generated_at": "2026-07-06T09:07:36Z",
   "window": {
-    "start": "2026-06-06",
-    "end": "2026-07-04",
+    "start": "2026-06-08",
+    "end": "2026-07-06",
     "days": 28
   },
   "totals": {
-    "commits": 437,
+    "commits": 431,
     "prs_merged": 59,
-    "prs_opened": 113,
+    "prs_opened": 116,
     "contributors": 13,
     "releases": 15,
     "repos_active": 9
@@ -23,8 +23,8 @@
       "open_issues": 6,
       "open_prs": 95,
       "default_branch": "master",
-      "commits_28d": 275,
-      "commits_7d": 75,
+      "commits_28d": 272,
+      "commits_7d": 67,
       "prs_merged_28d": 36,
       "contributors_28d": 7,
       "last_commit_at": "2026-07-03T14:56:22Z",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        46,
-        112,
-        42,
-        75
+        44,
+        111,
+        50,
+        67
       ]
     },
     {
@@ -54,7 +54,7 @@
       "open_prs": 35,
       "default_branch": "master",
       "commits_28d": 84,
-      "commits_7d": 17,
+      "commits_7d": 10,
       "prs_merged_28d": 13,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-04T00:18:30Z",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        0,
-        20,
-        47,
-        17
+        2,
+        18,
+        54,
+        10
       ]
     },
     {
@@ -105,36 +105,6 @@
       ]
     },
     {
-      "name": "mx-chain-es-indexer-go",
-      "full_name": "multiversx/mx-chain-es-indexer-go",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
-      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
-      "stars": 12,
-      "open_issues": 1,
-      "open_prs": 7,
-      "default_branch": "master",
-      "commits_28d": 13,
-      "commits_7d": 0,
-      "prs_merged_28d": 1,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-06-19T08:27:56Z",
-      "last_commit_message": "updates",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        6,
-        7,
-        0,
-        0
-      ]
-    },
-    {
       "name": "mx-chain-simulator-go",
       "full_name": "multiversx/mx-chain-simulator-go",
       "url": "https://github.com/multiversx/mx-chain-simulator-go",
@@ -159,8 +129,8 @@
         0,
         0,
         0,
-        3,
-        2,
+        5,
+        0,
         6
       ]
     },
@@ -192,6 +162,36 @@
         0,
         4,
         6
+      ]
+    },
+    {
+      "name": "mx-chain-es-indexer-go",
+      "full_name": "multiversx/mx-chain-es-indexer-go",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
+      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
+      "stars": 12,
+      "open_issues": 1,
+      "open_prs": 7,
+      "default_branch": "master",
+      "commits_28d": 10,
+      "commits_7d": 0,
+      "prs_merged_28d": 1,
+      "contributors_28d": 2,
+      "last_commit_at": "2026-06-19T08:27:56Z",
+      "last_commit_message": "updates",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        7,
+        0,
+        0
       ]
     },
     {
@@ -229,7 +229,7 @@
       "full_name": "multiversx/mx-template-dapp",
       "url": "https://github.com/multiversx/mx-template-dapp",
       "description": "",
-      "stars": 222,
+      "stars": 223,
       "open_issues": 5,
       "open_prs": 1,
       "default_branch": "main",
@@ -467,7 +467,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 59,
+      "commits_28d": 54,
       "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
@@ -509,20 +509,20 @@
       "highlighted": false
     },
     {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
-      "commits_28d": 9,
-      "prs_merged_28d": 2,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 8,
       "prs_merged_28d": 3,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "raduchis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
+      "html_url": "https://github.com/raduchis",
+      "commits_28d": 8,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -659,9 +659,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    0,
-    18,
+    12,
     11,
     18,
     10,
@@ -686,6 +684,8 @@
     18,
     8,
     30,
-    33
+    33,
+    1,
+    0
   ]
 }
