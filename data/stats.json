@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-10T12:39:31Z",
+  "generated_at": "2026-07-13T04:04:12Z",
   "window": {
-    "start": "2026-06-12",
-    "end": "2026-07-10",
+    "start": "2026-06-15",
+    "end": "2026-07-13",
     "days": 28
   },
   "totals": {
-    "commits": 485,
-    "prs_merged": 73,
-    "prs_opened": 113,
+    "commits": 487,
+    "prs_merged": 72,
+    "prs_opened": 112,
     "contributors": 13,
     "releases": 15,
     "repos_active": 9
@@ -24,7 +24,7 @@
       "open_prs": 90,
       "default_branch": "master",
       "commits_28d": 305,
-      "commits_7d": 85,
+      "commits_7d": 69,
       "prs_merged_28d": 45,
       "contributors_28d": 7,
       "last_commit_at": "2026-07-10T11:28:06Z",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        108,
-        41,
-        71,
-        85
+        112,
+        42,
+        82,
+        69
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 195,
       "open_issues": 7,
-      "open_prs": 35,
+      "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 84,
-      "commits_7d": 1,
-      "prs_merged_28d": 13,
+      "commits_28d": 86,
+      "commits_7d": 4,
+      "prs_merged_28d": 12,
       "contributors_28d": 2,
-      "last_commit_at": "2026-07-04T00:18:30Z",
-      "last_commit_message": "Merge pull request #2411 from multiversx/queue-mapper-test",
+      "last_commit_at": "2026-07-12T04:42:56Z",
+      "last_commit_message": "new templates: greeter, storage-examples",
       "weekly_commits": [
         0,
         0,
@@ -69,9 +69,9 @@
         0,
         0,
         18,
-        36,
-        29,
-        1
+        54,
+        10,
+        4
       ]
     },
     {
@@ -79,7 +79,7 @@
       "full_name": "multiversx/mx-api-service",
       "url": "https://github.com/multiversx/mx-api-service",
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
-      "stars": 35,
+      "stars": 36,
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        12,
-        6,
+        16,
+        2,
         11,
         15
       ]
@@ -139,7 +139,7 @@
       "full_name": "multiversx/mx-chain-simulator-go",
       "url": "https://github.com/multiversx/mx-chain-simulator-go",
       "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
-      "stars": 11,
+      "stars": 12,
       "open_issues": 0,
       "open_prs": 8,
       "default_branch": "main",
@@ -229,7 +229,7 @@
       "full_name": "multiversx/mx-chain-mainnet-config",
       "url": "https://github.com/multiversx/mx-chain-mainnet-config",
       "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 25,
+      "stars": 26,
       "open_issues": 1,
       "open_prs": 10,
       "default_branch": "master",
@@ -259,7 +259,7 @@
       "full_name": "multiversx/mx-template-dapp",
       "url": "https://github.com/multiversx/mx-template-dapp",
       "description": "",
-      "stars": 223,
+      "stars": 221,
       "open_issues": 5,
       "open_prs": 1,
       "default_branch": "main",
@@ -319,7 +319,7 @@
       "full_name": "multiversx/mx-chain-proxy-go",
       "url": "https://github.com/multiversx/mx-chain-proxy-go",
       "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
-      "stars": 58,
+      "stars": 59,
       "open_issues": 2,
       "open_prs": 7,
       "default_branch": "master",
@@ -349,7 +349,7 @@
       "full_name": "multiversx/mx-specs",
       "url": "https://github.com/multiversx/mx-specs",
       "description": "MultiversX specs documentation.",
-      "stars": 39,
+      "stars": 40,
       "open_issues": 0,
       "open_prs": 1,
       "default_branch": "main",
@@ -379,7 +379,7 @@
       "full_name": "multiversx/mx-bridge-eth-go",
       "url": "https://github.com/multiversx/mx-bridge-eth-go",
       "description": "The MultiversX bridge to Ethereum-based chains relayer implementation ",
-      "stars": 14,
+      "stars": 15,
       "open_issues": 4,
       "open_prs": 12,
       "default_branch": "main",
@@ -409,7 +409,7 @@
       "full_name": "multiversx/mx-chain-tools-go",
       "url": "https://github.com/multiversx/mx-chain-tools-go",
       "description": "MultiversX blockchain tools written in GO ",
-      "stars": 1,
+      "stars": 2,
       "open_issues": 0,
       "open_prs": 10,
       "default_branch": "main",
@@ -449,8 +449,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 85,
-      "prs_merged_28d": 13,
+      "commits_28d": 87,
+      "prs_merged_28d": 12,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -659,9 +659,6 @@
     }
   ],
   "daily_commits": [
-    0,
-    0,
-    2,
     16,
     22,
     35,
@@ -686,6 +683,9 @@
     5,
     26,
     26,
-    25
+    25,
+    17,
+    0,
+    4
   ]
 }
