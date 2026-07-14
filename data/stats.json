@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-13T04:04:12Z",
+  "generated_at": "2026-07-14T04:03:52Z",
   "window": {
-    "start": "2026-06-15",
-    "end": "2026-07-13",
+    "start": "2026-06-16",
+    "end": "2026-07-14",
     "days": 28
   },
   "totals": {
-    "commits": 487,
-    "prs_merged": 72,
-    "prs_opened": 112,
+    "commits": 500,
+    "prs_merged": 74,
+    "prs_opened": 123,
     "contributors": 13,
     "releases": 15,
     "repos_active": 9
@@ -19,16 +19,16 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 955,
+      "stars": 954,
       "open_issues": 6,
-      "open_prs": 90,
+      "open_prs": 92,
       "default_branch": "master",
-      "commits_28d": 305,
-      "commits_7d": 69,
-      "prs_merged_28d": 45,
+      "commits_28d": 307,
+      "commits_7d": 82,
+      "prs_merged_28d": 46,
       "contributors_28d": 7,
-      "last_commit_at": "2026-07-10T11:28:06Z",
-      "last_commit_message": "fixes after merge",
+      "last_commit_at": "2026-07-13T15:03:27Z",
+      "last_commit_message": "Merge pull request #7913 from multiversx/consensus-improvements-1",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        112,
-        42,
-        82,
-        69
+        111,
+        54,
+        60,
+        82
       ]
     },
     {
@@ -53,9 +53,9 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 86,
+      "commits_28d": 81,
       "commits_7d": 4,
-      "prs_merged_28d": 12,
+      "prs_merged_28d": 10,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-12T04:42:56Z",
       "last_commit_message": "new templates: greeter, storage-examples",
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        18,
-        54,
-        10,
+        17,
+        52,
+        8,
         4
       ]
     },
@@ -84,7 +84,7 @@
       "open_prs": 13,
       "default_branch": "main",
       "commits_28d": 44,
-      "commits_7d": 15,
+      "commits_7d": 10,
       "prs_merged_28d": 5,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-09T07:16:38Z",
@@ -100,8 +100,38 @@
         0,
         16,
         2,
-        11,
-        15
+        16,
+        10
+      ]
+    },
+    {
+      "name": "mx-sdk-dapp",
+      "full_name": "multiversx/mx-sdk-dapp",
+      "url": "https://github.com/multiversx/mx-sdk-dapp",
+      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
+      "stars": 84,
+      "open_issues": 0,
+      "open_prs": 1,
+      "default_branch": "main",
+      "commits_28d": 23,
+      "commits_7d": 13,
+      "prs_merged_28d": 4,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-07-13T18:36:14Z",
+      "last_commit_message": "yalc pure",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        6,
+        13
       ]
     },
     {
@@ -113,12 +143,12 @@
       "open_issues": 8,
       "open_prs": 23,
       "default_branch": "master",
-      "commits_28d": 13,
-      "commits_7d": 11,
+      "commits_28d": 15,
+      "commits_7d": 13,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
-      "last_commit_at": "2026-07-10T11:16:46Z",
-      "last_commit_message": "Merge branch 'rc/supernova' into update-go-version-and-actions",
+      "last_commit_at": "2026-07-13T10:46:24Z",
+      "last_commit_message": "updates crypto",
       "weekly_commits": [
         0,
         0,
@@ -131,7 +161,7 @@
         1,
         0,
         1,
-        11
+        13
       ]
     },
     {
@@ -158,40 +188,10 @@
         0,
         0,
         0,
-        3,
-        2,
+        5,
+        0,
         6,
         2
-      ]
-    },
-    {
-      "name": "mx-sdk-dapp",
-      "full_name": "multiversx/mx-sdk-dapp",
-      "url": "https://github.com/multiversx/mx-sdk-dapp",
-      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 84,
-      "open_issues": 0,
-      "open_prs": 1,
-      "default_branch": "main",
-      "commits_28d": 10,
-      "commits_7d": 0,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-07-02T15:11:16Z",
-      "last_commit_message": "Merge pull request #1732 from multiversx/rm/update-build",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4,
-        6,
-        0
       ]
     },
     {
@@ -203,11 +203,11 @@
       "open_issues": 1,
       "open_prs": 7,
       "default_branch": "master",
-      "commits_28d": 7,
-      "commits_7d": 0,
+      "commits_28d": 8,
+      "commits_7d": 1,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
-      "last_commit_at": "2026-06-19T08:27:56Z",
+      "last_commit_at": "2026-07-13T10:41:28Z",
       "last_commit_message": "updates",
       "weekly_commits": [
         0,
@@ -221,7 +221,7 @@
         7,
         0,
         0,
-        0
+        1
       ]
     },
     {
@@ -261,7 +261,7 @@
       "description": "",
       "stars": 221,
       "open_issues": 5,
-      "open_prs": 1,
+      "open_prs": 2,
       "default_branch": "main",
       "commits_28d": 4,
       "commits_7d": 0,
@@ -449,8 +449,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 87,
-      "prs_merged_28d": 12,
+      "commits_28d": 82,
+      "prs_merged_28d": 10,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 65,
+      "commits_28d": 67,
       "prs_merged_28d": 9,
       "repos_touched": 3,
       "highlighted": false
@@ -467,8 +467,8 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 62,
-      "prs_merged_28d": 13,
+      "commits_28d": 60,
+      "prs_merged_28d": 14,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -476,7 +476,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 52,
+      "commits_28d": 57,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -503,8 +503,8 @@
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 14,
-      "prs_merged_28d": 2,
+      "commits_28d": 27,
+      "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -537,6 +537,14 @@
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-sdk-dapp",
+      "tag": "v5.7.0",
+      "name": "v5.7.0",
+      "published_at": "2026-07-13T06:55:14Z",
+      "url": "https://github.com/multiversx/mx-sdk-dapp/releases/tag/v5.7.0",
+      "is_prerelease": false
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v1.11.9.0",
@@ -648,18 +656,9 @@
       "published_at": "2026-05-21T01:17:52Z",
       "url": "https://github.com/multiversx/mx-sdk-rs/releases/tag/v0.66.0",
       "is_prerelease": false
-    },
-    {
-      "repo": "mx-sdk-js-core",
-      "tag": "v15.4.1",
-      "name": "v15.4.1",
-      "published_at": "2026-05-20T07:42:12Z",
-      "url": "https://github.com/multiversx/mx-sdk-js-core/releases/tag/v15.4.1",
-      "is_prerelease": false
     }
   ],
   "daily_commits": [
-    16,
     22,
     35,
     53,
@@ -686,6 +685,7 @@
     25,
     17,
     0,
-    4
+    4,
+    29
   ]
 }
