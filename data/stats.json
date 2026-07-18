@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T04:04:03Z",
+  "generated_at": "2026-07-18T04:04:21Z",
   "window": {
-    "start": "2026-06-19",
-    "end": "2026-07-17",
+    "start": "2026-06-20",
+    "end": "2026-07-18",
     "days": 28
   },
   "totals": {
-    "commits": 451,
-    "prs_merged": 74,
-    "prs_opened": 145,
-    "contributors": 12,
+    "commits": 432,
+    "prs_merged": 73,
+    "prs_opened": 143,
+    "contributors": 13,
     "releases": 15,
-    "repos_active": 10
+    "repos_active": 11
   },
   "repos": [
     {
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 954,
       "open_issues": 6,
-      "open_prs": 97,
+      "open_prs": 98,
       "default_branch": "master",
-      "commits_28d": 259,
-      "commits_7d": 59,
-      "prs_merged_28d": 39,
+      "commits_28d": 245,
+      "commits_7d": 52,
+      "prs_merged_28d": 37,
       "contributors_28d": 7,
-      "last_commit_at": "2026-07-16T13:52:33Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into reorder-get-and-apply-proof",
+      "last_commit_at": "2026-07-17T16:24:20Z",
+      "last_commit_message": "add supernova convergence and reconciliation tests for block finality",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        55,
-        59,
-        86,
-        59
+        42,
+        82,
+        69,
+        52
       ]
     },
     {
@@ -53,7 +53,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 81,
+      "commits_28d": 79,
       "commits_7d": 15,
       "prs_merged_28d": 10,
       "contributors_28d": 1,
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        32,
-        33,
-        1,
+        47,
+        17,
+        0,
         15
       ]
     },
@@ -84,11 +84,11 @@
       "open_prs": 13,
       "default_branch": "main",
       "commits_28d": 38,
-      "commits_7d": 3,
-      "prs_merged_28d": 5,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-07-16T08:07:06Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/development' into search-after-support",
+      "commits_7d": 6,
+      "prs_merged_28d": 6,
+      "contributors_28d": 2,
+      "last_commit_at": "2026-07-17T15:07:52Z",
+      "last_commit_message": "Merge pull request #1616 from multiversx/disable-routes",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        8,
+        6,
         11,
-        16,
-        3
+        15,
+        6
       ]
     },
     {
@@ -128,8 +128,8 @@
         0,
         0,
         0,
-        0,
-        10,
+        4,
+        6,
         0,
         14
       ]
@@ -143,8 +143,8 @@
       "open_issues": 8,
       "open_prs": 22,
       "default_branch": "master",
-      "commits_28d": 16,
-      "commits_7d": 6,
+      "commits_28d": 15,
+      "commits_7d": 3,
       "prs_merged_28d": 3,
       "contributors_28d": 4,
       "last_commit_at": "2026-07-14T09:15:20Z",
@@ -158,10 +158,10 @@
         0,
         0,
         0,
+        0,
         1,
-        1,
-        8,
-        6
+        11,
+        3
       ]
     },
     {
@@ -189,8 +189,8 @@
         0,
         0,
         0,
-        1,
-        3,
+        4,
+        0,
         9
       ]
     },
@@ -203,8 +203,8 @@
       "open_issues": 0,
       "open_prs": 8,
       "default_branch": "main",
-      "commits_28d": 11,
-      "commits_7d": 2,
+      "commits_28d": 10,
+      "commits_7d": 0,
       "prs_merged_28d": 3,
       "contributors_28d": 3,
       "last_commit_at": "2026-07-10T11:50:23Z",
@@ -218,40 +218,10 @@
         0,
         0,
         0,
-        3,
         2,
-        4,
-        2
-      ]
-    },
-    {
-      "name": "mx-chain-es-indexer-go",
-      "full_name": "multiversx/mx-chain-es-indexer-go",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
-      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
-      "stars": 12,
-      "open_issues": 1,
-      "open_prs": 6,
-      "default_branch": "master",
-      "commits_28d": 4,
-      "commits_7d": 2,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-07-14T09:14:25Z",
-      "last_commit_message": "Merge pull request #380 from multiversx/update-docker-image",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        6,
         2,
-        0,
-        0,
-        2
+        0
       ]
     },
     {
@@ -285,6 +255,66 @@
       ]
     },
     {
+      "name": "mx-chain-es-indexer-go",
+      "full_name": "multiversx/mx-chain-es-indexer-go",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
+      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
+      "stars": 12,
+      "open_issues": 1,
+      "open_prs": 6,
+      "default_branch": "master",
+      "commits_28d": 2,
+      "commits_7d": 2,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-07-14T09:14:25Z",
+      "last_commit_message": "Merge pull request #380 from multiversx/update-docker-image",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "name": "mx-sdk-js-core",
+      "full_name": "multiversx/mx-sdk-js-core",
+      "url": "https://github.com/multiversx/mx-sdk-js-core",
+      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
+      "stars": 73,
+      "open_issues": 6,
+      "open_prs": 5,
+      "default_branch": "main",
+      "commits_28d": 1,
+      "commits_7d": 1,
+      "prs_merged_28d": 0,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-07-17T12:24:24Z",
+      "last_commit_message": "fixes",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
       "name": "mx-chain-proxy-go",
       "full_name": "multiversx/mx-chain-proxy-go",
       "url": "https://github.com/multiversx/mx-chain-proxy-go",
@@ -312,36 +342,6 @@
         0,
         0,
         1
-      ]
-    },
-    {
-      "name": "mx-sdk-js-core",
-      "full_name": "multiversx/mx-sdk-js-core",
-      "url": "https://github.com/multiversx/mx-sdk-js-core",
-      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
-      "stars": 73,
-      "open_issues": 6,
-      "open_prs": 4,
-      "default_branch": "main",
-      "commits_28d": 0,
-      "commits_7d": 0,
-      "prs_merged_28d": 0,
-      "contributors_28d": 0,
-      "last_commit_at": null,
-      "last_commit_message": null,
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 94,
+      "commits_28d": 86,
       "prs_merged_28d": 13,
       "repos_touched": 3,
       "highlighted": false
@@ -449,7 +449,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 83,
+      "commits_28d": 81,
       "prs_merged_28d": 10,
       "repos_touched": 2,
       "highlighted": false
@@ -467,18 +467,9 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 55,
-      "prs_merged_28d": 12,
+      "commits_28d": 45,
+      "prs_merged_28d": 10,
       "repos_touched": 4,
-      "highlighted": false
-    },
-    {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 38,
-      "prs_merged_28d": 5,
-      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -494,8 +485,17 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 35,
+      "commits_28d": 36,
       "prs_merged_28d": 7,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 35,
+      "prs_merged_28d": 5,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -512,7 +512,7 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 8,
+      "commits_28d": 7,
       "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
@@ -659,7 +659,6 @@
     }
   ],
   "daily_commits": [
-    28,
     4,
     0,
     13,
@@ -686,6 +685,7 @@
     29,
     27,
     14,
-    20
+    20,
+    9
   ]
 }
