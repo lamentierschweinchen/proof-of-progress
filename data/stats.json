@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-18T04:04:21Z",
+  "generated_at": "2026-07-19T04:04:20Z",
   "window": {
-    "start": "2026-06-20",
-    "end": "2026-07-18",
+    "start": "2026-06-21",
+    "end": "2026-07-19",
     "days": 28
   },
   "totals": {
-    "commits": 432,
+    "commits": 428,
     "prs_merged": 73,
     "prs_opened": 143,
     "contributors": 13,
@@ -54,7 +54,7 @@
       "open_prs": 36,
       "default_branch": "master",
       "commits_28d": 79,
-      "commits_7d": 15,
+      "commits_7d": 13,
       "prs_merged_28d": 10,
       "contributors_28d": 1,
       "last_commit_at": "2026-07-16T14:31:23Z",
@@ -70,8 +70,8 @@
         0,
         47,
         17,
-        0,
-        15
+        2,
+        13
       ]
     },
     {
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 38,
+      "commits_28d": 34,
       "commits_7d": 6,
       "prs_merged_28d": 6,
       "contributors_28d": 2,
@@ -98,7 +98,7 @@
         0,
         0,
         0,
-        6,
+        2,
         11,
         15,
         6
@@ -494,7 +494,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 35,
+      "commits_28d": 31,
       "prs_merged_28d": 5,
       "repos_touched": 1,
       "highlighted": false
@@ -659,7 +659,6 @@
     }
   ],
   "daily_commits": [
-    4,
     0,
     13,
     24,
@@ -686,6 +685,7 @@
     27,
     14,
     20,
-    9
+    9,
+    0
   ]
 }
