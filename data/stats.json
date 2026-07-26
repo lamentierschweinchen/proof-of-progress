@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-25T10:04:41Z",
+  "generated_at": "2026-07-26T10:04:22Z",
   "window": {
-    "start": "2026-06-27",
-    "end": "2026-07-25",
+    "start": "2026-06-28",
+    "end": "2026-07-26",
     "days": 28
   },
   "totals": {
     "commits": 422,
-    "prs_merged": 82,
-    "prs_opened": 160,
+    "prs_merged": 81,
+    "prs_opened": 159,
     "contributors": 13,
     "releases": 15,
     "repos_active": 11
@@ -85,7 +85,7 @@
       "default_branch": "master",
       "commits_28d": 38,
       "commits_7d": 6,
-      "prs_merged_28d": 8,
+      "prs_merged_28d": 7,
       "contributors_28d": 1,
       "last_commit_at": "2026-07-23T22:48:58Z",
       "last_commit_message": "abi proxy traits, adder example & usage",
@@ -99,8 +99,8 @@
         0,
         0,
         17,
-        0,
-        15,
+        4,
+        11,
         6
       ]
     },
@@ -477,7 +477,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
       "commits_28d": 40,
-      "prs_merged_28d": 8,
+      "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    0,
     7,
     24,
     18,
@@ -677,6 +676,7 @@
     20,
     25,
     18,
-    12
+    12,
+    0
   ]
 }
