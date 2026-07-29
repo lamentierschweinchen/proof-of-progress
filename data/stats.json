@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T10:04:05Z",
+  "generated_at": "2026-07-29T10:04:30Z",
   "window": {
-    "start": "2026-06-30",
-    "end": "2026-07-28",
+    "start": "2026-07-01",
+    "end": "2026-07-29",
     "days": 28
   },
   "totals": {
-    "commits": 413,
-    "prs_merged": 80,
-    "prs_opened": 165,
+    "commits": 412,
+    "prs_merged": 82,
+    "prs_opened": 163,
     "contributors": 13,
     "releases": 15,
     "repos_active": 11
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 954,
       "open_issues": 6,
-      "open_prs": 93,
+      "open_prs": 89,
       "default_branch": "master",
-      "commits_28d": 265,
-      "commits_7d": 68,
-      "prs_merged_28d": 45,
+      "commits_28d": 267,
+      "commits_7d": 62,
+      "prs_merged_28d": 48,
       "contributors_28d": 7,
-      "last_commit_at": "2026-07-28T10:01:29Z",
-      "last_commit_message": "chainsimulator consensus",
+      "last_commit_at": "2026-07-29T10:02:38Z",
+      "last_commit_message": "Merge pull request #7917 from multiversx/reorder-get-and-apply-proof",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        67,
-        80,
-        50,
-        68
+        75,
+        77,
+        53,
+        62
       ]
     },
     {
@@ -53,8 +53,8 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 40,
-      "commits_7d": 2,
+      "commits_28d": 39,
+      "commits_7d": 0,
       "prs_merged_28d": 8,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-21T14:39:15Z",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        16,
-        10,
-        12,
-        2
+        20,
+        5,
+        14,
+        0
       ]
     },
     {
@@ -83,9 +83,9 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 29,
-      "commits_7d": 4,
-      "prs_merged_28d": 5,
+      "commits_28d": 22,
+      "commits_7d": 2,
+      "prs_merged_28d": 3,
       "contributors_28d": 1,
       "last_commit_at": "2026-07-23T22:48:58Z",
       "last_commit_message": "abi proxy traits, adder example & usage",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        8,
-        8,
+        1,
+        10,
         9,
-        4
+        2
       ]
     },
     {
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        2,
-        13,
+        5,
+        10,
         0,
         0
       ]
@@ -195,6 +195,36 @@
       ]
     },
     {
+      "name": "mx-chain-simulator-go",
+      "full_name": "multiversx/mx-chain-simulator-go",
+      "url": "https://github.com/multiversx/mx-chain-simulator-go",
+      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
+      "stars": 12,
+      "open_issues": 0,
+      "open_prs": 8,
+      "default_branch": "main",
+      "commits_28d": 14,
+      "commits_7d": 6,
+      "prs_merged_28d": 3,
+      "contributors_28d": 4,
+      "last_commit_at": "2026-07-29T07:07:11Z",
+      "last_commit_message": "Merge pull request #224 from multiversx/update-go-mod-29-iul",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        2,
+        0,
+        6
+      ]
+    },
+    {
       "name": "mx-template-dapp",
       "full_name": "multiversx/mx-template-dapp",
       "url": "https://github.com/multiversx/mx-template-dapp",
@@ -203,7 +233,7 @@
       "open_issues": 5,
       "open_prs": 1,
       "default_branch": "main",
-      "commits_28d": 13,
+      "commits_28d": 12,
       "commits_7d": 0,
       "prs_merged_28d": 5,
       "contributors_28d": 1,
@@ -218,39 +248,9 @@
         0,
         0,
         0,
+        3,
         4,
-        2,
-        7,
-        0
-      ]
-    },
-    {
-      "name": "mx-chain-simulator-go",
-      "full_name": "multiversx/mx-chain-simulator-go",
-      "url": "https://github.com/multiversx/mx-chain-simulator-go",
-      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
-      "stars": 12,
-      "open_issues": 0,
-      "open_prs": 8,
-      "default_branch": "main",
-      "commits_28d": 8,
-      "commits_7d": 0,
-      "prs_merged_28d": 2,
-      "contributors_28d": 3,
-      "last_commit_at": "2026-07-10T11:50:23Z",
-      "last_commit_message": "Merge pull request #223 from multiversx/update-go-mod-10-iul",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        6,
-        2,
-        0,
+        5,
         0
       ]
     },
@@ -264,7 +264,7 @@
       "open_prs": 4,
       "default_branch": "main",
       "commits_28d": 3,
-      "commits_7d": 2,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-07-27T10:37:51Z",
@@ -280,8 +280,8 @@
         0,
         0,
         0,
-        1,
-        2
+        2,
+        1
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 98,
-      "prs_merged_28d": 15,
+      "commits_28d": 104,
+      "prs_merged_28d": 17,
       "repos_touched": 3,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 62,
+      "commits_28d": 60,
       "prs_merged_28d": 11,
       "repos_touched": 3,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 44,
+      "commits_28d": 41,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -476,7 +476,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 37,
+      "commits_28d": 36,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -485,17 +485,8 @@
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 33,
+      "commits_28d": 32,
       "prs_merged_28d": 10,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "andrei-marinica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
-      "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 31,
-      "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -503,8 +494,26 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 25,
-      "prs_merged_28d": 6,
+      "commits_28d": 26,
+      "prs_merged_28d": 7,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "andrei-marinica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
+      "html_url": "https://github.com/andrei-marinica",
+      "commits_28d": 24,
+      "prs_merged_28d": 3,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "axenteoctavian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
+      "html_url": "https://github.com/axenteoctavian",
+      "commits_28d": 10,
+      "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -516,15 +525,6 @@
       "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": true
-    },
-    {
-      "login": "axenteoctavian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
-      "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 5,
-      "prs_merged_28d": 2,
-      "repos_touched": 1,
-      "highlighted": false
     }
   ],
   "recent_releases": [
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    16,
     10,
     30,
     37,
@@ -677,6 +676,7 @@
     12,
     0,
     0,
-    21
+    21,
+    11
   ]
 }
