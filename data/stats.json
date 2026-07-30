@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T10:04:30Z",
+  "generated_at": "2026-07-30T10:04:17Z",
   "window": {
-    "start": "2026-07-01",
-    "end": "2026-07-29",
+    "start": "2026-07-02",
+    "end": "2026-07-30",
     "days": 28
   },
   "totals": {
-    "commits": 412,
-    "prs_merged": 82,
-    "prs_opened": 163,
+    "commits": 418,
+    "prs_merged": 87,
+    "prs_opened": 165,
     "contributors": 13,
     "releases": 15,
     "repos_active": 11
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 954,
       "open_issues": 6,
-      "open_prs": 89,
+      "open_prs": 88,
       "default_branch": "master",
-      "commits_28d": 267,
-      "commits_7d": 62,
-      "prs_merged_28d": 48,
+      "commits_28d": 270,
+      "commits_7d": 67,
+      "prs_merged_28d": 53,
       "contributors_28d": 7,
-      "last_commit_at": "2026-07-29T10:02:38Z",
-      "last_commit_message": "Merge pull request #7917 from multiversx/reorder-get-and-apply-proof",
+      "last_commit_at": "2026-07-30T07:47:25Z",
+      "last_commit_message": "Merge pull request #7945 from multiversx/round-boundary-race",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        75,
-        77,
+        90,
+        60,
         53,
-        62
+        67
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 39,
-      "commits_7d": 0,
+      "commits_28d": 38,
+      "commits_7d": 2,
       "prs_merged_28d": 8,
       "contributors_28d": 2,
-      "last_commit_at": "2026-07-21T14:39:15Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/development' into search-after-support",
+      "last_commit_at": "2026-07-29T13:34:38Z",
+      "last_commit_message": "fix token holders pagination",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        20,
-        5,
-        14,
-        0
+        22,
+        3,
+        11,
+        2
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 22,
-      "commits_7d": 2,
+      "commits_28d": 25,
+      "commits_7d": 4,
       "prs_merged_28d": 3,
       "contributors_28d": 1,
-      "last_commit_at": "2026-07-23T22:48:58Z",
-      "last_commit_message": "abi proxy traits, adder example & usage",
+      "last_commit_at": "2026-07-29T12:20:36Z",
+      "last_commit_message": "temporarily disable ledger feature",
       "weekly_commits": [
         0,
         0,
@@ -99,9 +99,9 @@
         0,
         0,
         1,
-        10,
-        9,
-        2
+        14,
+        6,
+        4
       ]
     },
     {
@@ -135,36 +135,6 @@
       ]
     },
     {
-      "name": "mx-chain-vm-go",
-      "full_name": "multiversx/mx-chain-vm-go",
-      "url": "https://github.com/multiversx/mx-chain-vm-go",
-      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
-      "stars": 90,
-      "open_issues": 8,
-      "open_prs": 22,
-      "default_branch": "master",
-      "commits_28d": 15,
-      "commits_7d": 0,
-      "prs_merged_28d": 3,
-      "contributors_28d": 4,
-      "last_commit_at": "2026-07-14T09:15:20Z",
-      "last_commit_message": "Merge pull request #979 from multiversx/update-go-version-and-actions",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5,
-        10,
-        0,
-        0
-      ]
-    },
-    {
       "name": "mx-chain-es-indexer-go",
       "full_name": "multiversx/mx-chain-es-indexer-go",
       "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
@@ -174,7 +144,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 15,
-      "commits_7d": 11,
+      "commits_7d": 6,
       "prs_merged_28d": 4,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-27T07:47:37Z",
@@ -190,25 +160,25 @@
         0,
         0,
         2,
-        2,
-        11
+        7,
+        6
       ]
     },
     {
-      "name": "mx-chain-simulator-go",
-      "full_name": "multiversx/mx-chain-simulator-go",
-      "url": "https://github.com/multiversx/mx-chain-simulator-go",
-      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
-      "stars": 12,
-      "open_issues": 0,
-      "open_prs": 8,
-      "default_branch": "main",
+      "name": "mx-chain-vm-go",
+      "full_name": "multiversx/mx-chain-vm-go",
+      "url": "https://github.com/multiversx/mx-chain-vm-go",
+      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
+      "stars": 90,
+      "open_issues": 8,
+      "open_prs": 22,
+      "default_branch": "master",
       "commits_28d": 14,
-      "commits_7d": 6,
+      "commits_7d": 0,
       "prs_merged_28d": 3,
       "contributors_28d": 4,
-      "last_commit_at": "2026-07-29T07:07:11Z",
-      "last_commit_message": "Merge pull request #224 from multiversx/update-go-mod-29-iul",
+      "last_commit_at": "2026-07-14T09:15:20Z",
+      "last_commit_message": "Merge pull request #979 from multiversx/update-go-version-and-actions",
       "weekly_commits": [
         0,
         0,
@@ -218,10 +188,10 @@
         0,
         0,
         0,
-        6,
-        2,
+        7,
+        7,
         0,
-        6
+        0
       ]
     },
     {
@@ -249,9 +219,69 @@
         0,
         0,
         3,
-        4,
-        5,
+        9,
+        0,
         0
+      ]
+    },
+    {
+      "name": "mx-chain-simulator-go",
+      "full_name": "multiversx/mx-chain-simulator-go",
+      "url": "https://github.com/multiversx/mx-chain-simulator-go",
+      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
+      "stars": 12,
+      "open_issues": 0,
+      "open_prs": 8,
+      "default_branch": "main",
+      "commits_28d": 12,
+      "commits_7d": 6,
+      "prs_merged_28d": 3,
+      "contributors_28d": 3,
+      "last_commit_at": "2026-07-29T07:07:11Z",
+      "last_commit_message": "Merge pull request #224 from multiversx/update-go-mod-29-iul",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        2,
+        0,
+        6
+      ]
+    },
+    {
+      "name": "mx-chain-mainnet-config",
+      "full_name": "multiversx/mx-chain-mainnet-config",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
+      "description": "MultiversX blockchain node's mainnet configuration repository",
+      "stars": 26,
+      "open_issues": 1,
+      "open_prs": 10,
+      "default_branch": "master",
+      "commits_28d": 7,
+      "commits_7d": 4,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-07-29T12:59:33Z",
+      "last_commit_message": "new go and binary version",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        4
       ]
     },
     {
@@ -281,36 +311,6 @@
         0,
         0,
         2,
-        1
-      ]
-    },
-    {
-      "name": "mx-chain-mainnet-config",
-      "full_name": "multiversx/mx-chain-mainnet-config",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
-      "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 26,
-      "open_issues": 1,
-      "open_prs": 10,
-      "default_branch": "master",
-      "commits_28d": 3,
-      "commits_7d": 1,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-07-22T11:14:05Z",
-      "last_commit_message": "test config",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        0,
         1
       ]
     },
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 104,
-      "prs_merged_28d": 17,
+      "commits_28d": 114,
+      "prs_merged_28d": 21,
       "repos_touched": 3,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 60,
+      "commits_28d": 62,
       "prs_merged_28d": 11,
       "repos_touched": 3,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 41,
+      "commits_28d": 35,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -476,7 +476,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 36,
+      "commits_28d": 35,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -494,8 +494,8 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 26,
-      "prs_merged_28d": 7,
+      "commits_28d": 28,
+      "prs_merged_28d": 8,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -503,7 +503,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 24,
+      "commits_28d": 27,
       "prs_merged_28d": 3,
       "repos_touched": 2,
       "highlighted": false
@@ -521,7 +521,7 @@
       "login": "sasurobert",
       "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
       "html_url": "https://github.com/sasurobert",
-      "commits_28d": 6,
+      "commits_28d": 4,
       "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": true
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    10,
-    30,
+    23,
     37,
     1,
     0,
@@ -677,6 +676,7 @@
     0,
     0,
     21,
-    11
+    11,
+    27
   ]
 }
