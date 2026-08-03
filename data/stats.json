@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T10:03:49Z",
+  "generated_at": "2026-08-03T10:03:50Z",
   "window": {
-    "start": "2026-07-05",
-    "end": "2026-08-02",
+    "start": "2026-07-06",
+    "end": "2026-08-03",
     "days": 28
   },
   "totals": {
-    "commits": 397,
+    "commits": 399,
     "prs_merged": 81,
     "prs_opened": 152,
     "contributors": 13,
@@ -23,12 +23,12 @@
       "open_issues": 6,
       "open_prs": 89,
       "default_branch": "master",
-      "commits_28d": 257,
+      "commits_28d": 260,
       "commits_7d": 68,
       "prs_merged_28d": 50,
       "contributors_28d": 7,
-      "last_commit_at": "2026-07-31T17:59:10Z",
-      "last_commit_message": "add test",
+      "last_commit_at": "2026-08-03T09:47:48Z",
+      "last_commit_message": "Merge branch 'stall-fixes' into recon-by-meta-txs-logs",
       "weekly_commits": [
         0,
         0,
@@ -38,9 +38,9 @@
         0,
         0,
         0,
-        69,
-        52,
-        68,
+        73,
+        59,
+        60,
         68
       ]
     },
@@ -53,7 +53,7 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 31,
+      "commits_28d": 30,
       "commits_7d": 2,
       "prs_merged_28d": 7,
       "contributors_28d": 2,
@@ -68,7 +68,7 @@
         0,
         0,
         0,
-        15,
+        14,
         6,
         8,
         2
@@ -99,8 +99,8 @@
         0,
         0,
         4,
-        11,
-        6,
+        13,
+        4,
         5
       ]
     },
@@ -144,7 +144,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 15,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 4,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-27T07:47:37Z",
@@ -159,9 +159,9 @@
         0,
         0,
         0,
-        3,
+        4,
         11,
-        1
+        0
       ]
     },
     {
@@ -188,8 +188,8 @@
         0,
         0,
         0,
-        0,
-        14,
+        1,
+        13,
         0,
         0
       ]
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 120,
+      "commits_28d": 122,
       "prs_merged_28d": 21,
       "repos_touched": 3,
       "highlighted": false
@@ -464,15 +464,6 @@
       "highlighted": false
     },
     {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 28,
-      "prs_merged_28d": 6,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
@@ -491,21 +482,30 @@
       "highlighted": false
     },
     {
-      "login": "radumojic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
-      "html_url": "https://github.com/radumojic",
-      "commits_28d": 23,
-      "prs_merged_28d": 8,
-      "repos_touched": 2,
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 27,
+      "prs_merged_28d": 6,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 23,
+      "commits_28d": 24,
       "prs_merged_28d": 4,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "radumojic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
+      "html_url": "https://github.com/radumojic",
+      "commits_28d": 23,
+      "prs_merged_28d": 8,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    5,
+    4,
     26,
     26,
     25,
@@ -677,6 +676,7 @@
     28,
     24,
     10,
+    0,
     0
   ]
 }
