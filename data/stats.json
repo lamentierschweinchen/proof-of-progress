@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T12:04:10Z",
+  "generated_at": "2026-08-08T12:04:05Z",
   "window": {
-    "start": "2026-07-10",
-    "end": "2026-08-07",
+    "start": "2026-07-11",
+    "end": "2026-08-08",
     "days": 28
   },
   "totals": {
-    "commits": 354,
-    "prs_merged": 68,
-    "prs_opened": 138,
+    "commits": 358,
+    "prs_merged": 62,
+    "prs_opened": 134,
     "contributors": 14,
     "releases": 15,
     "repos_active": 11
@@ -19,16 +19,16 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 954,
+      "stars": 953,
       "open_issues": 6,
       "open_prs": 90,
       "default_branch": "master",
-      "commits_28d": 221,
-      "commits_7d": 41,
-      "prs_merged_28d": 41,
+      "commits_28d": 224,
+      "commits_7d": 36,
+      "prs_merged_28d": 37,
       "contributors_28d": 8,
-      "last_commit_at": "2026-08-07T10:38:51Z",
-      "last_commit_message": "update tx nonce max txpool + gas",
+      "last_commit_at": "2026-08-07T14:07:56Z",
+      "last_commit_message": "fixes after review",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        50,
-        61,
-        69,
-        41
+        52,
+        68,
+        68,
+        36
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 1,
       "open_prs": 10,
       "default_branch": "master",
-      "commits_28d": 17,
+      "commits_28d": 18,
       "commits_7d": 9,
       "prs_merged_28d": 1,
       "contributors_28d": 2,
-      "last_commit_at": "2026-08-06T13:13:22Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/release-v2.0.0.0' into release-v2.0.0.0",
+      "last_commit_at": "2026-08-07T14:04:59Z",
+      "last_commit_message": "updated SnapshotsGoroutinesPerCore",
       "weekly_commits": [
         0,
         0,
@@ -100,7 +100,7 @@
         0,
         0,
         1,
-        7,
+        8,
         9
       ]
     },
@@ -128,8 +128,8 @@
         0,
         0,
         0,
-        3,
-        11,
+        6,
+        8,
         2,
         0
       ]
@@ -205,7 +205,7 @@
       "default_branch": "master",
       "commits_28d": 10,
       "commits_7d": 0,
-      "prs_merged_28d": 3,
+      "prs_merged_28d": 2,
       "contributors_28d": 4,
       "last_commit_at": "2026-07-30T14:27:21Z",
       "last_commit_message": "Merge pull request #984 from multiversx/merge-master-into-rc/supernova-2026.07.3",
@@ -265,7 +265,7 @@
       "default_branch": "main",
       "commits_28d": 6,
       "commits_7d": 0,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-29T07:07:11Z",
       "last_commit_message": "Merge pull request #224 from multiversx/update-go-mod-29-iul",
@@ -308,8 +308,8 @@
         0,
         0,
         0,
-        0,
-        2,
+        1,
+        1,
         1,
         0
       ]
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 116,
-      "prs_merged_28d": 19,
+      "commits_28d": 118,
+      "prs_merged_28d": 18,
       "repos_touched": 3,
       "highlighted": false
     },
@@ -449,7 +449,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 59,
+      "commits_28d": 60,
       "prs_merged_28d": 10,
       "repos_touched": 3,
       "highlighted": false
@@ -468,7 +468,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
       "commits_28d": 32,
-      "prs_merged_28d": 13,
+      "prs_merged_28d": 9,
       "repos_touched": 4,
       "highlighted": false
     },
@@ -476,7 +476,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 26,
+      "commits_28d": 27,
       "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     0,
-    0,
     4,
     29,
     27,
@@ -677,6 +676,7 @@
     15,
     16,
     15,
-    6
+    6,
+    8
   ]
 }
