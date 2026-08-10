@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-09T12:04:10Z",
+  "generated_at": "2026-08-10T12:04:16Z",
   "window": {
-    "start": "2026-07-12",
-    "end": "2026-08-09",
+    "start": "2026-07-13",
+    "end": "2026-08-10",
     "days": 28
   },
   "totals": {
-    "commits": 354,
+    "commits": 352,
     "prs_merged": 62,
-    "prs_opened": 132,
+    "prs_opened": 134,
     "contributors": 14,
     "releases": 15,
     "repos_active": 11
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 953,
       "open_issues": 6,
-      "open_prs": 90,
+      "open_prs": 91,
       "default_branch": "master",
-      "commits_28d": 224,
-      "commits_7d": 36,
+      "commits_28d": 226,
+      "commits_7d": 41,
       "prs_merged_28d": 37,
-      "contributors_28d": 8,
-      "last_commit_at": "2026-08-07T14:07:56Z",
-      "last_commit_message": "fixes after review",
+      "contributors_28d": 9,
+      "last_commit_at": "2026-08-10T12:02:26Z",
+      "last_commit_message": "Merge commit from fork",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        52,
-        68,
-        68,
-        36
+        57,
+        64,
+        64,
+        41
       ]
     },
     {
@@ -68,8 +68,8 @@
         0,
         0,
         0,
-        11,
-        6,
+        13,
+        4,
         5,
         15
       ]
@@ -79,12 +79,12 @@
       "full_name": "multiversx/mx-chain-mainnet-config",
       "url": "https://github.com/multiversx/mx-chain-mainnet-config",
       "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 26,
+      "stars": 27,
       "open_issues": 1,
       "open_prs": 10,
       "default_branch": "master",
       "commits_28d": 18,
-      "commits_7d": 9,
+      "commits_7d": 7,
       "prs_merged_28d": 1,
       "contributors_28d": 2,
       "last_commit_at": "2026-08-07T14:04:59Z",
@@ -100,8 +100,8 @@
         0,
         0,
         1,
-        8,
-        9
+        10,
+        7
       ]
     },
     {
@@ -143,7 +143,7 @@
       "open_issues": 1,
       "open_prs": 4,
       "default_branch": "master",
-      "commits_28d": 15,
+      "commits_28d": 14,
       "commits_7d": 0,
       "prs_merged_28d": 4,
       "contributors_28d": 2,
@@ -160,7 +160,7 @@
         0,
         3,
         11,
-        1,
+        0,
         0
       ]
     },
@@ -173,7 +173,7 @@
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
-      "commits_28d": 14,
+      "commits_28d": 13,
       "commits_7d": 0,
       "prs_merged_28d": 4,
       "contributors_28d": 1,
@@ -188,39 +188,9 @@
         0,
         0,
         0,
-        14,
+        13,
         0,
         0,
-        0
-      ]
-    },
-    {
-      "name": "mx-chain-vm-go",
-      "full_name": "multiversx/mx-chain-vm-go",
-      "url": "https://github.com/multiversx/mx-chain-vm-go",
-      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
-      "stars": 90,
-      "open_issues": 8,
-      "open_prs": 22,
-      "default_branch": "master",
-      "commits_28d": 10,
-      "commits_7d": 0,
-      "prs_merged_28d": 2,
-      "contributors_28d": 4,
-      "last_commit_at": "2026-07-30T14:27:21Z",
-      "last_commit_message": "Merge pull request #984 from multiversx/merge-master-into-rc/supernova-2026.07.3",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        4,
-        3,
         0
       ]
     },
@@ -251,6 +221,36 @@
         9,
         0,
         0,
+        0
+      ]
+    },
+    {
+      "name": "mx-chain-vm-go",
+      "full_name": "multiversx/mx-chain-vm-go",
+      "url": "https://github.com/multiversx/mx-chain-vm-go",
+      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
+      "stars": 90,
+      "open_issues": 8,
+      "open_prs": 22,
+      "default_branch": "master",
+      "commits_28d": 8,
+      "commits_7d": 0,
+      "prs_merged_28d": 2,
+      "contributors_28d": 4,
+      "last_commit_at": "2026-07-30T14:27:21Z",
+      "last_commit_message": "Merge pull request #984 from multiversx/merge-master-into-rc/supernova-2026.07.3",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        3,
         0
       ]
     },
@@ -309,8 +309,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        2,
+        0,
         0
       ]
     },
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 118,
+      "commits_28d": 120,
       "prs_merged_28d": 18,
       "repos_touched": 3,
       "highlighted": false
@@ -449,7 +449,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 60,
+      "commits_28d": 57,
       "prs_merged_28d": 10,
       "repos_touched": 3,
       "highlighted": false
@@ -464,28 +464,28 @@
       "highlighted": false
     },
     {
-      "login": "miiu96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
-      "html_url": "https://github.com/miiu96",
-      "commits_28d": 32,
-      "prs_merged_28d": 9,
-      "repos_touched": 4,
-      "highlighted": false
-    },
-    {
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 27,
+      "commits_28d": 30,
       "prs_merged_28d": 3,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "miiu96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
+      "html_url": "https://github.com/miiu96",
+      "commits_28d": 28,
+      "prs_merged_28d": 9,
+      "repos_touched": 4,
       "highlighted": false
     },
     {
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 23,
+      "commits_28d": 22,
       "prs_merged_28d": 8,
       "repos_touched": 2,
       "highlighted": false
@@ -518,16 +518,24 @@
       "highlighted": true
     },
     {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
+      "login": "axenteoctavian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
+      "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 6,
-      "prs_merged_28d": 0,
-      "repos_touched": 3,
+      "prs_merged_28d": 1,
+      "repos_touched": 2,
       "highlighted": false
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-chain-go",
+      "tag": "v1.11.11",
+      "name": "v1.11.11",
+      "published_at": "2026-08-10T12:04:30Z",
+      "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v1.11.11",
+      "is_prerelease": true
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v1.11.10.0",
@@ -639,19 +647,10 @@
       "published_at": "2026-06-18T12:30:09Z",
       "url": "https://github.com/multiversx/mx-sdk-rs/releases/tag/v0.66.2",
       "is_prerelease": false
-    },
-    {
-      "repo": "mx-chain-mainnet-config",
-      "tag": "v1.11.7.0",
-      "name": "v1.11.7.0",
-      "published_at": "2026-06-10T13:07:30Z",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v1.11.7.0",
-      "is_prerelease": false
     }
   ],
   "daily_commits": [
-    0,
-    29,
+    19,
     27,
     14,
     21,
@@ -674,9 +673,10 @@
     0,
     15,
     16,
-    15,
+    17,
     6,
     8,
+    0,
     0
   ]
 }
