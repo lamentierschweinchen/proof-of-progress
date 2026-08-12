@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T12:04:27Z",
+  "generated_at": "2026-08-12T12:03:36Z",
   "window": {
-    "start": "2026-07-14",
-    "end": "2026-08-11",
+    "start": "2026-07-15",
+    "end": "2026-08-12",
     "days": 28
   },
   "totals": {
-    "commits": 328,
-    "prs_merged": 61,
-    "prs_opened": 128,
+    "commits": 326,
+    "prs_merged": 57,
+    "prs_opened": 117,
     "contributors": 14,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 953,
       "open_issues": 6,
-      "open_prs": 90,
+      "open_prs": 89,
       "default_branch": "master",
-      "commits_28d": 219,
+      "commits_28d": 218,
       "commits_7d": 39,
-      "prs_merged_28d": 39,
+      "prs_merged_28d": 41,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-11T11:32:55Z",
-      "last_commit_message": "fix go toolchain usage",
+      "last_commit_at": "2026-08-12T10:22:19Z",
+      "last_commit_message": "Merge pull request #7956 from multiversx/fixes-altered-accounts",
       "weekly_commits": [
         0,
         0,
@@ -38,8 +38,8 @@
         0,
         0,
         0,
-        48,
-        73,
+        58,
+        62,
         59,
         39
       ]
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 35,
-      "commits_7d": 16,
-      "prs_merged_28d": 3,
+      "commits_28d": 37,
+      "commits_7d": 14,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-08-11T09:37:27Z",
-      "last_commit_message": "relayer CLI - unsigned refactor",
+      "last_commit_at": "2026-08-12T00:09:13Z",
+      "last_commit_message": "interactor - gateway uri refactor",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        8,
-        4,
-        7,
-        16
+        9,
+        2,
+        12,
+        14
       ]
     },
     {
@@ -84,7 +84,7 @@
       "open_prs": 10,
       "default_branch": "master",
       "commits_28d": 21,
-      "commits_7d": 9,
+      "commits_7d": 7,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
       "last_commit_at": "2026-08-11T11:41:20Z",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        0,
         1,
-        11,
-        9
+        3,
+        10,
+        7
       ]
     },
     {
@@ -113,7 +113,7 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 16,
+      "commits_28d": 15,
       "commits_7d": 0,
       "prs_merged_28d": 4,
       "contributors_28d": 2,
@@ -128,8 +128,8 @@
         0,
         0,
         0,
-        12,
-        2,
+        13,
+        0,
         2,
         0
       ]
@@ -145,7 +145,7 @@
       "default_branch": "master",
       "commits_28d": 13,
       "commits_7d": 0,
-      "prs_merged_28d": 4,
+      "prs_merged_28d": 3,
       "contributors_28d": 2,
       "last_commit_at": "2026-07-27T07:47:37Z",
       "last_commit_message": "Merge pull request #382 from multiversx/fix-todos",
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        2,
-        11,
+        7,
+        6,
         0,
         0
       ]
@@ -175,7 +175,7 @@
       "default_branch": "master",
       "commits_28d": 7,
       "commits_7d": 0,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-07-30T14:27:21Z",
       "last_commit_message": "Merge pull request #984 from multiversx/merge-master-into-rc/supernova-2026.07.3",
@@ -188,39 +188,9 @@
         0,
         0,
         0,
-        1,
+        2,
+        2,
         3,
-        3,
-        0
-      ]
-    },
-    {
-      "name": "mx-template-dapp",
-      "full_name": "multiversx/mx-template-dapp",
-      "url": "https://github.com/multiversx/mx-template-dapp",
-      "description": "MultiversX React dApp Template: wallet auth, transaction signing and native auth using sdk-dapp v5. Built with React 18, TypeScript and Vite.",
-      "stars": 221,
-      "open_issues": 5,
-      "open_prs": 1,
-      "default_branch": "main",
-      "commits_28d": 7,
-      "commits_7d": 0,
-      "prs_merged_28d": 4,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-07-16T09:36:45Z",
-      "last_commit_message": "Merge pull request #447 from multiversx/rm/signed-fixes",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        7,
-        0,
-        0,
         0
       ]
     },
@@ -249,8 +219,38 @@
         0,
         0,
         0,
-        1,
+        6,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mx-template-dapp",
+      "full_name": "multiversx/mx-template-dapp",
+      "url": "https://github.com/multiversx/mx-template-dapp",
+      "description": "MultiversX React dApp Template: wallet auth, transaction signing and native auth using sdk-dapp v5. Built with React 18, TypeScript and Vite.",
+      "stars": 221,
+      "open_issues": 5,
+      "open_prs": 1,
+      "default_branch": "main",
+      "commits_28d": 5,
+      "commits_7d": 0,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-07-16T09:36:45Z",
+      "last_commit_message": "Merge pull request #447 from multiversx/rm/signed-fixes",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         5,
+        0,
+        0,
         0
       ]
     },
@@ -295,7 +295,7 @@
       "default_branch": "master",
       "commits_28d": 1,
       "commits_7d": 0,
-      "prs_merged_28d": 1,
+      "prs_merged_28d": 0,
       "contributors_28d": 1,
       "last_commit_at": "2026-07-24T08:44:38Z",
       "last_commit_message": "extra checks body size",
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 118,
-      "prs_merged_28d": 19,
+      "commits_28d": 116,
+      "prs_merged_28d": 21,
       "repos_touched": 3,
       "highlighted": false
     },
@@ -449,7 +449,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 59,
+      "commits_28d": 56,
       "prs_merged_28d": 12,
       "repos_touched": 3,
       "highlighted": false
@@ -458,16 +458,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 35,
-      "prs_merged_28d": 3,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "ssd04",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
-      "html_url": "https://github.com/ssd04",
-      "commits_28d": 27,
+      "commits_28d": 37,
       "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
@@ -476,16 +467,25 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 25,
-      "prs_merged_28d": 10,
+      "commits_28d": 32,
+      "prs_merged_28d": 7,
       "repos_touched": 4,
+      "highlighted": false
+    },
+    {
+      "login": "ssd04",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
+      "html_url": "https://github.com/ssd04",
+      "commits_28d": 25,
+      "prs_merged_28d": 2,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 16,
+      "commits_28d": 15,
       "prs_merged_28d": 5,
       "repos_touched": 1,
       "highlighted": false
@@ -494,7 +494,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 13,
+      "commits_28d": 12,
       "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
@@ -509,21 +509,21 @@
       "highlighted": true
     },
     {
-      "login": "radumojic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
-      "html_url": "https://github.com/radumojic",
-      "commits_28d": 7,
-      "prs_merged_28d": 4,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 6,
       "prs_merged_28d": 1,
       "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "raduchis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
+      "html_url": "https://github.com/raduchis",
+      "commits_28d": 6,
+      "prs_merged_28d": 0,
+      "repos_touched": 3,
       "highlighted": false
     }
   ],
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    7,
-    14,
+    6,
     21,
     9,
     0,
@@ -677,6 +676,7 @@
     8,
     0,
     0,
-    9
+    9,
+    17
   ]
 }
