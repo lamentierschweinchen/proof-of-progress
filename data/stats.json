@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-14T14:26:09Z",
+  "generated_at": "2026-08-15T12:04:03Z",
   "window": {
-    "start": "2026-07-17",
-    "end": "2026-08-14",
+    "start": "2026-07-18",
+    "end": "2026-08-15",
     "days": 28
   },
   "totals": {
-    "commits": 332,
-    "prs_merged": 56,
-    "prs_opened": 118,
-    "contributors": 14,
+    "commits": 329,
+    "prs_merged": 55,
+    "prs_opened": 116,
+    "contributors": 13,
     "releases": 15,
     "repos_active": 9
   },
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 90,
+      "open_prs": 91,
       "default_branch": "master",
       "commits_28d": 222,
-      "commits_7d": 46,
+      "commits_7d": 48,
       "prs_merged_28d": 42,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-14T13:48:21Z",
-      "last_commit_message": "Merge branch 'feat/testnet-fixes' into fix-state-accesses-root-hash-overwrite",
+      "last_commit_at": "2026-08-14T17:32:12Z",
+      "last_commit_message": "adapt remaining tests",
       "weekly_commits": [
         0,
         0,
@@ -39,9 +39,9 @@
         0,
         0,
         68,
-        65,
-        43,
-        46
+        68,
+        38,
+        48
       ]
     },
     {
@@ -99,39 +99,9 @@
         0,
         0,
         1,
-        7,
-        10,
+        8,
+        9,
         4
-      ]
-    },
-    {
-      "name": "mx-api-service",
-      "full_name": "multiversx/mx-api-service",
-      "url": "https://github.com/multiversx/mx-api-service",
-      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
-      "stars": 36,
-      "open_issues": 7,
-      "open_prs": 13,
-      "default_branch": "main",
-      "commits_28d": 13,
-      "commits_7d": 0,
-      "prs_merged_28d": 3,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-07-29T13:34:38Z",
-      "last_commit_message": "fix token holders pagination",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        11,
-        2,
-        0,
-        0
       ]
     },
     {
@@ -160,6 +130,36 @@
         0,
         11,
         1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mx-api-service",
+      "full_name": "multiversx/mx-api-service",
+      "url": "https://github.com/multiversx/mx-api-service",
+      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
+      "stars": 36,
+      "open_issues": 7,
+      "open_prs": 13,
+      "default_branch": "main",
+      "commits_28d": 10,
+      "commits_7d": 0,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-07-29T13:34:38Z",
+      "last_commit_message": "fix token holders pagination",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        2,
         0,
         0
       ]
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    5,
     0,
     2,
     16,
@@ -677,6 +676,7 @@
     9,
     17,
     16,
-    20
+    20,
+    11
   ]
 }
