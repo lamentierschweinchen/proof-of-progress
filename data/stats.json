@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T12:04:05Z",
+  "generated_at": "2026-08-22T12:03:55Z",
   "window": {
-    "start": "2026-07-24",
-    "end": "2026-08-21",
+    "start": "2026-07-25",
+    "end": "2026-08-22",
     "days": 28
   },
   "totals": {
     "commits": 344,
-    "prs_merged": 59,
-    "prs_opened": 151,
+    "prs_merged": 56,
+    "prs_opened": 152,
     "contributors": 14,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 88,
+      "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 229,
-      "commits_7d": 70,
-      "prs_merged_28d": 38,
+      "commits_28d": 221,
+      "commits_7d": 67,
+      "prs_merged_28d": 34,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-21T10:41:09Z",
-      "last_commit_message": "improve error log",
+      "last_commit_at": "2026-08-21T14:04:39Z",
+      "last_commit_message": "Merge pull request #7972 from multiversx/remove-request-duplicates",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        69,
-        43,
-        47,
-        70
+        68,
+        38,
+        48,
+        67
       ]
     },
     {
@@ -98,9 +98,9 @@
         0,
         0,
         0,
-        7,
+        8,
         9,
-        5,
+        4,
         5
       ]
     },
@@ -111,14 +111,14 @@
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
       "stars": 36,
       "open_issues": 7,
-      "open_prs": 10,
+      "open_prs": 11,
       "default_branch": "main",
-      "commits_28d": 19,
-      "commits_7d": 17,
-      "prs_merged_28d": 6,
+      "commits_28d": 24,
+      "commits_7d": 22,
+      "prs_merged_28d": 7,
       "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T08:44:43Z",
-      "last_commit_message": "increase polling frequency and limit",
+      "last_commit_at": "2026-08-21T13:35:12Z",
+      "last_commit_message": "Merge remote-tracking branch 'origin/development' into websocket-subscriptions-i",
       "weekly_commits": [
         0,
         0,
@@ -131,7 +131,7 @@
         2,
         0,
         0,
-        17
+        22
       ]
     },
     {
@@ -165,6 +165,36 @@
       ]
     },
     {
+      "name": "mx-chain-es-indexer-go",
+      "full_name": "multiversx/mx-chain-es-indexer-go",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
+      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
+      "stars": 12,
+      "open_issues": 1,
+      "open_prs": 3,
+      "default_branch": "master",
+      "commits_28d": 6,
+      "commits_7d": 5,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-21T12:52:49Z",
+      "last_commit_message": "add missing file",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5
+      ]
+    },
+    {
       "name": "mx-chain-vm-go",
       "full_name": "multiversx/mx-chain-vm-go",
       "url": "https://github.com/multiversx/mx-chain-vm-go",
@@ -195,6 +225,36 @@
       ]
     },
     {
+      "name": "mx-sdk-dapp",
+      "full_name": "multiversx/mx-sdk-dapp",
+      "url": "https://github.com/multiversx/mx-sdk-dapp",
+      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
+      "stars": 84,
+      "open_issues": 0,
+      "open_prs": 0,
+      "default_branch": "main",
+      "commits_28d": 5,
+      "commits_7d": 5,
+      "prs_merged_28d": 0,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-21T15:58:32Z",
+      "last_commit_message": "fix broken path",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    {
       "name": "mx-chain-proxy-go",
       "full_name": "multiversx/mx-chain-proxy-go",
       "url": "https://github.com/multiversx/mx-chain-proxy-go",
@@ -222,66 +282,6 @@
         0,
         0,
         5
-      ]
-    },
-    {
-      "name": "mx-chain-es-indexer-go",
-      "full_name": "multiversx/mx-chain-es-indexer-go",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
-      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
-      "stars": 12,
-      "open_issues": 1,
-      "open_prs": 3,
-      "default_branch": "master",
-      "commits_28d": 5,
-      "commits_7d": 4,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T07:34:27Z",
-      "last_commit_message": "updates",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        4
-      ]
-    },
-    {
-      "name": "mx-sdk-dapp",
-      "full_name": "multiversx/mx-sdk-dapp",
-      "url": "https://github.com/multiversx/mx-sdk-dapp",
-      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 84,
-      "open_issues": 0,
-      "open_prs": 0,
-      "default_branch": "main",
-      "commits_28d": 3,
-      "commits_7d": 3,
-      "prs_merged_28d": 0,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T07:02:47Z",
-      "last_commit_message": "alpha version",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 129,
-      "prs_merged_28d": 20,
+      "commits_28d": 121,
+      "prs_merged_28d": 16,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -467,9 +467,18 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 30,
+      "commits_28d": 31,
       "prs_merged_28d": 10,
       "repos_touched": 5,
+      "highlighted": false
+    },
+    {
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 24,
+      "prs_merged_28d": 7,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -479,15 +488,6 @@
       "commits_28d": 20,
       "prs_merged_28d": 1,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 19,
-      "prs_merged_28d": 6,
-      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    9,
     0,
     0,
     21,
@@ -677,6 +676,7 @@
     6,
     29,
     27,
-    16
+    16,
+    36
   ]
 }
