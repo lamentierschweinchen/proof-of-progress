@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T12:03:55Z",
+  "generated_at": "2026-08-23T12:03:56Z",
   "window": {
-    "start": "2026-07-25",
-    "end": "2026-08-22",
+    "start": "2026-07-26",
+    "end": "2026-08-23",
     "days": 28
   },
   "totals": {
-    "commits": 344,
+    "commits": 345,
     "prs_merged": 56,
     "prs_opened": 152,
     "contributors": 14,
@@ -19,12 +19,12 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 952,
+      "stars": 951,
       "open_issues": 6,
       "open_prs": 87,
       "default_branch": "master",
       "commits_28d": 221,
-      "commits_7d": 67,
+      "commits_7d": 66,
       "prs_merged_28d": 34,
       "contributors_28d": 9,
       "last_commit_at": "2026-08-21T14:04:39Z",
@@ -40,8 +40,8 @@
         0,
         68,
         38,
-        48,
-        67
+        49,
+        66
       ]
     },
     {
@@ -165,6 +165,36 @@
       ]
     },
     {
+      "name": "mx-sdk-dapp",
+      "full_name": "multiversx/mx-sdk-dapp",
+      "url": "https://github.com/multiversx/mx-sdk-dapp",
+      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
+      "stars": 84,
+      "open_issues": 0,
+      "open_prs": 0,
+      "default_branch": "main",
+      "commits_28d": 6,
+      "commits_7d": 6,
+      "prs_merged_28d": 0,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-22T14:01:29Z",
+      "last_commit_message": "harden tx tracking for sub-second finality",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    {
       "name": "mx-chain-es-indexer-go",
       "full_name": "multiversx/mx-chain-es-indexer-go",
       "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
@@ -222,36 +252,6 @@
         0,
         0,
         2
-      ]
-    },
-    {
-      "name": "mx-sdk-dapp",
-      "full_name": "multiversx/mx-sdk-dapp",
-      "url": "https://github.com/multiversx/mx-sdk-dapp",
-      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 84,
-      "open_issues": 0,
-      "open_prs": 0,
-      "default_branch": "main",
-      "commits_28d": 5,
-      "commits_7d": 5,
-      "prs_merged_28d": 0,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T15:58:32Z",
-      "last_commit_message": "fix broken path",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5
       ]
     },
     {
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     0,
-    0,
     21,
     11,
     28,
@@ -677,6 +676,7 @@
     29,
     27,
     16,
-    36
+    36,
+    1
   ]
 }
