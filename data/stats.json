@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T12:03:56Z",
+  "generated_at": "2026-08-24T12:04:01Z",
   "window": {
-    "start": "2026-07-26",
-    "end": "2026-08-23",
+    "start": "2026-07-27",
+    "end": "2026-08-24",
     "days": 28
   },
   "totals": {
-    "commits": 345,
-    "prs_merged": 56,
-    "prs_opened": 152,
+    "commits": 338,
+    "prs_merged": 57,
+    "prs_opened": 154,
     "contributors": 14,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 951,
       "open_issues": 6,
-      "open_prs": 87,
+      "open_prs": 88,
       "default_branch": "master",
-      "commits_28d": 221,
-      "commits_7d": 66,
+      "commits_28d": 215,
+      "commits_7d": 62,
       "prs_merged_28d": 34,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-21T14:04:39Z",
-      "last_commit_message": "Merge pull request #7972 from multiversx/remove-request-duplicates",
+      "last_commit_at": "2026-08-24T09:05:11Z",
+      "last_commit_message": "partial continuation during supernova drain window",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        68,
-        38,
-        49,
-        66
+        64,
+        41,
+        48,
+        62
       ]
     },
     {
@@ -98,9 +98,9 @@
         0,
         0,
         0,
+        10,
         8,
-        9,
-        4,
+        3,
         5
       ]
     },
@@ -195,36 +195,6 @@
       ]
     },
     {
-      "name": "mx-chain-es-indexer-go",
-      "full_name": "multiversx/mx-chain-es-indexer-go",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
-      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
-      "stars": 12,
-      "open_issues": 1,
-      "open_prs": 3,
-      "default_branch": "master",
-      "commits_28d": 6,
-      "commits_7d": 5,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T12:52:49Z",
-      "last_commit_message": "add missing file",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        5
-      ]
-    },
-    {
       "name": "mx-chain-vm-go",
       "full_name": "multiversx/mx-chain-vm-go",
       "url": "https://github.com/multiversx/mx-chain-vm-go",
@@ -285,20 +255,20 @@
       ]
     },
     {
-      "name": "mx-sdk-js-core",
-      "full_name": "multiversx/mx-sdk-js-core",
-      "url": "https://github.com/multiversx/mx-sdk-js-core",
-      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
-      "stars": 73,
-      "open_issues": 6,
-      "open_prs": 5,
-      "default_branch": "main",
-      "commits_28d": 2,
-      "commits_7d": 1,
-      "prs_merged_28d": 1,
+      "name": "mx-chain-es-indexer-go",
+      "full_name": "multiversx/mx-chain-es-indexer-go",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
+      "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
+      "stars": 12,
+      "open_issues": 1,
+      "open_prs": 3,
+      "default_branch": "master",
+      "commits_28d": 5,
+      "commits_7d": 5,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T11:35:09Z",
-      "last_commit_message": "update tests",
+      "last_commit_at": "2026-08-21T12:52:49Z",
+      "last_commit_message": "add missing file",
       "weekly_commits": [
         0,
         0,
@@ -308,10 +278,40 @@
         0,
         0,
         0,
-        1,
         0,
         0,
-        1
+        0,
+        5
+      ]
+    },
+    {
+      "name": "mx-sdk-js-core",
+      "full_name": "multiversx/mx-sdk-js-core",
+      "url": "https://github.com/multiversx/mx-sdk-js-core",
+      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
+      "stars": 73,
+      "open_issues": 6,
+      "open_prs": 4,
+      "default_branch": "main",
+      "commits_28d": 2,
+      "commits_7d": 2,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-24T08:10:18Z",
+      "last_commit_message": "Merge pull request #682 from multiversx/small-tests-adjustments-supernova",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 121,
+      "commits_28d": 119,
       "prs_merged_28d": 16,
       "repos_touched": 2,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 31,
+      "commits_28d": 30,
       "prs_merged_28d": 10,
       "repos_touched": 5,
       "highlighted": false
@@ -482,15 +482,6 @@
       "highlighted": false
     },
     {
-      "login": "ssd04",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
-      "html_url": "https://github.com/ssd04",
-      "commits_28d": 20,
-      "prs_merged_28d": 1,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
@@ -500,10 +491,19 @@
       "highlighted": false
     },
     {
+      "login": "ssd04",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
+      "html_url": "https://github.com/ssd04",
+      "commits_28d": 19,
+      "prs_merged_28d": 1,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 15,
+      "commits_28d": 12,
       "prs_merged_28d": 5,
       "repos_touched": 1,
       "highlighted": false
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    21,
+    12,
     11,
     28,
     24,
@@ -677,6 +676,7 @@
     27,
     16,
     36,
-    1
+    1,
+    0
   ]
 }
