@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T12:03:58Z",
+  "generated_at": "2026-08-26T12:03:45Z",
   "window": {
-    "start": "2026-07-28",
-    "end": "2026-08-25",
+    "start": "2026-07-29",
+    "end": "2026-08-26",
     "days": 28
   },
   "totals": {
-    "commits": 343,
-    "prs_merged": 55,
-    "prs_opened": 166,
+    "commits": 330,
+    "prs_merged": 52,
+    "prs_opened": 171,
     "contributors": 14,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 951,
       "open_issues": 6,
-      "open_prs": 89,
+      "open_prs": 90,
       "default_branch": "master",
-      "commits_28d": 207,
-      "commits_7d": 63,
-      "prs_merged_28d": 32,
+      "commits_28d": 200,
+      "commits_7d": 38,
+      "prs_merged_28d": 28,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-25T10:50:26Z",
-      "last_commit_message": "Merge branch 'refs/heads/rc/supernova' into SF-2.0",
+      "last_commit_at": "2026-08-26T12:02:48Z",
+      "last_commit_message": "add future epoch start meta header checks and notifier interface",
       "weekly_commits": [
         0,
         0,
@@ -40,8 +40,8 @@
         0,
         59,
         39,
-        46,
-        63
+        64,
+        38
       ]
     },
     {
@@ -68,10 +68,40 @@
         0,
         0,
         0,
-        7,
-        16,
-        18,
+        12,
+        14,
+        15,
         0
+      ]
+    },
+    {
+      "name": "mx-api-service",
+      "full_name": "multiversx/mx-api-service",
+      "url": "https://github.com/multiversx/mx-api-service",
+      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
+      "stars": 36,
+      "open_issues": 7,
+      "open_prs": 12,
+      "default_branch": "main",
+      "commits_28d": 25,
+      "commits_7d": 14,
+      "prs_merged_28d": 7,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-26T11:29:54Z",
+      "last_commit_message": "fixes + improvements",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        9,
+        14
       ]
     },
     {
@@ -83,8 +113,8 @@
       "open_issues": 1,
       "open_prs": 10,
       "default_branch": "master",
-      "commits_28d": 26,
-      "commits_7d": 5,
+      "commits_28d": 23,
+      "commits_7d": 4,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
       "last_commit_at": "2026-08-20T10:07:31Z",
@@ -98,40 +128,10 @@
         0,
         0,
         0,
-        11,
-        9,
-        1,
-        5
-      ]
-    },
-    {
-      "name": "mx-api-service",
-      "full_name": "multiversx/mx-api-service",
-      "url": "https://github.com/multiversx/mx-api-service",
-      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
-      "stars": 36,
-      "open_issues": 7,
-      "open_prs": 11,
-      "default_branch": "main",
-      "commits_28d": 24,
-      "commits_7d": 20,
-      "prs_merged_28d": 7,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T13:35:12Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/development' into websocket-subscriptions-i",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        10,
+        7,
         2,
-        0,
-        2,
-        20
+        4
       ]
     },
     {
@@ -141,44 +141,14 @@
       "description": "A library that holds the core functional logic of a dapp on the MultiversX",
       "stars": 84,
       "open_issues": 0,
-      "open_prs": 1,
+      "open_prs": 0,
       "default_branch": "main",
-      "commits_28d": 20,
-      "commits_7d": 20,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-25T11:33:38Z",
-      "last_commit_message": "Merge branch 'main' into development",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        20
-      ]
-    },
-    {
-      "name": "mx-chain-simulator-go",
-      "full_name": "multiversx/mx-chain-simulator-go",
-      "url": "https://github.com/multiversx/mx-chain-simulator-go",
-      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
-      "stars": 12,
-      "open_issues": 0,
-      "open_prs": 4,
-      "default_branch": "main",
-      "commits_28d": 8,
-      "commits_7d": 3,
+      "commits_28d": 21,
+      "commits_7d": 21,
       "prs_merged_28d": 3,
       "contributors_28d": 1,
-      "last_commit_at": "2026-08-21T06:50:08Z",
-      "last_commit_message": "Merge pull request #226 from multiversx/feat/testnet-fixes",
+      "last_commit_at": "2026-08-25T14:31:40Z",
+      "last_commit_message": "Merge pull request #1739 from multiversx/development",
       "weekly_commits": [
         0,
         0,
@@ -188,10 +158,10 @@
         0,
         0,
         0,
-        5,
         0,
         0,
-        3
+        0,
+        21
       ]
     },
     {
@@ -204,7 +174,7 @@
       "open_prs": 22,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 2,
+      "commits_7d": 1,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
       "last_commit_at": "2026-08-19T12:08:02Z",
@@ -220,8 +190,8 @@
         0,
         3,
         0,
-        0,
-        2
+        1,
+        1
       ]
     },
     {
@@ -234,7 +204,7 @@
       "open_prs": 6,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 5,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-19T11:39:49Z",
@@ -250,8 +220,8 @@
         0,
         0,
         0,
-        0,
-        5
+        5,
+        0
       ]
     },
     {
@@ -264,7 +234,7 @@
       "open_prs": 3,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 5,
+      "commits_7d": 3,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-21T12:52:49Z",
@@ -280,8 +250,38 @@
         0,
         0,
         0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "mx-chain-simulator-go",
+      "full_name": "multiversx/mx-chain-simulator-go",
+      "url": "https://github.com/multiversx/mx-chain-simulator-go",
+      "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
+      "stars": 12,
+      "open_issues": 0,
+      "open_prs": 4,
+      "default_branch": "main",
+      "commits_28d": 3,
+      "commits_7d": 3,
+      "prs_merged_28d": 3,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-21T06:50:08Z",
+      "last_commit_message": "Merge pull request #226 from multiversx/feat/testnet-fixes",
+      "weekly_commits": [
         0,
-        5
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
       ]
     },
     {
@@ -440,18 +440,9 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 118,
-      "prs_merged_28d": 16,
+      "commits_28d": 115,
+      "prs_merged_28d": 14,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "sstanculeanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
-      "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 42,
-      "prs_merged_28d": 8,
-      "repos_touched": 3,
       "highlighted": false
     },
     {
@@ -461,6 +452,15 @@
       "commits_28d": 40,
       "prs_merged_28d": 2,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "sstanculeanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
+      "html_url": "https://github.com/sstanculeanu",
+      "commits_28d": 37,
+      "prs_merged_28d": 7,
+      "repos_touched": 3,
       "highlighted": false
     },
     {
@@ -476,7 +476,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 24,
+      "commits_28d": 25,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -485,8 +485,8 @@
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 20,
-      "prs_merged_28d": 2,
+      "commits_28d": 21,
+      "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -504,16 +504,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
       "commits_28d": 18,
-      "prs_merged_28d": 1,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "axenteoctavian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
-      "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 11,
-      "prs_merged_28d": 3,
+      "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -525,9 +516,26 @@
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
+    },
+    {
+      "login": "axenteoctavian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
+      "html_url": "https://github.com/axenteoctavian",
+      "commits_28d": 6,
+      "prs_merged_28d": 3,
+      "repos_touched": 2,
+      "highlighted": false
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-sdk-dapp",
+      "tag": "v5.7.2",
+      "name": "v5.7.2",
+      "published_at": "2026-08-25T14:32:21Z",
+      "url": "https://github.com/multiversx/mx-sdk-dapp/releases/tag/v5.7.2",
+      "is_prerelease": false
+    },
     {
       "repo": "mx-chain-go",
       "tag": "v2.0.4",
@@ -639,19 +647,10 @@
       "published_at": "2026-07-22T11:01:41Z",
       "url": "https://github.com/multiversx/mx-chain-es-indexer-go/releases/tag/v1.9.3-fix2",
       "is_prerelease": true
-    },
-    {
-      "repo": "mx-sdk-dapp",
-      "tag": "v5.7.1",
-      "name": "v5.7.1",
-      "published_at": "2026-07-14T06:35:34Z",
-      "url": "https://github.com/multiversx/mx-sdk-dapp/releases/tag/v5.7.1",
-      "is_prerelease": false
     }
   ],
   "daily_commits": [
-    6,
-    28,
+    16,
     24,
     10,
     0,
@@ -677,6 +676,7 @@
     30,
     1,
     0,
-    7
+    7,
+    25
   ]
 }
