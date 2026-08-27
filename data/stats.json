@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-26T12:03:45Z",
+  "generated_at": "2026-08-27T12:04:15Z",
   "window": {
-    "start": "2026-07-29",
-    "end": "2026-08-26",
+    "start": "2026-07-30",
+    "end": "2026-08-27",
     "days": 28
   },
   "totals": {
     "commits": 330,
-    "prs_merged": 52,
-    "prs_opened": 171,
+    "prs_merged": 49,
+    "prs_opened": 168,
     "contributors": 14,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 951,
       "open_issues": 6,
-      "open_prs": 90,
+      "open_prs": 89,
       "default_branch": "master",
-      "commits_28d": 200,
-      "commits_7d": 38,
-      "prs_merged_28d": 28,
+      "commits_28d": 203,
+      "commits_7d": 52,
+      "prs_merged_28d": 26,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-26T12:02:48Z",
-      "last_commit_message": "add future epoch start meta header checks and notifier interface",
+      "last_commit_at": "2026-08-27T11:54:46Z",
+      "last_commit_message": "add quota stats",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        59,
-        39,
-        64,
-        38
+        51,
+        42,
+        58,
+        52
       ]
     },
     {
@@ -53,7 +53,7 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 41,
+      "commits_28d": 37,
       "commits_7d": 0,
       "prs_merged_28d": 3,
       "contributors_28d": 2,
@@ -68,40 +68,10 @@
         0,
         0,
         0,
-        12,
-        14,
         15,
+        8,
+        14,
         0
-      ]
-    },
-    {
-      "name": "mx-api-service",
-      "full_name": "multiversx/mx-api-service",
-      "url": "https://github.com/multiversx/mx-api-service",
-      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
-      "stars": 36,
-      "open_issues": 7,
-      "open_prs": 12,
-      "default_branch": "main",
-      "commits_28d": 25,
-      "commits_7d": 14,
-      "prs_merged_28d": 7,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-08-26T11:29:54Z",
-      "last_commit_message": "fixes + improvements",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        0,
-        9,
-        14
       ]
     },
     {
@@ -111,14 +81,14 @@
       "description": "MultiversX blockchain node's mainnet configuration repository",
       "stars": 28,
       "open_issues": 1,
-      "open_prs": 10,
+      "open_prs": 11,
       "default_branch": "master",
-      "commits_28d": 23,
-      "commits_7d": 4,
+      "commits_28d": 25,
+      "commits_7d": 3,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
-      "last_commit_at": "2026-08-20T10:07:31Z",
-      "last_commit_message": "print last lines in case of an issue",
+      "last_commit_at": "2026-08-27T08:45:55Z",
+      "last_commit_message": "update process configs",
       "weekly_commits": [
         0,
         0,
@@ -130,8 +100,38 @@
         0,
         10,
         7,
-        2,
-        4
+        5,
+        3
+      ]
+    },
+    {
+      "name": "mx-api-service",
+      "full_name": "multiversx/mx-api-service",
+      "url": "https://github.com/multiversx/mx-api-service",
+      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
+      "stars": 36,
+      "open_issues": 7,
+      "open_prs": 12,
+      "default_branch": "main",
+      "commits_28d": 24,
+      "commits_7d": 8,
+      "prs_merged_28d": 7,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-27T11:15:28Z",
+      "last_commit_message": "skip canBeIgnored flagged transfers",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        8
       ]
     },
     {
@@ -174,7 +174,7 @@
       "open_prs": 22,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
       "last_commit_at": "2026-08-19T12:08:02Z",
@@ -190,8 +190,8 @@
         0,
         3,
         0,
-        1,
-        1
+        2,
+        0
       ]
     },
     {
@@ -264,8 +264,8 @@
       "open_prs": 4,
       "default_branch": "main",
       "commits_28d": 3,
-      "commits_7d": 3,
-      "prs_merged_28d": 3,
+      "commits_7d": 1,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-21T06:50:08Z",
       "last_commit_message": "Merge pull request #226 from multiversx/feat/testnet-fixes",
@@ -280,8 +280,8 @@
         0,
         0,
         0,
-        0,
-        3
+        2,
+        1
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 115,
-      "prs_merged_28d": 14,
+      "commits_28d": 119,
+      "prs_merged_28d": 12,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -449,34 +449,34 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 40,
+      "commits_28d": 36,
       "prs_merged_28d": 2,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "sstanculeanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
-      "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 37,
-      "prs_merged_28d": 7,
-      "repos_touched": 3,
       "highlighted": false
     },
     {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 30,
+      "commits_28d": 33,
       "prs_merged_28d": 9,
       "repos_touched": 5,
+      "highlighted": false
+    },
+    {
+      "login": "sstanculeanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
+      "html_url": "https://github.com/sstanculeanu",
+      "commits_28d": 33,
+      "prs_merged_28d": 7,
+      "repos_touched": 3,
       "highlighted": false
     },
     {
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 25,
+      "commits_28d": 24,
       "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
@@ -491,20 +491,20 @@
       "highlighted": false
     },
     {
+      "login": "ssd04",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
+      "html_url": "https://github.com/ssd04",
+      "commits_28d": 21,
+      "prs_merged_28d": 1,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
       "commits_28d": 18,
       "prs_merged_28d": 2,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "ssd04",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
-      "html_url": "https://github.com/ssd04",
-      "commits_28d": 18,
-      "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -522,7 +522,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 6,
-      "prs_merged_28d": 3,
+      "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
     }
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    16,
-    24,
+    20,
     10,
     0,
     0,
@@ -677,6 +676,7 @@
     1,
     0,
     7,
-    25
+    22,
+    9
   ]
 }
