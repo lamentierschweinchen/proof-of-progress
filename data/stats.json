@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-27T12:04:15Z",
+  "generated_at": "2026-08-28T12:04:15Z",
   "window": {
-    "start": "2026-07-30",
-    "end": "2026-08-27",
+    "start": "2026-07-31",
+    "end": "2026-08-28",
     "days": 28
   },
   "totals": {
-    "commits": 330,
-    "prs_merged": 49,
-    "prs_opened": 168,
+    "commits": 328,
+    "prs_merged": 43,
+    "prs_opened": 167,
     "contributors": 14,
     "releases": 15,
     "repos_active": 10
@@ -19,16 +19,16 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 951,
+      "stars": 952,
       "open_issues": 6,
       "open_prs": 89,
       "default_branch": "master",
-      "commits_28d": 203,
-      "commits_7d": 52,
-      "prs_merged_28d": 26,
+      "commits_28d": 193,
+      "commits_7d": 39,
+      "prs_merged_28d": 21,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-27T11:54:46Z",
-      "last_commit_message": "add quota stats",
+      "last_commit_at": "2026-08-28T11:26:52Z",
+      "last_commit_message": "supernova trigger edge case treatment",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        51,
-        42,
-        58,
-        52
+        43,
+        47,
+        64,
+        39
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 195,
       "open_issues": 7,
-      "open_prs": 37,
+      "open_prs": 38,
       "default_branch": "master",
-      "commits_28d": 37,
-      "commits_7d": 0,
+      "commits_28d": 43,
+      "commits_7d": 5,
       "prs_merged_28d": 3,
       "contributors_28d": 2,
-      "last_commit_at": "2026-08-14T09:41:20Z",
-      "last_commit_message": "sc-meta CLI test - generate some blocks before starting",
+      "last_commit_at": "2026-08-27T22:32:43Z",
+      "last_commit_message": "clippy fix",
       "weekly_commits": [
         0,
         0,
@@ -69,39 +69,9 @@
         0,
         0,
         15,
-        8,
-        14,
-        0
-      ]
-    },
-    {
-      "name": "mx-chain-mainnet-config",
-      "full_name": "multiversx/mx-chain-mainnet-config",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
-      "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 28,
-      "open_issues": 1,
-      "open_prs": 11,
-      "default_branch": "master",
-      "commits_28d": 25,
-      "commits_7d": 3,
-      "prs_merged_28d": 2,
-      "contributors_28d": 4,
-      "last_commit_at": "2026-08-27T08:45:55Z",
-      "last_commit_message": "update process configs",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        7,
-        5,
-        3
+        22,
+        1,
+        5
       ]
     },
     {
@@ -113,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 12,
       "default_branch": "main",
-      "commits_28d": 24,
-      "commits_7d": 8,
-      "prs_merged_28d": 7,
+      "commits_28d": 31,
+      "commits_7d": 14,
+      "prs_merged_28d": 8,
       "contributors_28d": 1,
-      "last_commit_at": "2026-08-27T11:15:28Z",
-      "last_commit_message": "skip canBeIgnored flagged transfers",
+      "last_commit_at": "2026-08-28T11:49:16Z",
+      "last_commit_message": "performance improvements",
       "weekly_commits": [
         0,
         0,
@@ -130,8 +100,38 @@
         0,
         0,
         0,
-        16,
-        8
+        17,
+        14
+      ]
+    },
+    {
+      "name": "mx-chain-mainnet-config",
+      "full_name": "multiversx/mx-chain-mainnet-config",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
+      "description": "MultiversX blockchain node's mainnet configuration repository",
+      "stars": 28,
+      "open_issues": 1,
+      "open_prs": 11,
+      "default_branch": "master",
+      "commits_28d": 23,
+      "commits_7d": 4,
+      "prs_merged_28d": 1,
+      "contributors_28d": 4,
+      "last_commit_at": "2026-08-28T11:32:37Z",
+      "last_commit_message": "update process configs",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        5,
+        5,
+        4
       ]
     },
     {
@@ -144,7 +144,7 @@
       "open_prs": 0,
       "default_branch": "main",
       "commits_28d": 21,
-      "commits_7d": 21,
+      "commits_7d": 18,
       "prs_merged_28d": 3,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-25T14:31:40Z",
@@ -160,38 +160,8 @@
         0,
         0,
         0,
-        0,
-        21
-      ]
-    },
-    {
-      "name": "mx-chain-vm-go",
-      "full_name": "multiversx/mx-chain-vm-go",
-      "url": "https://github.com/multiversx/mx-chain-vm-go",
-      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
-      "stars": 89,
-      "open_issues": 8,
-      "open_prs": 22,
-      "default_branch": "master",
-      "commits_28d": 5,
-      "commits_7d": 0,
-      "prs_merged_28d": 2,
-      "contributors_28d": 3,
-      "last_commit_at": "2026-08-19T12:08:02Z",
-      "last_commit_message": "Merge pull request #985 from multiversx/tags-for-modules",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         3,
-        0,
-        2,
-        0
+        18
       ]
     },
     {
@@ -234,7 +204,7 @@
       "open_prs": 3,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 3,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-21T12:52:49Z",
@@ -250,8 +220,8 @@
         0,
         0,
         0,
-        2,
-        3
+        4,
+        1
       ]
     },
     {
@@ -264,7 +234,7 @@
       "open_prs": 4,
       "default_branch": "main",
       "commits_28d": 3,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-21T06:50:08Z",
@@ -280,8 +250,38 @@
         0,
         0,
         0,
+        3,
+        0
+      ]
+    },
+    {
+      "name": "mx-chain-vm-go",
+      "full_name": "multiversx/mx-chain-vm-go",
+      "url": "https://github.com/multiversx/mx-chain-vm-go",
+      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
+      "stars": 89,
+      "open_issues": 8,
+      "open_prs": 22,
+      "default_branch": "master",
+      "commits_28d": 2,
+      "commits_7d": 0,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-08-19T12:08:02Z",
+      "last_commit_message": "Merge pull request #985 from multiversx/tags-for-modules",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         2,
-        1
+        0
       ]
     },
     {
@@ -294,7 +294,7 @@
       "open_prs": 4,
       "default_branch": "main",
       "commits_28d": 2,
-      "commits_7d": 2,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-24T08:10:18Z",
@@ -310,8 +310,8 @@
         0,
         0,
         0,
-        0,
-        2
+        1,
+        1
       ]
     },
     {
@@ -440,16 +440,16 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 119,
-      "prs_merged_28d": 12,
-      "repos_touched": 2,
+      "commits_28d": 117,
+      "prs_merged_28d": 11,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 36,
+      "commits_28d": 42,
       "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
@@ -458,26 +458,17 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 33,
+      "commits_28d": 34,
       "prs_merged_28d": 9,
       "repos_touched": 5,
-      "highlighted": false
-    },
-    {
-      "login": "sstanculeanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
-      "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 33,
-      "prs_merged_28d": 7,
-      "repos_touched": 3,
       "highlighted": false
     },
     {
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 24,
-      "prs_merged_28d": 7,
+      "commits_28d": 31,
+      "prs_merged_28d": 8,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -503,6 +494,15 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
+      "commits_28d": 19,
+      "prs_merged_28d": 2,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "sstanculeanu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
+      "html_url": "https://github.com/sstanculeanu",
       "commits_28d": 18,
       "prs_merged_28d": 2,
       "repos_touched": 2,
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    20,
-    10,
+    9,
     0,
     0,
     15,
@@ -665,11 +664,11 @@
     17,
     16,
     20,
-    11,
+    12,
     1,
     0,
     6,
-    29,
+    30,
     27,
     16,
     30,
@@ -677,6 +676,7 @@
     0,
     7,
     22,
-    9
+    9,
+    24
   ]
 }
