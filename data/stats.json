@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-31T12:04:02Z",
+  "generated_at": "2026-09-01T12:04:05Z",
   "window": {
-    "start": "2026-08-03",
-    "end": "2026-08-31",
+    "start": "2026-08-04",
+    "end": "2026-09-01",
     "days": 28
   },
   "totals": {
-    "commits": 331,
-    "prs_merged": 47,
-    "prs_opened": 171,
+    "commits": 333,
+    "prs_merged": 48,
+    "prs_opened": 175,
     "contributors": 14,
     "releases": 15,
     "repos_active": 11
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 89,
+      "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 188,
-      "commits_7d": 43,
+      "commits_28d": 181,
+      "commits_7d": 36,
       "prs_merged_28d": 21,
       "contributors_28d": 9,
-      "last_commit_at": "2026-08-31T10:59:55Z",
-      "last_commit_message": "close race window",
+      "last_commit_at": "2026-09-01T11:03:12Z",
+      "last_commit_message": "Merge remote-tracking branch 'origin/fix-competing-block-gate' into disabled-fea",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        41,
-        48,
-        56,
-        43
+        39,
+        46,
+        60,
+        36
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 38,
       "default_branch": "master",
-      "commits_28d": 43,
-      "commits_7d": 5,
-      "prs_merged_28d": 3,
+      "commits_28d": 48,
+      "commits_7d": 12,
+      "prs_merged_28d": 4,
       "contributors_28d": 2,
-      "last_commit_at": "2026-08-27T22:32:43Z",
-      "last_commit_message": "clippy fix",
+      "last_commit_at": "2026-09-01T10:37:21Z",
+      "last_commit_message": "sc-meta CLI test refactor",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        15,
-        22,
+        16,
+        19,
         1,
-        5
+        12
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 11,
       "default_branch": "main",
-      "commits_28d": 35,
-      "commits_7d": 13,
+      "commits_28d": 38,
+      "commits_7d": 16,
       "prs_merged_28d": 9,
       "contributors_28d": 1,
-      "last_commit_at": "2026-08-31T08:09:21Z",
-      "last_commit_message": "remove comm",
+      "last_commit_at": "2026-09-01T10:08:19Z",
+      "last_commit_message": "use deterministic substituion instead of raw replace",
       "weekly_commits": [
         0,
         0,
@@ -99,9 +99,9 @@
         0,
         0,
         0,
-        0,
-        22,
-        13
+        2,
+        20,
+        16
       ]
     },
     {
@@ -113,12 +113,12 @@
       "open_issues": 1,
       "open_prs": 10,
       "default_branch": "master",
-      "commits_28d": 24,
-      "commits_7d": 8,
+      "commits_28d": 25,
+      "commits_7d": 10,
       "prs_merged_28d": 2,
       "contributors_28d": 5,
-      "last_commit_at": "2026-08-31T07:05:43Z",
-      "last_commit_message": "Merge pull request #276 from multiversx/configs-updates-latest-supernova",
+      "last_commit_at": "2026-08-31T15:54:23Z",
+      "last_commit_message": "Decrease RoundModulusTriggerWhenSyncIsStuck",
       "weekly_commits": [
         0,
         0,
@@ -128,10 +128,10 @@
         0,
         0,
         0,
-        8,
-        3,
+        9,
+        1,
         5,
-        8
+        10
       ]
     },
     {
@@ -144,7 +144,7 @@
       "open_prs": 0,
       "default_branch": "main",
       "commits_28d": 21,
-      "commits_7d": 15,
+      "commits_7d": 1,
       "prs_merged_28d": 3,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-25T14:31:40Z",
@@ -160,8 +160,8 @@
         0,
         0,
         0,
-        6,
-        15
+        20,
+        1
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 110,
+      "commits_28d": 106,
       "prs_merged_28d": 11,
       "repos_touched": 1,
       "highlighted": false
@@ -449,8 +449,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 42,
-      "prs_merged_28d": 2,
+      "commits_28d": 47,
+      "prs_merged_28d": 3,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 37,
+      "commits_28d": 38,
       "prs_merged_28d": 10,
       "repos_touched": 5,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 35,
+      "commits_28d": 38,
       "prs_merged_28d": 9,
       "repos_touched": 1,
       "highlighted": false
@@ -485,7 +485,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 23,
+      "commits_28d": 24,
       "prs_merged_28d": 1,
       "repos_touched": 2,
       "highlighted": false
@@ -494,7 +494,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 19,
+      "commits_28d": 20,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
@@ -503,7 +503,7 @@
       "login": "sstanculeanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/34831323?v=4",
       "html_url": "https://github.com/sstanculeanu",
-      "commits_28d": 15,
+      "commits_28d": 12,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "dependabot[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
       "html_url": "https://github.com/dependabot[bot]",
-      "commits_28d": 10,
+      "commits_28d": 7,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -528,6 +528,14 @@
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-chain-mainnet-config",
+      "tag": "v2.0.5.0-rc1",
+      "name": "v2.0.5.0-rc1",
+      "published_at": "2026-08-31T12:17:10Z",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.0.5.0-rc1",
+      "is_prerelease": true
+    },
     {
       "repo": "mx-sdk-dapp",
       "tag": "v5.7.2",
@@ -639,19 +647,10 @@
       "published_at": "2026-07-27T11:18:38Z",
       "url": "https://github.com/multiversx/mx-sdk-js-core/releases/tag/v16.0.0",
       "is_prerelease": false
-    },
-    {
-      "repo": "mx-chain-es-indexer-go",
-      "tag": "v1.9.3-fix2",
-      "name": "v1.9.3-fix2",
-      "published_at": "2026-07-22T11:01:41Z",
-      "url": "https://github.com/multiversx/mx-chain-es-indexer-go/releases/tag/v1.9.3-fix2",
-      "is_prerelease": true
     }
   ],
   "daily_commits": [
-    10,
-    16,
+    12,
     17,
     6,
     8,
@@ -674,9 +673,10 @@
     7,
     22,
     9,
-    24,
+    21,
     21,
     2,
-    0
+    0,
+    10
   ]
 }
