@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-02T12:04:10Z",
+  "generated_at": "2026-09-03T12:03:44Z",
   "window": {
-    "start": "2026-08-05",
-    "end": "2026-09-02",
+    "start": "2026-08-06",
+    "end": "2026-09-03",
     "days": 28
   },
   "totals": {
-    "commits": 338,
-    "prs_merged": 50,
-    "prs_opened": 183,
+    "commits": 337,
+    "prs_merged": 51,
+    "prs_opened": 187,
     "contributors": 15,
     "releases": 15,
     "repos_active": 12
@@ -23,12 +23,12 @@
       "open_issues": 6,
       "open_prs": 88,
       "default_branch": "master",
-      "commits_28d": 185,
-      "commits_7d": 47,
+      "commits_28d": 183,
+      "commits_7d": 34,
       "prs_merged_28d": 21,
       "contributors_28d": 9,
-      "last_commit_at": "2026-09-02T09:22:51Z",
-      "last_commit_message": "update comments",
+      "last_commit_at": "2026-09-02T19:34:14Z",
+      "last_commit_message": "Merge remote-tracking branch 'origin/fix-competing-block-gate' into disabled-fea",
       "weekly_commits": [
         0,
         0,
@@ -38,40 +38,10 @@
         0,
         0,
         0,
-        39,
-        64,
-        35,
-        47
-      ]
-    },
-    {
-      "name": "mx-sdk-rs",
-      "full_name": "multiversx/mx-sdk-rs",
-      "url": "https://github.com/multiversx/mx-sdk-rs",
-      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
-      "stars": 195,
-      "open_issues": 7,
-      "open_prs": 37,
-      "default_branch": "master",
-      "commits_28d": 48,
-      "commits_7d": 17,
-      "prs_merged_28d": 5,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-09-02T09:55:23Z",
-      "last_commit_message": "Merge pull request #2421 from multiversx/symbolic-merge",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        14,
-        17,
-        0,
-        17
+        42,
+        58,
+        49,
+        34
       ]
     },
     {
@@ -81,14 +51,14 @@
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
       "stars": 36,
       "open_issues": 7,
-      "open_prs": 11,
+      "open_prs": 12,
       "default_branch": "main",
-      "commits_28d": 38,
-      "commits_7d": 15,
-      "prs_merged_28d": 9,
+      "commits_28d": 45,
+      "commits_7d": 21,
+      "prs_merged_28d": 10,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-01T10:08:19Z",
-      "last_commit_message": "use deterministic substituion instead of raw replace",
+      "last_commit_at": "2026-09-03T10:24:16Z",
+      "last_commit_message": "fixes after review",
       "weekly_commits": [
         0,
         0,
@@ -99,9 +69,39 @@
         0,
         0,
         0,
-        9,
-        14,
-        15
+        16,
+        8,
+        21
+      ]
+    },
+    {
+      "name": "mx-sdk-rs",
+      "full_name": "multiversx/mx-sdk-rs",
+      "url": "https://github.com/multiversx/mx-sdk-rs",
+      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
+      "stars": 195,
+      "open_issues": 7,
+      "open_prs": 38,
+      "default_branch": "master",
+      "commits_28d": 43,
+      "commits_7d": 19,
+      "prs_merged_28d": 5,
+      "contributors_28d": 2,
+      "last_commit_at": "2026-09-03T11:27:27Z",
+      "last_commit_message": "clippy fix",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        16,
+        0,
+        19
       ]
     },
     {
@@ -113,8 +113,8 @@
       "open_issues": 1,
       "open_prs": 10,
       "default_branch": "master",
-      "commits_28d": 24,
-      "commits_7d": 11,
+      "commits_28d": 23,
+      "commits_7d": 8,
       "prs_merged_28d": 2,
       "contributors_28d": 5,
       "last_commit_at": "2026-09-01T16:50:55Z",
@@ -129,9 +129,9 @@
         0,
         0,
         7,
-        2,
-        4,
-        11
+        5,
+        3,
+        8
       ]
     },
     {
@@ -279,8 +279,8 @@
         0,
         0,
         0,
-        0,
-        3,
+        2,
+        1,
         0
       ]
     },
@@ -309,8 +309,8 @@
         0,
         0,
         0,
-        1,
-        1,
+        2,
+        0,
         0
       ]
     },
@@ -440,8 +440,17 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 108,
+      "commits_28d": 106,
       "prs_merged_28d": 11,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 45,
+      "prs_merged_28d": 10,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,7 +458,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 47,
+      "commits_28d": 42,
       "prs_merged_28d": 4,
       "repos_touched": 1,
       "highlighted": false
@@ -464,19 +473,10 @@
       "highlighted": false
     },
     {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 38,
-      "prs_merged_28d": 9,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 26,
+      "commits_28d": 25,
       "prs_merged_28d": 1,
       "repos_touched": 2,
       "highlighted": false
@@ -494,7 +494,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 17,
+      "commits_28d": 16,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "danidrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/112827213?v=4",
       "html_url": "https://github.com/danidrasovean",
-      "commits_28d": 8,
+      "commits_28d": 9,
       "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    12,
-    6,
+    5,
     8,
     0,
     0,
@@ -677,6 +676,7 @@
     2,
     0,
     10,
-    27
+    27,
+    13
   ]
 }
