@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-08T12:04:06Z",
+  "generated_at": "2026-09-09T12:04:40Z",
   "window": {
-    "start": "2026-08-11",
-    "end": "2026-09-08",
+    "start": "2026-08-12",
+    "end": "2026-09-09",
     "days": 28
   },
   "totals": {
-    "commits": 375,
-    "prs_merged": 68,
-    "prs_opened": 230,
+    "commits": 386,
+    "prs_merged": 66,
+    "prs_opened": 231,
     "contributors": 14,
     "releases": 15,
     "repos_active": 12
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 83,
+      "open_prs": 84,
       "default_branch": "master",
-      "commits_28d": 182,
-      "commits_7d": 46,
-      "prs_merged_28d": 26,
+      "commits_28d": 178,
+      "commits_7d": 37,
+      "prs_merged_28d": 23,
       "contributors_28d": 8,
-      "last_commit_at": "2026-09-08T10:33:23Z",
-      "last_commit_message": "Bump github.com/gin-contrib/pprof from 1.5.4 to 1.5.5",
+      "last_commit_at": "2026-09-09T11:26:28Z",
+      "last_commit_message": "Merge remote-tracking branch 'origin/master' into test-state-accesses",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        46,
-        53,
-        37,
-        46
+        64,
+        28,
+        49,
+        37
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
       "stars": 36,
       "open_issues": 7,
-      "open_prs": 12,
+      "open_prs": 14,
       "default_branch": "main",
-      "commits_28d": 59,
-      "commits_7d": 21,
-      "prs_merged_28d": 12,
+      "commits_28d": 70,
+      "commits_7d": 32,
+      "prs_merged_28d": 13,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-08T10:46:30Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/development' into websocket-subscriptions-i",
+      "last_commit_at": "2026-09-09T12:02:25Z",
+      "last_commit_message": "remove newline",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        2,
-        20,
-        16,
-        21
+        9,
+        14,
+        15,
+        32
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 50,
-      "commits_7d": 18,
+      "commits_28d": 53,
+      "commits_7d": 19,
       "prs_merged_28d": 7,
       "contributors_28d": 2,
-      "last_commit_at": "2026-09-07T12:00:28Z",
-      "last_commit_message": "implements_abi/implements_abi_exactly",
+      "last_commit_at": "2026-09-09T00:28:25Z",
+      "last_commit_message": "abi generator - rustfmt skip",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        19,
-        1,
-        12,
-        18
+        17,
+        0,
+        17,
+        19
       ]
     },
     {
@@ -114,7 +114,7 @@
       "open_prs": 5,
       "default_branch": "master",
       "commits_28d": 24,
-      "commits_7d": 8,
+      "commits_7d": 7,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
       "last_commit_at": "2026-09-07T07:33:51Z",
@@ -128,10 +128,10 @@
         0,
         0,
         0,
-        1,
-        5,
-        10,
-        8
+        2,
+        4,
+        11,
+        7
       ]
     },
     {
@@ -159,8 +159,8 @@
         0,
         0,
         0,
-        20,
-        1,
+        21,
+        0,
         0
       ]
     },
@@ -188,8 +188,8 @@
         0,
         0,
         0,
-        0,
-        5,
+        2,
+        3,
         0,
         8
       ]
@@ -248,8 +248,8 @@
         0,
         0,
         0,
-        0,
         5,
+        0,
         0,
         1
       ]
@@ -263,12 +263,12 @@
       "open_issues": 8,
       "open_prs": 21,
       "default_branch": "master",
-      "commits_28d": 3,
-      "commits_7d": 1,
+      "commits_28d": 4,
+      "commits_7d": 2,
       "prs_merged_28d": 2,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-09-07T07:47:13Z",
-      "last_commit_message": "Merge pull request #982 from multiversx/rc/supernova",
+      "contributors_28d": 3,
+      "last_commit_at": "2026-09-09T09:29:33Z",
+      "last_commit_message": "Merge branch 'rc/after-supernova' into mem-ops-wasm",
       "weekly_commits": [
         0,
         0,
@@ -278,10 +278,10 @@
         0,
         0,
         0,
+        1,
+        1,
         0,
-        2,
-        0,
-        1
+        2
       ]
     },
     {
@@ -354,7 +354,7 @@
       "open_prs": 12,
       "default_branch": "main",
       "commits_28d": 2,
-      "commits_7d": 2,
+      "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-02T11:36:48Z",
@@ -370,8 +370,8 @@
         0,
         0,
         0,
-        0,
-        2
+        2,
+        0
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 107,
-      "prs_merged_28d": 14,
+      "commits_28d": 104,
+      "prs_merged_28d": 13,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -449,27 +449,27 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 59,
-      "prs_merged_28d": 12,
+      "commits_28d": 70,
+      "prs_merged_28d": 13,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "miiu96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
-      "html_url": "https://github.com/miiu96",
-      "commits_28d": 58,
-      "prs_merged_28d": 11,
-      "repos_touched": 5,
       "highlighted": false
     },
     {
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 49,
+      "commits_28d": 53,
       "prs_merged_28d": 6,
-      "repos_touched": 1,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "miiu96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
+      "html_url": "https://github.com/miiu96",
+      "commits_28d": 51,
+      "prs_merged_28d": 11,
+      "repos_touched": 5,
       "highlighted": false
     },
     {
@@ -494,7 +494,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 16,
+      "commits_28d": 17,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 8,
+      "commits_28d": 12,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    5,
-    16,
+    8,
     20,
     12,
     1,
@@ -677,6 +676,7 @@
     25,
     5,
     1,
-    31
+    31,
+    15
   ]
 }
