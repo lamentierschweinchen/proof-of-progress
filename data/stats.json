@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-10T12:04:20Z",
+  "generated_at": "2026-09-11T14:42:00Z",
   "window": {
-    "start": "2026-08-13",
-    "end": "2026-09-10",
+    "start": "2026-08-14",
+    "end": "2026-09-11",
     "days": 28
   },
   "totals": {
-    "commits": 428,
+    "commits": 419,
     "prs_merged": 68,
-    "prs_opened": 243,
-    "contributors": 15,
+    "prs_opened": 268,
+    "contributors": 13,
     "releases": 15,
     "repos_active": 12
   },
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 85,
+      "open_prs": 75,
       "default_branch": "master",
-      "commits_28d": 198,
-      "commits_7d": 62,
-      "prs_merged_28d": 21,
-      "contributors_28d": 9,
-      "last_commit_at": "2026-09-10T11:44:57Z",
-      "last_commit_message": "Bump golang.org/x/crypto from 0.54.0 to 0.56.0",
+      "commits_28d": 188,
+      "commits_7d": 46,
+      "prs_merged_28d": 20,
+      "contributors_28d": 8,
+      "last_commit_at": "2026-09-11T13:33:10Z",
+      "last_commit_message": "Merge branch 'master' into improve-logging-lines",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        58,
-        42,
-        36,
-        62
+        59,
+        34,
+        49,
+        46
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 77,
-      "commits_7d": 32,
-      "prs_merged_28d": 15,
+      "commits_28d": 86,
+      "commits_7d": 37,
+      "prs_merged_28d": 17,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-10T11:16:06Z",
-      "last_commit_message": "add more specific log",
+      "last_commit_at": "2026-09-11T09:52:24Z",
+      "last_commit_message": "logging improvements",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        16,
-        8,
-        21,
-        32
+        22,
+        12,
+        15,
+        37
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 59,
-      "commits_7d": 24,
-      "prs_merged_28d": 7,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-09-10T09:22:29Z",
-      "last_commit_message": "abi generator config refactor, `name` field",
+      "commits_28d": 49,
+      "commits_7d": 27,
+      "prs_merged_28d": 5,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-09-11T12:16:24Z",
+      "last_commit_message": "dependency cleanup",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
+        1,
+        5,
         16,
-        0,
-        19,
-        24
+        27
       ]
     },
     {
@@ -114,7 +114,7 @@
       "open_prs": 5,
       "default_branch": "master",
       "commits_28d": 27,
-      "commits_7d": 11,
+      "commits_7d": 6,
       "prs_merged_28d": 4,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-10T12:03:15Z",
@@ -129,9 +129,9 @@
         0,
         0,
         5,
-        3,
-        8,
-        11
+        6,
+        10,
+        6
       ]
     },
     {
@@ -139,7 +139,7 @@
       "full_name": "multiversx/mx-sdk-dapp",
       "url": "https://github.com/multiversx/mx-sdk-dapp",
       "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 84,
+      "stars": 85,
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        0,
-        21,
+        3,
+        18,
         0,
         0
       ]
@@ -188,8 +188,8 @@
         0,
         0,
         0,
-        2,
-        3,
+        5,
+        0,
         0,
         8
       ]
@@ -203,12 +203,12 @@
       "open_issues": 0,
       "open_prs": 3,
       "default_branch": "main",
-      "commits_28d": 10,
+      "commits_28d": 12,
       "commits_7d": 7,
-      "prs_merged_28d": 6,
+      "prs_merged_28d": 7,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-07T12:37:44Z",
-      "last_commit_message": "Merge pull request #179 from multiversx/rc/supernova",
+      "last_commit_at": "2026-09-10T13:40:32Z",
+      "last_commit_message": "Merge pull request #230 from multiversx/update-go-mod-10-sep",
       "weekly_commits": [
         0,
         0,
@@ -218,9 +218,9 @@
         0,
         0,
         0,
-        2,
-        1,
+        3,
         0,
+        2,
         7
       ]
     },
@@ -309,8 +309,8 @@
         0,
         0,
         0,
-        0,
-        3,
+        2,
+        1,
         0
       ]
     },
@@ -338,8 +338,8 @@
         0,
         0,
         0,
-        0,
-        2,
+        1,
+        1,
         0,
         0
       ]
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 118,
+      "commits_28d": 107,
       "prs_merged_28d": 12,
       "repos_touched": 2,
       "highlighted": false
@@ -449,34 +449,34 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 77,
-      "prs_merged_28d": 15,
+      "commits_28d": 86,
+      "prs_merged_28d": 17,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "andrei-marinica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
-      "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 59,
-      "prs_merged_28d": 6,
-      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 58,
-      "prs_merged_28d": 12,
+      "commits_28d": 62,
+      "prs_merged_28d": 11,
       "repos_touched": 5,
+      "highlighted": false
+    },
+    {
+      "login": "andrei-marinica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
+      "html_url": "https://github.com/andrei-marinica",
+      "commits_28d": 50,
+      "prs_merged_28d": 5,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 25,
+      "commits_28d": 31,
       "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
@@ -503,8 +503,8 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 12,
-      "prs_merged_28d": 5,
+      "commits_28d": 14,
+      "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 12,
+      "commits_28d": 10,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -659,8 +659,7 @@
     }
   ],
   "daily_commits": [
-    18,
-    12,
+    2,
     1,
     0,
     6,
@@ -686,6 +685,7 @@
     1,
     38,
     21,
-    26
+    26,
+    25
   ]
 }
