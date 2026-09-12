@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T14:42:00Z",
+  "generated_at": "2026-09-12T12:03:31Z",
   "window": {
-    "start": "2026-08-14",
-    "end": "2026-09-11",
+    "start": "2026-08-15",
+    "end": "2026-09-12",
     "days": 28
   },
   "totals": {
-    "commits": 419,
-    "prs_merged": 68,
-    "prs_opened": 268,
+    "commits": 420,
+    "prs_merged": 66,
+    "prs_opened": 266,
     "contributors": 13,
     "releases": 15,
     "repos_active": 12
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 75,
+      "open_prs": 76,
       "default_branch": "master",
-      "commits_28d": 188,
-      "commits_7d": 46,
-      "prs_merged_28d": 20,
+      "commits_28d": 187,
+      "commits_7d": 47,
+      "prs_merged_28d": 18,
       "contributors_28d": 8,
-      "last_commit_at": "2026-09-11T13:33:10Z",
-      "last_commit_message": "Merge branch 'master' into improve-logging-lines",
+      "last_commit_at": "2026-09-11T21:06:19Z",
+      "last_commit_message": "fix epoch change propose rewards epoch",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        59,
-        34,
-        49,
-        46
+        57,
+        37,
+        46,
+        47
       ]
     },
     {
@@ -84,7 +84,7 @@
       "open_prs": 37,
       "default_branch": "master",
       "commits_28d": 49,
-      "commits_7d": 27,
+      "commits_7d": 20,
       "prs_merged_28d": 5,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-11T12:16:24Z",
@@ -100,8 +100,8 @@
         0,
         1,
         5,
-        16,
-        27
+        23,
+        20
       ]
     },
     {
@@ -114,7 +114,7 @@
       "open_prs": 5,
       "default_branch": "master",
       "commits_28d": 27,
-      "commits_7d": 6,
+      "commits_7d": 5,
       "prs_merged_28d": 4,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-10T12:03:15Z",
@@ -129,9 +129,9 @@
         0,
         0,
         5,
-        6,
+        7,
         10,
-        6
+        5
       ]
     },
     {
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        3,
-        18,
+        5,
+        16,
         0,
         0
       ]
@@ -225,6 +225,36 @@
       ]
     },
     {
+      "name": "mx-chain-proxy-go",
+      "full_name": "multiversx/mx-chain-proxy-go",
+      "url": "https://github.com/multiversx/mx-chain-proxy-go",
+      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
+      "stars": 58,
+      "open_issues": 2,
+      "open_prs": 4,
+      "default_branch": "master",
+      "commits_28d": 10,
+      "commits_7d": 5,
+      "prs_merged_28d": 3,
+      "contributors_28d": 2,
+      "last_commit_at": "2026-09-11T22:38:58Z",
+      "last_commit_message": "temporary stop staking related txs until fixed",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        5
+      ]
+    },
+    {
       "name": "mx-chain-vm-go",
       "full_name": "multiversx/mx-chain-vm-go",
       "url": "https://github.com/multiversx/mx-chain-vm-go",
@@ -252,36 +282,6 @@
         0,
         0,
         6
-      ]
-    },
-    {
-      "name": "mx-chain-proxy-go",
-      "full_name": "multiversx/mx-chain-proxy-go",
-      "url": "https://github.com/multiversx/mx-chain-proxy-go",
-      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
-      "stars": 58,
-      "open_issues": 2,
-      "open_prs": 3,
-      "default_branch": "master",
-      "commits_28d": 8,
-      "commits_7d": 3,
-      "prs_merged_28d": 3,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-09-10T08:39:18Z",
-      "last_commit_message": "refactoring",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5,
-        0,
-        0,
-        3
       ]
     },
     {
@@ -441,8 +441,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
       "commits_28d": 107,
-      "prs_merged_28d": 12,
-      "repos_touched": 2,
+      "prs_merged_28d": 10,
+      "repos_touched": 3,
       "highlighted": false
     },
     {
@@ -458,7 +458,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 62,
+      "commits_28d": 63,
       "prs_merged_28d": 11,
       "repos_touched": 5,
       "highlighted": false
@@ -659,7 +659,6 @@
     }
   ],
   "daily_commits": [
-    2,
     1,
     0,
     6,
@@ -686,6 +685,7 @@
     38,
     21,
     26,
-    25
+    25,
+    24
   ]
 }
