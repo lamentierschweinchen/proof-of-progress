@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-12T12:03:31Z",
+  "generated_at": "2026-09-13T12:03:56Z",
   "window": {
-    "start": "2026-08-15",
-    "end": "2026-09-12",
+    "start": "2026-08-16",
+    "end": "2026-09-13",
     "days": 28
   },
   "totals": {
-    "commits": 420,
+    "commits": 421,
     "prs_merged": 66,
     "prs_opened": 266,
     "contributors": 13,
@@ -23,12 +23,12 @@
       "open_issues": 6,
       "open_prs": 76,
       "default_branch": "master",
-      "commits_28d": 187,
-      "commits_7d": 47,
+      "commits_28d": 188,
+      "commits_7d": 49,
       "prs_merged_28d": 18,
       "contributors_28d": 8,
-      "last_commit_at": "2026-09-11T21:06:19Z",
-      "last_commit_message": "fix epoch change propose rewards epoch",
+      "last_commit_at": "2026-09-12T14:44:41Z",
+      "last_commit_message": "more chain simulator tests",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        57,
+        56,
         37,
         46,
-        47
+        49
       ]
     },
     {
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        5,
-        16,
+        6,
+        15,
         0,
         0
       ]
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 107,
+      "commits_28d": 109,
       "prs_merged_28d": 10,
       "repos_touched": 3,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 10,
+      "commits_28d": 9,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -659,7 +659,6 @@
     }
   ],
   "daily_commits": [
-    1,
     0,
     6,
     30,
@@ -686,6 +685,7 @@
     21,
     26,
     25,
-    24
+    24,
+    2
   ]
 }
