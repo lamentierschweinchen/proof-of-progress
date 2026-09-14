@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-13T12:03:56Z",
+  "generated_at": "2026-09-14T12:04:32Z",
   "window": {
-    "start": "2026-08-16",
-    "end": "2026-09-13",
+    "start": "2026-08-17",
+    "end": "2026-09-14",
     "days": 28
   },
   "totals": {
-    "commits": 421,
+    "commits": 423,
     "prs_merged": 66,
-    "prs_opened": 266,
-    "contributors": 13,
+    "prs_opened": 270,
+    "contributors": 14,
     "releases": 15,
     "repos_active": 12
   },
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 76,
+      "open_prs": 78,
       "default_branch": "master",
-      "commits_28d": 188,
-      "commits_7d": 49,
+      "commits_28d": 185,
+      "commits_7d": 47,
       "prs_merged_28d": 18,
-      "contributors_28d": 8,
-      "last_commit_at": "2026-09-12T14:44:41Z",
-      "last_commit_message": "more chain simulator tests",
+      "contributors_28d": 9,
+      "last_commit_at": "2026-09-14T10:33:17Z",
+      "last_commit_message": "Bump golang.org/x/crypto from 0.54.0 to 0.57.0",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        56,
+        52,
         37,
-        46,
-        49
+        49,
+        47
       ]
     },
     {
@@ -54,7 +54,7 @@
       "open_prs": 13,
       "default_branch": "main",
       "commits_28d": 86,
-      "commits_7d": 37,
+      "commits_7d": 34,
       "prs_merged_28d": 17,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-11T09:52:24Z",
@@ -69,9 +69,9 @@
         0,
         0,
         22,
-        12,
-        15,
-        37
+        13,
+        17,
+        34
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 49,
-      "commits_7d": 20,
+      "commits_28d": 54,
+      "commits_7d": 23,
       "prs_merged_28d": 5,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-11T12:16:24Z",
-      "last_commit_message": "dependency cleanup",
+      "last_commit_at": "2026-09-14T08:51:22Z",
+      "last_commit_message": "Decimals types moved to abi crate, used in DecimalsAbi",
       "weekly_commits": [
         0,
         0,
@@ -100,8 +100,8 @@
         0,
         1,
         5,
-        23,
-        20
+        25,
+        23
       ]
     },
     {
@@ -114,7 +114,7 @@
       "open_prs": 5,
       "default_branch": "master",
       "commits_28d": 27,
-      "commits_7d": 5,
+      "commits_7d": 4,
       "prs_merged_28d": 4,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-10T12:03:15Z",
@@ -129,9 +129,9 @@
         0,
         0,
         5,
-        7,
+        8,
         10,
-        5
+        4
       ]
     },
     {
@@ -174,7 +174,7 @@
       "open_prs": 2,
       "default_branch": "master",
       "commits_28d": 13,
-      "commits_7d": 8,
+      "commits_7d": 1,
       "prs_merged_28d": 3,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-08T06:13:56Z",
@@ -190,8 +190,8 @@
         0,
         5,
         0,
-        0,
-        8
+        7,
+        1
       ]
     },
     {
@@ -204,7 +204,7 @@
       "open_prs": 3,
       "default_branch": "main",
       "commits_28d": 12,
-      "commits_7d": 7,
+      "commits_7d": 4,
       "prs_merged_28d": 7,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-10T13:40:32Z",
@@ -220,8 +220,8 @@
         0,
         3,
         0,
-        2,
-        7
+        5,
+        4
       ]
     },
     {
@@ -234,7 +234,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 10,
-      "commits_7d": 5,
+      "commits_7d": 4,
       "prs_merged_28d": 3,
       "contributors_28d": 2,
       "last_commit_at": "2026-09-11T22:38:58Z",
@@ -250,8 +250,8 @@
         0,
         5,
         0,
-        0,
-        5
+        1,
+        4
       ]
     },
     {
@@ -264,7 +264,7 @@
       "open_prs": 21,
       "default_branch": "master",
       "commits_28d": 8,
-      "commits_7d": 6,
+      "commits_7d": 5,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
       "last_commit_at": "2026-09-10T11:38:21Z",
@@ -280,8 +280,8 @@
         0,
         2,
         0,
-        0,
-        6
+        1,
+        5
       ]
     },
     {
@@ -309,8 +309,8 @@
         0,
         0,
         0,
-        2,
-        1,
+        3,
+        0,
         0
       ]
     },
@@ -338,8 +338,8 @@
         0,
         0,
         0,
-        1,
-        1,
+        2,
+        0,
         0,
         0
       ]
@@ -440,7 +440,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 109,
+      "commits_28d": 105,
       "prs_merged_28d": 10,
       "repos_touched": 3,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 50,
+      "commits_28d": 55,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -476,7 +476,7 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 31,
+      "commits_28d": 30,
       "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 9,
+      "commits_28d": 10,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -659,8 +659,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    6,
+    1,
     30,
     27,
     16,
@@ -686,6 +685,7 @@
     26,
     25,
     24,
-    2
+    3,
+    3
   ]
 }
