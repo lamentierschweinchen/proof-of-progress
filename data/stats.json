@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-16T12:03:34Z",
+  "generated_at": "2026-09-17T12:03:45Z",
   "window": {
-    "start": "2026-08-19",
-    "end": "2026-09-16",
+    "start": "2026-08-20",
+    "end": "2026-09-17",
     "days": 28
   },
   "totals": {
-    "commits": 408,
-    "prs_merged": 67,
-    "prs_opened": 275,
+    "commits": 406,
+    "prs_merged": 59,
+    "prs_opened": 256,
     "contributors": 14,
     "releases": 15,
-    "repos_active": 12
+    "repos_active": 13
   },
   "repos": [
     {
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 78,
+      "open_prs": 80,
       "default_branch": "master",
-      "commits_28d": 167,
+      "commits_28d": 173,
       "commits_7d": 40,
-      "prs_merged_28d": 15,
+      "prs_merged_28d": 13,
       "contributors_28d": 9,
-      "last_commit_at": "2026-09-15T14:11:07Z",
-      "last_commit_message": "Merge branch 'master' into fix-md",
+      "last_commit_at": "2026-09-17T11:25:53Z",
+      "last_commit_message": "extra check",
       "weekly_commits": [
         0,
         0,
@@ -38,9 +38,9 @@
         0,
         0,
         0,
-        28,
-        49,
-        50,
+        42,
+        36,
+        55,
         40
       ]
     },
@@ -53,9 +53,9 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 78,
-      "commits_7d": 17,
-      "prs_merged_28d": 16,
+      "commits_28d": 71,
+      "commits_7d": 10,
+      "prs_merged_28d": 13,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-14T14:07:01Z",
       "last_commit_message": "temp use public gateway for network economics",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        14,
-        15,
+        8,
+        21,
         32,
-        17
+        10
       ]
     },
     {
@@ -83,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 65,
-      "commits_7d": 29,
-      "prs_merged_28d": 6,
+      "commits_28d": 70,
+      "commits_7d": 27,
+      "prs_merged_28d": 7,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-15T14:07:14Z",
-      "last_commit_message": "Merge pull request #2415 from multiversx/abi-proxy",
+      "last_commit_at": "2026-09-16T23:13:41Z",
+      "last_commit_message": "Merge pull request #2424 from multiversx/abi-unmanaged",
       "weekly_commits": [
         0,
         0,
@@ -99,39 +99,9 @@
         0,
         0,
         0,
-        17,
         19,
-        29
-      ]
-    },
-    {
-      "name": "mx-chain-mainnet-config",
-      "full_name": "multiversx/mx-chain-mainnet-config",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
-      "description": "MultiversX blockchain node's mainnet configuration repository",
-      "stars": 28,
-      "open_issues": 1,
-      "open_prs": 5,
-      "default_branch": "master",
-      "commits_28d": 28,
-      "commits_7d": 6,
-      "prs_merged_28d": 5,
-      "contributors_28d": 3,
-      "last_commit_at": "2026-09-14T14:16:25Z",
-      "last_commit_message": "Merge pull request #279 from multiversx/release-v2.0.9.0",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4,
-        11,
-        7,
-        6
+        24,
+        27
       ]
     },
     {
@@ -165,6 +135,36 @@
       ]
     },
     {
+      "name": "mx-chain-mainnet-config",
+      "full_name": "multiversx/mx-chain-mainnet-config",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config",
+      "description": "MultiversX blockchain node's mainnet configuration repository",
+      "stars": 28,
+      "open_issues": 1,
+      "open_prs": 5,
+      "default_branch": "master",
+      "commits_28d": 24,
+      "commits_7d": 2,
+      "prs_merged_28d": 5,
+      "contributors_28d": 3,
+      "last_commit_at": "2026-09-14T14:16:25Z",
+      "last_commit_message": "Merge pull request #279 from multiversx/release-v2.0.9.0",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        8,
+        11,
+        2
+      ]
+    },
+    {
       "name": "mx-chain-simulator-go",
       "full_name": "multiversx/mx-chain-simulator-go",
       "url": "https://github.com/multiversx/mx-chain-simulator-go",
@@ -173,7 +173,7 @@
       "open_issues": 0,
       "open_prs": 3,
       "default_branch": "main",
-      "commits_28d": 14,
+      "commits_28d": 12,
       "commits_7d": 4,
       "prs_merged_28d": 8,
       "contributors_28d": 1,
@@ -188,7 +188,7 @@
         0,
         0,
         0,
-        3,
+        1,
         0,
         7,
         4
@@ -205,7 +205,7 @@
       "default_branch": "master",
       "commits_28d": 11,
       "commits_7d": 0,
-      "prs_merged_28d": 3,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-08T06:13:56Z",
       "last_commit_message": "Merge pull request #386 from multiversx/fixes-disabled-indices",
@@ -233,10 +233,10 @@
       "open_issues": 8,
       "open_prs": 21,
       "default_branch": "master",
-      "commits_28d": 7,
-      "commits_7d": 4,
-      "prs_merged_28d": 2,
-      "contributors_28d": 4,
+      "commits_28d": 6,
+      "commits_7d": 0,
+      "prs_merged_28d": 1,
+      "contributors_28d": 3,
       "last_commit_at": "2026-09-10T11:38:21Z",
       "last_commit_message": "Merge commit from fork",
       "weekly_commits": [
@@ -248,10 +248,10 @@
         0,
         0,
         0,
-        1,
         0,
-        2,
-        4
+        0,
+        6,
+        0
       ]
     },
     {
@@ -264,8 +264,8 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 4,
-      "prs_merged_28d": 3,
+      "commits_7d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 2,
       "last_commit_at": "2026-09-11T22:38:58Z",
       "last_commit_message": "temporary stop staking related txs until fixed",
@@ -280,8 +280,8 @@
         0,
         0,
         0,
-        1,
-        4
+        3,
+        2
       ]
     },
     {
@@ -375,6 +375,36 @@
       ]
     },
     {
+      "name": "mx-chain-tools-go",
+      "full_name": "multiversx/mx-chain-tools-go",
+      "url": "https://github.com/multiversx/mx-chain-tools-go",
+      "description": "MultiversX blockchain tools written in GO ",
+      "stars": 2,
+      "open_issues": 0,
+      "open_prs": 11,
+      "default_branch": "main",
+      "commits_28d": 1,
+      "commits_7d": 1,
+      "prs_merged_28d": 0,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-09-17T09:10:33Z",
+      "last_commit_message": "delegation rewards export",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
       "name": "mx-specs",
       "full_name": "multiversx/mx-specs",
       "url": "https://github.com/multiversx/mx-specs",
@@ -403,36 +433,6 @@
         0,
         0
       ]
-    },
-    {
-      "name": "mx-chain-tools-go",
-      "full_name": "multiversx/mx-chain-tools-go",
-      "url": "https://github.com/multiversx/mx-chain-tools-go",
-      "description": "MultiversX blockchain tools written in GO ",
-      "stars": 2,
-      "open_issues": 0,
-      "open_prs": 10,
-      "default_branch": "main",
-      "commits_28d": 0,
-      "commits_7d": 0,
-      "prs_merged_28d": 0,
-      "contributors_28d": 0,
-      "last_commit_at": null,
-      "last_commit_message": null,
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
     }
   ],
   "top_contributors": [
@@ -440,17 +440,17 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 90,
+      "commits_28d": 93,
       "prs_merged_28d": 7,
-      "repos_touched": 4,
+      "repos_touched": 5,
       "highlighted": false
     },
     {
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 78,
-      "prs_merged_28d": 16,
+      "commits_28d": 71,
+      "prs_merged_28d": 13,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,8 +458,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 66,
-      "prs_merged_28d": 6,
+      "commits_28d": 71,
+      "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -467,9 +467,9 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 60,
-      "prs_merged_28d": 13,
-      "repos_touched": 5,
+      "commits_28d": 56,
+      "prs_merged_28d": 8,
+      "repos_touched": 4,
       "highlighted": false
     },
     {
@@ -494,7 +494,7 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 16,
+      "commits_28d": 14,
       "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
@@ -503,8 +503,8 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 11,
-      "prs_merged_28d": 1,
+      "commits_28d": 14,
+      "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -660,7 +660,6 @@
   ],
   "daily_commits": [
     4,
-    16,
     26,
     1,
     0,
@@ -686,6 +685,7 @@
     3,
     3,
     23,
-    19
+    20,
+    9
   ]
 }
