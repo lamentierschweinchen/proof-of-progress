@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T18:45:57Z",
+  "generated_at": "2026-09-28T07:53:53Z",
   "window": {
-    "start": "2026-08-28",
-    "end": "2026-09-25",
+    "start": "2026-08-31",
+    "end": "2026-09-28",
     "days": 28
   },
   "totals": {
-    "commits": 455,
-    "prs_merged": 67,
-    "prs_opened": 245,
+    "commits": 453,
+    "prs_merged": 64,
+    "prs_opened": 243,
     "contributors": 13,
     "releases": 15,
     "repos_active": 12
@@ -19,12 +19,12 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 952,
+      "stars": 953,
       "open_issues": 6,
       "open_prs": 84,
       "default_branch": "master",
-      "commits_28d": 184,
-      "commits_7d": 57,
+      "commits_28d": 183,
+      "commits_7d": 39,
       "prs_merged_28d": 19,
       "contributors_28d": 9,
       "last_commit_at": "2026-09-25T10:33:13Z",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
+        48,
         47,
-        46,
-        34,
-        57
+        49,
+        39
       ]
     },
     {
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        18,
-        25,
-        40,
+        24,
+        23,
+        36,
         6
       ]
     },
@@ -85,7 +85,7 @@
       "default_branch": "main",
       "commits_28d": 85,
       "commits_7d": 28,
-      "prs_merged_28d": 14,
+      "prs_merged_28d": 12,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-25T13:46:15Z",
       "last_commit_message": "remove comm",
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        15,
-        37,
+        17,
+        35,
         5,
         28
       ]
@@ -113,8 +113,8 @@
       "open_issues": 1,
       "open_prs": 5,
       "default_branch": "master",
-      "commits_28d": 39,
-      "commits_7d": 20,
+      "commits_28d": 37,
+      "commits_7d": 19,
       "prs_merged_28d": 6,
       "contributors_28d": 4,
       "last_commit_at": "2026-09-25T10:22:46Z",
@@ -128,10 +128,10 @@
         0,
         0,
         0,
-        11,
-        5,
-        3,
-        20
+        10,
+        4,
+        4,
+        19
       ]
     },
     {
@@ -144,7 +144,7 @@
       "open_prs": 21,
       "default_branch": "master",
       "commits_28d": 23,
-      "commits_7d": 17,
+      "commits_7d": 13,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-25T09:56:34Z",
@@ -158,10 +158,10 @@
         0,
         0,
         0,
-        0,
-        6,
-        0,
-        17
+        1,
+        5,
+        4,
+        13
       ]
     },
     {
@@ -171,14 +171,14 @@
       "description": "Simulator binary based on the mx-chain-go & mx-chain-proxy-go",
       "stars": 12,
       "open_issues": 0,
-      "open_prs": 3,
+      "open_prs": 4,
       "default_branch": "main",
-      "commits_28d": 12,
-      "commits_7d": 1,
+      "commits_28d": 13,
+      "commits_7d": 2,
       "prs_merged_28d": 6,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-21T13:50:24Z",
-      "last_commit_message": "Update go modules with recovery-checkpoint version",
+      "last_commit_at": "2026-09-28T06:57:10Z",
+      "last_commit_message": "Update go modules with master version",
       "weekly_commits": [
         0,
         0,
@@ -188,10 +188,10 @@
         0,
         0,
         0,
+        3,
+        6,
         2,
-        7,
-        2,
-        1
+        2
       ]
     },
     {
@@ -218,8 +218,8 @@
         0,
         0,
         0,
-        0,
-        8,
+        1,
+        7,
         0,
         0
       ]
@@ -248,9 +248,9 @@
         0,
         0,
         0,
+        1,
+        4,
         0,
-        3,
-        2,
         1
       ]
     },
@@ -325,7 +325,7 @@
       "default_branch": "main",
       "commits_28d": 1,
       "commits_7d": 0,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-08-31T10:18:46Z",
       "last_commit_message": "Merge pull request #449 from multiversx/development",
@@ -449,7 +449,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 92,
+      "commits_28d": 91,
       "prs_merged_28d": 10,
       "repos_touched": 5,
       "highlighted": false
@@ -459,7 +459,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
       "commits_28d": 85,
-      "prs_merged_28d": 14,
+      "prs_merged_28d": 12,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -467,7 +467,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 80,
+      "commits_28d": 79,
       "prs_merged_28d": 13,
       "repos_touched": 4,
       "highlighted": false
@@ -494,7 +494,7 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 15,
+      "commits_28d": 16,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -521,7 +521,7 @@
       "login": "danidrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/112827213?v=4",
       "html_url": "https://github.com/danidrasovean",
-      "commits_28d": 8,
+      "commits_28d": 7,
       "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
@@ -650,10 +650,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    2,
-    0,
-    10,
+    9,
     28,
     14,
     17,
@@ -677,6 +674,9 @@
     12,
     11,
     29,
-    28
+    28,
+    31,
+    0,
+    0
   ]
 }
