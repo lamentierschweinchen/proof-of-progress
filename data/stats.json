@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T04:09:46Z",
+  "generated_at": "2026-10-03T04:09:53Z",
   "window": {
-    "start": "2026-09-04",
-    "end": "2026-10-02",
+    "start": "2026-09-05",
+    "end": "2026-10-03",
     "days": 28
   },
   "totals": {
-    "commits": 443,
-    "prs_merged": 62,
-    "prs_opened": 243,
+    "commits": 415,
+    "prs_merged": 57,
+    "prs_opened": 234,
     "contributors": 12,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 953,
       "open_issues": 6,
-      "open_prs": 87,
+      "open_prs": 88,
       "default_branch": "master",
-      "commits_28d": 162,
-      "commits_7d": 22,
-      "prs_merged_28d": 20,
+      "commits_28d": 149,
+      "commits_7d": 14,
+      "prs_merged_28d": 16,
       "contributors_28d": 8,
-      "last_commit_at": "2026-10-01T10:38:14Z",
-      "last_commit_message": "Merge branch 'master' into SF-2.0",
+      "last_commit_at": "2026-10-02T10:33:11Z",
+      "last_commit_message": "Bump github.com/multiversx/mx-chain-es-indexer-go from 1.10.3 to 1.10.5",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        51,
-        39,
-        50,
-        22
+        47,
+        33,
+        55,
+        14
       ]
     },
     {
@@ -54,7 +54,7 @@
       "open_prs": 17,
       "default_branch": "main",
       "commits_28d": 101,
-      "commits_7d": 44,
+      "commits_7d": 31,
       "prs_merged_28d": 13,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-01T12:50:51Z",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        30,
-        12,
-        15,
-        44
+        37,
+        5,
+        28,
+        31
       ]
     },
     {
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 74,
+      "commits_28d": 66,
       "commits_7d": 0,
       "prs_merged_28d": 7,
       "contributors_28d": 1,
@@ -98,9 +98,9 @@
         0,
         0,
         0,
-        23,
-        38,
-        13,
+        20,
+        40,
+        6,
         0
       ]
     },
@@ -113,11 +113,11 @@
       "open_issues": 1,
       "open_prs": 4,
       "default_branch": "master",
-      "commits_28d": 39,
-      "commits_7d": 7,
+      "commits_28d": 34,
+      "commits_7d": 6,
       "prs_merged_28d": 6,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-01T20:45:53Z",
+      "last_commit_at": "2026-10-02T08:39:34Z",
       "last_commit_message": "Config change",
       "weekly_commits": [
         0,
@@ -128,10 +128,10 @@
         0,
         0,
         0,
-        11,
+        5,
         3,
-        18,
-        7
+        20,
+        6
       ]
     },
     {
@@ -144,7 +144,7 @@
       "open_prs": 23,
       "default_branch": "master",
       "commits_28d": 30,
-      "commits_7d": 11,
+      "commits_7d": 7,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-30T07:04:57Z",
@@ -160,8 +160,8 @@
         0,
         6,
         0,
-        13,
-        11
+        17,
+        7
       ]
     },
     {
@@ -173,9 +173,9 @@
       "open_issues": 0,
       "open_prs": 3,
       "default_branch": "main",
-      "commits_28d": 14,
+      "commits_28d": 12,
       "commits_7d": 2,
-      "prs_merged_28d": 7,
+      "prs_merged_28d": 6,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-28T07:59:10Z",
       "last_commit_message": "Merge pull request #232 from multiversx/recovery-checkpoint",
@@ -188,7 +188,7 @@
         0,
         0,
         0,
-        9,
+        7,
         2,
         1,
         2
@@ -234,7 +234,7 @@
       "open_prs": 2,
       "default_branch": "master",
       "commits_28d": 6,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 2,
       "last_commit_at": "2026-09-25T10:59:27Z",
@@ -248,10 +248,10 @@
         0,
         0,
         0,
-        3,
-        2,
+        5,
         0,
-        1
+        1,
+        0
       ]
     },
     {
@@ -449,7 +449,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 89,
+      "commits_28d": 81,
       "prs_merged_28d": 7,
       "repos_touched": 2,
       "highlighted": false
@@ -458,8 +458,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 85,
-      "prs_merged_28d": 11,
+      "commits_28d": 78,
+      "prs_merged_28d": 8,
       "repos_touched": 5,
       "highlighted": false
     },
@@ -467,7 +467,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 83,
+      "commits_28d": 74,
       "prs_merged_28d": 14,
       "repos_touched": 4,
       "highlighted": false
@@ -485,8 +485,8 @@
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
-      "commits_28d": 17,
-      "prs_merged_28d": 6,
+      "commits_28d": 14,
+      "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -503,8 +503,8 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 13,
-      "prs_merged_28d": 1,
+      "commits_28d": 11,
+      "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -512,7 +512,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 7,
+      "commits_28d": 6,
       "prs_merged_28d": 1,
       "repos_touched": 1,
       "highlighted": false
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    25,
-    5,
+    0,
     1,
     38,
     21,
@@ -677,6 +676,7 @@
     6,
     32,
     11,
-    12
+    12,
+    2
   ]
 }
