@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T04:09:53Z",
+  "generated_at": "2026-10-04T04:09:26Z",
   "window": {
-    "start": "2026-09-05",
-    "end": "2026-10-03",
+    "start": "2026-09-06",
+    "end": "2026-10-04",
     "days": 28
   },
   "totals": {
     "commits": 415,
-    "prs_merged": 57,
-    "prs_opened": 234,
+    "prs_merged": 56,
+    "prs_opened": 229,
     "contributors": 12,
     "releases": 15,
     "repos_active": 10
@@ -38,9 +38,9 @@
         0,
         0,
         0,
+        49,
+        39,
         47,
-        33,
-        55,
         14
       ]
     },
@@ -85,7 +85,7 @@
       "default_branch": "master",
       "commits_28d": 66,
       "commits_7d": 0,
-      "prs_merged_28d": 7,
+      "prs_merged_28d": 6,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-23T16:55:59Z",
       "last_commit_message": "Merge pull request #2428 from multiversx/wasm-opcode-counter",
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        20,
-        40,
+        21,
+        39,
         6,
         0
       ]
@@ -129,8 +129,8 @@
         0,
         0,
         5,
-        3,
-        20,
+        4,
+        19,
         6
       ]
     },
@@ -159,8 +159,8 @@
         0,
         0,
         6,
-        0,
-        17,
+        3,
+        14,
         7
       ]
     },
@@ -450,7 +450,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
       "commits_28d": 81,
-      "prs_merged_28d": 7,
+      "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    0,
     1,
     38,
     21,
@@ -677,6 +676,7 @@
     32,
     11,
     12,
-    2
+    2,
+    0
   ]
 }
