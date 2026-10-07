@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T04:10:09Z",
+  "generated_at": "2026-10-07T04:09:49Z",
   "window": {
-    "start": "2026-09-08",
-    "end": "2026-10-06",
+    "start": "2026-09-09",
+    "end": "2026-10-07",
     "days": 28
   },
   "totals": {
-    "commits": 387,
-    "prs_merged": 47,
-    "prs_opened": 206,
+    "commits": 372,
+    "prs_merged": 45,
+    "prs_opened": 203,
     "contributors": 12,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 952,
       "open_issues": 6,
-      "open_prs": 89,
+      "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 137,
-      "commits_7d": 13,
-      "prs_merged_28d": 14,
+      "commits_28d": 129,
+      "commits_7d": 12,
+      "prs_merged_28d": 15,
       "contributors_28d": 8,
-      "last_commit_at": "2026-10-05T12:39:03Z",
-      "last_commit_message": "fix",
+      "last_commit_at": "2026-10-06T11:31:31Z",
+      "last_commit_message": "Merge pull request #8038 from multiversx/change-save-order-and-remove-save-twice",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        41,
-        48,
-        35,
-        13
+        44,
+        42,
+        31,
+        12
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 16,
       "default_branch": "main",
-      "commits_28d": 102,
-      "commits_7d": 40,
-      "prs_merged_28d": 13,
+      "commits_28d": 99,
+      "commits_7d": 23,
+      "prs_merged_28d": 11,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-05T13:52:31Z",
-      "last_commit_message": "remove try catch around sc results ordering",
+      "last_commit_at": "2026-10-06T09:56:08Z",
+      "last_commit_message": "address review: operations order on lists, sc results timestampMs fallback, cros",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        30,
+        24,
         4,
-        28,
-        40
+        48,
+        23
       ]
     },
     {
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 64,
+      "commits_28d": 58,
       "commits_7d": 0,
       "prs_merged_28d": 6,
       "contributors_28d": 1,
@@ -99,8 +99,8 @@
         0,
         0,
         30,
-        29,
-        5,
+        26,
+        2,
         0
       ]
     },
@@ -111,14 +111,14 @@
       "description": "MultiversX blockchain node's mainnet configuration repository",
       "stars": 28,
       "open_issues": 1,
-      "open_prs": 4,
+      "open_prs": 5,
       "default_branch": "master",
-      "commits_28d": 33,
-      "commits_7d": 6,
+      "commits_28d": 36,
+      "commits_7d": 7,
       "prs_merged_28d": 5,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-02T08:39:34Z",
-      "last_commit_message": "Config change",
+      "last_commit_at": "2026-10-06T13:10:49Z",
+      "last_commit_message": "new binary version",
       "weekly_commits": [
         0,
         0,
@@ -130,8 +130,8 @@
         0,
         6,
         3,
-        18,
-        6
+        20,
+        7
       ]
     },
     {
@@ -144,7 +144,7 @@
       "open_prs": 23,
       "default_branch": "master",
       "commits_28d": 29,
-      "commits_7d": 7,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-30T07:04:57Z",
@@ -159,9 +159,9 @@
         0,
         0,
         5,
-        5,
-        12,
-        7
+        6,
+        17,
+        1
       ]
     },
     {
@@ -188,8 +188,8 @@
         0,
         0,
         0,
-        2,
-        3,
+        4,
+        1,
         2,
         0
       ]
@@ -263,9 +263,9 @@
       "open_issues": 1,
       "open_prs": 2,
       "default_branch": "master",
-      "commits_28d": 4,
-      "commits_7d": 2,
-      "prs_merged_28d": 2,
+      "commits_28d": 3,
+      "commits_7d": 0,
+      "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-09-29T08:07:56Z",
       "last_commit_message": "Merge pull request #387 from multiversx/index-intra-shard-mbs-details",
@@ -278,10 +278,10 @@
         0,
         0,
         0,
-        1,
         0,
-        1,
-        2
+        0,
+        3,
+        0
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 102,
-      "prs_merged_28d": 13,
+      "commits_28d": 99,
+      "prs_merged_28d": 11,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,27 +449,27 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 79,
+      "commits_28d": 73,
       "prs_merged_28d": 6,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "AdoAdoAdo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
-      "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 68,
-      "prs_merged_28d": 7,
-      "repos_touched": 5,
       "highlighted": false
     },
     {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 65,
+      "commits_28d": 66,
       "prs_merged_28d": 13,
       "repos_touched": 4,
+      "highlighted": false
+    },
+    {
+      "login": "AdoAdoAdo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
+      "html_url": "https://github.com/AdoAdoAdo",
+      "commits_28d": 62,
+      "prs_merged_28d": 7,
+      "repos_touched": 5,
       "highlighted": false
     },
     {
@@ -485,18 +485,9 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 14,
+      "commits_28d": 13,
       "prs_merged_28d": 0,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "ssd04",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
-      "html_url": "https://github.com/ssd04",
-      "commits_28d": 11,
-      "prs_merged_28d": 0,
-      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -506,6 +497,15 @@
       "commits_28d": 9,
       "prs_merged_28d": 3,
       "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "ssd04",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
+      "html_url": "https://github.com/ssd04",
+      "commits_28d": 9,
+      "prs_merged_28d": 0,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -528,6 +528,22 @@
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-chain-mainnet-config",
+      "tag": "v2.1.8.0",
+      "name": "v2.1.8.0",
+      "published_at": "2026-10-06T13:20:57Z",
+      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.1.8.0",
+      "is_prerelease": true
+    },
+    {
+      "repo": "mx-chain-go",
+      "tag": "v2.1.8",
+      "name": "v2.1.8",
+      "published_at": "2026-10-06T13:10:12Z",
+      "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.1.8",
+      "is_prerelease": true
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v2.1.7.0",
@@ -625,22 +641,6 @@
       "is_prerelease": true
     },
     {
-      "repo": "mx-chain-mainnet-config",
-      "tag": "v2.1.3.0",
-      "name": "v2.1.3.0",
-      "published_at": "2026-09-23T14:19:33Z",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.1.3.0",
-      "is_prerelease": false
-    },
-    {
-      "repo": "mx-chain-go",
-      "tag": "v2.1.3",
-      "name": "v2.1.3",
-      "published_at": "2026-09-23T14:18:13Z",
-      "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.1.3",
-      "is_prerelease": true
-    },
-    {
       "repo": "mx-sdk-dapp",
       "tag": "v5.7.3",
       "name": "v5.7.3",
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    21,
-    26,
+    25,
     25,
     24,
     3,
@@ -677,6 +676,7 @@
     2,
     0,
     0,
-    11
+    11,
+    7
   ]
 }
