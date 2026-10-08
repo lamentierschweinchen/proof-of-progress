@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T04:09:49Z",
+  "generated_at": "2026-10-08T04:09:19Z",
   "window": {
-    "start": "2026-09-09",
-    "end": "2026-10-07",
+    "start": "2026-09-10",
+    "end": "2026-10-08",
     "days": 28
   },
   "totals": {
-    "commits": 372,
-    "prs_merged": 45,
-    "prs_opened": 203,
+    "commits": 362,
+    "prs_merged": 48,
+    "prs_opened": 184,
     "contributors": 12,
     "releases": 15,
     "repos_active": 10
@@ -23,12 +23,12 @@
       "open_issues": 6,
       "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 129,
-      "commits_7d": 12,
+      "commits_28d": 125,
+      "commits_7d": 9,
       "prs_merged_28d": 15,
       "contributors_28d": 8,
-      "last_commit_at": "2026-10-06T11:31:31Z",
-      "last_commit_message": "Merge pull request #8038 from multiversx/change-save-order-and-remove-save-twice",
+      "last_commit_at": "2026-10-07T07:23:23Z",
+      "last_commit_message": "Revert \"Merge remote-tracking branch 'origin/master' into SF-2.0.10\"",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        44,
-        42,
-        31,
-        12
+        43,
+        50,
+        23,
+        9
       ]
     },
     {
@@ -51,14 +51,14 @@
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
       "stars": 36,
       "open_issues": 7,
-      "open_prs": 16,
+      "open_prs": 11,
       "default_branch": "main",
-      "commits_28d": 99,
-      "commits_7d": 23,
-      "prs_merged_28d": 11,
+      "commits_28d": 100,
+      "commits_7d": 29,
+      "prs_merged_28d": 15,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-06T09:56:08Z",
-      "last_commit_message": "address review: operations order on lists, sc results timestampMs fallback, cros",
+      "last_commit_at": "2026-10-07T14:18:47Z",
+      "last_commit_message": "Merge pull request #1640 from multiversx/ws-room-keys-combinations",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        24,
-        4,
-        48,
-        23
+        15,
+        6,
+        50,
+        29
       ]
     },
     {
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 58,
+      "commits_28d": 52,
       "commits_7d": 0,
       "prs_merged_28d": 6,
       "contributors_28d": 1,
@@ -98,9 +98,9 @@
         0,
         0,
         0,
-        30,
-        26,
-        2,
+        28,
+        24,
+        0,
         0
       ]
     },
@@ -111,14 +111,14 @@
       "description": "MultiversX blockchain node's mainnet configuration repository",
       "stars": 28,
       "open_issues": 1,
-      "open_prs": 5,
+      "open_prs": 6,
       "default_branch": "master",
       "commits_28d": 36,
-      "commits_7d": 7,
-      "prs_merged_28d": 5,
+      "commits_7d": 8,
+      "prs_merged_28d": 4,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-06T13:10:49Z",
-      "last_commit_message": "new binary version",
+      "last_commit_at": "2026-10-07T12:04:43Z",
+      "last_commit_message": "disable checkpoints",
       "weekly_commits": [
         0,
         0,
@@ -128,10 +128,10 @@
         0,
         0,
         0,
-        6,
-        3,
-        20,
-        7
+        4,
+        12,
+        12,
+        8
       ]
     },
     {
@@ -143,8 +143,8 @@
       "open_issues": 8,
       "open_prs": 23,
       "default_branch": "master",
-      "commits_28d": 29,
-      "commits_7d": 1,
+      "commits_28d": 28,
+      "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-09-30T07:04:57Z",
@@ -158,10 +158,10 @@
         0,
         0,
         0,
-        5,
-        6,
-        17,
-        1
+        4,
+        9,
+        15,
+        0
       ]
     },
     {
@@ -231,14 +231,14 @@
       "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
       "stars": 59,
       "open_issues": 2,
-      "open_prs": 2,
+      "open_prs": 3,
       "default_branch": "master",
       "commits_28d": 5,
-      "commits_7d": 0,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 2,
-      "last_commit_at": "2026-09-25T10:59:27Z",
-      "last_commit_message": "Merge pull request #520 from multiversx/tx-pool-count-endpoint",
+      "last_commit_at": "2026-10-07T13:07:11Z",
+      "last_commit_message": "fixes",
       "weekly_commits": [
         0,
         0,
@@ -248,10 +248,10 @@
         0,
         0,
         0,
-        4,
+        3,
         0,
         1,
-        0
+        1
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 99,
-      "prs_merged_28d": 11,
+      "commits_28d": 100,
+      "prs_merged_28d": 15,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,7 +449,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 73,
+      "commits_28d": 66,
       "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
@@ -458,8 +458,8 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 66,
-      "prs_merged_28d": 13,
+      "commits_28d": 65,
+      "prs_merged_28d": 12,
       "repos_touched": 4,
       "highlighted": false
     },
@@ -467,7 +467,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 62,
+      "commits_28d": 59,
       "prs_merged_28d": 7,
       "repos_touched": 5,
       "highlighted": false
@@ -485,7 +485,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 13,
+      "commits_28d": 15,
       "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
@@ -503,7 +503,16 @@
       "login": "ssd04",
       "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
       "html_url": "https://github.com/ssd04",
-      "commits_28d": 9,
+      "commits_28d": 7,
+      "prs_merged_28d": 0,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "danidrasovean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112827213?v=4",
+      "html_url": "https://github.com/danidrasovean",
+      "commits_28d": 6,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -514,15 +523,6 @@
       "html_url": "https://github.com/radumojic",
       "commits_28d": 5,
       "prs_merged_28d": 2,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "dependabot[bot]",
-      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "html_url": "https://github.com/dependabot[bot]",
-      "commits_28d": 5,
-      "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
     }
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     25,
-    25,
     24,
     3,
     3,
@@ -677,6 +676,7 @@
     0,
     0,
     11,
-    7
+    7,
+    15
   ]
 }
