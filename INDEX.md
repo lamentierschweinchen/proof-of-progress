@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-09 | Quiet day: no merged PRs or releases on any watchlist repo; v2.1.8 still pre-release with no testnet/devnet config tag; mainnet healthy in epoch 2257. | [2026-10-09](digests/2026-10-09.md) |
 | 2026-10-08 | Four `mx-api-service` PRs merged (websocket subscriptions, tx ordering, token cache), now unreleased on v1.21.0; no new releases, v2.1.8 still pre-release; mainnet healthy in epoch 2256. | [digest](digests/2026-10-08.md) |
 | 2026-10-07 | `mx-chain-go` [#8038](https://github.com/multiversx/mx-chain-go/pull/8038) merged and [v2.1.8](https://github.com/multiversx/mx-chain-go/releases/tag/v2.1.8) plus mainnet-config [v2.1.8.0](https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.1.8.0) tagged as pre-releases (#8038 is the only change). [#8033](https://github.com/multiversx/mx-chain-go/pull/8033) still open. Mainnet healthy, epoch 2255. Stats: 372 commits / 45 PRs merged in 28d; `stefangutica` top contributor (99 commits). | [2026-10-07](digests/2026-10-07.md) |
 | 2026-10-06 | Light day: [mx-api-service #1647](https://github.com/multiversx/mx-api-service/pull/1647) merged (`/pool/count` fix); `mx-chain-go` [#8038](https://github.com/multiversx/mx-chain-go/pull/8038) got a fix commit and four approvals. No releases. Mainnet healthy, epoch 2254. Stats: 387 commits / 47 PRs merged in 28d; `stefangutica` top contributor (102 commits). | [2026-10-06](digests/2026-10-06.md) |
