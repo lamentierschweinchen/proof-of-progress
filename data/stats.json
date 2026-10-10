@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-09T04:09:14Z",
+  "generated_at": "2026-10-10T05:09:19Z",
   "window": {
-    "start": "2026-09-11",
-    "end": "2026-10-09",
+    "start": "2026-09-12",
+    "end": "2026-10-10",
     "days": 28
   },
   "totals": {
-    "commits": 344,
-    "prs_merged": 43,
-    "prs_opened": 155,
+    "commits": 321,
+    "prs_merged": 42,
+    "prs_opened": 145,
     "contributors": 12,
     "releases": 15,
     "repos_active": 10
@@ -23,8 +23,8 @@
       "open_issues": 6,
       "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 118,
-      "commits_7d": 7,
+      "commits_28d": 108,
+      "commits_7d": 6,
       "prs_merged_28d": 15,
       "contributors_28d": 8,
       "last_commit_at": "2026-10-08T08:05:09Z",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        39,
-        50,
-        22,
-        7
+        33,
+        55,
+        14,
+        6
       ]
     },
     {
@@ -53,9 +53,9 @@
       "open_issues": 7,
       "open_prs": 12,
       "default_branch": "main",
-      "commits_28d": 95,
+      "commits_28d": 88,
       "commits_7d": 24,
-      "prs_merged_28d": 12,
+      "prs_merged_28d": 11,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-08T11:12:41Z",
       "last_commit_message": "map EGLD sent in multi transfers to the EGLD token room",
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        12,
-        15,
-        44,
+        5,
+        28,
+        31,
         24
       ]
     },
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 51,
+      "commits_28d": 46,
       "commits_7d": 0,
       "prs_merged_28d": 6,
       "contributors_28d": 1,
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        38,
-        13,
+        40,
+        6,
         0,
         0
       ]
@@ -114,7 +114,7 @@
       "open_prs": 6,
       "default_branch": "master",
       "commits_28d": 34,
-      "commits_7d": 6,
+      "commits_7d": 5,
       "prs_merged_28d": 3,
       "contributors_28d": 4,
       "last_commit_at": "2026-10-07T12:04:43Z",
@@ -129,9 +129,9 @@
         0,
         0,
         3,
-        18,
-        7,
-        6
+        20,
+        6,
+        5
       ]
     },
     {
@@ -159,8 +159,8 @@
         0,
         0,
         0,
-        13,
-        11,
+        17,
+        7,
         0
       ]
     },
@@ -173,10 +173,10 @@
       "open_issues": 2,
       "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 8,
+      "commits_28d": 6,
       "commits_7d": 5,
       "prs_merged_28d": 1,
-      "contributors_28d": 2,
+      "contributors_28d": 1,
       "last_commit_at": "2026-10-08T08:58:45Z",
       "last_commit_message": "one more fix",
       "weekly_commits": [
@@ -188,9 +188,9 @@
         0,
         0,
         0,
-        2,
         0,
         1,
+        0,
         5
       ]
     },
@@ -261,14 +261,14 @@
       "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
       "stars": 12,
       "open_issues": 1,
-      "open_prs": 2,
+      "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 3,
-      "commits_7d": 0,
+      "commits_28d": 4,
+      "commits_7d": 1,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-29T08:07:56Z",
-      "last_commit_message": "Merge pull request #387 from multiversx/index-intra-shard-mbs-details",
+      "last_commit_at": "2026-10-09T10:35:33Z",
+      "last_commit_message": "extra data in values index",
       "weekly_commits": [
         0,
         0,
@@ -281,7 +281,7 @@
         0,
         0,
         3,
-        0
+        1
       ]
     },
     {
@@ -440,36 +440,36 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 95,
-      "prs_merged_28d": 12,
+      "commits_28d": 88,
+      "prs_merged_28d": 11,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "andrei-marinica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
-      "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 65,
-      "prs_merged_28d": 6,
-      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 64,
+      "commits_28d": 60,
       "prs_merged_28d": 11,
       "repos_touched": 4,
+      "highlighted": false
+    },
+    {
+      "login": "andrei-marinica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
+      "html_url": "https://github.com/andrei-marinica",
+      "commits_28d": 60,
+      "prs_merged_28d": 6,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 58,
+      "commits_28d": 56,
       "prs_merged_28d": 7,
-      "repos_touched": 5,
+      "repos_touched": 4,
       "highlighted": false
     },
     {
@@ -500,15 +500,6 @@
       "highlighted": false
     },
     {
-      "login": "ssd04",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
-      "html_url": "https://github.com/ssd04",
-      "commits_28d": 6,
-      "prs_merged_28d": 0,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "danidrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/112827213?v=4",
       "html_url": "https://github.com/danidrasovean",
@@ -523,6 +514,15 @@
       "html_url": "https://github.com/radumojic",
       "commits_28d": 5,
       "prs_merged_28d": 2,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/dependabot[bot]",
+      "commits_28d": 5,
+      "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
     }
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    24,
     3,
     3,
     22,
@@ -677,6 +676,7 @@
     11,
     7,
     15,
-    7
+    7,
+    1
   ]
 }
