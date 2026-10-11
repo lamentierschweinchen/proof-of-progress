@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T05:09:19Z",
+  "generated_at": "2026-10-11T05:09:25Z",
   "window": {
-    "start": "2026-09-12",
-    "end": "2026-10-10",
+    "start": "2026-09-13",
+    "end": "2026-10-11",
     "days": 28
   },
   "totals": {
-    "commits": 321,
+    "commits": 318,
     "prs_merged": 42,
-    "prs_opened": 145,
+    "prs_opened": 148,
     "contributors": 12,
     "releases": 15,
     "repos_active": 10
@@ -23,7 +23,7 @@
       "open_issues": 6,
       "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 108,
+      "commits_28d": 106,
       "commits_7d": 6,
       "prs_merged_28d": 15,
       "contributors_28d": 8,
@@ -38,8 +38,8 @@
         0,
         0,
         0,
-        33,
-        55,
+        39,
+        47,
         14,
         6
       ]
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 46,
+      "commits_28d": 45,
       "commits_7d": 0,
       "prs_merged_28d": 6,
       "contributors_28d": 1,
@@ -98,7 +98,7 @@
         0,
         0,
         0,
-        40,
+        39,
         6,
         0,
         0
@@ -128,8 +128,8 @@
         0,
         0,
         0,
-        3,
-        20,
+        4,
+        19,
         6,
         5
       ]
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        0,
-        17,
+        3,
+        14,
         7,
         0
       ]
@@ -458,7 +458,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 60,
+      "commits_28d": 59,
       "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
@@ -467,7 +467,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 56,
+      "commits_28d": 54,
       "prs_merged_28d": 7,
       "repos_touched": 4,
       "highlighted": false
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     3,
-    3,
     22,
     20,
     9,
@@ -677,6 +676,7 @@
     7,
     15,
     7,
-    1
+    1,
+    0
   ]
 }
