@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-12 | Quiet day: no merged PRs or releases on watchlist repos or in `mx-vm-executor-rs`; RC PR #94 still open; v2.1.8 still pre-release with no testnet/devnet config; mainnet healthy in epoch 2260. | [2026-10-12](digests/2026-10-12.md) |
 | 2026-10-11 | No merged PRs or releases on watchlist repos; `mx-vm-executor-rs` merged wasmer 7.5 and bulk-memory metering into `rc/after-supernova` and opened RC PR #94; v2.1.8 still pre-release with no testnet/devnet config; mainnet healthy in epoch 2259. | [2026-10-11](digests/2026-10-11.md) |
 | 2026-10-10 | No merged PRs or releases on watchlist repos; `mx-vm-executor-rs` merged metering for bulk memory opcodes (#79); v2.1.8 still pre-release with no testnet/devnet config; mainnet healthy in epoch 2258. | [2026-10-10](digests/2026-10-10.md) |
 | 2026-10-09 | Quiet day: no merged PRs or releases on any watchlist repo; v2.1.8 still pre-release with no testnet/devnet config tag; mainnet healthy in epoch 2257. | [2026-10-09](digests/2026-10-09.md) |
