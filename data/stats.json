@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-12T05:09:43Z",
+  "generated_at": "2026-10-13T05:09:24Z",
   "window": {
-    "start": "2026-09-14",
-    "end": "2026-10-12",
+    "start": "2026-09-15",
+    "end": "2026-10-13",
     "days": 28
   },
   "totals": {
-    "commits": 315,
-    "prs_merged": 42,
-    "prs_opened": 147,
-    "contributors": 12,
+    "commits": 294,
+    "prs_merged": 38,
+    "prs_opened": 135,
+    "contributors": 10,
     "releases": 15,
-    "repos_active": 10
+    "repos_active": 9
   },
   "repos": [
     {
@@ -23,10 +23,10 @@
       "open_issues": 6,
       "open_prs": 87,
       "default_branch": "master",
-      "commits_28d": 106,
-      "commits_7d": 6,
-      "prs_merged_28d": 15,
-      "contributors_28d": 8,
+      "commits_28d": 100,
+      "commits_7d": 4,
+      "prs_merged_28d": 13,
+      "contributors_28d": 7,
       "last_commit_at": "2026-10-08T08:05:09Z",
       "last_commit_message": "Merge branch 'master' into importdb-graceful-stop",
       "weekly_commits": [
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        46,
-        40,
-        14,
-        6
+        48,
+        35,
+        13,
+        4
       ]
     },
     {
@@ -53,8 +53,8 @@
       "open_issues": 7,
       "open_prs": 12,
       "default_branch": "main",
-      "commits_28d": 88,
-      "commits_7d": 24,
+      "commits_28d": 87,
+      "commits_7d": 15,
       "prs_merged_28d": 11,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-08T11:12:41Z",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        5,
+        4,
         28,
-        31,
-        24
+        40,
+        15
       ]
     },
     {
@@ -83,7 +83,7 @@
       "open_issues": 7,
       "open_prs": 36,
       "default_branch": "master",
-      "commits_28d": 42,
+      "commits_28d": 34,
       "commits_7d": 0,
       "prs_merged_28d": 6,
       "contributors_28d": 1,
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        36,
-        6,
+        29,
+        5,
         0,
         0
       ]
@@ -113,10 +113,10 @@
       "open_issues": 1,
       "open_prs": 6,
       "default_branch": "master",
-      "commits_28d": 34,
+      "commits_28d": 32,
       "commits_7d": 5,
-      "prs_merged_28d": 3,
-      "contributors_28d": 4,
+      "prs_merged_28d": 2,
+      "contributors_28d": 3,
       "last_commit_at": "2026-10-07T12:04:43Z",
       "last_commit_message": "disable checkpoints",
       "weekly_commits": [
@@ -128,8 +128,8 @@
         0,
         0,
         0,
-        4,
-        19,
+        3,
+        18,
         6,
         5
       ]
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        3,
-        14,
+        5,
+        12,
         7,
         0
       ]
@@ -171,14 +171,14 @@
       "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
       "stars": 59,
       "open_issues": 2,
-      "open_prs": 3,
+      "open_prs": 2,
       "default_branch": "master",
-      "commits_28d": 6,
-      "commits_7d": 5,
-      "prs_merged_28d": 1,
+      "commits_28d": 7,
+      "commits_7d": 6,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-08T08:58:45Z",
-      "last_commit_message": "one more fix",
+      "last_commit_at": "2026-10-12T11:41:29Z",
+      "last_commit_message": "Merge pull request #523 from multiversx/fixes-process-status-endpoint",
       "weekly_commits": [
         0,
         0,
@@ -191,37 +191,7 @@
         0,
         1,
         0,
-        5
-      ]
-    },
-    {
-      "name": "mx-sdk-dapp",
-      "full_name": "multiversx/mx-sdk-dapp",
-      "url": "https://github.com/multiversx/mx-sdk-dapp",
-      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
-      "stars": 85,
-      "open_issues": 0,
-      "open_prs": 0,
-      "default_branch": "main",
-      "commits_28d": 5,
-      "commits_7d": 0,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-09-14T14:44:05Z",
-      "last_commit_message": "Merge pull request #1741 from multiversx/development",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5,
-        0,
-        0,
-        0
+        6
       ]
     },
     {
@@ -248,9 +218,9 @@
         0,
         0,
         0,
+        3,
         2,
-        1,
-        2,
+        0,
         0
       ]
     },
@@ -279,8 +249,8 @@
         0,
         0,
         0,
-        0,
-        3,
+        1,
+        2,
         1
       ]
     },
@@ -322,6 +292,36 @@
       "stars": 73,
       "open_issues": 6,
       "open_prs": 5,
+      "default_branch": "main",
+      "commits_28d": 0,
+      "commits_7d": 0,
+      "prs_merged_28d": 0,
+      "contributors_28d": 0,
+      "last_commit_at": null,
+      "last_commit_message": null,
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "mx-sdk-dapp",
+      "full_name": "multiversx/mx-sdk-dapp",
+      "url": "https://github.com/multiversx/mx-sdk-dapp",
+      "description": "A library that holds the core functional logic of a dapp on the MultiversX",
+      "stars": 85,
+      "open_issues": 0,
+      "open_prs": 0,
       "default_branch": "main",
       "commits_28d": 0,
       "commits_7d": 0,
@@ -440,7 +440,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 88,
+      "commits_28d": 87,
       "prs_merged_28d": 11,
       "repos_touched": 1,
       "highlighted": false
@@ -455,21 +455,21 @@
       "highlighted": false
     },
     {
-      "login": "andrei-marinica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
-      "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 56,
-      "prs_merged_28d": 6,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 54,
-      "prs_merged_28d": 7,
-      "repos_touched": 4,
+      "commits_28d": 50,
+      "prs_merged_28d": 6,
+      "repos_touched": 3,
+      "highlighted": false
+    },
+    {
+      "login": "andrei-marinica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
+      "html_url": "https://github.com/andrei-marinica",
+      "commits_28d": 48,
+      "prs_merged_28d": 6,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
@@ -485,7 +485,7 @@
       "login": "raduchis",
       "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
       "html_url": "https://github.com/raduchis",
-      "commits_28d": 15,
+      "commits_28d": 13,
       "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
@@ -509,15 +509,6 @@
       "highlighted": false
     },
     {
-      "login": "radumojic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
-      "html_url": "https://github.com/radumojic",
-      "commits_28d": 5,
-      "prs_merged_28d": 2,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "dependabot[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
       "html_url": "https://github.com/dependabot[bot]",
@@ -525,9 +516,26 @@
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
+    },
+    {
+      "login": "ssd04",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17141840?v=4",
+      "html_url": "https://github.com/ssd04",
+      "commits_28d": 1,
+      "prs_merged_28d": 0,
+      "repos_touched": 1,
+      "highlighted": false
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-chain-proxy-go",
+      "tag": "v1.5.3",
+      "name": "v1.5.3",
+      "published_at": "2026-10-12T11:41:57Z",
+      "url": "https://github.com/multiversx/mx-chain-proxy-go/releases/tag/v1.5.3",
+      "is_prerelease": true
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v2.1.8.0",
@@ -639,18 +647,9 @@
       "published_at": "2026-09-23T16:00:57Z",
       "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.1.4",
       "is_prerelease": true
-    },
-    {
-      "repo": "mx-sdk-dapp",
-      "tag": "v5.7.3",
-      "name": "v5.7.3",
-      "published_at": "2026-09-14T14:44:43Z",
-      "url": "https://github.com/multiversx/mx-sdk-dapp/releases/tag/v5.7.3",
-      "is_prerelease": false
     }
   ],
   "daily_commits": [
-    22,
     20,
     9,
     21,
@@ -677,6 +676,7 @@
     7,
     1,
     0,
-    0
+    0,
+    1
   ]
 }
