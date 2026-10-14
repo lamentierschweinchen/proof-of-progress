@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-14 | No merges or releases; new open PRs mx-vm-executor-rs #97 and mx-chain-vm-go #990 wire Wasmer 7 into the Go VM (34K+ added lines); v2.1.8 still pre-release; mainnet healthy in epoch 2262. | [2026-10-14](digests/2026-10-14.md) |
 | 2026-10-13 | mx-chain-proxy-go #523 fixes `process-status` for reward claims, shipped as pre-release v1.5.3; v2.1.8 still pre-release with no testnet/devnet config; RC PR #94 still open; mainnet healthy in epoch 2261. | [2026-10-13](digests/2026-10-13.md) |
 | 2026-10-12 | Quiet day: no merged PRs or releases on watchlist repos or in `mx-vm-executor-rs`; RC PR #94 still open; v2.1.8 still pre-release with no testnet/devnet config; mainnet healthy in epoch 2260. | [2026-10-12](digests/2026-10-12.md) |
 | 2026-10-11 | No merged PRs or releases on watchlist repos; `mx-vm-executor-rs` merged wasmer 7.5 and bulk-memory metering into `rc/after-supernova` and opened RC PR #94; v2.1.8 still pre-release with no testnet/devnet config; mainnet healthy in epoch 2259. | [2026-10-11](digests/2026-10-11.md) |
