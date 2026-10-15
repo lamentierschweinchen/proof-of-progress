@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-15 | No merges; mx-bridge-eth-go v3.0.23 tagged stable (single "redirect-patch" commit, no notes); mx-api-service #1650 narrows ESDTTransfer event dedup; vm-go #989 (opcodes v2) updated and reviewed; v2.1.8 still pre-release; mainnet healthy in epoch 2263. Stats: 306 commits / 34 PRs merged in 28d. | [2026-10-15](digests/2026-10-15.md) |
 | 2026-10-14 | No merges or releases; new open PRs mx-vm-executor-rs #97 and mx-chain-vm-go #990 wire Wasmer 7 into the Go VM (34K+ added lines); v2.1.8 still pre-release; mainnet healthy in epoch 2262. | [2026-10-14](digests/2026-10-14.md) |
 | 2026-10-13 | mx-chain-proxy-go #523 fixes `process-status` for reward claims, shipped as pre-release v1.5.3; v2.1.8 still pre-release with no testnet/devnet config; RC PR #94 still open; mainnet healthy in epoch 2261. | [2026-10-13](digests/2026-10-13.md) |
 | 2026-10-12 | Quiet day: no merged PRs or releases on watchlist repos or in `mx-vm-executor-rs`; RC PR #94 still open; v2.1.8 still pre-release with no testnet/devnet config; mainnet healthy in epoch 2260. | [2026-10-12](digests/2026-10-12.md) |
