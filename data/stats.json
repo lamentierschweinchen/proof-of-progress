@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-15T05:10:10Z",
+  "generated_at": "2026-10-16T06:09:16Z",
   "window": {
-    "start": "2026-09-17",
-    "end": "2026-10-15",
+    "start": "2026-09-18",
+    "end": "2026-10-16",
     "days": 28
   },
   "totals": {
-    "commits": 306,
+    "commits": 303,
     "prs_merged": 34,
-    "prs_opened": 139,
+    "prs_opened": 134,
     "contributors": 10,
     "releases": 15,
-    "repos_active": 10
+    "repos_active": 9
   },
   "repos": [
     {
@@ -21,14 +21,14 @@
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
       "stars": 36,
       "open_issues": 7,
-      "open_prs": 13,
+      "open_prs": 12,
       "default_branch": "main",
-      "commits_28d": 89,
-      "commits_7d": 4,
-      "prs_merged_28d": 11,
+      "commits_28d": 92,
+      "commits_7d": 9,
+      "prs_merged_28d": 12,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-14T12:36:25Z",
-      "last_commit_message": "deduplicate ESDTTransfer events only across shards",
+      "last_commit_at": "2026-10-15T12:49:43Z",
+      "last_commit_message": "update comm",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        6,
-        50,
-        29,
-        4
+        15,
+        44,
+        24,
+        9
       ]
     },
     {
@@ -49,16 +49,16 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 954,
+      "stars": 953,
       "open_issues": 6,
-      "open_prs": 89,
+      "open_prs": 90,
       "default_branch": "master",
-      "commits_28d": 88,
-      "commits_7d": 7,
-      "prs_merged_28d": 12,
+      "commits_28d": 86,
+      "commits_7d": 8,
+      "prs_merged_28d": 11,
       "contributors_28d": 6,
-      "last_commit_at": "2026-10-14T08:30:20Z",
-      "last_commit_message": "fixes",
+      "last_commit_at": "2026-10-15T11:19:34Z",
+      "last_commit_message": "fixes after review",
       "weekly_commits": [
         0,
         0,
@@ -69,9 +69,9 @@
         0,
         0,
         50,
-        22,
-        9,
-        7
+        21,
+        7,
+        8
       ]
     },
     {
@@ -84,7 +84,7 @@
       "open_prs": 24,
       "default_branch": "master",
       "commits_28d": 51,
-      "commits_7d": 6,
+      "commits_7d": 5,
       "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-10-14T07:35:33Z",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
+        13,
+        24,
         9,
-        15,
-        21,
-        6
+        5
       ]
     },
     {
@@ -113,7 +113,7 @@
       "open_issues": 1,
       "open_prs": 6,
       "default_branch": "master",
-      "commits_28d": 33,
+      "commits_28d": 32,
       "commits_7d": 1,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
@@ -128,9 +128,9 @@
         0,
         0,
         0,
-        12,
-        12,
-        8,
+        18,
+        7,
+        6,
         1
       ]
     },
@@ -141,14 +141,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 36,
+      "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 24,
-      "commits_7d": 0,
+      "commits_28d": 18,
+      "commits_7d": 5,
       "prs_merged_28d": 4,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-23T16:55:59Z",
-      "last_commit_message": "Merge pull request #2428 from multiversx/wasm-opcode-counter",
+      "last_commit_at": "2026-10-15T21:21:20Z",
+      "last_commit_message": "Merge pull request #2430 from multiversx/no-sig",
       "weekly_commits": [
         0,
         0,
@@ -158,10 +158,10 @@
         0,
         0,
         0,
-        24,
+        13,
         0,
         0,
-        0
+        5
       ]
     },
     {
@@ -173,12 +173,12 @@
       "open_issues": 1,
       "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 9,
-      "commits_7d": 6,
+      "commits_28d": 12,
+      "commits_7d": 9,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-14T14:15:51Z",
-      "last_commit_message": "fix tests",
+      "last_commit_at": "2026-10-15T07:37:45Z",
+      "last_commit_message": "fixes",
       "weekly_commits": [
         0,
         0,
@@ -191,7 +191,7 @@
         0,
         3,
         0,
-        6
+        9
       ]
     },
     {
@@ -201,14 +201,14 @@
       "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
       "stars": 59,
       "open_issues": 2,
-      "open_prs": 2,
+      "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 7,
-      "commits_7d": 5,
+      "commits_28d": 8,
+      "commits_7d": 2,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-12T11:41:29Z",
-      "last_commit_message": "Merge pull request #523 from multiversx/fixes-process-status-endpoint",
+      "last_commit_at": "2026-10-15T12:17:35Z",
+      "last_commit_message": "fixes",
       "weekly_commits": [
         0,
         0,
@@ -220,8 +220,8 @@
         0,
         0,
         1,
-        1,
-        5
+        5,
+        2
       ]
     },
     {
@@ -285,43 +285,13 @@
       ]
     },
     {
-      "name": "mx-chain-tools-go",
-      "full_name": "multiversx/mx-chain-tools-go",
-      "url": "https://github.com/multiversx/mx-chain-tools-go",
-      "description": "MultiversX blockchain tools written in GO ",
-      "stars": 2,
-      "open_issues": 0,
-      "open_prs": 11,
-      "default_branch": "main",
-      "commits_28d": 1,
-      "commits_7d": 0,
-      "prs_merged_28d": 0,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-09-17T09:10:33Z",
-      "last_commit_message": "delegation rewards export",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0
-      ]
-    },
-    {
       "name": "mx-sdk-js-core",
       "full_name": "multiversx/mx-sdk-js-core",
       "url": "https://github.com/multiversx/mx-sdk-js-core",
       "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
       "stars": 73,
       "open_issues": 6,
-      "open_prs": 5,
+      "open_prs": 4,
       "default_branch": "main",
       "commits_28d": 0,
       "commits_7d": 0,
@@ -433,6 +403,36 @@
         0,
         0
       ]
+    },
+    {
+      "name": "mx-chain-tools-go",
+      "full_name": "multiversx/mx-chain-tools-go",
+      "url": "https://github.com/multiversx/mx-chain-tools-go",
+      "description": "MultiversX blockchain tools written in GO ",
+      "stars": 2,
+      "open_issues": 0,
+      "open_prs": 11,
+      "default_branch": "main",
+      "commits_28d": 0,
+      "commits_7d": 0,
+      "prs_merged_28d": 0,
+      "contributors_28d": 0,
+      "last_commit_at": null,
+      "last_commit_message": null,
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     }
   ],
   "top_contributors": [
@@ -440,36 +440,36 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 89,
-      "prs_merged_28d": 11,
+      "commits_28d": 92,
+      "prs_merged_28d": 12,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "andrei-marinica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
-      "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 65,
-      "prs_merged_28d": 4,
-      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 63,
-      "prs_merged_28d": 10,
+      "commits_28d": 66,
+      "prs_merged_28d": 9,
       "repos_touched": 4,
+      "highlighted": false
+    },
+    {
+      "login": "andrei-marinica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
+      "html_url": "https://github.com/andrei-marinica",
+      "commits_28d": 59,
+      "prs_merged_28d": 4,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 44,
+      "commits_28d": 43,
       "prs_merged_28d": 6,
-      "repos_touched": 3,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
@@ -480,15 +480,6 @@
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": true
-    },
-    {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
-      "commits_28d": 8,
-      "prs_merged_28d": 0,
-      "repos_touched": 2,
-      "highlighted": false
     },
     {
       "login": "dependabot[bot]",
@@ -506,6 +497,15 @@
       "commits_28d": 7,
       "prs_merged_28d": 0,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "raduchis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
+      "html_url": "https://github.com/raduchis",
+      "commits_28d": 6,
+      "prs_merged_28d": 0,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    21,
     11,
     12,
     7,
@@ -677,6 +676,7 @@
     0,
     2,
     9,
-    8
+    8,
+    18
   ]
 }
