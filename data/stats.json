@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T06:09:16Z",
+  "generated_at": "2026-10-17T06:09:25Z",
   "window": {
-    "start": "2026-09-18",
-    "end": "2026-10-16",
+    "start": "2026-09-19",
+    "end": "2026-10-17",
     "days": 28
   },
   "totals": {
-    "commits": 303,
-    "prs_merged": 34,
-    "prs_opened": 134,
+    "commits": 294,
+    "prs_merged": 32,
+    "prs_opened": 136,
     "contributors": 10,
     "releases": 15,
     "repos_active": 9
@@ -38,8 +38,8 @@
         0,
         0,
         0,
-        15,
-        44,
+        28,
+        31,
         24,
         9
       ]
@@ -51,14 +51,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 953,
       "open_issues": 6,
-      "open_prs": 90,
+      "open_prs": 91,
       "default_branch": "master",
-      "commits_28d": 86,
-      "commits_7d": 8,
+      "commits_28d": 83,
+      "commits_7d": 9,
       "prs_merged_28d": 11,
       "contributors_28d": 6,
-      "last_commit_at": "2026-10-15T11:19:34Z",
-      "last_commit_message": "fixes after review",
+      "last_commit_at": "2026-10-16T10:33:09Z",
+      "last_commit_message": "Bump github.com/klauspost/cpuid/v2 from 2.4.0 to 2.4.1",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        50,
-        21,
-        7,
-        8
+        55,
+        13,
+        6,
+        9
       ]
     },
     {
@@ -84,7 +84,7 @@
       "open_prs": 24,
       "default_branch": "master",
       "commits_28d": 51,
-      "commits_7d": 5,
+      "commits_7d": 3,
       "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-10-14T07:35:33Z",
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        13,
-        24,
-        9,
-        5
+        17,
+        27,
+        4,
+        3
       ]
     },
     {
@@ -128,40 +128,10 @@
         0,
         0,
         0,
-        18,
-        7,
+        20,
         6,
+        5,
         1
-      ]
-    },
-    {
-      "name": "mx-sdk-rs",
-      "full_name": "multiversx/mx-sdk-rs",
-      "url": "https://github.com/multiversx/mx-sdk-rs",
-      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
-      "stars": 193,
-      "open_issues": 7,
-      "open_prs": 37,
-      "default_branch": "master",
-      "commits_28d": 18,
-      "commits_7d": 5,
-      "prs_merged_28d": 4,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-10-15T21:21:20Z",
-      "last_commit_message": "Merge pull request #2430 from multiversx/no-sig",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        13,
-        0,
-        0,
-        5
       ]
     },
     {
@@ -174,7 +144,7 @@
       "open_prs": 3,
       "default_branch": "master",
       "commits_28d": 12,
-      "commits_7d": 9,
+      "commits_7d": 8,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-15T07:37:45Z",
@@ -190,8 +160,38 @@
         0,
         0,
         3,
+        1,
+        8
+      ]
+    },
+    {
+      "name": "mx-sdk-rs",
+      "full_name": "multiversx/mx-sdk-rs",
+      "url": "https://github.com/multiversx/mx-sdk-rs",
+      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
+      "stars": 193,
+      "open_issues": 7,
+      "open_prs": 37,
+      "default_branch": "master",
+      "commits_28d": 11,
+      "commits_7d": 5,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-10-15T21:21:20Z",
+      "last_commit_message": "Merge pull request #2430 from multiversx/no-sig",
+      "weekly_commits": [
         0,
-        9
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        5
       ]
     },
     {
@@ -203,12 +203,12 @@
       "open_issues": 2,
       "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 8,
-      "commits_7d": 2,
+      "commits_28d": 9,
+      "commits_7d": 3,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-15T12:17:35Z",
-      "last_commit_message": "fixes",
+      "last_commit_at": "2026-10-16T10:13:49Z",
+      "last_commit_message": "fixes after review",
       "weekly_commits": [
         0,
         0,
@@ -218,10 +218,10 @@
         0,
         0,
         0,
-        0,
         1,
+        0,
         5,
-        2
+        3
       ]
     },
     {
@@ -449,7 +449,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 66,
+      "commits_28d": 64,
       "prs_merged_28d": 9,
       "repos_touched": 4,
       "highlighted": false
@@ -458,8 +458,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 59,
-      "prs_merged_28d": 4,
+      "commits_28d": 52,
+      "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -467,7 +467,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 43,
+      "commits_28d": 42,
       "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
@@ -485,7 +485,7 @@
       "login": "dependabot[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
       "html_url": "https://github.com/dependabot[bot]",
-      "commits_28d": 7,
+      "commits_28d": 8,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    11,
     12,
     7,
     12,
@@ -677,6 +676,7 @@
     2,
     9,
     8,
-    18
+    18,
+    2
   ]
 }

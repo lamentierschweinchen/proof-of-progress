@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-17 | Quiet day: no merges, no releases; miiu96's paired Supernova refund-SCR status fixes (mx-chain-go #8044, proxy #524) updated, still open; v2.1.8 still pre-release; mainnet healthy in epoch 2265. Stats: 294 commits / 32 PRs merged in 28d. | [2026-10-17](digests/2026-10-17.md) |
 | 2026-10-16 | mx-sdk-rs #2430 (no_sig interactor wallets) and mx-api-service #1649 merged; miiu96 opens paired Supernova refund-SCR status fixes (mx-chain-go #8044, proxy #524); no releases; v2.1.8 still pre-release; mainnet healthy in epoch 2264. Stats: 303 commits / 34 PRs merged in 28d. | [2026-10-16](digests/2026-10-16.md) |
 | 2026-10-15 | No merges; mx-bridge-eth-go v3.0.23 tagged stable (single "redirect-patch" commit, no notes); mx-api-service #1650 narrows ESDTTransfer event dedup; vm-go #989 (opcodes v2) updated and reviewed; v2.1.8 still pre-release; mainnet healthy in epoch 2263. Stats: 306 commits / 34 PRs merged in 28d. | [2026-10-15](digests/2026-10-15.md) |
 | 2026-10-14 | No merges or releases; new open PRs mx-vm-executor-rs #97 and mx-chain-vm-go #990 wire Wasmer 7 into the Go VM (34K+ added lines); v2.1.8 still pre-release; mainnet healthy in epoch 2262. | [2026-10-14](digests/2026-10-14.md) |
