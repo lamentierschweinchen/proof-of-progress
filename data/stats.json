@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T06:09:25Z",
+  "generated_at": "2026-10-18T06:09:22Z",
   "window": {
-    "start": "2026-09-19",
-    "end": "2026-10-17",
+    "start": "2026-09-20",
+    "end": "2026-10-18",
     "days": 28
   },
   "totals": {
-    "commits": 294,
+    "commits": 282,
     "prs_merged": 32,
-    "prs_opened": 136,
+    "prs_opened": 131,
     "contributors": 10,
     "releases": 15,
     "repos_active": 9
@@ -53,7 +53,7 @@
       "open_issues": 6,
       "open_prs": 91,
       "default_branch": "master",
-      "commits_28d": 83,
+      "commits_28d": 75,
       "commits_7d": 9,
       "prs_merged_28d": 11,
       "contributors_28d": 6,
@@ -68,7 +68,7 @@
         0,
         0,
         0,
-        55,
+        47,
         13,
         6,
         9
@@ -83,7 +83,7 @@
       "open_issues": 8,
       "open_prs": 24,
       "default_branch": "master",
-      "commits_28d": 51,
+      "commits_28d": 48,
       "commits_7d": 3,
       "prs_merged_28d": 1,
       "contributors_28d": 3,
@@ -98,7 +98,7 @@
         0,
         0,
         0,
-        17,
+        14,
         27,
         4,
         3
@@ -113,7 +113,7 @@
       "open_issues": 1,
       "open_prs": 6,
       "default_branch": "master",
-      "commits_28d": 32,
+      "commits_28d": 31,
       "commits_7d": 1,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
@@ -128,7 +128,7 @@
         0,
         0,
         0,
-        20,
+        19,
         6,
         5,
         1
@@ -199,7 +199,7 @@
       "full_name": "multiversx/mx-chain-proxy-go",
       "url": "https://github.com/multiversx/mx-chain-proxy-go",
       "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
-      "stars": 59,
+      "stars": 60,
       "open_issues": 2,
       "open_prs": 3,
       "default_branch": "master",
@@ -467,7 +467,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 42,
+      "commits_28d": 37,
       "prs_merged_28d": 6,
       "repos_touched": 2,
       "highlighted": false
@@ -476,7 +476,7 @@
       "login": "sasurobert",
       "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
       "html_url": "https://github.com/sasurobert",
-      "commits_28d": 17,
+      "commits_28d": 11,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": true
@@ -500,20 +500,20 @@
       "highlighted": false
     },
     {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
-      "commits_28d": 6,
-      "prs_merged_28d": 0,
-      "repos_touched": 2,
-      "highlighted": false
-    },
-    {
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 5,
       "prs_merged_28d": 1,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "raduchis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
+      "html_url": "https://github.com/raduchis",
+      "commits_28d": 5,
+      "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    12,
     7,
     12,
     11,
@@ -677,6 +676,7 @@
     9,
     8,
     18,
-    2
+    2,
+    0
   ]
 }
