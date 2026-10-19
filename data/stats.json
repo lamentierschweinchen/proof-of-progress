@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T06:09:22Z",
+  "generated_at": "2026-10-19T06:09:27Z",
   "window": {
-    "start": "2026-09-20",
-    "end": "2026-10-18",
+    "start": "2026-09-21",
+    "end": "2026-10-19",
     "days": 28
   },
   "totals": {
-    "commits": 282,
-    "prs_merged": 32,
+    "commits": 275,
+    "prs_merged": 30,
     "prs_opened": 131,
     "contributors": 10,
     "releases": 15,
@@ -53,9 +53,9 @@
       "open_issues": 6,
       "open_prs": 91,
       "default_branch": "master",
-      "commits_28d": 75,
+      "commits_28d": 68,
       "commits_7d": 9,
-      "prs_merged_28d": 11,
+      "prs_merged_28d": 9,
       "contributors_28d": 6,
       "last_commit_at": "2026-10-16T10:33:09Z",
       "last_commit_message": "Bump github.com/klauspost/cpuid/v2 from 2.4.0 to 2.4.1",
@@ -68,7 +68,7 @@
         0,
         0,
         0,
-        47,
+        40,
         13,
         6,
         9
@@ -467,8 +467,8 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 37,
-      "prs_merged_28d": 6,
+      "commits_28d": 30,
+      "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    7,
     12,
     11,
     29,
@@ -677,6 +676,7 @@
     8,
     18,
     2,
+    0,
     0
   ]
 }

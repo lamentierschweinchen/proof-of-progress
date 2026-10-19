@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-19 | Quiet day: no merges, no releases, no watchlist PR updates; refund-SCR status pair (mx-chain-go #8044, proxy #524) still open; v2.1.8 still pre-release; mainnet healthy in epoch 2267. Stats: 275 commits / 30 PRs merged in 28d. | [2026-10-19](digests/2026-10-19.md) |
 | 2026-10-18 | Quiet day: no merges, no new PRs, no releases; refund-SCR status pair (mx-chain-go #8044, proxy #524) unchanged and open; v2.1.8 still pre-release; mainnet healthy in epoch 2266. Stats: 282 commits / 32 PRs merged in 28d. | [2026-10-18](digests/2026-10-18.md) |
 | 2026-10-17 | Quiet day: no merges, no releases; miiu96's paired Supernova refund-SCR status fixes (mx-chain-go #8044, proxy #524) updated, still open; v2.1.8 still pre-release; mainnet healthy in epoch 2265. Stats: 294 commits / 32 PRs merged in 28d. | [2026-10-17](digests/2026-10-17.md) |
 | 2026-10-16 | mx-sdk-rs #2430 (no_sig interactor wallets) and mx-api-service #1649 merged; miiu96 opens paired Supernova refund-SCR status fixes (mx-chain-go #8044, proxy #524); no releases; v2.1.8 still pre-release; mainnet healthy in epoch 2264. Stats: 303 commits / 34 PRs merged in 28d. | [2026-10-16](digests/2026-10-16.md) |
