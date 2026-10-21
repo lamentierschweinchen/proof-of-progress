@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-20T05:09:50Z",
+  "generated_at": "2026-10-21T08:42:16Z",
   "window": {
-    "start": "2026-09-22",
-    "end": "2026-10-20",
+    "start": "2026-09-23",
+    "end": "2026-10-21",
     "days": 28
   },
   "totals": {
-    "commits": 340,
-    "prs_merged": 34,
-    "prs_opened": 138,
-    "contributors": 11,
+    "commits": 324,
+    "prs_merged": 35,
+    "prs_opened": 142,
+    "contributors": 12,
     "releases": 15,
     "repos_active": 10
   },
@@ -38,9 +38,9 @@
         0,
         0,
         0,
-        28,
-        40,
-        15,
+        48,
+        24,
+        11,
         12
       ]
     },
@@ -53,12 +53,12 @@
       "open_issues": 6,
       "open_prs": 91,
       "default_branch": "master",
-      "commits_28d": 60,
-      "commits_7d": 9,
+      "commits_28d": 55,
+      "commits_7d": 6,
       "prs_merged_28d": 9,
-      "contributors_28d": 6,
-      "last_commit_at": "2026-10-16T10:33:09Z",
-      "last_commit_message": "Bump github.com/klauspost/cpuid/v2 from 2.4.0 to 2.4.1",
+      "contributors_28d": 7,
+      "last_commit_at": "2026-10-20T13:52:17Z",
+      "last_commit_message": "copy trie to memory on startup",
       "weekly_commits": [
         0,
         0,
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        35,
-        12,
-        4,
-        9
+        29,
+        13,
+        7,
+        6
       ]
     },
     {
@@ -83,7 +83,7 @@
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
-      "commits_28d": 55,
+      "commits_28d": 45,
       "commits_7d": 0,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
@@ -98,8 +98,8 @@
         0,
         0,
         0,
-        37,
-        18,
+        34,
+        11,
         0,
         0
       ]
@@ -113,8 +113,8 @@
       "open_issues": 8,
       "open_prs": 24,
       "default_branch": "master",
-      "commits_28d": 46,
-      "commits_7d": 2,
+      "commits_28d": 44,
+      "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-10-14T07:35:33Z",
@@ -128,40 +128,10 @@
         0,
         0,
         0,
-        12,
-        27,
-        5,
-        2
-      ]
-    },
-    {
-      "name": "mx-sdk-rs",
-      "full_name": "multiversx/mx-sdk-rs",
-      "url": "https://github.com/multiversx/mx-sdk-rs",
-      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
-      "stars": 193,
-      "open_issues": 7,
-      "open_prs": 35,
-      "default_branch": "master",
-      "commits_28d": 30,
-      "commits_7d": 25,
-      "prs_merged_28d": 5,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-10-19T23:34:47Z",
-      "last_commit_message": "Merge pull request #2432 from multiversx/deps-unused",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5,
-        0,
-        0,
-        25
+        17,
+        21,
+        6,
+        0
       ]
     },
     {
@@ -173,12 +143,12 @@
       "open_issues": 1,
       "open_prs": 6,
       "default_branch": "master",
-      "commits_28d": 30,
-      "commits_7d": 1,
+      "commits_28d": 32,
+      "commits_7d": 2,
       "prs_merged_28d": 2,
-      "contributors_28d": 2,
-      "last_commit_at": "2026-10-14T07:33:58Z",
-      "last_commit_message": "FixCorrectSmallIntAndGasLimitsEnableEpoch",
+      "contributors_28d": 3,
+      "last_commit_at": "2026-10-21T07:51:20Z",
+      "last_commit_message": "keep the peer trie in mem",
       "weekly_commits": [
         0,
         0,
@@ -188,10 +158,40 @@
         0,
         0,
         0,
-        18,
-        6,
-        5,
-        1
+        20,
+        7,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "mx-sdk-rs",
+      "full_name": "multiversx/mx-sdk-rs",
+      "url": "https://github.com/multiversx/mx-sdk-rs",
+      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
+      "stars": 193,
+      "open_issues": 7,
+      "open_prs": 36,
+      "default_branch": "master",
+      "commits_28d": 28,
+      "commits_7d": 26,
+      "prs_merged_28d": 5,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-10-20T09:22:02Z",
+      "last_commit_message": "interactor - inject validator rewards",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        26
       ]
     },
     {
@@ -201,14 +201,14 @@
       "description": "The default elastic search indexer module for the mx-chain-go node written in golang",
       "stars": 12,
       "open_issues": 1,
-      "open_prs": 3,
+      "open_prs": 2,
       "default_branch": "master",
-      "commits_28d": 12,
-      "commits_7d": 8,
-      "prs_merged_28d": 1,
+      "commits_28d": 13,
+      "commits_7d": 7,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-15T07:37:45Z",
-      "last_commit_message": "fixes",
+      "last_commit_at": "2026-10-20T11:36:44Z",
+      "last_commit_message": "Merge pull request #388 from multiversx/values-index-extra-data",
       "weekly_commits": [
         0,
         0,
@@ -218,10 +218,10 @@
         0,
         0,
         0,
-        1,
-        2,
-        1,
-        8
+        3,
+        0,
+        3,
+        7
       ]
     },
     {
@@ -294,7 +294,7 @@
       "open_prs": 12,
       "default_branch": "main",
       "commits_28d": 1,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-13T15:28:17Z",
@@ -310,8 +310,8 @@
         0,
         0,
         0,
-        0,
-        1
+        1,
+        0
       ]
     },
     {
@@ -449,7 +449,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 71,
+      "commits_28d": 68,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -458,8 +458,8 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 64,
-      "prs_merged_28d": 9,
+      "commits_28d": 65,
+      "prs_merged_28d": 10,
       "repos_touched": 4,
       "highlighted": false
     },
@@ -467,7 +467,7 @@
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 55,
+      "commits_28d": 45,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -476,7 +476,7 @@
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 27,
+      "commits_28d": 21,
       "prs_merged_28d": 4,
       "repos_touched": 2,
       "highlighted": false
@@ -500,10 +500,19 @@
       "highlighted": false
     },
     {
+      "login": "BeniaminDrasovean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
+      "html_url": "https://github.com/BeniaminDrasovean",
+      "commits_28d": 5,
+      "prs_merged_28d": 0,
+      "repos_touched": 2,
+      "highlighted": false
+    },
+    {
       "login": "sasurobert",
       "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
       "html_url": "https://github.com/sasurobert",
-      "commits_28d": 6,
+      "commits_28d": 3,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": true
@@ -516,18 +525,17 @@
       "prs_merged_28d": 1,
       "repos_touched": 2,
       "highlighted": false
-    },
-    {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
-      "commits_28d": 3,
-      "prs_merged_28d": 0,
-      "repos_touched": 1,
-      "highlighted": false
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-chain-es-indexer-go",
+      "tag": "v1.10.6",
+      "name": "v1.10.6",
+      "published_at": "2026-10-20T11:37:04Z",
+      "url": "https://github.com/multiversx/mx-chain-es-indexer-go/releases/tag/v1.10.6",
+      "is_prerelease": true
+    },
     {
       "repo": "mx-bridge-eth-go",
       "tag": "v3.0.23",
@@ -639,19 +647,10 @@
       "published_at": "2026-09-24T10:40:37Z",
       "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.1.5",
       "is_prerelease": false
-    },
-    {
-      "repo": "mx-chain-mainnet-config",
-      "tag": "v2.1.4.0",
-      "name": "v2.1.4.0",
-      "published_at": "2026-09-23T16:03:14Z",
-      "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.1.4.0",
-      "is_prerelease": true
     }
   ],
   "daily_commits": [
-    20,
-    46,
+    43,
     28,
     39,
     0,
@@ -677,6 +676,7 @@
     2,
     0,
     0,
-    23
+    23,
+    6
   ]
 }
