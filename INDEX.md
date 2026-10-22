@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-22 | Release day: mx-chain-go v2.1.9 and mainnet-config v2.1.9.0 stable (advisory-fixes-all branches merged); mx-chain-vm-go v1.5.52 pre-release; import-db PR #8046 opened; mx-api-service #1652 consumes indexer values index. Stats: 355 commits / 31 PRs merged in 28d. | [2026-10-22](digests/2026-10-22.md) |
 | 2026-10-21 | Quiet day. mx-chain-es-indexer-go v1.10.6 pre-release (values index round tracking, #388); new `import-db-improvements` branches in mx-chain-go and mx-chain-mainnet-config; no other merges. | [2026-10-21](digests/2026-10-21.md) |
 | 2026-10-20 | Activity resumed: three mx-sdk-rs merges (sc-meta codehash, dependency upgrade, clippy cleanup) toward the v0.67 RC, plus an mx-api-service ESDTTransfer dedup fix; no releases; refund-SCR pair still open; mainnet healthy in epoch 2268. Stats: 340 commits / 34 PRs merged in 28d. | [2026-10-20](digests/2026-10-20.md) |
 | 2026-10-19 | Quiet day: no merges, no releases, no watchlist PR updates; refund-SCR status pair (mx-chain-go #8044, proxy #524) still open; v2.1.8 still pre-release; mainnet healthy in epoch 2267. Stats: 275 commits / 30 PRs merged in 28d. | [2026-10-19](digests/2026-10-19.md) |
