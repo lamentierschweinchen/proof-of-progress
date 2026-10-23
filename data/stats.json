@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22T08:59:39Z",
+  "generated_at": "2026-10-23T12:09:43Z",
   "window": {
-    "start": "2026-09-24",
-    "end": "2026-10-22",
+    "start": "2026-09-25",
+    "end": "2026-10-23",
     "days": 28
   },
   "totals": {
-    "commits": 355,
-    "prs_merged": 31,
-    "prs_opened": 144,
+    "commits": 309,
+    "prs_merged": 30,
+    "prs_opened": 143,
     "contributors": 13,
     "releases": 15,
     "repos_active": 10
@@ -21,14 +21,14 @@
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
       "stars": 953,
       "open_issues": 6,
-      "open_prs": 93,
+      "open_prs": 92,
       "default_branch": "master",
-      "commits_28d": 94,
-      "commits_7d": 23,
+      "commits_28d": 84,
+      "commits_7d": 24,
       "prs_merged_28d": 7,
       "contributors_28d": 8,
-      "last_commit_at": "2026-10-22T08:53:18Z",
-      "last_commit_message": "Merge branch 'master' into fixes-get-transaction-endpoint",
+      "last_commit_at": "2026-10-22T14:03:40Z",
+      "last_commit_message": "use normal persister tracker for in memory db while import db",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        26,
-        30,
         15,
-        23
+        34,
+        11,
+        24
       ]
     },
     {
@@ -53,12 +53,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 94,
-      "commits_7d": 13,
-      "prs_merged_28d": 12,
+      "commits_28d": 74,
+      "commits_7d": 7,
+      "prs_merged_28d": 9,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-21T18:50:53Z",
-      "last_commit_message": "remove commented code",
+      "last_commit_at": "2026-10-22T15:57:17Z",
+      "last_commit_message": "add newline",
       "weekly_commits": [
         0,
         0,
@@ -67,11 +67,11 @@
         0,
         0,
         0,
-        4,
-        44,
-        29,
-        5,
-        12
+        0,
+        34,
+        24,
+        9,
+        7
       ]
     },
     {
@@ -81,14 +81,14 @@
       "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
       "stars": 90,
       "open_issues": 8,
-      "open_prs": 25,
+      "open_prs": 26,
       "default_branch": "master",
-      "commits_28d": 68,
-      "commits_7d": 7,
+      "commits_28d": 62,
+      "commits_7d": 9,
       "prs_merged_28d": 1,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-21T16:12:43Z",
-      "last_commit_message": "wasmer2 bridge layout test",
+      "last_commit_at": "2026-10-22T14:17:10Z",
+      "last_commit_message": "executor - move EarlyExit from vmhost to the executor package",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,40 @@
         0,
         0,
         0,
-        22,
-        28,
-        11,
-        7
+        21,
+        25,
+        7,
+        9
+      ]
+    },
+    {
+      "name": "mx-sdk-rs",
+      "full_name": "multiversx/mx-sdk-rs",
+      "url": "https://github.com/multiversx/mx-sdk-rs",
+      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
+      "stars": 193,
+      "open_issues": 7,
+      "open_prs": 36,
+      "default_branch": "master",
+      "commits_28d": 29,
+      "commits_7d": 24,
+      "prs_merged_28d": 5,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-10-23T08:50:03Z",
+      "last_commit_message": "Merge branch 'rc/v0.67' into inject-validator-reward",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        24
       ]
     },
     {
@@ -113,7 +143,7 @@
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
-      "commits_28d": 28,
+      "commits_28d": 18,
       "commits_7d": 0,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
@@ -128,40 +158,10 @@
         0,
         0,
         0,
-        28,
+        18,
         0,
         0,
         0
-      ]
-    },
-    {
-      "name": "mx-sdk-rs",
-      "full_name": "multiversx/mx-sdk-rs",
-      "url": "https://github.com/multiversx/mx-sdk-rs",
-      "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
-      "stars": 193,
-      "open_issues": 7,
-      "open_prs": 36,
-      "default_branch": "master",
-      "commits_28d": 26,
-      "commits_7d": 26,
-      "prs_merged_28d": 4,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-10-20T09:22:02Z",
-      "last_commit_message": "interactor - inject validator rewards",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        25
       ]
     },
     {
@@ -173,12 +173,12 @@
       "open_issues": 1,
       "open_prs": 6,
       "default_branch": "master",
-      "commits_28d": 20,
-      "commits_7d": 3,
+      "commits_28d": 16,
+      "commits_7d": 4,
       "prs_merged_28d": 2,
       "contributors_28d": 3,
-      "last_commit_at": "2026-10-21T11:56:32Z",
-      "last_commit_message": "new activation epochs",
+      "last_commit_at": "2026-10-22T10:58:00Z",
+      "last_commit_message": "update config",
       "weekly_commits": [
         0,
         0,
@@ -188,10 +188,10 @@
         0,
         0,
         0,
-        8,
-        8,
+        6,
+        5,
         1,
-        3
+        4
       ]
     },
     {
@@ -219,8 +219,8 @@
         0,
         0,
         3,
-        0,
-        9,
+        1,
+        8,
         1
       ]
     },
@@ -233,8 +233,8 @@
       "open_issues": 2,
       "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 9,
-      "commits_7d": 2,
+      "commits_28d": 8,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-16T10:13:49Z",
@@ -248,10 +248,10 @@
         0,
         0,
         0,
-        1,
+        0,
         5,
-        1,
-        2
+        3,
+        0
       ]
     },
     {
@@ -263,12 +263,12 @@
       "open_issues": 0,
       "open_prs": 3,
       "default_branch": "main",
-      "commits_28d": 2,
-      "commits_7d": 0,
-      "prs_merged_28d": 1,
+      "commits_28d": 4,
+      "commits_7d": 2,
+      "prs_merged_28d": 2,
       "contributors_28d": 1,
-      "last_commit_at": "2026-09-28T07:59:10Z",
-      "last_commit_message": "Merge pull request #232 from multiversx/recovery-checkpoint",
+      "last_commit_at": "2026-10-22T12:02:46Z",
+      "last_commit_message": "Merge pull request #233 from multiversx/go-mod-update-22-oct",
       "weekly_commits": [
         0,
         0,
@@ -281,7 +281,7 @@
         2,
         0,
         0,
-        0
+        2
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 94,
-      "prs_merged_28d": 12,
+      "commits_28d": 74,
+      "prs_merged_28d": 9,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -449,35 +449,35 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 68,
-      "prs_merged_28d": 4,
+      "commits_28d": 66,
+      "prs_merged_28d": 5,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "miiu96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
-      "html_url": "https://github.com/miiu96",
-      "commits_28d": 51,
-      "prs_merged_28d": 9,
-      "repos_touched": 5,
       "highlighted": false
     },
     {
       "login": "sasurobert",
       "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
       "html_url": "https://github.com/sasurobert",
-      "commits_28d": 45,
+      "commits_28d": 44,
       "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": true
     },
     {
+      "login": "miiu96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
+      "html_url": "https://github.com/miiu96",
+      "commits_28d": 38,
+      "prs_merged_28d": 9,
+      "repos_touched": 5,
+      "highlighted": false
+    },
+    {
       "login": "AdoAdoAdo",
       "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
       "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 29,
-      "prs_merged_28d": 2,
+      "commits_28d": 23,
+      "prs_merged_28d": 1,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -485,7 +485,7 @@
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 28,
+      "commits_28d": 18,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -494,8 +494,8 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 14,
-      "prs_merged_28d": 1,
+      "commits_28d": 17,
+      "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -512,17 +512,17 @@
       "login": "dependabot[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
       "html_url": "https://github.com/dependabot[bot]",
-      "commits_28d": 7,
+      "commits_28d": 8,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
     },
     {
-      "login": "raduchis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
-      "html_url": "https://github.com/raduchis",
+      "login": "axenteoctavian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
+      "html_url": "https://github.com/axenteoctavian",
       "commits_28d": 4,
-      "prs_merged_28d": 0,
+      "prs_merged_28d": 2,
       "repos_touched": 1,
       "highlighted": false
     }
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    22,
-    39,
+    3,
     0,
     0,
     9,
@@ -677,6 +676,7 @@
     0,
     23,
     8,
-    24
+    25,
+    12
   ]
 }
