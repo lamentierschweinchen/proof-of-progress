@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T12:09:43Z",
+  "generated_at": "2026-10-24T12:09:28Z",
   "window": {
-    "start": "2026-09-25",
-    "end": "2026-10-23",
+    "start": "2026-09-26",
+    "end": "2026-10-24",
     "days": 28
   },
   "totals": {
-    "commits": 309,
-    "prs_merged": 30,
-    "prs_opened": 143,
+    "commits": 311,
+    "prs_merged": 25,
+    "prs_opened": 142,
     "contributors": 13,
     "releases": 15,
     "repos_active": 10
@@ -25,7 +25,7 @@
       "default_branch": "master",
       "commits_28d": 84,
       "commits_7d": 24,
-      "prs_merged_28d": 7,
+      "prs_merged_28d": 4,
       "contributors_28d": 8,
       "last_commit_at": "2026-10-22T14:03:40Z",
       "last_commit_message": "use normal persister tracker for in memory db while import db",
@@ -53,7 +53,7 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 74,
+      "commits_28d": 71,
       "commits_7d": 7,
       "prs_merged_28d": 9,
       "contributors_28d": 1,
@@ -68,7 +68,7 @@
         0,
         0,
         0,
-        34,
+        31,
         24,
         9,
         7
@@ -83,12 +83,12 @@
       "open_issues": 8,
       "open_prs": 26,
       "default_branch": "master",
-      "commits_28d": 62,
-      "commits_7d": 9,
-      "prs_merged_28d": 1,
+      "commits_28d": 64,
+      "commits_7d": 11,
+      "prs_merged_28d": 0,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-22T14:17:10Z",
-      "last_commit_message": "executor - move EarlyExit from vmhost to the executor package",
+      "last_commit_at": "2026-10-23T13:48:04Z",
+      "last_commit_message": "wasmer2 additional FFI reflection tests",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        21,
-        25,
+        27,
+        19,
         7,
-        9
+        11
       ]
     },
     {
@@ -175,7 +175,7 @@
       "default_branch": "master",
       "commits_28d": 16,
       "commits_7d": 4,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 3,
       "last_commit_at": "2026-10-22T10:58:00Z",
       "last_commit_message": "update config",
@@ -235,7 +235,7 @@
       "default_branch": "master",
       "commits_28d": 8,
       "commits_7d": 0,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-16T10:13:49Z",
       "last_commit_message": "fixes after review",
@@ -293,12 +293,12 @@
       "open_issues": 4,
       "open_prs": 12,
       "default_branch": "main",
-      "commits_28d": 1,
-      "commits_7d": 0,
-      "prs_merged_28d": 0,
+      "commits_28d": 4,
+      "commits_7d": 3,
+      "prs_merged_28d": 1,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-13T15:28:17Z",
-      "last_commit_message": "redirect-patch",
+      "last_commit_at": "2026-10-23T17:25:45Z",
+      "last_commit_message": "Merge pull request #454 from multiversx/add-sui-grpc",
       "weekly_commits": [
         0,
         0,
@@ -311,7 +311,7 @@
         0,
         0,
         1,
-        0
+        3
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 74,
+      "commits_28d": 71,
       "prs_merged_28d": 9,
       "repos_touched": 1,
       "highlighted": false
@@ -449,7 +449,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 66,
+      "commits_28d": 68,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -459,7 +459,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
       "html_url": "https://github.com/sasurobert",
       "commits_28d": 44,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 0,
       "repos_touched": 2,
       "highlighted": true
     },
@@ -468,7 +468,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
       "commits_28d": 38,
-      "prs_merged_28d": 9,
+      "prs_merged_28d": 5,
       "repos_touched": 5,
       "highlighted": false
     },
@@ -528,6 +528,14 @@
     }
   ],
   "recent_releases": [
+    {
+      "repo": "mx-bridge-eth-go",
+      "tag": "v3.1.1",
+      "name": "v3.1.1",
+      "published_at": "2026-10-23T17:27:20Z",
+      "url": "https://github.com/multiversx/mx-bridge-eth-go/releases/tag/v3.1.1",
+      "is_prerelease": false
+    },
     {
       "repo": "mx-chain-mainnet-config",
       "tag": "v2.1.9.0",
@@ -639,18 +647,9 @@
       "published_at": "2026-09-25T10:29:37Z",
       "url": "https://github.com/multiversx/mx-chain-mainnet-config/releases/tag/v2.1.6.0",
       "is_prerelease": true
-    },
-    {
-      "repo": "mx-chain-go",
-      "tag": "v2.1.6",
-      "name": "v2.1.6",
-      "published_at": "2026-09-25T10:09:24Z",
-      "url": "https://github.com/multiversx/mx-chain-go/releases/tag/v2.1.6",
-      "is_prerelease": true
     }
   ],
   "daily_commits": [
-    3,
     0,
     0,
     9,
@@ -677,6 +676,7 @@
     23,
     8,
     25,
-    12
+    12,
+    8
   ]
 }
