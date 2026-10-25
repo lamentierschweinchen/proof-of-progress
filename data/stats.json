@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T12:09:28Z",
+  "generated_at": "2026-10-25T12:09:57Z",
   "window": {
-    "start": "2026-09-26",
-    "end": "2026-10-24",
+    "start": "2026-09-27",
+    "end": "2026-10-25",
     "days": 28
   },
   "totals": {
-    "commits": 311,
+    "commits": 312,
     "prs_merged": 25,
-    "prs_opened": 142,
+    "prs_opened": 141,
     "contributors": 13,
     "releases": 15,
     "repos_active": 10
@@ -39,8 +39,8 @@
         0,
         0,
         15,
-        34,
-        11,
+        35,
+        10,
         24
       ]
     },
@@ -81,14 +81,14 @@
       "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
       "stars": 90,
       "open_issues": 8,
-      "open_prs": 26,
+      "open_prs": 27,
       "default_branch": "master",
-      "commits_28d": 64,
-      "commits_7d": 11,
+      "commits_28d": 65,
+      "commits_7d": 12,
       "prs_merged_28d": 0,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-23T13:48:04Z",
-      "last_commit_message": "wasmer2 additional FFI reflection tests",
+      "last_commit_at": "2026-10-24T15:17:53Z",
+      "last_commit_message": "twos complement length moved to mx-components-big-int",
       "weekly_commits": [
         0,
         0,
@@ -99,9 +99,9 @@
         0,
         0,
         27,
-        19,
-        7,
-        11
+        20,
+        6,
+        12
       ]
     },
     {
@@ -449,7 +449,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 68,
+      "commits_28d": 69,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     0,
-    0,
     9,
     40,
     19,
@@ -677,6 +676,7 @@
     8,
     25,
     12,
-    8
+    8,
+    1
   ]
 }
