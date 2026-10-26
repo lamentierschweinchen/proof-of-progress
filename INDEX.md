@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-26 | Quiet: no watchlist merges or releases. Executor `rc/after-supernova` rebuild (#101) merged; no v0.5.2 release object yet. Stats: 306 commits / 25 PRs merged in 28d. | [2026-10-26](digests/2026-10-26.md) |
 | 2026-10-25 | Quiet weekend: no watchlist merges or releases. mx-components-big-int v1.3.0 released, vm-go #993 opened to consume it. Stats: 312 commits / 25 PRs merged in 28d. | [2026-10-25](digests/2026-10-25.md) |
 | 2026-10-24 | mx-bridge-eth-go v3.1.1 released (SUI moved to gRPC, #454). Executor `rc/after-supernova` synced with master, rebuild PR open; no 0.5.2 release object yet. Stats: 311 commits / 25 PRs merged in 28d. | [2026-10-24](digests/2026-10-24.md) |
 | 2026-10-23 | No new watchlist releases. Advisory-branch merges (`advisory1`) in wasmer fork and mx-vm-executor-rs, executor v0.5.2 release commit, mx-sdk-rs #2434 bumps to it. Stats: 309 commits / 30 PRs merged in 28d. | [2026-10-23](digests/2026-10-23.md) |
