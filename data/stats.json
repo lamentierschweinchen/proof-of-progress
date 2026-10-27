@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-26T12:09:59Z",
+  "generated_at": "2026-10-27T12:09:30Z",
   "window": {
-    "start": "2026-09-28",
-    "end": "2026-10-26",
+    "start": "2026-09-29",
+    "end": "2026-10-27",
     "days": 28
   },
   "totals": {
-    "commits": 306,
-    "prs_merged": 25,
-    "prs_opened": 143,
+    "commits": 296,
+    "prs_merged": 26,
+    "prs_opened": 140,
     "contributors": 13,
     "releases": 15,
     "repos_active": 10
@@ -23,12 +23,12 @@
       "open_issues": 6,
       "open_prs": 92,
       "default_branch": "master",
-      "commits_28d": 79,
-      "commits_7d": 24,
-      "prs_merged_28d": 4,
+      "commits_28d": 84,
+      "commits_7d": 30,
+      "prs_merged_28d": 5,
       "contributors_28d": 8,
-      "last_commit_at": "2026-10-26T10:33:26Z",
-      "last_commit_message": "Bump github.com/multiversx/mx-chain-es-indexer-go from 1.10.3 to 1.10.6",
+      "last_commit_at": "2026-10-26T15:36:49Z",
+      "last_commit_message": "Merge pull request #8044 from multiversx/fixes-get-transaction-endpoint",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,40 @@
         0,
         0,
         0,
-        13,
-        32,
-        10,
-        24
+        22,
+        26,
+        6,
+        30
+      ]
+    },
+    {
+      "name": "mx-chain-vm-go",
+      "full_name": "multiversx/mx-chain-vm-go",
+      "url": "https://github.com/multiversx/mx-chain-vm-go",
+      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
+      "stars": 90,
+      "open_issues": 8,
+      "open_prs": 28,
+      "default_branch": "master",
+      "commits_28d": 69,
+      "commits_7d": 15,
+      "prs_merged_28d": 0,
+      "contributors_28d": 4,
+      "last_commit_at": "2026-10-27T10:59:44Z",
+      "last_commit_message": "executor - VM hooks reorg",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        15,
+        4,
+        15
       ]
     },
     {
@@ -53,12 +83,12 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 71,
-      "commits_7d": 4,
-      "prs_merged_28d": 9,
+      "commits_28d": 56,
+      "commits_7d": 9,
+      "prs_merged_28d": 10,
       "contributors_28d": 1,
-      "last_commit_at": "2026-10-22T15:57:17Z",
-      "last_commit_message": "add newline",
+      "last_commit_at": "2026-10-27T09:20:30Z",
+      "last_commit_message": "add docker build workflow for default and custom plugins",
       "weekly_commits": [
         0,
         0,
@@ -68,40 +98,10 @@
         0,
         0,
         0,
-        36,
-        19,
+        23,
         12,
-        4
-      ]
-    },
-    {
-      "name": "mx-chain-vm-go",
-      "full_name": "multiversx/mx-chain-vm-go",
-      "url": "https://github.com/multiversx/mx-chain-vm-go",
-      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
-      "stars": 90,
-      "open_issues": 8,
-      "open_prs": 27,
-      "default_branch": "master",
-      "commits_28d": 66,
-      "commits_7d": 13,
-      "prs_merged_28d": 0,
-      "contributors_28d": 4,
-      "last_commit_at": "2026-10-26T10:19:56Z",
-      "last_commit_message": "Merge branch opcodes-v2 into vmhooks-err (after VM advisory)",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        30,
-        18,
-        5,
-        13
+        12,
+        9
       ]
     },
     {
@@ -114,7 +114,7 @@
       "open_prs": 36,
       "default_branch": "master",
       "commits_28d": 29,
-      "commits_7d": 19,
+      "commits_7d": 3,
       "prs_merged_28d": 5,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-23T08:50:03Z",
@@ -130,8 +130,8 @@
         0,
         0,
         0,
-        10,
-        19
+        26,
+        3
       ]
     },
     {
@@ -188,8 +188,8 @@
         0,
         0,
         0,
-        6,
-        5,
+        7,
+        4,
         1,
         4
       ]
@@ -203,8 +203,8 @@
       "open_issues": 1,
       "open_prs": 2,
       "default_branch": "master",
-      "commits_28d": 13,
-      "commits_7d": 1,
+      "commits_28d": 10,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-20T11:36:44Z",
@@ -218,10 +218,10 @@
         0,
         0,
         0,
+        0,
         3,
-        1,
-        8,
-        1
+        7,
+        0
       ]
     },
     {
@@ -295,7 +295,7 @@
       "default_branch": "main",
       "commits_28d": 2,
       "commits_7d": 2,
-      "prs_merged_28d": 2,
+      "prs_merged_28d": 1,
       "contributors_28d": 1,
       "last_commit_at": "2026-10-22T12:02:46Z",
       "last_commit_message": "Merge pull request #233 from multiversx/go-mod-update-22-oct",
@@ -437,21 +437,21 @@
   ],
   "top_contributors": [
     {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 71,
-      "prs_merged_28d": 9,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 70,
+      "commits_28d": 73,
       "prs_merged_28d": 5,
       "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 56,
+      "prs_merged_28d": 10,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -467,17 +467,17 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 38,
-      "prs_merged_28d": 5,
+      "commits_28d": 37,
+      "prs_merged_28d": 6,
       "repos_touched": 5,
       "highlighted": false
     },
     {
-      "login": "AdoAdoAdo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
-      "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 18,
-      "prs_merged_28d": 1,
+      "login": "BeniaminDrasovean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
+      "html_url": "https://github.com/BeniaminDrasovean",
+      "commits_28d": 22,
+      "prs_merged_28d": 2,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -491,11 +491,11 @@
       "highlighted": false
     },
     {
-      "login": "BeniaminDrasovean",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
-      "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 17,
-      "prs_merged_28d": 2,
+      "login": "AdoAdoAdo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
+      "html_url": "https://github.com/AdoAdoAdo",
+      "commits_28d": 16,
+      "prs_merged_28d": 1,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    2,
-    40,
+    17,
     19,
     25,
     9,
@@ -674,9 +673,10 @@
     23,
     8,
     23,
-    12,
+    13,
     8,
     1,
-    0
+    0,
+    12
   ]
 }
