@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-28 | Quiet: mx-api-service #1653 (Docker plugin auto-detect) merged; mx-chain-go #8053 syncs master into trie mutex refactor branch. No releases, no advisory signals. Stats: 277 commits / 24 PRs merged in 28d. | [2026-10-28](digests/2026-10-28.md) |
 | 2026-10-27 | Two small merges: mx-chain-go #8044 fixes `/transaction/:txHash` for refund SCRs under Supernova; mx-api-service Node 24.22.1 bump. vm-go #994 (hook errors v2) opened. No releases. Stats: 296 commits / 26 PRs merged in 28d. | [2026-10-27](digests/2026-10-27.md) |
 | 2026-10-26 | Quiet: no watchlist merges or releases. Executor `rc/after-supernova` rebuild (#101) merged; no v0.5.2 release object yet. Stats: 306 commits / 25 PRs merged in 28d. | [2026-10-26](digests/2026-10-26.md) |
 | 2026-10-25 | Quiet weekend: no watchlist merges or releases. mx-components-big-int v1.3.0 released, vm-go #993 opened to consume it. Stats: 312 commits / 25 PRs merged in 28d. | [2026-10-25](digests/2026-10-25.md) |
