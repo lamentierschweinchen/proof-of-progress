@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-10-30 | Quiet: no merged PRs or releases; vm-go #996 (vmHookNames refactor) opened next to #995. No advisory signals. Stats: 270 commits / 23 PRs merged in 28d. | [2026-10-30](digests/2026-10-30.md) |
 | 2026-10-29 | Quiet: mx-chain-go #8053 (trie mutex refactor branch sync) merged; mx-api-service #1654 opened for gateway trie-limit fallbacks; vm-go #995 (new executor interfaces, WIP) opened. No releases, no advisory signals. Stats: 267 commits / 23 PRs merged in 28d. | [2026-10-29](digests/2026-10-29.md) |
 | 2026-10-28 | Quiet: mx-api-service #1653 (Docker plugin auto-detect) merged; mx-chain-go #8053 syncs master into trie mutex refactor branch. No releases, no advisory signals. Stats: 277 commits / 24 PRs merged in 28d. | [2026-10-28](digests/2026-10-28.md) |
 | 2026-10-27 | Two small merges: mx-chain-go #8044 fixes `/transaction/:txHash` for refund SCRs under Supernova; mx-api-service Node 24.22.1 bump. vm-go #994 (hook errors v2) opened. No releases. Stats: 296 commits / 26 PRs merged in 28d. | [2026-10-27](digests/2026-10-27.md) |
