@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-01 | Quiet: mainnet-config release PRs #287 (v2.1.9.0) and #286 (v2.1.8.0) merged to master Oct 30; simulator go.mod sync. No new releases, no advisory signals. Stats: 275 commits / 26 PRs merged in 28d. | [2026-11-01](digests/2026-11-01.md) |
 | 2026-10-30 | Quiet: no merged PRs or releases; vm-go #996 (vmHookNames refactor) opened next to #995. No advisory signals. Stats: 270 commits / 23 PRs merged in 28d. | [2026-10-30](digests/2026-10-30.md) |
 | 2026-10-29 | Quiet: mx-chain-go #8053 (trie mutex refactor branch sync) merged; mx-api-service #1654 opened for gateway trie-limit fallbacks; vm-go #995 (new executor interfaces, WIP) opened. No releases, no advisory signals. Stats: 267 commits / 23 PRs merged in 28d. | [2026-10-29](digests/2026-10-29.md) |
 | 2026-10-28 | Quiet: mx-api-service #1653 (Docker plugin auto-detect) merged; mx-chain-go #8053 syncs master into trie mutex refactor branch. No releases, no advisory signals. Stats: 277 commits / 24 PRs merged in 28d. | [2026-10-28](digests/2026-10-28.md) |
