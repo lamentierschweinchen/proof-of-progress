@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T12:10:02Z",
+  "generated_at": "2026-11-02T12:10:06Z",
   "window": {
-    "start": "2026-10-04",
-    "end": "2026-11-01",
+    "start": "2026-10-05",
+    "end": "2026-11-02",
     "days": 28
   },
   "totals": {
-    "commits": 275,
+    "commits": 265,
     "prs_merged": 26,
-    "prs_opened": 120,
+    "prs_opened": 119,
     "contributors": 13,
     "releases": 15,
     "repos_active": 10
@@ -23,8 +23,8 @@
       "open_issues": 6,
       "open_prs": 92,
       "default_branch": "master",
-      "commits_28d": 92,
-      "commits_7d": 24,
+      "commits_28d": 89,
+      "commits_7d": 21,
       "prs_merged_28d": 5,
       "contributors_28d": 8,
       "last_commit_at": "2026-10-31T08:17:59Z",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        35,
+        32,
         10,
-        23,
-        24
+        26,
+        21
       ]
     },
     {
@@ -53,7 +53,7 @@
       "open_issues": 7,
       "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 57,
+      "commits_28d": 52,
       "commits_7d": 17,
       "prs_merged_28d": 9,
       "contributors_28d": 1,
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        24,
-        9,
-        7,
+        19,
+        12,
+        4,
         17
       ]
     },
@@ -83,12 +83,12 @@
       "open_issues": 8,
       "open_prs": 30,
       "default_branch": "master",
-      "commits_28d": 53,
+      "commits_28d": 51,
       "commits_7d": 15,
       "prs_merged_28d": 0,
       "contributors_28d": 4,
-      "last_commit_at": "2026-10-29T14:21:43Z",
-      "last_commit_message": "ei gen - input rename & cleanup",
+      "last_commit_at": "2026-11-01T23:46:24Z",
+      "last_commit_message": "executor - new interfaces in the VM + testsl;",
       "weekly_commits": [
         0,
         0,
@@ -98,9 +98,9 @@
         0,
         0,
         0,
-        20,
-        6,
-        12,
+        18,
+        5,
+        13,
         15
       ]
     },
@@ -129,8 +129,8 @@
         0,
         0,
         0,
-        5,
-        24,
+        10,
+        19,
         0
       ]
     },
@@ -218,8 +218,8 @@
         0,
         0,
         0,
-        5,
-        3,
+        6,
+        2,
         0,
         0
       ]
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 60,
+      "commits_28d": 61,
       "prs_merged_28d": 5,
       "repos_touched": 2,
       "highlighted": false
@@ -449,19 +449,10 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 57,
+      "commits_28d": 52,
       "prs_merged_28d": 9,
       "repos_touched": 1,
       "highlighted": false
-    },
-    {
-      "login": "sasurobert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
-      "html_url": "https://github.com/sasurobert",
-      "commits_28d": 42,
-      "prs_merged_28d": 0,
-      "repos_touched": 2,
-      "highlighted": true
     },
     {
       "login": "BeniaminDrasovean",
@@ -471,6 +462,15 @@
       "prs_merged_28d": 3,
       "repos_touched": 2,
       "highlighted": false
+    },
+    {
+      "login": "sasurobert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
+      "html_url": "https://github.com/sasurobert",
+      "commits_28d": 36,
+      "prs_merged_28d": 0,
+      "repos_touched": 2,
+      "highlighted": true
     },
     {
       "login": "miiu96",
@@ -650,8 +650,7 @@
     }
   ],
   "daily_commits": [
-    0,
-    23,
+    12,
     19,
     26,
     13,
@@ -673,10 +672,11 @@
     1,
     0,
     12,
+    12,
     15,
-    16,
-    11,
+    15,
     10,
-    2
+    2,
+    1
   ]
 }
