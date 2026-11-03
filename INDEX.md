@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-03 | Quiet: mx-sdk-rs #2433 (interactor, inject validator rewards) merged; js-core #684 hardening PR opened. No releases or advisory signals. Stats: 252 commits / 26 PRs merged in 28d. | [2026-11-03](digests/2026-11-03.md) |
 | 2026-11-02 | Quiet: no merged PRs or releases; vm-go #995 (new executor interfaces, WIP) updated Nov 1. No advisory signals. Stats: 265 commits / 26 PRs merged in 28d. | [2026-11-02](digests/2026-11-02.md) |
 | 2026-11-01 | Quiet: mainnet-config release PRs #287 (v2.1.9.0) and #286 (v2.1.8.0) merged to master Oct 30; simulator go.mod sync. No new releases, no advisory signals. Stats: 275 commits / 26 PRs merged in 28d. | [2026-11-01](digests/2026-11-01.md) |
 | 2026-10-30 | Quiet: no merged PRs or releases; vm-go #996 (vmHookNames refactor) opened next to #995. No advisory signals. Stats: 270 commits / 23 PRs merged in 28d. | [2026-10-30](digests/2026-10-30.md) |
