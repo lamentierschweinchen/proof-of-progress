@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T12:09:26Z",
+  "generated_at": "2026-11-06T12:09:43Z",
   "window": {
-    "start": "2026-10-07",
-    "end": "2026-11-04",
+    "start": "2026-10-09",
+    "end": "2026-11-06",
     "days": 28
   },
   "totals": {
-    "commits": 243,
+    "commits": 235,
     "prs_merged": 26,
-    "prs_opened": 123,
+    "prs_opened": 125,
     "contributors": 13,
     "releases": 15,
     "repos_active": 11
@@ -23,8 +23,8 @@
       "open_issues": 6,
       "open_prs": 93,
       "default_branch": "master",
-      "commits_28d": 70,
-      "commits_7d": 15,
+      "commits_28d": 61,
+      "commits_7d": 10,
       "prs_merged_28d": 4,
       "contributors_28d": 7,
       "last_commit_at": "2026-11-03T13:00:55Z",
@@ -38,40 +38,10 @@
         0,
         0,
         0,
-        18,
-        14,
-        23,
-        15
-      ]
-    },
-    {
-      "name": "mx-api-service",
-      "full_name": "multiversx/mx-api-service",
-      "url": "https://github.com/multiversx/mx-api-service",
-      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
-      "stars": 36,
-      "open_issues": 7,
-      "open_prs": 13,
-      "default_branch": "main",
-      "commits_28d": 48,
-      "commits_7d": 17,
-      "prs_merged_28d": 9,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-11-04T11:34:23Z",
-      "last_commit_message": "Merge remote-tracking branch 'origin/websocket-subscriptions-improvements' into ",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        9,
         11,
-        11,
-        17
+        21,
+        19,
+        10
       ]
     },
     {
@@ -83,12 +53,12 @@
       "open_issues": 8,
       "open_prs": 30,
       "default_branch": "master",
-      "commits_28d": 46,
-      "commits_7d": 18,
-      "prs_merged_28d": 0,
+      "commits_28d": 53,
+      "commits_7d": 19,
+      "prs_merged_28d": 2,
       "contributors_28d": 4,
-      "last_commit_at": "2026-11-04T09:38:12Z",
-      "last_commit_message": "gitignore",
+      "last_commit_at": "2026-11-05T14:21:32Z",
+      "last_commit_message": "Merge branch 'feat/new-executor' into vmhooks-err2",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +68,40 @@
         0,
         0,
         0,
-        11,
-        4,
-        13,
-        18
+        7,
+        9,
+        18,
+        19
+      ]
+    },
+    {
+      "name": "mx-api-service",
+      "full_name": "multiversx/mx-api-service",
+      "url": "https://github.com/multiversx/mx-api-service",
+      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
+      "stars": 36,
+      "open_issues": 7,
+      "open_prs": 13,
+      "default_branch": "main",
+      "commits_28d": 46,
+      "commits_7d": 13,
+      "prs_merged_28d": 7,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-11-06T10:11:42Z",
+      "last_commit_message": "Merge remote-tracking branch 'origin/development' into websocket-subscriptions-i",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        7,
+        17,
+        13
       ]
     },
     {
@@ -111,14 +111,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 36,
+      "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 33,
-      "commits_7d": 4,
+      "commits_28d": 34,
+      "commits_7d": 5,
       "prs_merged_28d": 6,
       "contributors_28d": 2,
-      "last_commit_at": "2026-11-02T22:44:44Z",
-      "last_commit_message": "Bump the cargo group across 3 directories with 4 updates",
+      "last_commit_at": "2026-11-04T13:49:17Z",
+      "last_commit_message": "system sc proxy fixes",
       "weekly_commits": [
         0,
         0,
@@ -128,10 +128,10 @@
         0,
         0,
         0,
+        5,
+        24,
         0,
-        26,
-        3,
-        4
+        5
       ]
     },
     {
@@ -143,7 +143,7 @@
       "open_issues": 1,
       "open_prs": 2,
       "default_branch": "master",
-      "commits_28d": 10,
+      "commits_28d": 9,
       "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        3,
-        7,
+        8,
+        1,
         0,
         0
       ]
@@ -189,39 +189,9 @@
         0,
         0,
         1,
-        3,
-        1,
+        4,
+        0,
         4
-      ]
-    },
-    {
-      "name": "mx-chain-proxy-go",
-      "full_name": "multiversx/mx-chain-proxy-go",
-      "url": "https://github.com/multiversx/mx-chain-proxy-go",
-      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
-      "stars": 60,
-      "open_issues": 2,
-      "open_prs": 3,
-      "default_branch": "master",
-      "commits_28d": 8,
-      "commits_7d": 0,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-10-16T10:13:49Z",
-      "last_commit_message": "fixes after review",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        6,
-        2,
-        0,
-        0
       ]
     },
     {
@@ -233,12 +203,12 @@
       "open_issues": 0,
       "open_prs": 0,
       "default_branch": "main",
-      "commits_28d": 7,
+      "commits_28d": 8,
       "commits_7d": 4,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
-      "last_commit_at": "2026-11-03T15:57:18Z",
-      "last_commit_message": "handle plain Uint8Array",
+      "last_commit_at": "2026-11-04T15:15:10Z",
+      "last_commit_message": "- fail on guardian init issue instead of returning an empty array",
       "weekly_commits": [
         0,
         0,
@@ -250,7 +220,7 @@
         0,
         0,
         0,
-        3,
+        4,
         4
       ]
     },
@@ -279,8 +249,8 @@
         0,
         0,
         0,
-        0,
         2,
+        0,
         3
       ]
     },
@@ -342,6 +312,36 @@
         0,
         0,
         3
+      ]
+    },
+    {
+      "name": "mx-chain-proxy-go",
+      "full_name": "multiversx/mx-chain-proxy-go",
+      "url": "https://github.com/multiversx/mx-chain-proxy-go",
+      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
+      "stars": 60,
+      "open_issues": 2,
+      "open_prs": 3,
+      "default_branch": "master",
+      "commits_28d": 3,
+      "commits_7d": 0,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-10-16T10:13:49Z",
+      "last_commit_message": "fixes after review",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 69,
-      "prs_merged_28d": 6,
+      "commits_28d": 79,
+      "prs_merged_28d": 8,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -449,8 +449,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 48,
-      "prs_merged_28d": 9,
+      "commits_28d": 46,
+      "prs_merged_28d": 7,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,7 +458,7 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 39,
+      "commits_28d": 38,
       "prs_merged_28d": 3,
       "repos_touched": 2,
       "highlighted": false
@@ -467,19 +467,10 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 29,
+      "commits_28d": 23,
       "prs_merged_28d": 5,
       "repos_touched": 5,
       "highlighted": false
-    },
-    {
-      "login": "sasurobert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
-      "html_url": "https://github.com/sasurobert",
-      "commits_28d": 15,
-      "prs_merged_28d": 0,
-      "repos_touched": 2,
-      "highlighted": true
     },
     {
       "login": "dependabot[bot]",
@@ -491,19 +482,19 @@
       "highlighted": false
     },
     {
-      "login": "AdoAdoAdo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
-      "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 8,
+      "login": "sasurobert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
+      "html_url": "https://github.com/sasurobert",
+      "commits_28d": 9,
       "prs_merged_28d": 0,
-      "repos_touched": 3,
-      "highlighted": false
+      "repos_touched": 2,
+      "highlighted": true
     },
     {
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
-      "commits_28d": 7,
+      "commits_28d": 8,
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
@@ -524,6 +515,15 @@
       "commits_28d": 4,
       "prs_merged_28d": 1,
       "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "AdoAdoAdo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
+      "html_url": "https://github.com/AdoAdoAdo",
+      "commits_28d": 4,
+      "prs_merged_28d": 0,
+      "repos_touched": 3,
       "highlighted": false
     }
   ],
@@ -650,9 +650,7 @@
     }
   ],
   "daily_commits": [
-    8,
-    13,
-    7,
+    0,
     2,
     0,
     3,
@@ -676,7 +674,9 @@
     10,
     2,
     1,
-    5,
-    22
+    6,
+    22,
+    7,
+    11
   ]
 }
