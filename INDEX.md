@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-07 | Quiet: no merges or releases. mx-api-service #1658-#1660 (media size cap, route normalization, VM query cache key) opened; vm-go executor stack still open. No advisory signals. Stats: 243 commits / 26 PRs merged in 28d. | [2026-11-07](digests/2026-11-07.md) |
 | 2026-11-06 | vm-go #989 merged (opcode versioning, flag-gated metered bulk-memory opcodes); api-service #1656 (SSRF) and #1657 (secret logging) merged. No releases or advisory signals. Stats: 235 commits / 26 PRs merged in 28d. | [2026-11-06](digests/2026-11-06.md) |
 | 2026-11-04 | Quiet: mx-api-service #1655 merged (removes hardcoded 6s round assumption; deferred-payment countdown was 10x too long). js-core #685 deps PR opened. No releases or advisory signals. Stats: 243 commits / 26 PRs merged in 28d. | [2026-11-04](digests/2026-11-04.md) |
 | 2026-11-03 | Quiet: mx-sdk-rs #2433 (interactor, inject validator rewards) merged; js-core #684 hardening PR opened. No releases or advisory signals. Stats: 252 commits / 26 PRs merged in 28d. | [2026-11-03](digests/2026-11-03.md) |
