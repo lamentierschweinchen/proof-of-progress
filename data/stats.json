@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-07T12:09:14Z",
+  "generated_at": "2026-11-08T12:09:43Z",
   "window": {
-    "start": "2026-10-10",
-    "end": "2026-11-07",
+    "start": "2026-10-11",
+    "end": "2026-11-08",
     "days": 28
   },
   "totals": {
-    "commits": 243,
+    "commits": 244,
     "prs_merged": 26,
-    "prs_opened": 125,
+    "prs_opened": 122,
     "contributors": 13,
     "releases": 15,
     "repos_active": 11
@@ -23,7 +23,7 @@
       "open_issues": 6,
       "open_prs": 93,
       "default_branch": "master",
-      "commits_28d": 61,
+      "commits_28d": 60,
       "commits_7d": 5,
       "prs_merged_28d": 4,
       "contributors_28d": 7,
@@ -38,7 +38,7 @@
         0,
         0,
         0,
-        11,
+        10,
         21,
         24,
         5
@@ -53,7 +53,7 @@
       "open_issues": 8,
       "open_prs": 30,
       "default_branch": "master",
-      "commits_28d": 58,
+      "commits_28d": 57,
       "commits_7d": 24,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        7,
-        11,
-        16,
+        6,
+        12,
+        15,
         24
       ]
     },
@@ -113,12 +113,12 @@
       "open_issues": 7,
       "open_prs": 37,
       "default_branch": "master",
-      "commits_28d": 34,
-      "commits_7d": 5,
+      "commits_28d": 37,
+      "commits_7d": 8,
       "prs_merged_28d": 6,
       "contributors_28d": 2,
-      "last_commit_at": "2026-11-04T13:49:17Z",
-      "last_commit_message": "system sc proxy fixes",
+      "last_commit_at": "2026-11-08T05:06:41Z",
+      "last_commit_message": "sc-meta tx refactor - general and system esdt",
       "weekly_commits": [
         0,
         0,
@@ -131,7 +131,7 @@
         5,
         24,
         0,
-        5
+        8
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 84,
+      "commits_28d": 87,
       "prs_merged_28d": 8,
       "repos_touched": 2,
       "highlighted": false
@@ -482,15 +482,6 @@
       "highlighted": false
     },
     {
-      "login": "sasurobert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
-      "html_url": "https://github.com/sasurobert",
-      "commits_28d": 9,
-      "prs_merged_28d": 0,
-      "repos_touched": 2,
-      "highlighted": true
-    },
-    {
       "login": "radumojic",
       "avatar_url": "https://avatars.githubusercontent.com/u/74196626?v=4",
       "html_url": "https://github.com/radumojic",
@@ -498,6 +489,15 @@
       "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
+    },
+    {
+      "login": "sasurobert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/713090?v=4",
+      "html_url": "https://github.com/sasurobert",
+      "commits_28d": 7,
+      "prs_merged_28d": 0,
+      "repos_touched": 2,
+      "highlighted": true
     },
     {
       "login": "axenteoctavian",
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    2,
     0,
     3,
     9,
@@ -675,8 +674,9 @@
     1,
     6,
     22,
-    7,
+    9,
     11,
-    10
+    10,
+    1
   ]
 }
