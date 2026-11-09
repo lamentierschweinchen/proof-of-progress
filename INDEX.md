@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-09 | Merges return: mx-api-service #1658-#1660 (media size cap, route normalization, VM query cache removal) and sdk-js-core #686 (feat/next sync). New: api-service #1661 (staking v5 year-2 inflation), sdk-rs #2437 (preloaded managed buffer flag). No releases, no advisory signals. Stats: 265 commits / 30 PRs merged in 28d. | [2026-11-09](digests/2026-11-09.md) |
 | 2026-11-08 | Quiet: no merges or releases. andrei-marinica continues vm-go #994 executor error cleanup (`vmhooks-err2`); api-service #1658-#1660 still open. No advisory signals. Stats: 244 commits / 26 PRs merged in 28d. | [2026-11-08](digests/2026-11-08.md) |
 | 2026-11-07 | Quiet: no merges or releases. mx-api-service #1658-#1660 (media size cap, route normalization, VM query cache key) opened; vm-go executor stack still open. No advisory signals. Stats: 243 commits / 26 PRs merged in 28d. | [2026-11-07](digests/2026-11-07.md) |
 | 2026-11-06 | vm-go #989 merged (opcode versioning, flag-gated metered bulk-memory opcodes); api-service #1656 (SSRF) and #1657 (secret logging) merged. No releases or advisory signals. Stats: 235 commits / 26 PRs merged in 28d. | [2026-11-06](digests/2026-11-06.md) |

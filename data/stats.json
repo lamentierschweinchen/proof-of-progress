@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-08T12:09:43Z",
+  "generated_at": "2026-11-09T17:18:52Z",
   "window": {
-    "start": "2026-10-11",
-    "end": "2026-11-08",
+    "start": "2026-10-12",
+    "end": "2026-11-09",
     "days": 28
   },
   "totals": {
-    "commits": 244,
-    "prs_merged": 26,
-    "prs_opened": 122,
+    "commits": 265,
+    "prs_merged": 30,
+    "prs_opened": 139,
     "contributors": 13,
     "releases": 15,
     "repos_active": 11
@@ -23,7 +23,7 @@
       "open_issues": 6,
       "open_prs": 93,
       "default_branch": "master",
-      "commits_28d": 60,
+      "commits_28d": 59,
       "commits_7d": 5,
       "prs_merged_28d": 4,
       "contributors_28d": 7,
@@ -38,9 +38,9 @@
         0,
         0,
         0,
-        10,
-        21,
-        24,
+        9,
+        29,
+        16,
         5
       ]
     },
@@ -53,8 +53,8 @@
       "open_issues": 8,
       "open_prs": 30,
       "default_branch": "master",
-      "commits_28d": 57,
-      "commits_7d": 24,
+      "commits_28d": 56,
+      "commits_7d": 22,
       "prs_merged_28d": 2,
       "contributors_28d": 4,
       "last_commit_at": "2026-11-07T00:43:06Z",
@@ -68,10 +68,10 @@
         0,
         0,
         0,
-        6,
-        12,
-        15,
-        24
+        5,
+        13,
+        16,
+        22
       ]
     },
     {
@@ -81,14 +81,14 @@
       "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
       "stars": 36,
       "open_issues": 7,
-      "open_prs": 16,
+      "open_prs": 14,
       "default_branch": "main",
-      "commits_28d": 49,
-      "commits_7d": 16,
-      "prs_merged_28d": 7,
+      "commits_28d": 56,
+      "commits_7d": 23,
+      "prs_merged_28d": 10,
       "contributors_28d": 1,
-      "last_commit_at": "2026-11-06T14:17:04Z",
-      "last_commit_message": "include value in vm query cache key",
+      "last_commit_at": "2026-11-09T14:13:37Z",
+      "last_commit_message": "add staking v5 inflation for year 2 on devnet and testnet",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        9,
-        7,
-        17,
-        16
+        12,
+        6,
+        15,
+        23
       ]
     },
     {
@@ -111,14 +111,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 37,
+      "open_prs": 38,
       "default_branch": "master",
-      "commits_28d": 37,
-      "commits_7d": 8,
+      "commits_28d": 51,
+      "commits_7d": 20,
       "prs_merged_28d": 6,
       "contributors_28d": 2,
-      "last_commit_at": "2026-11-08T05:06:41Z",
-      "last_commit_message": "sc-meta tx refactor - general and system esdt",
+      "last_commit_at": "2026-11-09T15:46:44Z",
+      "last_commit_message": "StaticApi - StaticVarApi dealdlock prevention",
       "weekly_commits": [
         0,
         0,
@@ -128,10 +128,10 @@
         0,
         0,
         0,
-        5,
-        24,
-        0,
-        8
+        20,
+        9,
+        2,
+        20
       ]
     },
     {
@@ -225,6 +225,36 @@
       ]
     },
     {
+      "name": "mx-sdk-js-core",
+      "full_name": "multiversx/mx-sdk-js-core",
+      "url": "https://github.com/multiversx/mx-sdk-js-core",
+      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
+      "stars": 73,
+      "open_issues": 6,
+      "open_prs": 6,
+      "default_branch": "main",
+      "commits_28d": 6,
+      "commits_7d": 6,
+      "prs_merged_28d": 1,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-11-09T13:43:12Z",
+      "last_commit_message": "remove unused package",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    {
       "name": "mx-chain-simulator-go",
       "full_name": "multiversx/mx-chain-simulator-go",
       "url": "https://github.com/multiversx/mx-chain-simulator-go",
@@ -285,36 +315,6 @@
       ]
     },
     {
-      "name": "mx-sdk-js-core",
-      "full_name": "multiversx/mx-sdk-js-core",
-      "url": "https://github.com/multiversx/mx-sdk-js-core",
-      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
-      "stars": 73,
-      "open_issues": 6,
-      "open_prs": 6,
-      "default_branch": "main",
-      "commits_28d": 3,
-      "commits_7d": 3,
-      "prs_merged_28d": 0,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-11-03T14:03:02Z",
-      "last_commit_message": "update dependencies",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3
-      ]
-    },
-    {
       "name": "mx-chain-proxy-go",
       "full_name": "multiversx/mx-chain-proxy-go",
       "url": "https://github.com/multiversx/mx-chain-proxy-go",
@@ -323,7 +323,7 @@
       "open_issues": 2,
       "open_prs": 3,
       "default_branch": "master",
-      "commits_28d": 3,
+      "commits_28d": 2,
       "commits_7d": 0,
       "prs_merged_28d": 1,
       "contributors_28d": 1,
@@ -338,7 +338,7 @@
         0,
         0,
         0,
-        3,
+        2,
         0,
         0,
         0
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 87,
+      "commits_28d": 100,
       "prs_merged_28d": 8,
       "repos_touched": 2,
       "highlighted": false
@@ -449,8 +449,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 49,
-      "prs_merged_28d": 7,
+      "commits_28d": 56,
+      "prs_merged_28d": 10,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -467,7 +467,7 @@
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 23,
+      "commits_28d": 22,
       "prs_merged_28d": 5,
       "repos_touched": 5,
       "highlighted": false
@@ -500,6 +500,15 @@
       "highlighted": true
     },
     {
+      "login": "popenta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73281061?v=4",
+      "html_url": "https://github.com/popenta",
+      "commits_28d": 6,
+      "prs_merged_28d": 1,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
       "login": "axenteoctavian",
       "avatar_url": "https://avatars.githubusercontent.com/u/45915201?v=4",
       "html_url": "https://github.com/axenteoctavian",
@@ -515,15 +524,6 @@
       "commits_28d": 4,
       "prs_merged_28d": 1,
       "repos_touched": 1,
-      "highlighted": false
-    },
-    {
-      "login": "AdoAdoAdo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36338271?v=4",
-      "html_url": "https://github.com/AdoAdoAdo",
-      "commits_28d": 4,
-      "prs_merged_28d": 0,
-      "repos_touched": 3,
       "highlighted": false
     }
   ],
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     0,
-    3,
     9,
     11,
     19,
@@ -677,6 +676,7 @@
     9,
     11,
     10,
+    1,
     1
   ]
 }
