@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-14 | Quiet day: no merges, releases, or advisory signals. Only new PR is sdk-rs #2443 (interactor dispatch/config refactor, +1264/−513); #8060, api-service #1663, es-indexer #390 unchanged. Stats: 287 commits / 34 PRs merged, 28d. | [digest](digests/2026-11-14.md) |
 | 2026-11-13 | api-service #1663 pages gateway trie endpoints via `iteratorState` checkpoints, the API-side counterpart to still-open mx-chain-go #8060; es-indexer #390 (RabbitMQ blocks exchange, +5.2k) and sdk-rs #2442 (API response types) opened. No merges, releases, or advisory signals. Stats: 277 commits / 34 PRs merged, 28d. | [digest](digests/2026-11-13.md) |
 | 2026-11-12 | mx-chain-go #8060 (paginate trie traversal on API, +5.6k lines, undescribed) is the only non-dependabot core PR; sdk-rs #2441 (explicit out-of-gas in interactor gas simulation) merged; js-core #688-#690 maintenance open. No releases, no advisory signals. Stats: 274 commits / 36 PRs merged, 28d. | [digest](digests/2026-11-12.md) |
 | 2026-11-10 | mx-sdk-rs v0.66.3 released (managed-buffer-preload feature, ManagedVecEncoded from #2437); rc/v0.67 opened with `sc-meta all check`. sdk-js-core feat/next sync #687 + CI update #688. No core-chain activity, no advisory signals. Stats: 280 commits / 34 PRs merged, 28d. | [digest](digests/2026-11-10.md) |
