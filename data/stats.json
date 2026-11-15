@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T16:28:05Z",
+  "generated_at": "2026-11-15T12:09:18Z",
   "window": {
-    "start": "2026-10-17",
-    "end": "2026-11-14",
+    "start": "2026-10-18",
+    "end": "2026-11-15",
     "days": 28
   },
   "totals": {
-    "commits": 287,
-    "prs_merged": 34,
+    "commits": 289,
+    "prs_merged": 35,
     "prs_opened": 150,
     "contributors": 12,
     "releases": 15,
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 40,
+      "open_prs": 39,
       "default_branch": "master",
-      "commits_28d": 83,
-      "commits_7d": 53,
-      "prs_merged_28d": 10,
+      "commits_28d": 85,
+      "commits_7d": 54,
+      "prs_merged_28d": 11,
       "contributors_28d": 2,
-      "last_commit_at": "2026-11-14T03:41:46Z",
-      "last_commit_message": "Cargo.lock update",
+      "last_commit_at": "2026-11-14T21:46:03Z",
+      "last_commit_message": "Merge branch 'rc/v0.67' into tx-cli-refactor",
       "weekly_commits": [
         0,
         0,
@@ -40,8 +40,8 @@
         0,
         24,
         0,
-        6,
-        53
+        7,
+        54
       ]
     },
     {
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 129,
-      "prs_merged_28d": 12,
+      "commits_28d": 131,
+      "prs_merged_28d": 13,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -660,7 +660,6 @@
   ],
   "daily_commits": [
     0,
-    0,
     23,
     8,
     20,
@@ -686,6 +685,7 @@
     26,
     12,
     3,
-    16
+    16,
+    6
   ]
 }
