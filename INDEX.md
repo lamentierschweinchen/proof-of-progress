@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-20 | mx-chain-go v2.1.10 and mainnet-config v2.1.10.0 tagged Nov 17 after vm-go v1.5.53 (#8063 bump); js-core BLS/PEM overhaul stack #691-#697 (popenta) open; api-service #1665 RabbitMQ robustness merged. No advisory signals. Stats: 288 commits / 32 PRs merged, 28d. | [digest](digests/2026-11-20.md) |
 | 2026-11-17 | vm-go v1.5.53 tagged after #999 (wasmer singlepass stack fix); mx-chain-go #8063 open to bump it. No advisory signals. Stats: 297 commits / 32 PRs merged, 28d. | [digest](digests/2026-11-17.md) |
 | 2026-11-16 | Quiet day: no merges or releases in the watchlist. New open PRs: sdk-rs #2445 (Kasmer revival) and dependabot mx-chain-go #8062. No advisory signals. Stats: 304 commits / 35 PRs merged, 28d. | [digest](digests/2026-11-16.md) |
 | 2026-11-15 | Quiet day: only merge is sdk-rs #2444 (Cargo.lock refresh); no releases or advisory signals. #2443, #2442, mx-chain-go #8060, api-service #1663, es-indexer #390 still open. Stats: 289 commits / 35 PRs merged, 28d. | [digest](digests/2026-11-15.md) |
