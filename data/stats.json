@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-20T05:09:33Z",
+  "generated_at": "2026-11-22T05:10:10Z",
   "window": {
-    "start": "2026-10-23",
-    "end": "2026-11-20",
+    "start": "2026-10-25",
+    "end": "2026-11-22",
     "days": 28
   },
   "totals": {
-    "commits": 288,
-    "prs_merged": 32,
-    "prs_opened": 142,
-    "contributors": 11,
+    "commits": 279,
+    "prs_merged": 30,
+    "prs_opened": 131,
+    "contributors": 10,
     "releases": 15,
-    "repos_active": 10
+    "repos_active": 9
   },
   "repos": [
     {
@@ -23,9 +23,9 @@
       "open_issues": 7,
       "open_prs": 40,
       "default_branch": "master",
-      "commits_28d": 68,
-      "commits_7d": 15,
-      "prs_merged_28d": 8,
+      "commits_28d": 65,
+      "commits_7d": 2,
+      "prs_merged_28d": 7,
       "contributors_28d": 2,
       "last_commit_at": "2026-11-15T17:18:12Z",
       "last_commit_message": "KASMER-ANALYSIS: test API gaps closed",
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        3,
-        6,
-        44,
-        15
+        0,
+        7,
+        56,
+        2
       ]
     },
     {
@@ -54,7 +54,7 @@
       "open_prs": 16,
       "default_branch": "main",
       "commits_28d": 54,
-      "commits_7d": 11,
+      "commits_7d": 10,
       "prs_merged_28d": 10,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-19T14:07:10Z",
@@ -69,39 +69,9 @@
         0,
         0,
         17,
-        10,
         16,
-        11
-      ]
-    },
-    {
-      "name": "mx-chain-vm-go",
-      "full_name": "multiversx/mx-chain-vm-go",
-      "url": "https://github.com/multiversx/mx-chain-vm-go",
-      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
-      "stars": 90,
-      "open_issues": 8,
-      "open_prs": 30,
-      "default_branch": "master",
-      "commits_28d": 46,
-      "commits_7d": 4,
-      "prs_merged_28d": 3,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-11-17T10:57:52Z",
-      "last_commit_message": "Merge pull request #999 from multiversx/wasmer-stack-fix",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        18,
-        19,
-        5,
-        4
+        11,
+        10
       ]
     },
     {
@@ -109,7 +79,7 @@
       "full_name": "multiversx/mx-chain-go",
       "url": "https://github.com/multiversx/mx-chain-go",
       "description": "\u26a1 The official implementation of the MultiversX blockchain protocol, written in golang.",
-      "stars": 952,
+      "stars": 953,
       "open_issues": 6,
       "open_prs": 91,
       "default_branch": "master",
@@ -128,10 +98,40 @@
         0,
         0,
         0,
-        16,
-        8,
+        22,
+        2,
         6,
         14
+      ]
+    },
+    {
+      "name": "mx-chain-vm-go",
+      "full_name": "multiversx/mx-chain-vm-go",
+      "url": "https://github.com/multiversx/mx-chain-vm-go",
+      "description": "The Virtual Machine for executing WASM Smart Contracts on the MultiversX blockchain. Based on Wasmer, but in principle also supports any other executing engine.",
+      "stars": 90,
+      "open_issues": 8,
+      "open_prs": 30,
+      "default_branch": "master",
+      "commits_28d": 43,
+      "commits_7d": 4,
+      "prs_merged_28d": 3,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-11-17T10:57:52Z",
+      "last_commit_message": "Merge pull request #999 from multiversx/wasmer-stack-fix",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        24,
+        0,
+        4
       ]
     },
     {
@@ -158,8 +158,8 @@
         0,
         0,
         0,
-        4,
-        19,
+        5,
+        18,
         3,
         0
       ]
@@ -174,7 +174,7 @@
       "open_prs": 16,
       "default_branch": "main",
       "commits_28d": 25,
-      "commits_7d": 11,
+      "commits_7d": 10,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-19T13:36:07Z",
@@ -190,8 +190,8 @@
         0,
         0,
         3,
-        11,
-        11
+        12,
+        10
       ]
     },
     {
@@ -204,7 +204,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 10,
-      "commits_7d": 9,
+      "commits_7d": 3,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-18T09:48:04Z",
@@ -220,8 +220,8 @@
         0,
         0,
         0,
-        1,
-        9
+        7,
+        3
       ]
     },
     {
@@ -248,8 +248,8 @@
         0,
         0,
         0,
-        0,
-        4,
+        2,
+        2,
         1,
         2
       ]
@@ -278,40 +278,10 @@
         0,
         0,
         0,
-        0,
         3,
+        0,
         0,
         2
-      ]
-    },
-    {
-      "name": "mx-bridge-eth-go",
-      "full_name": "multiversx/mx-bridge-eth-go",
-      "url": "https://github.com/multiversx/mx-bridge-eth-go",
-      "description": "The MultiversX bridge to Ethereum-based chains relayer implementation ",
-      "stars": 15,
-      "open_issues": 4,
-      "open_prs": 12,
-      "default_branch": "main",
-      "commits_28d": 3,
-      "commits_7d": 0,
-      "prs_merged_28d": 1,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-10-23T17:25:45Z",
-      "last_commit_message": "Merge pull request #454 from multiversx/add-sui-grpc",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
-        0,
-        0
       ]
     },
     {
@@ -405,6 +375,36 @@
       ]
     },
     {
+      "name": "mx-bridge-eth-go",
+      "full_name": "multiversx/mx-bridge-eth-go",
+      "url": "https://github.com/multiversx/mx-bridge-eth-go",
+      "description": "The MultiversX bridge to Ethereum-based chains relayer implementation ",
+      "stars": 15,
+      "open_issues": 4,
+      "open_prs": 12,
+      "default_branch": "main",
+      "commits_28d": 0,
+      "commits_7d": 0,
+      "prs_merged_28d": 0,
+      "contributors_28d": 0,
+      "last_commit_at": null,
+      "last_commit_message": null,
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
       "name": "mx-chain-tools-go",
       "full_name": "multiversx/mx-chain-tools-go",
       "url": "https://github.com/multiversx/mx-chain-tools-go",
@@ -440,8 +440,8 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 113,
-      "prs_merged_28d": 11,
+      "commits_28d": 107,
+      "prs_merged_28d": 10,
       "repos_touched": 2,
       "highlighted": false
     },
@@ -518,11 +518,11 @@
       "highlighted": false
     },
     {
-      "login": "ccorcoveanu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12337100?v=4",
-      "html_url": "https://github.com/ccorcoveanu",
-      "commits_28d": 3,
-      "prs_merged_28d": 1,
+      "login": "raduchis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11960408?v=4",
+      "html_url": "https://github.com/raduchis",
+      "commits_28d": 1,
+      "prs_merged_28d": 0,
       "repos_touched": 1,
       "highlighted": false
     }
@@ -650,8 +650,6 @@
     }
   ],
   "daily_commits": [
-    8,
-    1,
     0,
     10,
     12,
@@ -677,6 +675,8 @@
     3,
     28,
     6,
-    8
+    8,
+    0,
+    0
   ]
 }
