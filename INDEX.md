@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-23 | Quiet day: no merges or releases across the watchlist; new org repo mx-kasmer (Runtime Verification imports) noted. | [digest](digests/2026-11-23.md) |
 | 2026-11-22 | Quiet window: no merges, opens or releases across the watchlist since Nov 20; v2.1.10 / vm-go v1.5.53 remain latest. No advisory signals. Stats: 279 commits / 30 PRs merged, 28d. | [digest](digests/2026-11-22.md) |
 | 2026-11-20 | mx-chain-go v2.1.10 and mainnet-config v2.1.10.0 tagged Nov 17 after vm-go v1.5.53 (#8063 bump); js-core BLS/PEM overhaul stack #691-#697 (popenta) open; api-service #1665 RabbitMQ robustness merged. No advisory signals. Stats: 288 commits / 32 PRs merged, 28d. | [digest](digests/2026-11-20.md) |
 | 2026-11-17 | vm-go v1.5.53 tagged after #999 (wasmer singlepass stack fix); mx-chain-go #8063 open to bump it. No advisory signals. Stats: 297 commits / 32 PRs merged, 28d. | [digest](digests/2026-11-17.md) |
