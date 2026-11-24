@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-23T05:09:44Z",
+  "generated_at": "2026-11-24T05:09:47Z",
   "window": {
-    "start": "2026-10-26",
-    "end": "2026-11-23",
+    "start": "2026-10-27",
+    "end": "2026-11-24",
     "days": 28
   },
   "totals": {
-    "commits": 279,
-    "prs_merged": 30,
-    "prs_opened": 131,
+    "commits": 276,
+    "prs_merged": 28,
+    "prs_opened": 130,
     "contributors": 10,
     "releases": 15,
     "repos_active": 9
@@ -38,9 +38,9 @@
         0,
         0,
         0,
-        0,
-        7,
-        58,
+        3,
+        24,
+        38,
         0
       ]
     },
@@ -53,9 +53,9 @@
       "open_issues": 7,
       "open_prs": 16,
       "default_branch": "main",
-      "commits_28d": 54,
+      "commits_28d": 52,
       "commits_7d": 10,
-      "prs_merged_28d": 10,
+      "prs_merged_28d": 9,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-19T14:07:10Z",
       "last_commit_message": "feat: websocket subscriptions rabbitmq log blocks without timestamp",
@@ -68,9 +68,9 @@
         0,
         0,
         0,
-        17,
-        16,
-        11,
+        15,
+        23,
+        4,
         10
       ]
     },
@@ -83,12 +83,12 @@
       "open_issues": 6,
       "open_prs": 91,
       "default_branch": "master",
-      "commits_28d": 44,
-      "commits_7d": 14,
-      "prs_merged_28d": 3,
-      "contributors_28d": 6,
-      "last_commit_at": "2026-11-19T13:19:40Z",
-      "last_commit_message": "Skip empty-root lookups in read-only trie caches",
+      "commits_28d": 43,
+      "commits_7d": 18,
+      "prs_merged_28d": 2,
+      "contributors_28d": 5,
+      "last_commit_at": "2026-11-23T12:03:56Z",
+      "last_commit_message": "Create import-db metrics reports automatically",
       "weekly_commits": [
         0,
         0,
@@ -98,10 +98,10 @@
         0,
         0,
         0,
-        22,
+        16,
         2,
-        6,
-        14
+        7,
+        18
       ]
     },
     {
@@ -113,7 +113,7 @@
       "open_issues": 8,
       "open_prs": 30,
       "default_branch": "master",
-      "commits_28d": 43,
+      "commits_28d": 41,
       "commits_7d": 4,
       "prs_merged_28d": 3,
       "contributors_28d": 1,
@@ -128,10 +128,40 @@
         0,
         0,
         0,
-        16,
-        23,
+        18,
+        19,
         0,
         4
+      ]
+    },
+    {
+      "name": "mx-sdk-js-core",
+      "full_name": "multiversx/mx-sdk-js-core",
+      "url": "https://github.com/multiversx/mx-sdk-js-core",
+      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
+      "stars": 73,
+      "open_issues": 6,
+      "open_prs": 17,
+      "default_branch": "main",
+      "commits_28d": 26,
+      "commits_7d": 10,
+      "prs_merged_28d": 2,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-11-23T10:05:59Z",
+      "last_commit_message": "fixes after review",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        10,
+        10
       ]
     },
     {
@@ -165,36 +195,6 @@
       ]
     },
     {
-      "name": "mx-sdk-js-core",
-      "full_name": "multiversx/mx-sdk-js-core",
-      "url": "https://github.com/multiversx/mx-sdk-js-core",
-      "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
-      "stars": 73,
-      "open_issues": 6,
-      "open_prs": 16,
-      "default_branch": "main",
-      "commits_28d": 25,
-      "commits_7d": 10,
-      "prs_merged_28d": 2,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-11-19T13:36:07Z",
-      "last_commit_message": "remove old deprecated code",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        12,
-        10
-      ]
-    },
-    {
       "name": "mx-chain-es-indexer-go",
       "full_name": "multiversx/mx-chain-es-indexer-go",
       "url": "https://github.com/multiversx/mx-chain-es-indexer-go",
@@ -204,7 +204,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 10,
-      "commits_7d": 3,
+      "commits_7d": 2,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-18T09:48:04Z",
@@ -220,8 +220,8 @@
         0,
         0,
         0,
-        7,
-        3
+        8,
+        2
       ]
     },
     {
@@ -233,12 +233,12 @@
       "open_issues": 1,
       "open_prs": 4,
       "default_branch": "master",
-      "commits_28d": 7,
-      "commits_7d": 2,
+      "commits_28d": 8,
+      "commits_7d": 3,
       "prs_merged_28d": 3,
       "contributors_28d": 3,
-      "last_commit_at": "2026-11-18T08:35:33Z",
-      "last_commit_message": "Merge pull request #288 from multiversx/release-v2.1.10.0",
+      "last_commit_at": "2026-11-23T12:26:00Z",
+      "last_commit_message": "Configure trie memory budgets for import-db feature benchmark",
       "weekly_commits": [
         0,
         0,
@@ -251,7 +251,7 @@
         2,
         2,
         1,
-        2
+        3
       ]
     },
     {
@@ -440,7 +440,7 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 107,
+      "commits_28d": 105,
       "prs_merged_28d": 10,
       "repos_touched": 2,
       "highlighted": false
@@ -449,8 +449,8 @@
       "login": "stefangutica",
       "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
       "html_url": "https://github.com/stefangutica",
-      "commits_28d": 54,
-      "prs_merged_28d": 10,
+      "commits_28d": 52,
+      "prs_merged_28d": 9,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -458,9 +458,18 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 31,
+      "commits_28d": 27,
       "prs_merged_28d": 1,
       "repos_touched": 2,
+      "highlighted": false
+    },
+    {
+      "login": "popenta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73281061?v=4",
+      "html_url": "https://github.com/popenta",
+      "commits_28d": 26,
+      "prs_merged_28d": 2,
+      "repos_touched": 1,
       "highlighted": false
     },
     {
@@ -473,21 +482,12 @@
       "highlighted": false
     },
     {
-      "login": "popenta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73281061?v=4",
-      "html_url": "https://github.com/popenta",
-      "commits_28d": 25,
-      "prs_merged_28d": 2,
-      "repos_touched": 1,
-      "highlighted": false
-    },
-    {
       "login": "miiu96",
       "avatar_url": "https://avatars.githubusercontent.com/u/50499646?v=4",
       "html_url": "https://github.com/miiu96",
-      "commits_28d": 14,
-      "prs_merged_28d": 4,
-      "repos_touched": 3,
+      "commits_28d": 12,
+      "prs_merged_28d": 3,
+      "repos_touched": 2,
       "highlighted": false
     },
     {
@@ -650,7 +650,6 @@
     }
   ],
   "daily_commits": [
-    10,
     12,
     15,
     15,
@@ -677,6 +676,7 @@
     8,
     0,
     0,
-    0
+    0,
+    7
   ]
 }
