@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-25 | js-core v16.1.0 wallet hardening (check legacy keystore backups); sdk-py v3.1.0 wallet security fixes; bridge v3.0.24 adds batch 6185 redirect. Stats: 285 commits / 31 PRs merged, 28d. | [digest](digests/2026-11-25.md) |
 | 2026-11-24 | Quiet day: no merges or releases; js-core #698 opened; EI module moved to mx-vm-executor-rs (#103). Stats: 276 commits / 28 PRs merged, 28d. | [digest](digests/2026-11-24.md) |
 | 2026-11-23 | Quiet day: no merges or releases across the watchlist; new org repo mx-kasmer (Runtime Verification imports) noted. | [digest](digests/2026-11-23.md) |
 | 2026-11-22 | Quiet window: no merges, opens or releases across the watchlist since Nov 20; v2.1.10 / vm-go v1.5.53 remain latest. No advisory signals. Stats: 279 commits / 30 PRs merged, 28d. | [digest](digests/2026-11-22.md) |
