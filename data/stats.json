@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-25T05:09:22Z",
+  "generated_at": "2026-11-26T09:25:55Z",
   "window": {
-    "start": "2026-10-28",
-    "end": "2026-11-25",
+    "start": "2026-10-29",
+    "end": "2026-11-26",
     "days": 28
   },
   "totals": {
-    "commits": 285,
-    "prs_merged": 31,
-    "prs_opened": 132,
+    "commits": 292,
+    "prs_merged": 34,
+    "prs_opened": 139,
     "contributors": 11,
     "releases": 15,
-    "repos_active": 10
+    "repos_active": 11
   },
   "repos": [
     {
@@ -21,14 +21,14 @@
       "description": "\ud83e\udd80 MultiversX SpaceCraft framework for Rust. Contains: a smart contract framework; a complete smart contract build solution; a large collection of example smart contracts; a testing framework and debugger (including a VM model); real blockchain interaction; various other tools.",
       "stars": 193,
       "open_issues": 7,
-      "open_prs": 40,
+      "open_prs": 39,
       "default_branch": "master",
-      "commits_28d": 65,
-      "commits_7d": 0,
-      "prs_merged_28d": 7,
+      "commits_28d": 78,
+      "commits_7d": 14,
+      "prs_merged_28d": 10,
       "contributors_28d": 2,
-      "last_commit_at": "2026-11-15T17:18:12Z",
-      "last_commit_message": "KASMER-ANALYSIS: test API gaps closed",
+      "last_commit_at": "2026-11-25T16:56:52Z",
+      "last_commit_message": "Merge pull request #2442 from multiversx/sdk-api",
       "weekly_commits": [
         0,
         0,
@@ -38,10 +38,10 @@
         0,
         0,
         0,
-        3,
+        6,
         40,
-        22,
-        0
+        18,
+        14
       ]
     },
     {
@@ -54,11 +54,11 @@
       "open_prs": 92,
       "default_branch": "master",
       "commits_28d": 50,
-      "commits_7d": 19,
-      "prs_merged_28d": 2,
+      "commits_7d": 22,
+      "prs_merged_28d": 1,
       "contributors_28d": 5,
-      "last_commit_at": "2026-11-24T11:14:03Z",
-      "last_commit_message": "Cleanup action",
+      "last_commit_at": "2026-11-26T09:19:25Z",
+      "last_commit_message": "Merge branch 'rc/cleanup-and-improvements' into import-db-improvements",
       "weekly_commits": [
         0,
         0,
@@ -68,40 +68,10 @@
         0,
         0,
         0,
-        14,
-        2,
-        15,
-        19
-      ]
-    },
-    {
-      "name": "mx-api-service",
-      "full_name": "multiversx/mx-api-service",
-      "url": "https://github.com/multiversx/mx-api-service",
-      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
-      "stars": 36,
-      "open_issues": 7,
-      "open_prs": 16,
-      "default_branch": "main",
-      "commits_28d": 49,
-      "commits_7d": 5,
-      "prs_merged_28d": 9,
-      "contributors_28d": 1,
-      "last_commit_at": "2026-11-19T14:07:10Z",
-      "last_commit_message": "feat: websocket subscriptions rabbitmq log blocks without timestamp",
-      "weekly_commits": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        18,
-        17,
-        9,
-        5
+        11,
+        6,
+        11,
+        22
       ]
     },
     {
@@ -128,8 +98,8 @@
         0,
         0,
         0,
-        18,
-        17,
+        22,
+        13,
         4,
         0
       ]
@@ -141,14 +111,14 @@
       "description": " MultiversX SDK for interacting with the MultiversX blockchain (in general) and Smart Contracts (in particular). ",
       "stars": 73,
       "open_issues": 6,
-      "open_prs": 15,
+      "open_prs": 13,
       "default_branch": "main",
-      "commits_28d": 33,
-      "commits_7d": 10,
-      "prs_merged_28d": 5,
+      "commits_28d": 38,
+      "commits_7d": 14,
+      "prs_merged_28d": 7,
       "contributors_28d": 1,
-      "last_commit_at": "2026-11-24T13:04:27Z",
-      "last_commit_message": "Merge branch 'feat/next' into update-ci-for-v17",
+      "last_commit_at": "2026-11-26T09:09:42Z",
+      "last_commit_message": "Merge branch 'feat/next' into update-typescript",
       "weekly_commits": [
         0,
         0,
@@ -159,9 +129,39 @@
         0,
         0,
         3,
-        9,
         11,
-        10
+        10,
+        14
+      ]
+    },
+    {
+      "name": "mx-api-service",
+      "full_name": "multiversx/mx-api-service",
+      "url": "https://github.com/multiversx/mx-api-service",
+      "description": "Unified REST API facade for providing data related to the MultiversX blockchain",
+      "stars": 36,
+      "open_issues": 7,
+      "open_prs": 16,
+      "default_branch": "main",
+      "commits_28d": 37,
+      "commits_7d": 4,
+      "prs_merged_28d": 8,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-11-19T14:07:10Z",
+      "last_commit_message": "feat: websocket subscriptions rabbitmq log blocks without timestamp",
+      "weekly_commits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        16,
+        10,
+        4
       ]
     },
     {
@@ -188,9 +188,9 @@
         0,
         0,
         0,
-        4,
-        16,
-        3,
+        10,
+        13,
+        0,
         0
       ]
     },
@@ -204,7 +204,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 11,
-      "commits_7d": 3,
+      "commits_7d": 1,
       "prs_merged_28d": 0,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-24T13:20:34Z",
@@ -219,9 +219,9 @@
         0,
         0,
         0,
-        0,
-        8,
-        3
+        1,
+        9,
+        1
       ]
     },
     {
@@ -234,7 +234,7 @@
       "open_prs": 4,
       "default_branch": "master",
       "commits_28d": 8,
-      "commits_7d": 2,
+      "commits_7d": 1,
       "prs_merged_28d": 3,
       "contributors_28d": 3,
       "last_commit_at": "2026-11-23T12:26:00Z",
@@ -249,9 +249,9 @@
         0,
         0,
         4,
-        0,
+        1,
         2,
-        2
+        1
       ]
     },
     {
@@ -264,7 +264,7 @@
       "open_prs": 3,
       "default_branch": "main",
       "commits_28d": 5,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "prs_merged_28d": 2,
       "contributors_28d": 1,
       "last_commit_at": "2026-11-18T07:24:44Z",
@@ -280,8 +280,8 @@
         0,
         3,
         0,
-        1,
-        1
+        2,
+        0
       ]
     },
     {
@@ -315,20 +315,20 @@
       ]
     },
     {
-      "name": "mx-template-dapp",
-      "full_name": "multiversx/mx-template-dapp",
-      "url": "https://github.com/multiversx/mx-template-dapp",
-      "description": "MultiversX React dApp Template: wallet auth, transaction signing and native auth using sdk-dapp v5. Built with React 18, TypeScript and Vite.",
-      "stars": 221,
-      "open_issues": 5,
-      "open_prs": 1,
-      "default_branch": "main",
-      "commits_28d": 0,
-      "commits_7d": 0,
+      "name": "mx-chain-proxy-go",
+      "full_name": "multiversx/mx-chain-proxy-go",
+      "url": "https://github.com/multiversx/mx-chain-proxy-go",
+      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
+      "stars": 60,
+      "open_issues": 2,
+      "open_prs": 4,
+      "default_branch": "master",
+      "commits_28d": 1,
+      "commits_7d": 1,
       "prs_merged_28d": 0,
-      "contributors_28d": 0,
-      "last_commit_at": null,
-      "last_commit_message": null,
+      "contributors_28d": 1,
+      "last_commit_at": "2026-11-25T08:46:23Z",
+      "last_commit_message": "Add checkpoint pagination to proxy trie listings",
       "weekly_commits": [
         0,
         0,
@@ -341,18 +341,18 @@
         0,
         0,
         0,
-        0
+        1
       ]
     },
     {
-      "name": "mx-chain-proxy-go",
-      "full_name": "multiversx/mx-chain-proxy-go",
-      "url": "https://github.com/multiversx/mx-chain-proxy-go",
-      "description": "\ud83d\udc19 MultiversX Proxy: The official implementation of the web proxy for the MultiversX blockchain. An intermediary that abstracts away the complexity of sharding, through a friendly HTTP API.",
-      "stars": 60,
-      "open_issues": 2,
-      "open_prs": 3,
-      "default_branch": "master",
+      "name": "mx-template-dapp",
+      "full_name": "multiversx/mx-template-dapp",
+      "url": "https://github.com/multiversx/mx-template-dapp",
+      "description": "MultiversX React dApp Template: wallet auth, transaction signing and native auth using sdk-dapp v5. Built with React 18, TypeScript and Vite.",
+      "stars": 221,
+      "open_issues": 5,
+      "open_prs": 1,
+      "default_branch": "main",
       "commits_28d": 0,
       "commits_7d": 0,
       "prs_merged_28d": 0,
@@ -440,26 +440,26 @@
       "login": "andrei-marinica",
       "avatar_url": "https://avatars.githubusercontent.com/u/26074099?v=4",
       "html_url": "https://github.com/andrei-marinica",
-      "commits_28d": 103,
-      "prs_merged_28d": 10,
+      "commits_28d": 116,
+      "prs_merged_28d": 13,
       "repos_touched": 2,
-      "highlighted": false
-    },
-    {
-      "login": "stefangutica",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
-      "html_url": "https://github.com/stefangutica",
-      "commits_28d": 49,
-      "prs_merged_28d": 9,
-      "repos_touched": 1,
       "highlighted": false
     },
     {
       "login": "popenta",
       "avatar_url": "https://avatars.githubusercontent.com/u/73281061?v=4",
       "html_url": "https://github.com/popenta",
-      "commits_28d": 33,
-      "prs_merged_28d": 5,
+      "commits_28d": 38,
+      "prs_merged_28d": 7,
+      "repos_touched": 1,
+      "highlighted": false
+    },
+    {
+      "login": "stefangutica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123564494?v=4",
+      "html_url": "https://github.com/stefangutica",
+      "commits_28d": 37,
+      "prs_merged_28d": 8,
       "repos_touched": 1,
       "highlighted": false
     },
@@ -467,9 +467,9 @@
       "login": "BeniaminDrasovean",
       "avatar_url": "https://avatars.githubusercontent.com/u/41014070?v=4",
       "html_url": "https://github.com/BeniaminDrasovean",
-      "commits_28d": 24,
-      "prs_merged_28d": 1,
-      "repos_touched": 2,
+      "commits_28d": 25,
+      "prs_merged_28d": 0,
+      "repos_touched": 3,
       "highlighted": false
     },
     {
@@ -651,7 +651,6 @@
   ],
   "daily_commits": [
     15,
-    15,
     10,
     2,
     1,
@@ -663,7 +662,7 @@
     1,
     1,
     29,
-    25,
+    24,
     15,
     3,
     19,
@@ -677,6 +676,7 @@
     0,
     0,
     7,
-    21
+    21,
+    20
   ]
 }
