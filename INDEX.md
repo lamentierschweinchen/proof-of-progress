@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-27 | Quiet window: proxy #524 fixes process status for in-shard refunds (unreleased); sdk-core 16 upgrade PRs open in nestjs and native-auth-server. Stats: 281 commits / 35 PRs merged, 28d. | [digest](digests/2026-11-27.md) |
 | 2026-11-26 | mx-sdk-rs audit fixes part 1 merged, unreleased (decimal comparison, u128 codec, test generator injection prevention); Rust SDK API support lands on rc/v0.67. Stats: 292 commits / 34 PRs merged, 28d. | [digest](digests/2026-11-26.md) |
 | 2026-11-25 | js-core v16.1.0 wallet hardening (check legacy keystore backups); sdk-py v3.1.0 wallet security fixes; bridge v3.0.24 adds batch 6185 redirect. Stats: 285 commits / 31 PRs merged, 28d. | [digest](digests/2026-11-25.md) |
 | 2026-11-24 | Quiet day: no merges or releases; js-core #698 opened; EI module moved to mx-vm-executor-rs (#103). Stats: 276 commits / 28 PRs merged, 28d. | [digest](digests/2026-11-24.md) |
