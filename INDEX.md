@@ -4,6 +4,7 @@ Most recent first. One row per daily digest. TL;DR captures the headline.
 
 | Date | TL;DR | Link |
 |---|---|---|
+| 2026-11-28 | Staking v5 year 2 inflation added to API (`development`) and delegation service ahead of mainnet epoch 2316 (about 6 Dec); proxy v1.5.4 pre-release; API adopts sdk-nestjs 7.4.0. Stats: 280 commits / 35 PRs merged, 28d. | [digest](digests/2026-11-28.md) |
 | 2026-11-27 | Quiet window: proxy #524 fixes process status for in-shard refunds (unreleased); sdk-core 16 upgrade PRs open in nestjs and native-auth-server. Stats: 281 commits / 35 PRs merged, 28d. | [digest](digests/2026-11-27.md) |
 | 2026-11-26 | mx-sdk-rs audit fixes part 1 merged, unreleased (decimal comparison, u128 codec, test generator injection prevention); Rust SDK API support lands on rc/v0.67. Stats: 292 commits / 34 PRs merged, 28d. | [digest](digests/2026-11-26.md) |
 | 2026-11-25 | js-core v16.1.0 wallet hardening (check legacy keystore backups); sdk-py v3.1.0 wallet security fixes; bridge v3.0.24 adds batch 6185 redirect. Stats: 285 commits / 31 PRs merged, 28d. | [digest](digests/2026-11-25.md) |
